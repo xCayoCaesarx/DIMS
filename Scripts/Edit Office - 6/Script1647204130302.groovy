@@ -33,7 +33,9 @@ WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/strong_Of
 
 WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_Office'))
 
-WebUI.click(findTestObject('edit actions/Page_Debt/button_Yes_editButton - 5'))
+WebUI.click(findTestObject('edit actions/Page_Debt/button_Yes_editButton - 6'))
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('debt ims R/Page_Debt IMS/input_Office Name_form-control shadow-none ng-pristine ng-invalid ng-touched'), 
     officename)
@@ -85,8 +87,6 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/debt ims R/Page_Debt
     true)
 
 WebUI.click(findTestObject('debt ims R/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton'))
-
-WebUI.delay(15)
 
 WebUI.click(findTestObject('edit actions/Page_Debt/button_Accept'))
 

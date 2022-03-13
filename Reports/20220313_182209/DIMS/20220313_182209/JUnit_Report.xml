@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DIMS" time="109.819" tests="3" failures="0" errors="0">
+   <testsuite name="DIMS" tests="3" failures="0" errors="0" time="109.819" skipped="0" timestamp="2022-03-13 18:22:14" hostname="juzcategui - juzcategui" id="Test Suites/DIMS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220313_182209/DIMS/20220313_182209"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220313_182209/DIMS/20220313_182209/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.250.5"/>
+         <property name="sessionId" value="42d5197131c17e1bc76151a0f97d4c6e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add Office(s)" time="43.732" classname="Test Cases/Add Office(s)" status="PASSED">
+         <system-out><![CDATA[2022-03-13 18:22:15 - [TEST_CASE][PASSED] - Test Cases/Add Office(s): Test Cases/Add Office(s)
+
+2022-03-13 18:22:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-13 18:22:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-13 18:22:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-13 18:22:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-13 18:22:18 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-13 18:22:35 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-13 18:22:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-13 18:22:36 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-13 18:22:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-13 18:22:37 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-13 18:22:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/button_Login")): Object: 'Object Repository/debt ims R/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-13 18:22:40 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-13 18:22:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools")): Object: 'Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools' is clicked on
+
+2022-03-13 18:22:40 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools' is clicked on
+
+2022-03-13 18:22:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/span_Office")): Object: 'Object Repository/debt ims R/Page_Debt IMS/span_Office' is clicked on
+
+2022-03-13 18:22:41 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/span_Office' is clicked on
+
+2022-03-13 18:22:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/button_Welcome, Anifer Da Rocha_addButton")): Object: 'Object Repository/debt ims R/Page_Debt IMS/button_Welcome, Anifer Da Rocha_addButton' is clicked on
+
+2022-03-13 18:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/button_Welcome, Anifer Da Rocha_addButton' is clicked on
+
+2022-03-13 18:22:42 - [TEST_STEP][PASSED] - setText(findTestObject("debt ims R/Page_Debt IMS/input_Office Name_form-control shadow-none ng-pristine ng-invalid ng-touched"), officename): Text 'Oficina de julio' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Office Name_form-control shadow-none ng-pristine ng-invalid ng-touched'
+
+2022-03-13 18:22:43 - [MESSAGE][PASSED] - Text 'Oficina de julio' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Office Name_form-control shadow-none ng-pristine ng-invalid ng-touched'
+
+2022-03-13 18:22:43 - [TEST_STEP][PASSED] - setText(findTestObject("debt ims R/Page_Debt IMS/input_Office Alias_form-control shadow-none ng-untouched ng-pristine ng-invalid"), officealias): Text 'alias de la oficina' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Office Alias_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:22:44 - [MESSAGE][PASSED] - Text 'alias de la oficina' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Office Alias_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:22:44 - [TEST_STEP][PASSED] - setText(findTestObject("debt ims R/Page_Debt IMS/input_Address_form-control shadow-none ng-untouched ng-pristine ng-invalid"), addres): Text 'direccion' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Address_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:22:45 - [MESSAGE][PASSED] - Text 'direccion' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Address_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:22:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/debt ims R/Page_Debt IMS/select_Select OneUNITED STATES OF AMERICA"), "1: Object", true): All options with value '1: Object' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneUNITED STATES OF AMERICA'  using regular expression
+
+2022-03-13 18:22:46 - [MESSAGE][PASSED] - All options with value '1: Object' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneUNITED STATES OF AMERICA'  using regular expression
+
+2022-03-13 18:22:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/debt ims R/Page_Debt IMS/select_Select OneUS Armed Forces EuropeAlas_fd93bc"), "8: Object", true): All options with value '8: Object' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneUS Armed Forces EuropeAlas_fd93bc'  using regular expression
+
+2022-03-13 18:22:48 - [MESSAGE][PASSED] - All options with value '8: Object' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneUS Armed Forces EuropeAlas_fd93bc'  using regular expression
+
+2022-03-13 18:22:48 - [TEST_STEP][PASSED] - setText(findTestObject("debt ims R/Page_Debt IMS/input_Zip_form-control shadow-none ng-untouched ng-pristine ng-valid"), zip): Text '1014' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Zip_form-control shadow-none ng-untouched ng-pristine ng-valid'
+
+2022-03-13 18:22:48 - [MESSAGE][PASSED] - Text '1014' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Zip_form-control shadow-none ng-untouched ng-pristine ng-valid'
+
+2022-03-13 18:22:48 - [TEST_STEP][PASSED] - setText(findTestObject("debt ims R/Page_Debt IMS/input_City_form-control shadow-none ng-pristine ng-valid ng-touched"), city): Text 'california' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_City_form-control shadow-none ng-pristine ng-valid ng-touched'
+
+2022-03-13 18:22:49 - [MESSAGE][PASSED] - Text 'california' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_City_form-control shadow-none ng-pristine ng-valid ng-touched'
+
+2022-03-13 18:22:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/debt ims R/Page_Debt IMS/select_Select OneDebt - Ims"), "1: Object", true): All options with value '1: Object' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneDebt - Ims'  using regular expression
+
+2022-03-13 18:22:50 - [MESSAGE][PASSED] - All options with value '1: Object' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneDebt - Ims'  using regular expression
+
+2022-03-13 18:22:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/debt ims R/Page_Debt IMS/input_Phone Number_form-control shadow-none_f75f0d"), phone): Text '4141115' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Phone Number_form-control shadow-none_f75f0d'
+
+2022-03-13 18:22:51 - [MESSAGE][PASSED] - Text '4141115' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Phone Number_form-control shadow-none_f75f0d'
+
+2022-03-13 18:22:51 - [TEST_STEP][PASSED] - setText(findTestObject("debt ims R/Page_Debt IMS/input_Fax Number_form-control shadow-none ng-untouched ng-pristine ng-invalid"), fax): Text '1014' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Fax Number_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:22:51 - [MESSAGE][PASSED] - Text '1014' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Fax Number_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:22:51 - [TEST_STEP][PASSED] - setText(findTestObject("debt ims R/Page_Debt IMS/input_Web Site_form-control shadow-none ng-untouched ng-pristine ng-invalid"), web): Text 'paginaweb.com' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Web Site_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:22:52 - [MESSAGE][PASSED] - Text 'paginaweb.com' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Web Site_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:22:52 - [TEST_STEP][PASSED] - setText(findTestObject("debt ims R/Page_Debt IMS/input_Landing URL prefix_form-control shadow-none ng-untouched ng-pristine ng-invalid"), landing): Text 'paginadelanding.com' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Landing URL prefix_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:22:53 - [MESSAGE][PASSED] - Text 'paginadelanding.com' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Landing URL prefix_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:22:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/debt ims R/Page_Debt IMS/select_Select Time ZoneEastern Standard Cen_41b770"), "Eastern Standard", true): All options with value 'Eastern Standard' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select Time ZoneEastern Standard Cen_41b770'  using regular expression
+
+2022-03-13 18:22:54 - [MESSAGE][PASSED] - All options with value 'Eastern Standard' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select Time ZoneEastern Standard Cen_41b770'  using regular expression
+
+2022-03-13 18:22:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/debt ims R/Page_Debt IMS/select_Select OneCommunityRejectedUnassigned"), "Unassigned", true): All options with value 'Unassigned' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneCommunityRejectedUnassigned'  using regular expression
+
+2022-03-13 18:22:55 - [MESSAGE][PASSED] - All options with value 'Unassigned' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneCommunityRejectedUnassigned'  using regular expression
+
+2022-03-13 18:22:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/debt ims R/Page_Debt IMS/select_Select OneYesNo"), "true", true): All options with value 'true' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneYesNo'  using regular expression
+
+2022-03-13 18:22:56 - [MESSAGE][PASSED] - All options with value 'true' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneYesNo'  using regular expression
+
+2022-03-13 18:22:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/debt ims R/Page_Debt IMS/select_Select OneTest"), " ", true): All options with value ' ' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneTest'  using regular expression
+
+2022-03-13 18:22:57 - [MESSAGE][PASSED] - All options with value ' ' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneTest'  using regular expression
+
+2022-03-13 18:22:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/debt ims R/Page_Debt IMS/select_Select OneMeridian"), "Meridian", true): All options with value 'Meridian' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneMeridian'  using regular expression
+
+2022-03-13 18:22:58 - [MESSAGE][PASSED] - All options with value 'Meridian' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneMeridian'  using regular expression
+
+2022-03-13 18:22:58 - [TEST_STEP][PASSED] - click(findTestObject("debt ims R/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/debt ims R/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-03-13 18:22:58 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-03-13 18:22:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-13 18:22:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Office - 6" time="40.927" classname="Test Cases/Edit Office - 6" status="PASSED">
+         <system-out><![CDATA[2022-03-13 18:22:59 - [TEST_CASE][PASSED] - Test Cases/Edit Office - 6: Test Cases/Edit Office - 6
+
+2022-03-13 18:22:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-13 18:22:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-13 18:22:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-13 18:23:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-13 18:23:00 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-13 18:23:16 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-13 18:23:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-13 18:23:17 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-13 18:23:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-13 18:23:17 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-13 18:23:17 - [TEST_STEP][PASSED] - click(findTestObject("debt ims R/Page_Debt IMS/button_Login")): Object: 'Object Repository/debt ims R/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-13 18:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-13 18:23:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools")): Object: 'Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools' is clicked on
+
+2022-03-13 18:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools' is clicked on
+
+2022-03-13 18:23:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/span_Office")): Object: 'Object Repository/debt ims R/Page_Debt IMS/span_Office' is clicked on
+
+2022-03-13 18:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/span_Office' is clicked on
+
+2022-03-13 18:23:21 - [TEST_STEP][PASSED] - click(findTestObject("edit actions/Page_Debt/button_Yes_editButton - 6")): Object: 'Object Repository/edit actions/Page_Debt/button_Yes_editButton - 6' is clicked on
+
+2022-03-13 18:23:22 - [MESSAGE][PASSED] - Object: 'Object Repository/edit actions/Page_Debt/button_Yes_editButton - 6' is clicked on
+
+2022-03-13 18:23:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-13 18:23:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-13 18:23:24 - [TEST_STEP][PASSED] - setText(findTestObject("debt ims R/Page_Debt IMS/input_Office Name_form-control shadow-none ng-pristine ng-invalid ng-touched"), officename): Text 'Oficina de julio modificada' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Office Name_form-control shadow-none ng-pristine ng-invalid ng-touched'
+
+2022-03-13 18:23:25 - [MESSAGE][PASSED] - Text 'Oficina de julio modificada' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Office Name_form-control shadow-none ng-pristine ng-invalid ng-touched'
+
+2022-03-13 18:23:25 - [TEST_STEP][PASSED] - setText(findTestObject("debt ims R/Page_Debt IMS/input_Office Alias_form-control shadow-none ng-untouched ng-pristine ng-invalid"), officealias): Text 'alias de la oficina' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Office Alias_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:23:26 - [MESSAGE][PASSED] - Text 'alias de la oficina' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Office Alias_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:23:26 - [TEST_STEP][PASSED] - setText(findTestObject("debt ims R/Page_Debt IMS/input_Address_form-control shadow-none ng-untouched ng-pristine ng-invalid"), addres): Text 'direccion' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Address_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:23:26 - [MESSAGE][PASSED] - Text 'direccion' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Address_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:23:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/debt ims R/Page_Debt IMS/select_Select OneUNITED STATES OF AMERICA"), "1: Object", true): All options with value '1: Object' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneUNITED STATES OF AMERICA'  using regular expression
+
+2022-03-13 18:23:27 - [MESSAGE][PASSED] - All options with value '1: Object' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneUNITED STATES OF AMERICA'  using regular expression
+
+2022-03-13 18:23:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/debt ims R/Page_Debt IMS/select_Select OneUS Armed Forces EuropeAlas_fd93bc"), "8: Object", true): All options with value '8: Object' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneUS Armed Forces EuropeAlas_fd93bc'  using regular expression
+
+2022-03-13 18:23:29 - [MESSAGE][PASSED] - All options with value '8: Object' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneUS Armed Forces EuropeAlas_fd93bc'  using regular expression
+
+2022-03-13 18:23:29 - [TEST_STEP][PASSED] - setText(findTestObject("debt ims R/Page_Debt IMS/input_Zip_form-control shadow-none ng-untouched ng-pristine ng-valid"), zip): Text '1015' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Zip_form-control shadow-none ng-untouched ng-pristine ng-valid'
+
+2022-03-13 18:23:29 - [MESSAGE][PASSED] - Text '1015' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Zip_form-control shadow-none ng-untouched ng-pristine ng-valid'
+
+2022-03-13 18:23:29 - [TEST_STEP][PASSED] - setText(findTestObject("debt ims R/Page_Debt IMS/input_City_form-control shadow-none ng-pristine ng-valid ng-touched"), city): Text 'california' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_City_form-control shadow-none ng-pristine ng-valid ng-touched'
+
+2022-03-13 18:23:30 - [MESSAGE][PASSED] - Text 'california' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_City_form-control shadow-none ng-pristine ng-valid ng-touched'
+
+2022-03-13 18:23:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/debt ims R/Page_Debt IMS/select_Select OneDebt - Ims"), "1: Object", true): All options with value '1: Object' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneDebt - Ims'  using regular expression
+
+2022-03-13 18:23:31 - [MESSAGE][PASSED] - All options with value '1: Object' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneDebt - Ims'  using regular expression
+
+2022-03-13 18:23:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/debt ims R/Page_Debt IMS/input_Phone Number_form-control shadow-none_f75f0d"), phone): Text '4141116' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Phone Number_form-control shadow-none_f75f0d'
+
+2022-03-13 18:23:32 - [MESSAGE][PASSED] - Text '4141116' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Phone Number_form-control shadow-none_f75f0d'
+
+2022-03-13 18:23:32 - [TEST_STEP][PASSED] - setText(findTestObject("debt ims R/Page_Debt IMS/input_Fax Number_form-control shadow-none ng-untouched ng-pristine ng-invalid"), fax): Text '1015' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Fax Number_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:23:32 - [MESSAGE][PASSED] - Text '1015' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Fax Number_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:23:32 - [TEST_STEP][PASSED] - setText(findTestObject("debt ims R/Page_Debt IMS/input_Web Site_form-control shadow-none ng-untouched ng-pristine ng-invalid"), web): Text 'paginaweb.com' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Web Site_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:23:33 - [MESSAGE][PASSED] - Text 'paginaweb.com' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Web Site_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:23:33 - [TEST_STEP][PASSED] - setText(findTestObject("debt ims R/Page_Debt IMS/input_Landing URL prefix_form-control shadow-none ng-untouched ng-pristine ng-invalid"), landing): Text 'paginadelanding.com' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Landing URL prefix_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:23:34 - [MESSAGE][PASSED] - Text 'paginadelanding.com' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Landing URL prefix_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-13 18:23:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/debt ims R/Page_Debt IMS/select_Select Time ZoneEastern Standard Cen_41b770"), "Eastern Standard", true): All options with value 'Eastern Standard' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select Time ZoneEastern Standard Cen_41b770'  using regular expression
+
+2022-03-13 18:23:35 - [MESSAGE][PASSED] - All options with value 'Eastern Standard' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select Time ZoneEastern Standard Cen_41b770'  using regular expression
+
+2022-03-13 18:23:35 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/debt ims R/Page_Debt IMS/select_Select OneCommunityRejectedUnassigned"), "Unassigned", true): All options with value 'Unassigned' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneCommunityRejectedUnassigned'  using regular expression
+
+2022-03-13 18:23:36 - [MESSAGE][PASSED] - All options with value 'Unassigned' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneCommunityRejectedUnassigned'  using regular expression
+
+2022-03-13 18:23:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/debt ims R/Page_Debt IMS/select_Select OneYesNo"), "true", true): All options with value 'true' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneYesNo'  using regular expression
+
+2022-03-13 18:23:37 - [MESSAGE][PASSED] - All options with value 'true' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneYesNo'  using regular expression
+
+2022-03-13 18:23:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/debt ims R/Page_Debt IMS/select_Select OneTest"), " ", true): All options with value ' ' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneTest'  using regular expression
+
+2022-03-13 18:23:37 - [MESSAGE][PASSED] - All options with value ' ' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneTest'  using regular expression
+
+2022-03-13 18:23:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/debt ims R/Page_Debt IMS/select_Select OneMeridian"), "Meridian", true): All options with value 'Meridian' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneMeridian'  using regular expression
+
+2022-03-13 18:23:38 - [MESSAGE][PASSED] - All options with value 'Meridian' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneMeridian'  using regular expression
+
+2022-03-13 18:23:38 - [TEST_STEP][PASSED] - click(findTestObject("debt ims R/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/debt ims R/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-03-13 18:23:39 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-03-13 18:23:39 - [TEST_STEP][PASSED] - click(findTestObject("edit actions/Page_Debt/button_Accept")): Object: 'Object Repository/edit actions/Page_Debt/button_Accept' is clicked on
+
+2022-03-13 18:23:39 - [MESSAGE][PASSED] - Object: 'Object Repository/edit actions/Page_Debt/button_Accept' is clicked on
+
+2022-03-13 18:23:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-13 18:23:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Office - 6" time="24.004" classname="Test Cases/Delete Office - 6" status="PASSED">
+         <system-out><![CDATA[2022-03-13 18:23:40 - [TEST_CASE][PASSED] - Test Cases/Delete Office - 6: Test Cases/Delete Office - 6
+
+2022-03-13 18:23:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-13 18:23:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-13 18:23:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-13 18:23:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-13 18:23:41 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-13 18:23:57 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-13 18:23:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-13 18:23:57 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-13 18:23:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-13 18:23:58 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-13 18:23:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/button_Login")): Object: 'Object Repository/debt ims R/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-13 18:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-13 18:24:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools")): Object: 'Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools' is clicked on
+
+2022-03-13 18:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools' is clicked on
+
+2022-03-13 18:24:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/span_Office")): Object: 'Object Repository/debt ims R/Page_Debt IMS/span_Office' is clicked on
+
+2022-03-13 18:24:02 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/span_Office' is clicked on
+
+2022-03-13 18:24:02 - [TEST_STEP][PASSED] - click(findTestObject("Delete Options/choose office - 6")): Object: 'Object Repository/Delete Options/choose office - 6' is clicked on
+
+2022-03-13 18:24:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Options/choose office - 6' is clicked on
+
+2022-03-13 18:24:02 - [TEST_STEP][PASSED] - click(findTestObject("Delete Options/Delete button")): Object: 'Object Repository/Delete Options/Delete button' is clicked on
+
+2022-03-13 18:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Options/Delete button' is clicked on
+
+2022-03-13 18:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Delete Options/button_Accept")): Object: 'Object Repository/Delete Options/button_Accept' is clicked on
+
+2022-03-13 18:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Options/button_Accept' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-13 18:22:14 - [TEST_SUITE][PASSED] - DIMS: Test Cases/Delete Office - 6]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

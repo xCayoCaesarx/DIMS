@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>5fbc563c-b9ec-4c5d-b02f-8b21a5e57e25</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Add Office(s)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -23,7 +23,7 @@
             <iterationType>SPECIFIC</iterationType>
             <value>5</value>
          </iterationEntity>
-         <testDataId>Data Files/office data</testDataId>
+         <testDataId>Data Files/Data office(s)</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>7df735f8-2987-469d-8851-4eb471ed59b2</testDataLinkId>
@@ -95,7 +95,7 @@
    <testCaseLink>
       <guid>fcc11853-c1a4-4bc9-a922-103700ae54ba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Edit Office - 4</testCaseId>
       <testDataLink>
          <combinationType>MANY</combinationType>
@@ -104,7 +104,7 @@
             <iterationType>RANGE</iterationType>
             <value>1-1</value>
          </iterationEntity>
-         <testDataId>Data Files/office data</testDataId>
+         <testDataId>Data Files/Data office(s)</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>2bb9807d-9593-4a52-972b-860cf6430ff5</testDataLinkId>
@@ -176,16 +176,16 @@
    <testCaseLink>
       <guid>047eedeb-b44e-4542-a78a-7bdb3f545d7c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Edit Office - cambiar numero</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit Office - 6</testCaseId>
       <testDataLink>
-         <combinationType>MANY</combinationType>
+         <combinationType>ONE</combinationType>
          <id>361a77df-548a-480f-9d90-f67269aa54d2</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>4</value>
+            <value>6</value>
          </iterationEntity>
-         <testDataId>Data Files/office data</testDataId>
+         <testDataId>Data Files/Data office(s)</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>361a77df-548a-480f-9d90-f67269aa54d2</testDataLinkId>
@@ -252,6 +252,33 @@
          <type>DATA_COLUMN</type>
          <value>landing</value>
          <variableId>1a00d5f5-bf44-4eed-b314-12744abe4823</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9806aee2-f284-46a4-b9fe-d453029d93e8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Delete Office - 6</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>98ef8b6b-6528-4d09-ac1e-ea202d1fef49</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data office(s)</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>98ef8b6b-6528-4d09-ac1e-ea202d1fef49</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>b0c1c9fb-7450-4913-ac9e-40715abea58f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>98ef8b6b-6528-4d09-ac1e-ea202d1fef49</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>cad7c5ae-2de1-4634-8f7a-745ab4391bd8</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
