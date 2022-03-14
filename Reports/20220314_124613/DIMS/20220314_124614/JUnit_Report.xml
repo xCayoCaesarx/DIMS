@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DIMS" time="31.337" tests="1" failures="0" errors="0">
+   <testsuite name="DIMS" tests="1" failures="0" errors="0" time="31.337" skipped="0" timestamp="2022-03-14 12:46:18" hostname="juzcategui - juzcategui" id="Test Suites/DIMS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220314_124613/DIMS/20220314_124614"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220314_124613/DIMS/20220314_124614/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="37178d3ba4c438bc6b4ff50e13f54451"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Delete Office CGTS" time="30.852" classname="Test Cases/Delete Office CGTS" status="PASSED">
+         <system-out><![CDATA[2022-03-14 12:46:18 - [TEST_CASE][PASSED] - Test Cases/Delete Office CGTS: Test Cases/Delete Office CGTS
+
+2022-03-14 12:46:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-14 12:46:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-14 12:46:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-14 12:46:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-14 12:46:21 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-14 12:46:40 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-14 12:46:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-14 12:46:41 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-14 12:46:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-14 12:46:42 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-14 12:46:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/button_Login")): Object: 'Object Repository/debt ims R/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-14 12:46:44 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-14 12:46:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools")): Object: 'Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools' is clicked on
+
+2022-03-14 12:46:45 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools' is clicked on
+
+2022-03-14 12:46:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/span_Office")): Object: 'Object Repository/debt ims R/Page_Debt IMS/span_Office' is clicked on
+
+2022-03-14 12:46:46 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/span_Office' is clicked on
+
+2022-03-14 12:46:46 - [TEST_STEP][PASSED] - setText(findTestObject("edit actions/write office"), "Oficina CGTS modificada"): Text 'Oficina CGTS modificada' is set on object 'Object Repository/edit actions/write office'
+
+2022-03-14 12:46:47 - [MESSAGE][PASSED] - Text 'Oficina CGTS modificada' is set on object 'Object Repository/edit actions/write office'
+
+2022-03-14 12:46:47 - [TEST_STEP][PASSED] - click(findTestObject("Delete Options/Choose office")): Object: 'Object Repository/Delete Options/Choose office' is clicked on
+
+2022-03-14 12:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Options/Choose office' is clicked on
+
+2022-03-14 12:46:48 - [TEST_STEP][PASSED] - click(findTestObject("Delete Options/Delete button")): Object: 'Object Repository/Delete Options/Delete button' is clicked on
+
+2022-03-14 12:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Options/Delete button' is clicked on
+
+2022-03-14 12:46:48 - [TEST_STEP][PASSED] - click(findTestObject("Delete Options/button_Accept")): Object: 'Object Repository/Delete Options/button_Accept' is clicked on
+
+2022-03-14 12:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Options/button_Accept' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-14 12:46:18 - [TEST_SUITE][PASSED] - DIMS: Test Cases/Delete Office CGTS]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

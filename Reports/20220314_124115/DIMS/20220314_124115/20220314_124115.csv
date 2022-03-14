@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DIMS,Chrome 98.0.4758.102,,,2022-03-14 12:41:20,2022-03-14 12:41:45,"25,443s",FAILED
+,,,,,,,
+Test Cases/Delete Office CGTS,Chrome 98.0.4758.102,,,2022-03-14 12:41:20,2022-03-14 12:41:45,"24,894s",FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-14 12:41:21,2022-03-14 12:41:23,"1,933s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-14 12:41:23,2022-03-14 12:41:38,"15,648s",PASSED
+"setText(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-14 12:41:38,2022-03-14 12:41:39,"0,832s",PASSED
+"setText(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-03-14 12:41:39,2022-03-14 12:41:40,"0,738s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-03-14 12:41:40,2022-03-14 12:41:42,"2,561s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-03-14 12:41:42,2022-03-14 12:41:43,"0,775s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_Office""))",Chrome 98.0.4758.102,,,2022-03-14 12:41:43,2022-03-14 12:41:44,"0,514s",PASSED
+"setText(findTestObject(""edit actions/write office""), ""Oficina CGTS modificada"")",Chrome 98.0.4758.102,,,2022-03-14 12:41:44,2022-03-14 12:41:45,"1,211s",PASSED
+"click(findTestObject(""Delete Options/td_Oficina de CGTS modificada""))",Chrome 98.0.4758.102,,,2022-03-14 12:41:45,2022-03-14 12:41:45,"0,218s",FAILED

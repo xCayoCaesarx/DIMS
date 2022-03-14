@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DIMS,Chrome 98.0.4758.102,,,2022-03-14 12:46:18,2022-03-14 12:46:49,"31,337s",PASSED
+,,,,,,,
+Test Cases/Delete Office CGTS,Chrome 98.0.4758.102,,,2022-03-14 12:46:18,2022-03-14 12:46:49,"30,852s",PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-14 12:46:19,2022-03-14 12:46:21,"1,894s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-14 12:46:21,2022-03-14 12:46:40,"19,631s",PASSED
+"setText(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-14 12:46:40,2022-03-14 12:46:41,"0,760s",PASSED
+"setText(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-03-14 12:46:41,2022-03-14 12:46:42,"0,768s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-03-14 12:46:42,2022-03-14 12:46:44,"2,550s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-03-14 12:46:44,2022-03-14 12:46:45,"0,996s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_Office""))",Chrome 98.0.4758.102,,,2022-03-14 12:46:45,2022-03-14 12:46:46,"0,590s",PASSED
+"setText(findTestObject(""edit actions/write office""), ""Oficina CGTS modificada"")",Chrome 98.0.4758.102,,,2022-03-14 12:46:46,2022-03-14 12:46:47,"1,594s",PASSED
+"click(findTestObject(""Delete Options/Choose office""))",Chrome 98.0.4758.102,,,2022-03-14 12:46:47,2022-03-14 12:46:48,"0,413s",PASSED
+"click(findTestObject(""Delete Options/Delete button""))",Chrome 98.0.4758.102,,,2022-03-14 12:46:48,2022-03-14 12:46:48,"0,495s",PASSED
+"click(findTestObject(""Delete Options/button_Accept""))",Chrome 98.0.4758.102,,,2022-03-14 12:46:48,2022-03-14 12:46:49,"0,692s",PASSED
