@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ip restrictions,Chrome 98.0.4758.102,,,2022-03-15 10:23:48,2022-03-15 10:25:24,"1m - 35,150s",FAILED
+,,,,,,,
+Test Cases/Delete Ip,Chrome 98.0.4758.102,,,2022-03-15 10:23:49,2022-03-15 10:24:56,"1m - 7,242s",PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-15 10:23:49,2022-03-15 10:23:51,"1,874s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-15 10:23:51,2022-03-15 10:24:39,"47,852s",PASSED
+"setText(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-15 10:24:39,2022-03-15 10:24:40,"0,772s",PASSED
+"setText(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-03-15 10:24:40,2022-03-15 10:24:41,"0,739s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-03-15 10:24:41,2022-03-15 10:24:43,"2,570s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-03-15 10:24:43,2022-03-15 10:24:45,"1,532s",PASSED
+"click(findTestObject(""Object Repository/Edit Ip Office/span_IP Restrictions""))",Chrome 98.0.4758.102,,,2022-03-15 10:24:45,2022-03-15 10:24:45,"0,499s",PASSED
+"setText(findTestObject(""Object Repository/Edit Ip Office/input_IP Restrictions_p-inputtext p-compone_ad6e79""), ""Ip CGTS modificada"")",Chrome 98.0.4758.102,,,2022-03-15 10:24:45,2022-03-15 10:24:52,"7,197s",PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-15 10:24:52,2022-03-15 10:24:54,"2,057s",PASSED
+"click(findTestObject(""Delete Options/Choose office""))",Chrome 98.0.4758.102,,,2022-03-15 10:24:54,2022-03-15 10:24:55,"0,380s",PASSED
+"click(findTestObject(""Delete Options/deleteButton ip""))",Chrome 98.0.4758.102,,,2022-03-15 10:24:55,2022-03-15 10:24:55,"0,595s",PASSED
+"click(findTestObject(""Delete Options/button_Accept ip""))",Chrome 98.0.4758.102,,,2022-03-15 10:24:55,2022-03-15 10:24:56,"0,697s",PASSED
+,,,,,,,
+Test Cases/Delete Ip,Chrome 98.0.4758.102,,,2022-03-15 10:24:56,2022-03-15 10:25:24,"27,393s",FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-15 10:24:56,2022-03-15 10:24:57,"1,052s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-15 10:24:57,2022-03-15 10:25:23,"26,179s",PASSED
+"setText(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-15 10:25:23,2022-03-15 10:25:24,"0,131s",FAILED

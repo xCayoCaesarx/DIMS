@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ip restrictions,Chrome 98.0.4758.102,,,2022-03-15 10:17:20,2022-03-15 10:18:20,"59,788s",FAILED
+,,,,,,,
+Test Cases/Delete Ip,Chrome 98.0.4758.102,,,2022-03-15 10:17:21,2022-03-15 10:18:17,"56,240s",FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-15 10:17:22,2022-03-15 10:17:24,"2,530s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-15 10:17:24,2022-03-15 10:18:03,"39,055s",PASSED
+"setText(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-15 10:18:03,2022-03-15 10:18:04,"0,857s",PASSED
+"setText(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-03-15 10:18:04,2022-03-15 10:18:05,"0,772s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-03-15 10:18:05,2022-03-15 10:18:07,"2,541s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-03-15 10:18:07,2022-03-15 10:18:09,"1,560s",PASSED
+"click(findTestObject(""Object Repository/Edit Ip Office/span_IP Restrictions""))",Chrome 98.0.4758.102,,,2022-03-15 10:18:09,2022-03-15 10:18:10,"0,494s",PASSED
+"setText(findTestObject(""Object Repository/Edit Ip Office/input_IP Restrictions_p-inputtext p-compone_ad6e79""), ""Ip CGTS modificada"")",Chrome 98.0.4758.102,,,2022-03-15 10:18:10,2022-03-15 10:18:14,"4,528s",PASSED
+"click(findTestObject(""Delete Options/Choose office""))",Chrome 98.0.4758.102,,,2022-03-15 10:18:14,2022-03-15 10:18:15,"0,455s",PASSED
+"click(findTestObject(""Delete Options/deleteButton ip""))",Chrome 98.0.4758.102,,,2022-03-15 10:18:15,2022-03-15 10:18:16,"1,356s",PASSED
+"click(findTestObject(""Delete Options/button_Accept ip""))",Chrome 98.0.4758.102,,,2022-03-15 10:18:16,2022-03-15 10:18:17,"1,449s",FAILED
+,,,,,,,
+Test Cases/Delete Ip,Chrome 98.0.4758.102,,,2022-03-15 10:18:17,2022-03-15 10:18:20,"2,750s",FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-15 10:18:17,2022-03-15 10:18:19,"1,182s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-15 10:18:19,2022-03-15 10:18:20,"1,544s",FAILED

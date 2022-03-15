@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ip restrictions,Chrome 98.0.4758.102,,,2022-03-14 15:12:38,2022-03-14 15:13:18,"40,173s",PASSED
+,,,,,,,
+Test Cases/Add IP,Chrome 98.0.4758.102,,,2022-03-14 15:12:38,2022-03-14 15:13:18,"39,674s",PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-14 15:12:38,2022-03-14 15:12:40,"1,838s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-14 15:12:40,2022-03-14 15:13:08,"27,217s",PASSED
+"setText(findTestObject(""Object Repository/Add IP objects/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-14 15:13:08,2022-03-14 15:13:08,"0,810s",PASSED
+"setText(findTestObject(""Object Repository/Add IP objects/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-03-14 15:13:08,2022-03-14 15:13:09,"0,736s",PASSED
+"click(findTestObject(""Object Repository/Add IP objects/button_Login""))",Chrome 98.0.4758.102,,,2022-03-14 15:13:09,2022-03-14 15:13:12,"2,560s",PASSED
+"click(findTestObject(""Object Repository/Add IP objects/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-03-14 15:13:12,2022-03-14 15:13:13,"0,896s",PASSED
+"click(findTestObject(""Object Repository/Add IP objects/span_IP Restrictions""))",Chrome 98.0.4758.102,,,2022-03-14 15:13:13,2022-03-14 15:13:13,"0,518s",PASSED
+"click(findTestObject(""Add IP objects/add ip - button""))",Chrome 98.0.4758.102,,,2022-03-14 15:13:13,2022-03-14 15:13:14,"0,967s",PASSED
+"selectOptionByValue(findTestObject(""Add IP objects/select oficina CGTS""), ""19"", true)",Chrome 98.0.4758.102,,,2022-03-14 15:13:14,2022-03-14 15:13:16,"1,622s",PASSED
+"setText(findTestObject(""Object Repository/Add IP objects/input_IP Address_form-control shadow-none n_fc27df""), ip)",Chrome 98.0.4758.102,,,2022-03-14 15:13:16,2022-03-14 15:13:16,"0,742s",PASSED
+"setText(findTestObject(""Object Repository/Add IP objects/input_Username_form-control w-75 ng-untouch_2a886e""), ipname)",Chrome 98.0.4758.102,,,2022-03-14 15:13:16,2022-03-14 15:13:17,"0,686s",PASSED
+"click(findTestObject(""Add IP objects/save IP - Button""))",Chrome 98.0.4758.102,,,2022-03-14 15:13:17,2022-03-14 15:13:17,"0,410s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-03-14 15:13:17,2022-03-14 15:13:18,"0,202s",PASSED

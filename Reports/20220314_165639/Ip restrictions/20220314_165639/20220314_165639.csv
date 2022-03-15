@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ip restrictions,Chrome 98.0.4758.102,,,2022-03-14 16:56:42,2022-03-14 16:57:06,"23,802s",FAILED
+,,,,,,,
+Test Cases/Edit IP Office,Chrome 98.0.4758.102,,,2022-03-14 16:56:43,2022-03-14 16:57:06,"23,286s",FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-14 16:56:43,2022-03-14 16:56:45,"1,897s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-14 16:56:45,2022-03-14 16:57:05,"19,550s",PASSED
+"setText(findTestObject(""Object Repository/Edit Ip Office/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-14 16:57:05,2022-03-14 16:57:06,"0,842s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Edit Ip Office/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-03-14 16:57:06,2022-03-14 16:57:06,"0,468s",FAILED

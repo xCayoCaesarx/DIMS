@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ip restrictions,Chrome 98.0.4758.102,,,2022-03-14 15:20:56,2022-03-14 15:21:32,"36,750s",PASSED
+,,,,,,,
+Test Cases/Add IP,Chrome 98.0.4758.102,,,2022-03-14 15:20:56,2022-03-14 15:21:32,"36,245s",PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-14 15:20:57,2022-03-14 15:20:58,"1,867s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-14 15:20:58,2022-03-14 15:21:17,"18,996s",PASSED
+"setText(findTestObject(""Object Repository/Add IP objects/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-14 15:21:17,2022-03-14 15:21:18,"0,810s",PASSED
+"setText(findTestObject(""Object Repository/Add IP objects/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-03-14 15:21:18,2022-03-14 15:21:19,"0,729s",PASSED
+"click(findTestObject(""Object Repository/Add IP objects/button_Login""))",Chrome 98.0.4758.102,,,2022-03-14 15:21:19,2022-03-14 15:21:22,"2,566s",PASSED
+"click(findTestObject(""Object Repository/Add IP objects/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-03-14 15:21:22,2022-03-14 15:21:22,"0,921s",PASSED
+"click(findTestObject(""Object Repository/Add IP objects/span_IP Restrictions""))",Chrome 98.0.4758.102,,,2022-03-14 15:21:22,2022-03-14 15:21:23,"0,601s",PASSED
+"click(findTestObject(""Add IP objects/add ip - button""))",Chrome 98.0.4758.102,,,2022-03-14 15:21:23,2022-03-14 15:21:24,"0,720s",PASSED
+"selectOptionByValue(findTestObject(""Add IP objects/select oficina CGTS""), ""19"", true)",Chrome 98.0.4758.102,,,2022-03-14 15:21:24,2022-03-14 15:21:25,"1,502s",PASSED
+"setText(findTestObject(""Object Repository/Add IP objects/input_IP Address_form-control shadow-none n_fc27df""), ip)",Chrome 98.0.4758.102,,,2022-03-14 15:21:25,2022-03-14 15:21:26,"0,754s",PASSED
+"setText(findTestObject(""Add IP objects/input_Description_form-control shadow-none ng-untouched ng-pristine ng-invalid""), ipname)",Chrome 98.0.4758.102,,,2022-03-14 15:21:26,2022-03-14 15:21:27,"0,717s",PASSED
+"click(findTestObject(""Add IP objects/save IP - Button""))",Chrome 98.0.4758.102,,,2022-03-14 15:21:27,2022-03-14 15:21:27,"0,392s",PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-14 15:21:27,2022-03-14 15:21:32,"5,048s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-03-14 15:21:32,2022-03-14 15:21:32,"0,099s",PASSED

@@ -11,4 +11,109 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>c9ef00c9-0d8e-438f-9fcc-691b8d5c679c</testSuiteGuid>
+   <testCaseLink>
+      <guid>7ae2dc88-0252-4988-aa34-c1ff1d39ad12</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Add IP</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4bb40128-f7f3-4479-8695-8a637da3943e</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Ip data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4bb40128-f7f3-4479-8695-8a637da3943e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ip</value>
+         <variableId>c31a3e34-036f-4185-9637-fef406b4c90c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4bb40128-f7f3-4479-8695-8a637da3943e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ipname</value>
+         <variableId>8df516ce-16e8-4e6d-b1b8-4a1953719ddc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4bb40128-f7f3-4479-8695-8a637da3943e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>0652f096-ef92-45df-9ece-e43faedfd086</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4bb40128-f7f3-4479-8695-8a637da3943e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>c2419f4c-b0f6-4961-addf-9032dede9b58</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>acd2bb61-a65a-4247-a0ce-87b06130311f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Edit IP</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e23fac0a-0a27-4948-a8bd-10a61ae26003</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>2</value>
+         </iterationEntity>
+         <testDataId>Data Files/Ip data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e23fac0a-0a27-4948-a8bd-10a61ae26003</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ip</value>
+         <variableId>166a9791-df04-4fa0-abc1-aa7ebb2c88cf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e23fac0a-0a27-4948-a8bd-10a61ae26003</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ipname</value>
+         <variableId>38c711c8-feb4-4ab8-8e46-bdf6234f9284</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e23fac0a-0a27-4948-a8bd-10a61ae26003</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>431c85d4-3cc7-46d7-99ec-e8f06604978c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e23fac0a-0a27-4948-a8bd-10a61ae26003</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>d7857dfd-6d12-40b9-bc44-6ce2b0d95d25</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ce282999-627d-490d-ba48-3e5158a6c3c8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Delete Ip</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1d0898b2-fac7-46a2-b803-32648694158f</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Ip data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>1d0898b2-fac7-46a2-b803-32648694158f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>ecf75567-7036-4d99-bed1-983bb6192911</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1d0898b2-fac7-46a2-b803-32648694158f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>e0fad380-1e85-47ad-8957-2712ae67432f</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
