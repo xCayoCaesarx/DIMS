@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Lead" time="37.586" tests="1" failures="0" errors="0">
+   <testsuite name="Lead" tests="1" failures="0" errors="0" time="37.586" skipped="0" timestamp="2022-03-16 13:36:13" hostname="juzcategui - juzcategui" id="Test Suites/Lead">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220316_133609/Lead/20220316_133609"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220316_133609/Lead/20220316_133609/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="0784b645707345a28cd359e740a11a68"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Create Lead" time="36.766" classname="Test Cases/Create Lead" status="PASSED">
+         <system-out><![CDATA[2022-03-16 13:36:14 - [TEST_CASE][PASSED] - Test Cases/Create Lead: Test Cases/Create Lead
+
+2022-03-16 13:36:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-16 13:36:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-16 13:36:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-16 13:36:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-16 13:36:18 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-16 13:36:33 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-16 13:36:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-16 13:36:34 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-16 13:36:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-16 13:36:35 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-16 13:36:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-03-16 13:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-03-16 13:36:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/strong_My Tools")): Object: 'Object Repository/Create Lead/strong_My Tools' is clicked on
+
+2022-03-16 13:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/strong_My Tools' is clicked on
+
+2022-03-16 13:36:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/span_New Lead")): Object: 'Object Repository/Create Lead/span_New Lead' is clicked on
+
+2022-03-16 13:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/span_New Lead' is clicked on
+
+2022-03-16 13:36:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create Lead/select_Select OneAdvertising-Stop My Payday_d308cb"), "3", true): All options with value '3' are selected in object 'Object Repository/Create Lead/select_Select OneAdvertising-Stop My Payday_d308cb'  using regular expression
+
+2022-03-16 13:36:41 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/Create Lead/select_Select OneAdvertising-Stop My Payday_d308cb'  using regular expression
+
+2022-03-16 13:36:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0"), "2", true): All options with value '2' are selected in object 'Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0'  using regular expression
+
+2022-03-16 13:36:42 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0'  using regular expression
+
+2022-03-16 13:36:42 - [TEST_STEP][PASSED] - setText(findTestObject("Create Lead/input_First Name"), firstname): Text 'julio' is set on object 'Object Repository/Create Lead/input_First Name'
+
+2022-03-16 13:36:43 - [MESSAGE][PASSED] - Text 'julio' is set on object 'Object Repository/Create Lead/input_First Name'
+
+2022-03-16 13:36:43 - [TEST_STEP][PASSED] - setText(findTestObject("Create Lead/input_Last Name"), lastname): Text 'herrera' is set on object 'Object Repository/Create Lead/input_Last Name'
+
+2022-03-16 13:36:43 - [MESSAGE][PASSED] - Text 'herrera' is set on object 'Object Repository/Create Lead/input_Last Name'
+
+2022-03-16 13:36:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create Lead/select_Select OneUS Armed Forces EuropeAlas_fd93bc"), "2: 2", true): All options with value '2: 2' are selected in object 'Object Repository/Create Lead/select_Select OneUS Armed Forces EuropeAlas_fd93bc'  using regular expression
+
+2022-03-16 13:36:45 - [MESSAGE][PASSED] - All options with value '2: 2' are selected in object 'Object Repository/Create Lead/select_Select OneUS Armed Forces EuropeAlas_fd93bc'  using regular expression
+
+2022-03-16 13:36:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Home Phone_form-control shadow-none n_1c6889"), phone): Text '4164040044' is set on object 'Object Repository/Create Lead/input_Home Phone_form-control shadow-none n_1c6889'
+
+2022-03-16 13:36:46 - [MESSAGE][PASSED] - Text '4164040044' is set on object 'Object Repository/Create Lead/input_Home Phone_form-control shadow-none n_1c6889'
+
+2022-03-16 13:36:46 - [TEST_STEP][PASSED] - setText(findTestObject("Create Lead/input_Email_form-control shadow-none ng-untouched ng-pristine ng-invalid"), email): Text 'julio1@gmail.com' is set on object 'Object Repository/Create Lead/input_Email_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-16 13:36:47 - [MESSAGE][PASSED] - Text 'julio1@gmail.com' is set on object 'Object Repository/Create Lead/input_Email_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-16 13:36:47 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-03-16 13:36:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-16 13:36:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-03-16 13:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-03-16 13:36:49 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-03-16 13:36:51 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-16 13:36:13 - [TEST_SUITE][PASSED] - Lead: Test Cases/Create Lead]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Ip restrictions" time="44.477" tests="1" failures="0" errors="0">
+   <testsuite name="Ip restrictions" tests="1" failures="0" errors="0" time="44.477" skipped="0" timestamp="2022-03-15 10:51:12" hostname="juzcategui - juzcategui" id="Test Suites/Ip restrictions">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220315_105108/Ip restrictions/20220315_105108"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220315_105108/Ip restrictions/20220315_105108/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="720fdb0270dec831b9504459588b01c9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Delete Ip" time="43.941" classname="Test Cases/Delete Ip" status="PASSED">
+         <system-out><![CDATA[2022-03-15 10:51:12 - [TEST_CASE][PASSED] - Test Cases/Delete Ip: Test Cases/Delete Ip
+
+2022-03-15 10:51:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-15 10:51:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-15 10:51:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-15 10:51:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-15 10:51:15 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-15 10:51:39 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-15 10:51:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-15 10:51:40 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-15 10:51:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-15 10:51:40 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-15 10:51:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/button_Login")): Object: 'Object Repository/debt ims R/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-15 10:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-15 10:51:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools")): Object: 'Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools' is clicked on
+
+2022-03-15 10:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools' is clicked on
+
+2022-03-15 10:51:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Edit Ip Office/span_IP Restrictions")): Object: 'Object Repository/Edit Ip Office/span_IP Restrictions' is clicked on
+
+2022-03-15 10:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Ip Office/span_IP Restrictions' is clicked on
+
+2022-03-15 10:51:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Edit Ip Office/input_IP Restrictions_p-inputtext p-compone_ad6e79"), "Ip CGTS modificada"): Text 'Ip CGTS modificada' is set on object 'Object Repository/Edit Ip Office/input_IP Restrictions_p-inputtext p-compone_ad6e79'
+
+2022-03-15 10:51:52 - [MESSAGE][PASSED] - Text 'Ip CGTS modificada' is set on object 'Object Repository/Edit Ip Office/input_IP Restrictions_p-inputtext p-compone_ad6e79'
+
+2022-03-15 10:51:52 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-03-15 10:51:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-15 10:51:54 - [TEST_STEP][PASSED] - click(findTestObject("Delete Options/Choose office")): Object: 'Object Repository/Delete Options/Choose office' is clicked on
+
+2022-03-15 10:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Options/Choose office' is clicked on
+
+2022-03-15 10:51:55 - [TEST_STEP][PASSED] - click(findTestObject("Delete Options/deleteButton ip")): Object: 'Object Repository/Delete Options/deleteButton ip' is clicked on
+
+2022-03-15 10:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Options/deleteButton ip' is clicked on
+
+2022-03-15 10:51:55 - [TEST_STEP][PASSED] - click(findTestObject("Delete Options/button_Accept ip")): Object: 'Object Repository/Delete Options/button_Accept ip' is clicked on
+
+2022-03-15 10:51:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Delete Options/button_Accept ip' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-15 10:51:12 - [TEST_SUITE][PASSED] - Ip restrictions: Test Cases/Delete Ip]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>7ae2dc88-0252-4988-aa34-c1ff1d39ad12</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Add IP</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -53,7 +53,7 @@
    <testCaseLink>
       <guid>acd2bb61-a65a-4247-a0ce-87b06130311f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Edit IP</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

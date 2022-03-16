@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ip restrictions,Chrome 98.0.4758.102,,,2022-03-15 10:51:12,2022-03-15 10:51:56,"44,477s",PASSED
+,,,,,,,
+Test Cases/Delete Ip,Chrome 98.0.4758.102,,,2022-03-15 10:51:12,2022-03-15 10:51:56,"43,941s",PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-15 10:51:13,2022-03-15 10:51:15,"1,996s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-15 10:51:15,2022-03-15 10:51:39,"24,117s",PASSED
+"setText(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-15 10:51:39,2022-03-15 10:51:40,"0,836s",PASSED
+"setText(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-03-15 10:51:40,2022-03-15 10:51:40,"0,796s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-03-15 10:51:40,2022-03-15 10:51:43,"2,552s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-03-15 10:51:43,2022-03-15 10:51:46,"3,563s",PASSED
+"click(findTestObject(""Object Repository/Edit Ip Office/span_IP Restrictions""))",Chrome 98.0.4758.102,,,2022-03-15 10:51:46,2022-03-15 10:51:47,"0,578s",PASSED
+"setText(findTestObject(""Object Repository/Edit Ip Office/input_IP Restrictions_p-inputtext p-compone_ad6e79""), ""Ip CGTS modificada"")",Chrome 98.0.4758.102,,,2022-03-15 10:51:47,2022-03-15 10:51:52,"5,237s",PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-15 10:51:52,2022-03-15 10:51:54,"2,037s",PASSED
+"click(findTestObject(""Delete Options/Choose office""))",Chrome 98.0.4758.102,,,2022-03-15 10:51:54,2022-03-15 10:51:55,"0,385s",PASSED
+"click(findTestObject(""Delete Options/deleteButton ip""))",Chrome 98.0.4758.102,,,2022-03-15 10:51:55,2022-03-15 10:51:55,"0,596s",PASSED
+"click(findTestObject(""Delete Options/button_Accept ip""))",Chrome 98.0.4758.102,,,2022-03-15 10:51:55,2022-03-15 10:51:56,"0,692s",PASSED
