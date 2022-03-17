@@ -31,20 +31,19 @@ WebUI.click(findTestObject('Object Repository/Add IP objects/strong_Office Tools
 
 WebUI.click(findTestObject('Object Repository/Add IP objects/span_IP Restrictions'))
 
-WebUI.click(findTestObject('Add IP objects/add ip - button'))
+WebUI.click(findTestObject('Object Repository/Add IP objects/button_Welcome, Julio Uzctegui_addButton'))
 
-WebUI.selectOptionByValue(findTestObject('Edit Ip Office/input_IP Restrictions_p-inputtext p-compone_ad6e79'), '9', true)
-
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Add IP objects/select_Select OneDebt - ImsConsumer Capital_056a35'), 
+    '9', true)
 
 WebUI.setText(findTestObject('Object Repository/Add IP objects/input_IP Address_form-control shadow-none n_fc27df'), ip)
 
 WebUI.setText(findTestObject('Add IP objects/input_Description_form-control shadow-none ng-untouched ng-pristine ng-invalid'), 
     ipname)
 
-WebUI.click(findTestObject('Add IP objects/save IP - Button'))
+WebUI.click(findTestObject('Object Repository/Add IP objects/button_Welcome, Julio Uzctegui_saveButton'))
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('edit actions/button_Accept'))
 
 WebUI.closeBrowser()
 

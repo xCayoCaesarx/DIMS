@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ip restrictions,Chrome 98.0.4758.102,,,2022-03-17 14:04:34,2022-03-17 14:04:58,"23,558s",PASSED
+,,,,,,,
+Test Cases/Add IP,Chrome 98.0.4758.102,,,2022-03-17 14:04:35,2022-03-17 14:04:58,"22,838s",PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-17 14:04:36,2022-03-17 14:04:38,"1,904s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-17 14:04:38,2022-03-17 14:04:43,"5,175s",PASSED
+"setText(findTestObject(""Object Repository/Add IP objects/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-17 14:04:43,2022-03-17 14:04:44,"0,808s",PASSED
+"setText(findTestObject(""Object Repository/Add IP objects/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-03-17 14:04:44,2022-03-17 14:04:44,"0,765s",PASSED
+"click(findTestObject(""Object Repository/Add IP objects/button_Login""))",Chrome 98.0.4758.102,,,2022-03-17 14:04:44,2022-03-17 14:04:47,"2,605s",PASSED
+"click(findTestObject(""Object Repository/Add IP objects/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-03-17 14:04:47,2022-03-17 14:04:48,"0,727s",PASSED
+"click(findTestObject(""Object Repository/Add IP objects/span_IP Restrictions""))",Chrome 98.0.4758.102,,,2022-03-17 14:04:48,2022-03-17 14:04:48,"0,524s",PASSED
+"click(findTestObject(""Object Repository/Add IP objects/button_Welcome, Julio Uzctegui_addButton""))",Chrome 98.0.4758.102,,,2022-03-17 14:04:48,2022-03-17 14:04:49,"0,691s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add IP objects/select_Select OneDebt - ImsConsumer Capital_056a35""), ""9"", true)",Chrome 98.0.4758.102,,,2022-03-17 14:04:49,2022-03-17 14:04:50,"1,342s",PASSED
+"setText(findTestObject(""Object Repository/Add IP objects/input_IP Address_form-control shadow-none n_fc27df""), ip)",Chrome 98.0.4758.102,,,2022-03-17 14:04:50,2022-03-17 14:04:51,"0,759s",PASSED
+"setText(findTestObject(""Add IP objects/input_Description_form-control shadow-none ng-untouched ng-pristine ng-invalid""), ipname)",Chrome 98.0.4758.102,,,2022-03-17 14:04:51,2022-03-17 14:04:52,"0,736s",PASSED
+"click(findTestObject(""Object Repository/Add IP objects/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 98.0.4758.102,,,2022-03-17 14:04:52,2022-03-17 14:04:52,"0,408s",PASSED
+"click(findTestObject(""edit actions/button_Accept""))",Chrome 98.0.4758.102,,,2022-03-17 14:04:52,2022-03-17 14:04:58,"5,478s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-03-17 14:04:58,2022-03-17 14:04:58,"0,240s",PASSED

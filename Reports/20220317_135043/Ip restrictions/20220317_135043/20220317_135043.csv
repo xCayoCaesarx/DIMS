@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ip restrictions,Chrome 98.0.4758.102,,,2022-03-17 13:50:46,2022-03-17 13:51:09,"22,716s",FAILED
+,,,,,,,
+Test Cases/Add IP,Chrome 98.0.4758.102,,,2022-03-17 13:50:47,2022-03-17 13:51:09,"21,973s",FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-17 13:50:48,2022-03-17 13:50:50,"2,189s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-17 13:50:50,2022-03-17 13:51:03,"12,880s",PASSED
+"setText(findTestObject(""Object Repository/Add IP objects/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-17 13:51:03,2022-03-17 13:51:04,"0,877s",PASSED
+"setText(findTestObject(""Object Repository/Add IP objects/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-03-17 13:51:04,2022-03-17 13:51:04,"0,799s",PASSED
+"click(findTestObject(""Object Repository/Add IP objects/button_Login""))",Chrome 98.0.4758.102,,,2022-03-17 13:51:04,2022-03-17 13:51:07,"2,585s",PASSED
+"click(findTestObject(""Object Repository/Add IP objects/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-03-17 13:51:07,2022-03-17 13:51:08,"0,691s",PASSED
+"click(findTestObject(""Object Repository/Add IP objects/span_IP Restrictions""))",Chrome 98.0.4758.102,,,2022-03-17 13:51:08,2022-03-17 13:51:08,"0,508s",PASSED
+"click(findTestObject(""Add IP objects/add ip - button""))",Chrome 98.0.4758.102,,,2022-03-17 13:51:08,2022-03-17 13:51:09,"0,719s",PASSED
+"selectOptionByValue(findTestObject(""Page_Debt IMS/select_Select OneDebt - ImsConsumer Capital_056a35""), ""9"", true)",Chrome 98.0.4758.102,,,2022-03-17 13:51:09,2022-03-17 13:51:09,"0,241s",FAILED

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Ip restrictions" time="23.558" tests="1" failures="0" errors="0">
+   <testsuite name="Ip restrictions" tests="1" failures="0" errors="0" time="23.558" skipped="0" timestamp="2022-03-17 14:04:34" hostname="juzcategui - juzcategui" id="Test Suites/Ip restrictions">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220317_140431/Ip restrictions/20220317_140431"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220317_140431/Ip restrictions/20220317_140431/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.12.44"/>
+         <property name="sessionId" value="66654af66e9da7bca678a7ead6e0492a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add IP" time="22.838" classname="Test Cases/Add IP" status="PASSED">
+         <system-out><![CDATA[2022-03-17 14:04:35 - [TEST_CASE][PASSED] - Test Cases/Add IP: Test Cases/Add IP
+
+2022-03-17 14:04:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-17 14:04:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-17 14:04:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-17 14:04:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-17 14:04:38 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-17 14:04:43 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-17 14:04:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Add IP objects/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Add IP objects/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-17 14:04:44 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Add IP objects/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-17 14:04:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Add IP objects/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Add IP objects/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-17 14:04:44 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Add IP objects/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-17 14:04:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add IP objects/button_Login")): Object: 'Object Repository/Add IP objects/button_Login' is clicked on
+
+2022-03-17 14:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Add IP objects/button_Login' is clicked on
+
+2022-03-17 14:04:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add IP objects/strong_Office Tools")): Object: 'Object Repository/Add IP objects/strong_Office Tools' is clicked on
+
+2022-03-17 14:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Add IP objects/strong_Office Tools' is clicked on
+
+2022-03-17 14:04:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add IP objects/span_IP Restrictions")): Object: 'Object Repository/Add IP objects/span_IP Restrictions' is clicked on
+
+2022-03-17 14:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Add IP objects/span_IP Restrictions' is clicked on
+
+2022-03-17 14:04:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add IP objects/button_Welcome, Julio Uzctegui_addButton")): Object: 'Object Repository/Add IP objects/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-03-17 14:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Add IP objects/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-03-17 14:04:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Add IP objects/select_Select OneDebt - ImsConsumer Capital_056a35"), "9", true): All options with value '9' are selected in object 'Object Repository/Add IP objects/select_Select OneDebt - ImsConsumer Capital_056a35'  using regular expression
+
+2022-03-17 14:04:50 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/Add IP objects/select_Select OneDebt - ImsConsumer Capital_056a35'  using regular expression
+
+2022-03-17 14:04:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Add IP objects/input_IP Address_form-control shadow-none n_fc27df"), ip): Text '172.168.0.144' is set on object 'Object Repository/Add IP objects/input_IP Address_form-control shadow-none n_fc27df'
+
+2022-03-17 14:04:51 - [MESSAGE][PASSED] - Text '172.168.0.144' is set on object 'Object Repository/Add IP objects/input_IP Address_form-control shadow-none n_fc27df'
+
+2022-03-17 14:04:51 - [TEST_STEP][PASSED] - setText(findTestObject("Add IP objects/input_Description_form-control shadow-none ng-untouched ng-pristine ng-invalid"), ipname): Text 'ip CGTS' is set on object 'Object Repository/Add IP objects/input_Description_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-17 14:04:52 - [MESSAGE][PASSED] - Text 'ip CGTS' is set on object 'Object Repository/Add IP objects/input_Description_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-17 14:04:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Add IP objects/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Add IP objects/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-03-17 14:04:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Add IP objects/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-03-17 14:04:52 - [TEST_STEP][PASSED] - click(findTestObject("edit actions/button_Accept")): Object: 'Object Repository/edit actions/button_Accept' is clicked on
+
+2022-03-17 14:04:58 - [MESSAGE][PASSED] - Object: 'Object Repository/edit actions/button_Accept' is clicked on
+
+2022-03-17 14:04:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-17 14:04:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-17 14:04:34 - [TEST_SUITE][PASSED] - Ip restrictions: Test Cases/Add IP]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
