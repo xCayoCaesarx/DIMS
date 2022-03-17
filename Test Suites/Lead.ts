@@ -15,7 +15,7 @@
       <guid>67df34d6-d21b-47c0-b070-f81253569af9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create Lead</testCaseId>
+      <testCaseId>Test Cases/Create Lead - All Fields</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f9072635-9626-4f16-887e-24031d69573d</id>
