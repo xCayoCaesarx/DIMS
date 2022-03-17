@@ -33,7 +33,9 @@ WebUI.click(findTestObject('Object Repository/Add IP objects/span_IP Restriction
 
 WebUI.click(findTestObject('Add IP objects/add ip - button'))
 
-WebUI.selectOptionByValue(findTestObject('Add IP objects/select oficina CGTS'), '19', true)
+WebUI.selectOptionByValue(findTestObject('Edit Ip Office/input_IP Restrictions_p-inputtext p-compone_ad6e79'), '9', true)
+
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/Add IP objects/input_IP Address_form-control shadow-none n_fc27df'), ip)
 

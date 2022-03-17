@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ip restrictions,Chrome 98.0.4758.102,,,2022-03-17 13:34:56,2022-03-17 13:35:11,"14,732s",FAILED
+,,,,,,,
+Test Cases/Add IP,Chrome 98.0.4758.102,,,2022-03-17 13:34:57,2022-03-17 13:35:11,"14,058s",FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-17 13:34:57,2022-03-17 13:35:00,"2,289s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-17 13:35:00,2022-03-17 13:35:03,"3,778s",PASSED
+"setText(findTestObject(""Object Repository/Add IP objects/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-17 13:35:03,2022-03-17 13:35:04,"0,836s",PASSED
+"setText(findTestObject(""Object Repository/Add IP objects/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-03-17 13:35:04,2022-03-17 13:35:05,"0,796s",PASSED
+"click(findTestObject(""Object Repository/Add IP objects/button_Login""))",Chrome 98.0.4758.102,,,2022-03-17 13:35:05,2022-03-17 13:35:08,"2,526s",PASSED
+"click(findTestObject(""Object Repository/Add IP objects/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-03-17 13:35:08,2022-03-17 13:35:08,"0,773s",PASSED
+"click(findTestObject(""Object Repository/Add IP objects/span_IP Restrictions""))",Chrome 98.0.4758.102,,,2022-03-17 13:35:08,2022-03-17 13:35:09,"0,533s",PASSED
+"click(findTestObject(""Add IP objects/add ip - button""))",Chrome 98.0.4758.102,,,2022-03-17 13:35:09,2022-03-17 13:35:10,"0,737s",PASSED
+"selectOptionByValue(findTestObject(""Add IP objects/select oficina CGTS""), ""19"", true)",Chrome 98.0.4758.102,,,2022-03-17 13:35:10,2022-03-17 13:35:11,"1,162s",FAILED
