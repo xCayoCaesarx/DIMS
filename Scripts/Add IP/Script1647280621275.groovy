@@ -34,7 +34,7 @@ WebUI.click(findTestObject('Object Repository/Add IP objects/span_IP Restriction
 WebUI.click(findTestObject('Object Repository/Add IP objects/button_Welcome, Julio Uzctegui_addButton'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Add IP objects/select_Select OneDebt - ImsConsumer Capital_056a35'), 
-    '9', true)
+    '15', true)
 
 WebUI.setText(findTestObject('Object Repository/Add IP objects/input_IP Address_form-control shadow-none n_fc27df'), ip)
 
