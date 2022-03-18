@@ -33,6 +33,8 @@ WebUI.click(findTestObject('Object Repository/Edit Ip Office/span_IP Restriction
 
 WebUI.setText(findTestObject('Object Repository/Edit Ip Office/input_IP Restrictions_p-inputtext p-compone_ad6e79'), 'Ip cgts')
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/Edit Ip Office/button_Active_editButton'))
 
 WebUI.setText(findTestObject('Object Repository/Edit Ip Office/input_IP Address_form-control shadow-none n_a5e085'), ip)
