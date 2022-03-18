@@ -44,7 +44,7 @@ WebUI.setText(findTestObject('Create Lead/input_Last Name'), lastname)
 WebUI.selectOptionByValue(findTestObject('Object Repository/Create Lead/select_Select OneUS Armed Forces EuropeAlas_fd93bc'), 
     '2: 2', true)
 
-WebUI.setText(findTestObject('Object Repository/Create Lead/input_Home Phone_form-control shadow-none n_1c6889'), phone)
+WebUI.setText(findTestObject('Object Repository/Create Lead/input_Home Phone_form-control shadow-none n_1c6889'), homephone)
 
 WebUI.setText(findTestObject('Create Lead/input_Email_form-control shadow-none ng-untouched ng-pristine ng-invalid'), email)
 

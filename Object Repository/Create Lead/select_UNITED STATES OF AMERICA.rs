@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;d-flex flex-column ng-star-inserted&quot;]/div[@class=&quot;menuShow&quot;]/div[@class=&quot;w-100 d-flex flex-column&quot;]/div[@class=&quot;w-auto&quot;]/app-new-lead[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column w-100&quot;]/div[@class=&quot;w-100 h-100 ps-5 pe-5&quot;]/div[@class=&quot;container formCRUD&quot;]/form[@class=&quot;container row pb-5 ng-invalid ng-dirty ng-touched&quot;]/div[@class=&quot;form-group col-6&quot;]/select[@class=&quot;form-select shadow-none ng-untouched ng-valid ng-dirty&quot;]</value>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;d-flex flex-column ng-star-inserted&quot;]/div[@class=&quot;menuShow&quot;]/div[@class=&quot;w-100 d-flex flex-column&quot;]/div[@class=&quot;w-auto&quot;]/app-new-lead[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column w-100&quot;]/div[@class=&quot;w-100 h-100 ps-5 pe-5&quot;]/div[@class=&quot;container formCRUD&quot;]/form[@class=&quot;container row pb-5 ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;form-group col-6&quot;]/select[@class=&quot;form-select shadow-none ng-untouched ng-valid ng-dirty&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

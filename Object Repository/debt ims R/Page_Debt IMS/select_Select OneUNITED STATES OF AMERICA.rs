@@ -10,6 +10,10 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[1]/following::select[1]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Select OneUNITED STATES OF AMERICA' or . = 'Select OneUNITED STATES OF AMERICA')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>select.form-select.shadow-none.ng-untouched.ng-pristine.ng-invalid</value>
       </entry>

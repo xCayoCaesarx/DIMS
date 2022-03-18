@@ -37,30 +37,40 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Create Lead/select_S
 WebUI.selectOptionByValue(findTestObject('Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0'), 
     '2', true)
 
-WebUI.selectOptionByValue(findTestObject('Create Lead/status select'), '1', true)
+WebUI.selectOptionByValue(findTestObject('Create Lead/status select'), '12', true)
 
 WebUI.setText(findTestObject('Create Lead/input_First Name'), firstname)
 
 WebUI.setText(findTestObject('Create Lead/input_Last Name'), lastname)
 
-WebUI.setText(findTestObject('Create Lead/input_Address 1'), lastname)
+WebUI.setText(findTestObject('Create Lead/input_Address 1'), address1)
 
-WebUI.setText(findTestObject('Create Lead/input_Address 2'), lastname)
+WebUI.setText(findTestObject('Create Lead/input_Address 2'), address2)
 
-WebUI.setText(findTestObject('Create Lead/input_City'), lastname)
+WebUI.setText(findTestObject('Create Lead/input_City'), city)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Create Lead/select_Select OneUS Armed Forces EuropeAlas_fd93bc'), 
     '2: 2', true)
 
-WebUI.setText(findTestObject('Create Lead/input_Zip'), lastname)
+WebUI.setText(findTestObject('Create Lead/input_Zip'), zip)
 
-WebUI.selectOptionByValue(findTestObject('Create Lead/select_UNITED STATES OF AMERICA'), '2: 2', true)
+WebUI.selectOptionByValue(findTestObject('debt ims R/Page_Debt IMS/select_Select OneUNITED STATES OF AMERICA'), '62', true)
 
-WebUI.setText(findTestObject('Object Repository/Create Lead/input_Home Phone_form-control shadow-none n_1c6889'), phone)
+WebUI.setText(findTestObject('Object Repository/Create Lead/input_Home Phone_form-control shadow-none n_1c6889'), homephone)
+
+WebUI.setText(findTestObject('Create Lead/input_Work Phone'), workphone)
+
+WebUI.setText(findTestObject('Create Lead/input_Cell Phone'), cellphone)
+
+WebUI.setText(findTestObject('Create Lead/input_Fax'), fax)
 
 WebUI.setText(findTestObject('Create Lead/input_Email_form-control shadow-none ng-untouched ng-pristine ng-invalid'), email)
 
+WebUI.setText(findTestObject('Create Lead/input_Mailer Code'), maildercode)
+
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton'), 0)
 
 WebUI.click(findTestObject('Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton'))
 
