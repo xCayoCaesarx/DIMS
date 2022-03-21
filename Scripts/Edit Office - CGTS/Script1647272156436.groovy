@@ -88,6 +88,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/debt ims R/Page_Debt
 WebUI.selectOptionByValue(findTestObject('Object Repository/debt ims R/Page_Debt IMS/select_Select OneMeridian'), 'Meridian', 
     true)
 
+WebUI.scrollToElement(findTestObject('Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton'), 0)
+
 WebUI.click(findTestObject('debt ims R/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton'))
 
 WebUI.delay(2)
