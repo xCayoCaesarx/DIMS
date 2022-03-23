@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Programs" time="94.175" tests="1" failures="0" errors="0">
+   <testsuite name="Programs" tests="1" failures="0" errors="0" time="94.175" skipped="0" timestamp="2022-03-22 11:43:43" hostname="juzcategui - juzcategui" id="Test Suites/Programs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220322_114340/Programs/20220322_114340"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220322_114340/Programs/20220322_114340/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220322_114340/Programs/20220322_114340/1647963865481.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="0a0163bad988eb59dfbe93fb267a5134"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add Programs" time="51.975" classname="Test Cases/Add Programs" status="PASSED">
+         <system-out><![CDATA[2022-03-22 11:44:25 - [TEST_CASE][PASSED] - Test Cases/Add Programs: Test Cases/Add Programs
+
+2022-03-22 11:44:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-22 11:44:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-22 11:44:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-22 11:44:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-22 11:44:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-22 11:44:26 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-22 11:44:47 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-22 11:44:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Programs/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Programs/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-22 11:44:48 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Programs/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-22 11:44:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Programs/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Programs/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-22 11:44:49 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Programs/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-22 11:44:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/button_Login")): Object: 'Object Repository/Programs/button_Login' is clicked on
+
+2022-03-22 11:44:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/button_Login' is clicked on
+
+2022-03-22 11:44:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/strong_Maintenance Tools")): Object: 'Object Repository/Programs/strong_Maintenance Tools' is clicked on
+
+2022-03-22 11:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/strong_Maintenance Tools' is clicked on
+
+2022-03-22 11:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/span_Programs")): Object: 'Object Repository/Programs/span_Programs' is clicked on
+
+2022-03-22 11:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/span_Programs' is clicked on
+
+2022-03-22 11:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/button_Welcome, Julio Uzctegui_addButton")): Object: 'Object Repository/Programs/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-03-22 11:44:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-03-22 11:44:51 - [TEST_STEP][PASSED] - setText(findTestObject("Programs/Page_Debt IMS/input_Program_form-control shadow-none ng-untouched ng-pristine ng-invalid"), programname): Text 'Test dg aut' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Program_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-22 11:44:52 - [MESSAGE][PASSED] - Text 'Test dg aut' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Program_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-22 11:44:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-22 11:44:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-22 11:44:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/div_Select an Office(s)")): Object: 'Object Repository/Programs/div_Select an Office(s)' is clicked on
+
+2022-03-22 11:44:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/div_Select an Office(s)' is clicked on
+
+2022-03-22 11:44:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/div_Debt - Ims_p-checkbox-box")): Object: 'Object Repository/Programs/div_Debt - Ims_p-checkbox-box' is clicked on
+
+2022-03-22 11:44:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/div_Debt - Ims_p-checkbox-box' is clicked on
+
+2022-03-22 11:44:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/div_Select a Pay Frequencie(s)")): Object: 'Object Repository/Programs/div_Select a Pay Frequencie(s)' is clicked on
+
+2022-03-22 11:44:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/div_Select a Pay Frequencie(s)' is clicked on
+
+2022-03-22 11:44:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/div_Semi  Monthly_p-checkbox-box")): Object: 'Object Repository/Programs/div_Semi  Monthly_p-checkbox-box' is clicked on
+
+2022-03-22 11:44:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/div_Semi  Monthly_p-checkbox-box' is clicked on
+
+2022-03-22 11:44:56 - [TEST_STEP][NOT_RUN] - doubleClick(findTestObject("Programs/Page_Debt IMS/input_Minimum Debt Accepted")): NOT_RUN: doubleClick(findTestObject("Programs/Page_Debt IMS/input_Minimum Debt Accepted"))
+
+2022-03-22 11:44:56 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick(findTestObject("Programs/Page_Debt IMS/input_Minimum Debt Accepted"))
+
+2022-03-22 11:44:56 - [TEST_STEP][PASSED] - setText(findTestObject("Programs/Page_Debt IMS/input_Minimum Debt Accepted"), minimumdebt): Text '100' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Minimum Debt Accepted'
+
+2022-03-22 11:44:57 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Minimum Debt Accepted'
+
+2022-03-22 11:44:57 - [TEST_STEP][NOT_RUN] - doubleClick(findTestObject("Programs/Page_Debt IMS/input_Minimum Creditor Balance")): NOT_RUN: doubleClick(findTestObject("Programs/Page_Debt IMS/input_Minimum Creditor Balance"))
+
+2022-03-22 11:44:57 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick(findTestObject("Programs/Page_Debt IMS/input_Minimum Creditor Balance"))
+
+2022-03-22 11:44:57 - [TEST_STEP][PASSED] - setText(findTestObject("Programs/Page_Debt IMS/input_Minimum Creditor Balance"), minimumCreditor): Text '1000' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Minimum Creditor Balance'
+
+2022-03-22 11:44:58 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Minimum Creditor Balance'
+
+2022-03-22 11:44:58 - [TEST_STEP][NOT_RUN] - doubleClick(findTestObject("Programs/Page_Debt IMS/input_Program Minimum Payment_for")): NOT_RUN: doubleClick(findTestObject("Programs/Page_Debt IMS/input_Program Minimum Payment_for"))
+
+2022-03-22 11:44:58 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick(findTestObject("Programs/Page_Debt IMS/input_Program Minimum Payment_for"))
+
+2022-03-22 11:44:58 - [TEST_STEP][PASSED] - setText(findTestObject("Programs/Page_Debt IMS/input_Program Minimum Payment_for"), programminimum): Text '100' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Program Minimum Payment_for'
+
+2022-03-22 11:44:59 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Program Minimum Payment_for'
+
+2022-03-22 11:44:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Programs/input_Email_form-control shadow-none ng-unt_36dc17"), email): Text 'test@gmail.com' is set on object 'Object Repository/Programs/input_Email_form-control shadow-none ng-unt_36dc17'
+
+2022-03-22 11:45:00 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Programs/input_Email_form-control shadow-none ng-unt_36dc17'
+
+2022-03-22 11:45:00 - [TEST_STEP][NOT_RUN] - doubleClick(findTestObject("Programs/Page_Debt IMS/input_Debt amount From_")): NOT_RUN: doubleClick(findTestObject("Programs/Page_Debt IMS/input_Debt amount From_"))
+
+2022-03-22 11:45:00 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick(findTestObject("Programs/Page_Debt IMS/input_Debt amount From_"))
+
+2022-03-22 11:45:00 - [TEST_STEP][PASSED] - setText(findTestObject("Programs/Page_Debt IMS/input_Debt amount From_"), debtamountfrom): Text '100' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Debt amount From_'
+
+2022-03-22 11:45:00 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Debt amount From_'
+
+2022-03-22 11:45:00 - [TEST_STEP][NOT_RUN] - doubleClick(findTestObject("Programs/Page_Debt IMS/input_Debt amount To_")): NOT_RUN: doubleClick(findTestObject("Programs/Page_Debt IMS/input_Debt amount To_"))
+
+2022-03-22 11:45:00 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick(findTestObject("Programs/Page_Debt IMS/input_Debt amount To_"))
+
+2022-03-22 11:45:00 - [TEST_STEP][PASSED] - setText(findTestObject("Programs/Page_Debt IMS/input_Debt amount To_"), debtamountto): Text '1000' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Debt amount To_'
+
+2022-03-22 11:45:01 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Debt amount To_'
+
+2022-03-22 11:45:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Programs/select_Select One12345678910111213141516171_b2f31c"), "10", true): All options with value '10' are selected in object 'Object Repository/Programs/select_Select One12345678910111213141516171_b2f31c'  using regular expression
+
+2022-03-22 11:45:03 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Programs/select_Select One12345678910111213141516171_b2f31c'  using regular expression
+
+2022-03-22 11:45:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/button_Add")): Object: 'Object Repository/Programs/button_Add' is clicked on
+
+2022-03-22 11:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/button_Add' is clicked on
+
+2022-03-22 11:45:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-03-22 11:45:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-03-22 11:45:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/div_Select a Unacceptable debt(s)")): Object: 'Object Repository/Programs/div_Select a Unacceptable debt(s)' is clicked on
+
+2022-03-22 11:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/div_Select a Unacceptable debt(s)' is clicked on
+
+2022-03-22 11:45:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/div_Only medical_p-checkbox-box")): Object: 'Object Repository/Programs/div_Only medical_p-checkbox-box' is clicked on
+
+2022-03-22 11:45:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/div_Only medical_p-checkbox-box' is clicked on
+
+2022-03-22 11:45:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Programs/select_Select OneYesNo"), "false", true): All options with value 'false' are selected in object 'Object Repository/Programs/select_Select OneYesNo'  using regular expression
+
+2022-03-22 11:45:07 - [MESSAGE][PASSED] - All options with value 'false' are selected in object 'Object Repository/Programs/select_Select OneYesNo'  using regular expression
+
+2022-03-22 11:45:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Programs/select_Select OneYesNo_1"), "false", true): All options with value 'false' are selected in object 'Object Repository/Programs/select_Select OneYesNo_1'  using regular expression
+
+2022-03-22 11:45:08 - [MESSAGE][PASSED] - All options with value 'false' are selected in object 'Object Repository/Programs/select_Select OneYesNo_1'  using regular expression
+
+2022-03-22 11:45:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Programs/Page_Debt IMS/select_Legal Plan"), "false", true): All options with value 'false' are selected in object 'Object Repository/Programs/Page_Debt IMS/select_Legal Plan'  using regular expression
+
+2022-03-22 11:45:09 - [MESSAGE][PASSED] - All options with value 'false' are selected in object 'Object Repository/Programs/Page_Debt IMS/select_Legal Plan'  using regular expression
+
+2022-03-22 11:45:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Programs/Page_Debt IMS/select_Monthly Legal"), "false", true): All options with value 'false' are selected in object 'Object Repository/Programs/Page_Debt IMS/select_Monthly Legal'  using regular expression
+
+2022-03-22 11:45:10 - [MESSAGE][PASSED] - All options with value 'false' are selected in object 'Object Repository/Programs/Page_Debt IMS/select_Monthly Legal'  using regular expression
+
+2022-03-22 11:45:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Programs/Page_Debt IMS/select_Monthly Bank"), "false", true): All options with value 'false' are selected in object 'Object Repository/Programs/Page_Debt IMS/select_Monthly Bank'  using regular expression
+
+2022-03-22 11:45:11 - [MESSAGE][PASSED] - All options with value 'false' are selected in object 'Object Repository/Programs/Page_Debt IMS/select_Monthly Bank'  using regular expression
+
+2022-03-22 11:45:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Programs/Page_Debt IMS/select_Credit Analyzer"), "false", true): All options with value 'false' are selected in object 'Object Repository/Programs/Page_Debt IMS/select_Credit Analyzer'  using regular expression
+
+2022-03-22 11:45:12 - [MESSAGE][PASSED] - All options with value 'false' are selected in object 'Object Repository/Programs/Page_Debt IMS/select_Credit Analyzer'  using regular expression
+
+2022-03-22 11:45:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-03-22 11:45:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-03-22 11:45:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Programs/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-03-22 11:45:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/button_Welcome, Julio Uzctegui_saveButton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-22 11:43:43 - [TEST_SUITE][FAILED] - Programs: Test Cases/Add Programs FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Programs/div_Only medical_p-checkbox-box'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add Programs.run(Add Programs:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647963820339.run(TempTestSuite1647963820339.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.250.10', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-35-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.oZaUNx}, goog:chromeOptions: {debuggerAddress: localhost:42087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dd754670718edff3ce26a4cdd2f3221e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-03-22 11:43:43 - [TEST_SUITE][FAILED] - Programs: Test Cases/Add Programs FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Programs/div_Only medical_p-checkbox-box'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Add Programs.run(Add Programs:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647963820339.run(TempTestSuite1647963820339.groovy:36)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.250.10', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-35-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.oZaUNx}, goog:chromeOptions: {debuggerAddress: localhost:42087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dd754670718edff3ce26a4cdd2f3221e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

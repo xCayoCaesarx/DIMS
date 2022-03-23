@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Office Crud,Chrome 98.0.4758.102,,,2022-03-21 16:28:41,2022-03-21 16:29:35,"54,272s",FAILED
+,,,,,,,
+Test Cases/Edit Office - CGTS,Chrome 98.0.4758.102,,,2022-03-21 16:28:41,2022-03-21 16:29:29,"47,376s",FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-21 16:28:42,2022-03-21 16:28:44,"1,832s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-21 16:28:44,2022-03-21 16:29:01,"16,958s",PASSED
+"setText(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-21 16:29:01,2022-03-21 16:29:01,"0,853s",PASSED
+"setText(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-03-21 16:29:01,2022-03-21 16:29:02,"0,712s",PASSED
+"click(findTestObject(""debt ims R/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-03-21 16:29:02,2022-03-21 16:29:05,"2,528s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-03-21 16:29:05,2022-03-21 16:29:05,"0,762s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_Office""))",Chrome 98.0.4758.102,,,2022-03-21 16:29:05,2022-03-21 16:29:06,"0,503s",PASSED
+"setText(findTestObject(""edit actions/write office""), ""Oficina CGTS"")",Chrome 98.0.4758.102,,,2022-03-21 16:29:06,2022-03-21 16:29:07,"1,088s",PASSED
+delay(2),Chrome 98.0.4758.102,,,2022-03-21 16:29:07,2022-03-21 16:29:09,"2,024s",PASSED
+"click(findTestObject(""edit actions/editButton""))",Chrome 98.0.4758.102,,,2022-03-21 16:29:09,2022-03-21 16:29:10,"0,546s",PASSED
+"setText(findTestObject(""debt ims R/Page_Debt IMS/input_Office Name_form-control shadow-none ng-pristine ng-invalid ng-touched""), officename)",Chrome 98.0.4758.102,,,2022-03-21 16:29:10,2022-03-21 16:29:11,"1,754s",PASSED
+"setText(findTestObject(""debt ims R/Page_Debt IMS/input_Office Alias_form-control shadow-none ng-untouched ng-pristine ng-invalid""), officealias)",Chrome 98.0.4758.102,,,2022-03-21 16:29:11,2022-03-21 16:29:12,"0,782s",PASSED
+"setText(findTestObject(""debt ims R/Page_Debt IMS/input_Address_form-control shadow-none ng-untouched ng-pristine ng-invalid""), addres)",Chrome 98.0.4758.102,,,2022-03-21 16:29:12,2022-03-21 16:29:13,"0,752s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/select_Select OneUNITED STATES OF AMERICA""), ""1: Object"", true)",Chrome 98.0.4758.102,,,2022-03-21 16:29:13,2022-03-21 16:29:14,"0,955s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/select_Select OneUS Armed Forces EuropeAlas_fd93bc""), ""8: Object"", true)",Chrome 98.0.4758.102,,,2022-03-21 16:29:14,2022-03-21 16:29:15,"1,697s",PASSED
+"setText(findTestObject(""debt ims R/Page_Debt IMS/input_Zip_form-control shadow-none ng-untouched ng-pristine ng-valid""), zip)",Chrome 98.0.4758.102,,,2022-03-21 16:29:15,2022-03-21 16:29:16,"0,719s",PASSED
+"setText(findTestObject(""debt ims R/Page_Debt IMS/input_City_form-control shadow-none ng-pristine ng-valid ng-touched""), city)",Chrome 98.0.4758.102,,,2022-03-21 16:29:16,2022-03-21 16:29:17,"0,761s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/select_Select OneDebt - Ims""), ""1: Object"", true)",Chrome 98.0.4758.102,,,2022-03-21 16:29:17,2022-03-21 16:29:18,"0,877s",PASSED
+"setText(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/input_Phone Number_form-control shadow-none_f75f0d""), phone)",Chrome 98.0.4758.102,,,2022-03-21 16:29:18,2022-03-21 16:29:19,"0,713s",PASSED
+"setText(findTestObject(""debt ims R/Page_Debt IMS/input_Fax Number_form-control shadow-none ng-untouched ng-pristine ng-invalid""), fax)",Chrome 98.0.4758.102,,,2022-03-21 16:29:19,2022-03-21 16:29:19,"0,702s",PASSED
+"setText(findTestObject(""debt ims R/Page_Debt IMS/input_Web Site_form-control shadow-none ng-untouched ng-pristine ng-invalid""), web)",Chrome 98.0.4758.102,,,2022-03-21 16:29:19,2022-03-21 16:29:20,"0,762s",PASSED
+"setText(findTestObject(""debt ims R/Page_Debt IMS/input_Landing URL prefix_form-control shadow-none ng-untouched ng-pristine ng-invalid""), landing)",Chrome 98.0.4758.102,,,2022-03-21 16:29:20,2022-03-21 16:29:21,"0,794s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/select_Select Time ZoneEastern Standard Cen_41b770""), ""Eastern Standard"", true)",Chrome 98.0.4758.102,,,2022-03-21 16:29:21,2022-03-21 16:29:22,"0,906s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/select_Select OneCommunityRejectedUnassigned""), ""Unassigned"", true)",Chrome 98.0.4758.102,,,2022-03-21 16:29:22,2022-03-21 16:29:23,"0,928s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/select_Select OneYesNo""), ""true"", true)",Chrome 98.0.4758.102,,,2022-03-21 16:29:23,2022-03-21 16:29:24,"0,898s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/select_Select OneTest""), "" "", true)",Chrome 98.0.4758.102,,,2022-03-21 16:29:24,2022-03-21 16:29:24,"0,889s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/select_Select OneMeridian""), ""Meridian"", true)",Chrome 98.0.4758.102,,,2022-03-21 16:29:24,2022-03-21 16:29:25,"0,884s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton""), 0)",Chrome 98.0.4758.102,,,2022-03-21 16:29:25,2022-03-21 16:29:26,"0,316s",PASSED
+"click(findTestObject(""debt ims R/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 98.0.4758.102,,,2022-03-21 16:29:26,2022-03-21 16:29:26,"0,375s",PASSED
+delay(2),Chrome 98.0.4758.102,,,2022-03-21 16:29:26,2022-03-21 16:29:28,"2,004s",PASSED
+"click(findTestObject(""edit actions/Page_Debt/button_Accept""))",Chrome 98.0.4758.102,,,2022-03-21 16:29:28,2022-03-21 16:29:29,"0,496s",FAILED
+,,,,,,,
+Test Cases/Delete Office CGTS,Chrome 98.0.4758.102,,,2022-03-21 16:29:29,2022-03-21 16:29:35,"6,235s",FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-21 16:29:29,2022-03-21 16:29:30,"0,887s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-21 16:29:30,2022-03-21 16:29:35,"4,762s",PASSED
+"setText(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-21 16:29:35,2022-03-21 16:29:35,"0,262s",FAILED

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Programs" time="55.887" tests="1" failures="0" errors="0">
+   <testsuite name="Programs" tests="1" failures="0" errors="0" time="55.887" skipped="0" timestamp="2022-03-22 00:36:49" hostname="juzcategui - juzcategui" id="Test Suites/Programs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220322_003646/Programs/20220322_003646"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220322_003646/Programs/20220322_003646/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="1caa25f9d8b49dfefa2ad8dc1c26e515"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add Programs" time="55.295" classname="Test Cases/Add Programs" status="PASSED">
+         <system-out><![CDATA[2022-03-22 00:36:49 - [TEST_CASE][PASSED] - Test Cases/Add Programs: Test Cases/Add Programs
+
+2022-03-22 00:36:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-22 00:36:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-22 00:36:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-22 00:36:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-22 00:36:52 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-22 00:37:09 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-22 00:37:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Programs/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Programs/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-22 00:37:09 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Programs/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-22 00:37:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Programs/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Programs/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-22 00:37:10 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Programs/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-22 00:37:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/button_Login")): Object: 'Object Repository/Programs/button_Login' is clicked on
+
+2022-03-22 00:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/button_Login' is clicked on
+
+2022-03-22 00:37:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/strong_Maintenance Tools")): Object: 'Object Repository/Programs/strong_Maintenance Tools' is clicked on
+
+2022-03-22 00:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/strong_Maintenance Tools' is clicked on
+
+2022-03-22 00:37:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/span_Programs")): Object: 'Object Repository/Programs/span_Programs' is clicked on
+
+2022-03-22 00:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/span_Programs' is clicked on
+
+2022-03-22 00:37:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/button_Welcome, Julio Uzctegui_addButton")): Object: 'Object Repository/Programs/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-03-22 00:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-03-22 00:37:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/div_Select an Office(s)")): Object: 'Object Repository/Programs/div_Select an Office(s)' is clicked on
+
+2022-03-22 00:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/div_Select an Office(s)' is clicked on
+
+2022-03-22 00:37:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/div_Debt - Ims_p-checkbox-box")): Object: 'Object Repository/Programs/div_Debt - Ims_p-checkbox-box' is clicked on
+
+2022-03-22 00:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/div_Debt - Ims_p-checkbox-box' is clicked on
+
+2022-03-22 00:37:16 - [TEST_STEP][PASSED] - setText(findTestObject("Programs/Page_Debt IMS/input_Program_form-control shadow-none ng-untouched ng-pristine ng-invalid"), programname): Text 'Test dg aut' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Program_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-22 00:37:17 - [MESSAGE][PASSED] - Text 'Test dg aut' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Program_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-03-22 00:37:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/div_Select a Pay Frequencie(s)")): Object: 'Object Repository/Programs/div_Select a Pay Frequencie(s)' is clicked on
+
+2022-03-22 00:37:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/div_Select a Pay Frequencie(s)' is clicked on
+
+2022-03-22 00:37:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/div_Semi  Monthly_p-checkbox-box")): Object: 'Object Repository/Programs/div_Semi  Monthly_p-checkbox-box' is clicked on
+
+2022-03-22 00:37:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/div_Semi  Monthly_p-checkbox-box' is clicked on
+
+2022-03-22 00:37:18 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Programs/Page_Debt IMS/input_Minimum Debt Accepted")): Object: 'Object Repository/Programs/Page_Debt IMS/input_Minimum Debt Accepted' is double clicked on
+
+2022-03-22 00:37:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/Page_Debt IMS/input_Minimum Debt Accepted' is double clicked on
+
+2022-03-22 00:37:19 - [TEST_STEP][PASSED] - setText(findTestObject("Programs/Page_Debt IMS/input_Minimum Debt Accepted"), minimumdebt): Text '10' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Minimum Debt Accepted'
+
+2022-03-22 00:37:20 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Minimum Debt Accepted'
+
+2022-03-22 00:37:20 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Programs/Page_Debt IMS/input_Minimum Creditor Balance")): Object: 'Object Repository/Programs/Page_Debt IMS/input_Minimum Creditor Balance' is double clicked on
+
+2022-03-22 00:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/Page_Debt IMS/input_Minimum Creditor Balance' is double clicked on
+
+2022-03-22 00:37:20 - [TEST_STEP][PASSED] - setText(findTestObject("Programs/Page_Debt IMS/input_Minimum Creditor Balance"), minimumCreditor): Text '10' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Minimum Creditor Balance'
+
+2022-03-22 00:37:21 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Minimum Creditor Balance'
+
+2022-03-22 00:37:21 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Programs/Page_Debt IMS/input_Program Minimum Payment_for")): Object: 'Object Repository/Programs/Page_Debt IMS/input_Program Minimum Payment_for' is double clicked on
+
+2022-03-22 00:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/Page_Debt IMS/input_Program Minimum Payment_for' is double clicked on
+
+2022-03-22 00:37:22 - [TEST_STEP][PASSED] - setText(findTestObject("Programs/Page_Debt IMS/input_Program Minimum Payment_for"), programminimum): Text '10' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Program Minimum Payment_for'
+
+2022-03-22 00:37:22 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Program Minimum Payment_for'
+
+2022-03-22 00:37:22 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Programs/Page_Debt IMS/input_Debt amount From_")): Object: 'Object Repository/Programs/Page_Debt IMS/input_Debt amount From_' is double clicked on
+
+2022-03-22 00:37:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/Page_Debt IMS/input_Debt amount From_' is double clicked on
+
+2022-03-22 00:37:23 - [TEST_STEP][PASSED] - setText(findTestObject("Programs/Page_Debt IMS/input_Debt amount From_"), debtamountfrom): Text '100' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Debt amount From_'
+
+2022-03-22 00:37:23 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Debt amount From_'
+
+2022-03-22 00:37:23 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Programs/Page_Debt IMS/input_Debt amount To_")): Object: 'Object Repository/Programs/Page_Debt IMS/input_Debt amount To_' is double clicked on
+
+2022-03-22 00:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/Page_Debt IMS/input_Debt amount To_' is double clicked on
+
+2022-03-22 00:37:24 - [TEST_STEP][PASSED] - setText(findTestObject("Programs/Page_Debt IMS/input_Debt amount To_"), debtamountto): Text '10' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Debt amount To_'
+
+2022-03-22 00:37:25 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Programs/Page_Debt IMS/input_Debt amount To_'
+
+2022-03-22 00:37:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Programs/input_Email_form-control shadow-none ng-unt_36dc17"), email): Text 'test@gmail.com' is set on object 'Object Repository/Programs/input_Email_form-control shadow-none ng-unt_36dc17'
+
+2022-03-22 00:37:25 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Programs/input_Email_form-control shadow-none ng-unt_36dc17'
+
+2022-03-22 00:37:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Programs/select_Select One12345678910111213141516171_b2f31c"), "10", true): All options with value '10' are selected in object 'Object Repository/Programs/select_Select One12345678910111213141516171_b2f31c'  using regular expression
+
+2022-03-22 00:37:27 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Programs/select_Select One12345678910111213141516171_b2f31c'  using regular expression
+
+2022-03-22 00:37:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/button_Add")): Object: 'Object Repository/Programs/button_Add' is clicked on
+
+2022-03-22 00:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/button_Add' is clicked on
+
+2022-03-22 00:37:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/div_Select a Unacceptable debt(s)")): Object: 'Object Repository/Programs/div_Select a Unacceptable debt(s)' is clicked on
+
+2022-03-22 00:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/div_Select a Unacceptable debt(s)' is clicked on
+
+2022-03-22 00:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/div_Only medical_p-checkbox-box")): Object: 'Object Repository/Programs/div_Only medical_p-checkbox-box' is clicked on
+
+2022-03-22 00:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/div_Only medical_p-checkbox-box' is clicked on
+
+2022-03-22 00:37:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Programs/select_Select OneYesNo"), "false", true): All options with value 'false' are selected in object 'Object Repository/Programs/select_Select OneYesNo'  using regular expression
+
+2022-03-22 00:37:29 - [MESSAGE][PASSED] - All options with value 'false' are selected in object 'Object Repository/Programs/select_Select OneYesNo'  using regular expression
+
+2022-03-22 00:37:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Programs/select_Select OneYesNo_1"), "false", true): All options with value 'false' are selected in object 'Object Repository/Programs/select_Select OneYesNo_1'  using regular expression
+
+2022-03-22 00:37:31 - [MESSAGE][PASSED] - All options with value 'false' are selected in object 'Object Repository/Programs/select_Select OneYesNo_1'  using regular expression
+
+2022-03-22 00:37:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Programs/select_Select OneYesNo_1"), "false", true): All options with value 'false' are selected in object 'Object Repository/Programs/select_Select OneYesNo_1'  using regular expression
+
+2022-03-22 00:37:32 - [MESSAGE][PASSED] - All options with value 'false' are selected in object 'Object Repository/Programs/select_Select OneYesNo_1'  using regular expression
+
+2022-03-22 00:37:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Programs/select_Select OneYesNo_1"), "false", true): All options with value 'false' are selected in object 'Object Repository/Programs/select_Select OneYesNo_1'  using regular expression
+
+2022-03-22 00:37:32 - [MESSAGE][PASSED] - All options with value 'false' are selected in object 'Object Repository/Programs/select_Select OneYesNo_1'  using regular expression
+
+2022-03-22 00:37:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Programs/select_Select OneYesNo_1"), "false", true): All options with value 'false' are selected in object 'Object Repository/Programs/select_Select OneYesNo_1'  using regular expression
+
+2022-03-22 00:37:33 - [MESSAGE][PASSED] - All options with value 'false' are selected in object 'Object Repository/Programs/select_Select OneYesNo_1'  using regular expression
+
+2022-03-22 00:37:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Programs/select_Select OneYesNo_1"), "false", true): All options with value 'false' are selected in object 'Object Repository/Programs/select_Select OneYesNo_1'  using regular expression
+
+2022-03-22 00:37:34 - [MESSAGE][PASSED] - All options with value 'false' are selected in object 'Object Repository/Programs/select_Select OneYesNo_1'  using regular expression
+
+2022-03-22 00:37:34 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-03-22 00:37:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-03-22 00:37:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Programs/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Programs/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-03-22 00:37:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Programs/button_Welcome, Julio Uzctegui_saveButton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-22 00:36:49 - [TEST_SUITE][PASSED] - Programs: Test Cases/Add Programs]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
