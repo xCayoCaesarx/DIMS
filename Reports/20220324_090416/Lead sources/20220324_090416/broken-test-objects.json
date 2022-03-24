@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Create Lead/Page_Debt IMS/edit -delete lead source/Page_Debt IMS/td_POST Specification_tdEditButton",
+      "brokenLocator": "//table[@id\u003d\u0027pr_id_2-table\u0027]/tbody/tr/td",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027POST Specification\u0027])[1]/following::td[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220324_090416/Lead sources/20220324_090416/Object Repository/Create Lead/Page_Debt IMS/edit -delete lead source/Page_Debt IMS/td_POST Specification_tdEditButton_neighbor.png"
+    }
+  ]
+}
