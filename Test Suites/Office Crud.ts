@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>5fbc563c-b9ec-4c5d-b02f-8b21a5e57e25</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Add Office CGTS</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
