@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Reject reasons/delete/Page_Debt IMS/td_Reason_choose to delete",
+      "brokenLocator": "id(\"pr_id_5-table\")/tbody[@class\u003d\"p-element p-datatable-tbody\"]/tr[@class\u003d\"p-element p-selectable-row ng-star-inserted\"]/td[@class\u003d\"tdEditButton\"]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Reason\u0027])[1]/following::td[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220329_110249/Reject Reasons/20220329_110249/Object Repository/Reject reasons/delete/Page_Debt IMS/td_Reason_choose to delete_neighbor.png"
+    }
+  ]
+}

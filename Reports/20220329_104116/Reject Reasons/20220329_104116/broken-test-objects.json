@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Reject reasons/EDIT/Page_Debt IMS/button_Reason_editButton",
+      "brokenLocator": "//table[@id\u003d\u0027pr_id_2-table\u0027]/tbody/tr/td/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220329_104116/Reject Reasons/20220329_104116/Object Repository/Reject reasons/EDIT/Page_Debt IMS/button_Reason_editButton_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Reject reasons/delete/Page_Debt IMS/td_Reason_choose to delete",
+      "brokenLocator": "//table[@id\u003d\u0027pr_id_5-table\u0027]/tbody/tr/td",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Reason\u0027])[1]/following::td[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220329_104116/Reject Reasons/20220329_104116/Object Repository/Reject reasons/delete/Page_Debt IMS/td_Reason_choose to delete_neighbor.png"
+    }
+  ]
+}
