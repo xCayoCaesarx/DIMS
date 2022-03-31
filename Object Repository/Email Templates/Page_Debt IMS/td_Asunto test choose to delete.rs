@@ -13,11 +13,19 @@
          <key>CSS</key>
          <value></value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;pr_id_1-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;p-element p-selectable-row ng-star-inserted&quot;]/td[3][count(. | //td[(text() = 'test  modify
+' or . = 'test  modify
+')]) = count(//td[(text() = 'test  modify
+' or . = 'test  modify
+')])]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -28,10 +36,11 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Asunto test</value>
+      <value>test  modifify
+</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Email Templates/Page_Debt IMS/td_Asunto test choose 
 
 WebUI.click(findTestObject('Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_deleteButton'))
 
-WebUI.click(findTestObject('Email Templates/Page_Debt IMS/button_Accept edit'))
+WebUI.click(findTestObject('Email Templates/Page_Debt IMS/button_Accept to delete'))
 
 WebUI.closeBrowser()
 

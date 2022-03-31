@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Email Templates,Chrome 98.0.4758.102,,,2022-03-31 11:12:50,2022-03-31 11:13:39,"48,801s",FAILED
+,,,,,,,
+Test Cases/Edit Email Templates,Chrome 98.0.4758.102,,,2022-03-31 11:13:09,2022-03-31 11:13:26,"17,073s",FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-31 11:13:09,2022-03-31 11:13:10,"1,006s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-31 11:13:10,2022-03-31 11:13:13,"3,429s",PASSED
+"setText(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-31 11:13:13,2022-03-31 11:13:14,"0,721s",PASSED
+"setText(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-03-31 11:13:14,2022-03-31 11:13:15,"0,683s",PASSED
+"click(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-03-31 11:13:15,2022-03-31 11:13:17,"2,445s",PASSED
+"click(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 98.0.4758.102,,,2022-03-31 11:13:17,2022-03-31 11:13:18,"0,744s",PASSED
+"click(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/span_Email Templates""))",Chrome 98.0.4758.102,,,2022-03-31 11:13:18,2022-03-31 11:13:18,"0,610s",PASSED
+"setText(findTestObject(""Email Templates/Page_Debt IMS/input_Email to search""), ""test aut"")",Chrome 98.0.4758.102,,,2022-03-31 11:13:18,2022-03-31 11:13:19,"1,033s",PASSED
+"click(findTestObject(""Email Templates/Page_Debt IMS/button_Available In Client Letters_editButton""))",Chrome 98.0.4758.102,,,2022-03-31 11:13:19,2022-03-31 11:13:20,"0,567s",PASSED
+"setText(findTestObject(""Email Templates/Page_Debt IMS/input_Email Template Name""), templatename)",Chrome 98.0.4758.102,,,2022-03-31 11:13:20,2022-03-31 11:13:21,"1,208s",PASSED
+"setText(findTestObject(""Email Templates/Page_Debt IMS/input_Subject_""), subject)",Chrome 98.0.4758.102,,,2022-03-31 11:13:21,2022-03-31 11:13:22,"1,089s",PASSED
+"setText(findTestObject(""Email Templates/Page_Debt IMS/div_Test cuerpo mensaje""), body)",Chrome 98.0.4758.102,,,2022-03-31 11:13:22,2022-03-31 11:13:24,"1,457s",PASSED
+"scrollToElement(findTestObject(""Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton edit""), 0)",Chrome 98.0.4758.102,,,2022-03-31 11:13:24,2022-03-31 11:13:24,"0,562s",PASSED
+"click(findTestObject(""Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton edit""))",Chrome 98.0.4758.102,,,2022-03-31 11:13:24,2022-03-31 11:13:25,"0,405s",PASSED
+"click(findTestObject(""Email Templates/Page_Debt IMS/button_Accept edit""))",Chrome 98.0.4758.102,,,2022-03-31 11:13:25,2022-03-31 11:13:26,"1,084s",FAILED
+,,,,,,,
+Test Cases/Delete Email Templates,Chrome 98.0.4758.102,,,2022-03-31 11:13:26,2022-03-31 11:13:39,"12,677s",PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-31 11:13:26,2022-03-31 11:13:27,"0,862s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-31 11:13:27,2022-03-31 11:13:30,"2,934s",PASSED
+"setText(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-31 11:13:30,2022-03-31 11:13:31,"0,700s",PASSED
+"setText(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-03-31 11:13:31,2022-03-31 11:13:31,"0,700s",PASSED
+"click(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-03-31 11:13:31,2022-03-31 11:13:34,"2,503s",PASSED
+"click(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 98.0.4758.102,,,2022-03-31 11:13:34,2022-03-31 11:13:35,"0,698s",PASSED
+"click(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/span_Email Templates""))",Chrome 98.0.4758.102,,,2022-03-31 11:13:35,2022-03-31 11:13:35,"0,593s",PASSED
+"setText(findTestObject(""Email Templates/Page_Debt IMS/input_Email to search""), ""test aut"")",Chrome 98.0.4758.102,,,2022-03-31 11:13:35,2022-03-31 11:13:36,"1,012s",PASSED
+"click(findTestObject(""Email Templates/Page_Debt IMS/td_Asunto test choose to delete""))",Chrome 98.0.4758.102,,,2022-03-31 11:13:36,2022-03-31 11:13:37,"0,808s",PASSED
+"click(findTestObject(""Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_deleteButton""))",Chrome 98.0.4758.102,,,2022-03-31 11:13:37,2022-03-31 11:13:37,"0,485s",PASSED
+"click(findTestObject(""Email Templates/Page_Debt IMS/button_Accept edit""))",Chrome 98.0.4758.102,,,2022-03-31 11:13:37,2022-03-31 11:13:38,"0,654s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-03-31 11:13:38,2022-03-31 11:13:39,"0,469s",PASSED

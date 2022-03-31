@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Email Templates" time="143.641" tests="3" failures="1" errors="0">
+   <testsuite name="Email Templates" tests="3" failures="1" errors="0" time="143.641" skipped="0" timestamp="2022-03-31 10:59:55" hostname="juzcategui - juzcategui" id="Test Suites/Email Templates">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220331_105950/Email Templates/20220331_105950"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220331_105950/Email Templates/20220331_105950/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220331_105950/Email Templates/20220331_105950/1648738865575.png, /home/juzcategui/git/DIMS/Reports/20220331_105950/Email Templates/20220331_105950/1648738914843.png, /home/juzcategui/git/DIMS/Reports/20220331_105950/Email Templates/20220331_105950/1648738925946.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.12.44"/>
+         <property name="sessionId" value="16716864f7f7936a2c93f5eb489027c6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add Email Templates" time="19.81" classname="Test Cases/Add Email Templates" status="PASSED">
+         <system-out><![CDATA[2022-03-31 10:59:55 - [TEST_CASE][PASSED] - Test Cases/Add Email Templates: Test Cases/Add Email Templates
+
+2022-03-31 10:59:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-31 10:59:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-31 10:59:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-31 10:59:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-31 10:59:58 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-31 11:00:02 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-31 11:00:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-31 11:00:03 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-31 11:00:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-31 11:00:04 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-31 11:00:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Email Templates/Page_Debt IMS/button_Login")): Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-31 11:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-31 11:00:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools")): Object: 'Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-03-31 11:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-03-31 11:00:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Email Templates/Page_Debt IMS/span_Email Templates")): Object: 'Object Repository/Email Templates/Page_Debt IMS/span_Email Templates' is clicked on
+
+2022-03-31 11:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/span_Email Templates' is clicked on
+
+2022-03-31 11:00:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_addButton")): Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-03-31 11:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-03-31 11:00:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Email Templates/Page_Debt IMS/select_Select OneDebt - ImsConsumer Capital_ea227b"), "1", true): All options with value '1' are selected in object 'Object Repository/Email Templates/Page_Debt IMS/select_Select OneDebt - ImsConsumer Capital_ea227b'  using regular expression
+
+2022-03-31 11:00:10 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Email Templates/Page_Debt IMS/select_Select OneDebt - ImsConsumer Capital_ea227b'  using regular expression
+
+2022-03-31 11:00:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Email Templates/Page_Debt IMS/select_Select OneHFG 2020HFG NONEHFG PAYDAY_b8a107"), "1", true): All options with value '1' are selected in object 'Object Repository/Email Templates/Page_Debt IMS/select_Select OneHFG 2020HFG NONEHFG PAYDAY_b8a107'  using regular expression
+
+2022-03-31 11:00:11 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Email Templates/Page_Debt IMS/select_Select OneHFG 2020HFG NONEHFG PAYDAY_b8a107'  using regular expression
+
+2022-03-31 11:00:11 - [TEST_STEP][PASSED] - setText(findTestObject("Email Templates/Page_Debt IMS/input_Email Template Name"), templatename): Text 'test aut' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Email Template Name'
+
+2022-03-31 11:00:12 - [MESSAGE][PASSED] - Text 'test aut' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Email Template Name'
+
+2022-03-31 11:00:12 - [TEST_STEP][PASSED] - setText(findTestObject("Email Templates/Page_Debt IMS/input_Subject_"), subject): Text 'test' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Subject_'
+
+2022-03-31 11:00:13 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Subject_'
+
+2022-03-31 11:00:13 - [TEST_STEP][PASSED] - setText(findTestObject("Email Templates/Page_Debt IMS/div_Test cuerpo mensaje"), body): Text 'body messagge' is set on object 'Object Repository/Email Templates/Page_Debt IMS/div_Test cuerpo mensaje'
+
+2022-03-31 11:00:14 - [MESSAGE][PASSED] - Text 'body messagge' is set on object 'Object Repository/Email Templates/Page_Debt IMS/div_Test cuerpo mensaje'
+
+2022-03-31 11:00:14 - [TEST_STEP][PASSED] - click(findTestObject("Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton add")): Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton add' is clicked on
+
+2022-03-31 11:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton add' is clicked on
+
+2022-03-31 11:00:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-31 11:00:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Email Templates" time="49.258" classname="Test Cases/Edit Email Templates" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Edit Email Templates FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Email Templates/Page_Debt IMS/button_Accept edit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Email Templates.run(Edit Email Templates:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648738790671.run(TempTestSuite1648738790671.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-tek-c82=&quot;&quot; type=&quot;button&quot; title=&quot;Strikethrough&quot; tabindex=&quot;-1&quot; class=&quot;angular-editor-button&quot; id=&quot;strikeThrough-&quot;>...&lt;/button> is not clickable at point (554, 527). Other element would receive the click: &lt;div _ngcontent-tek-c36=&quot;&quot; id=&quot;UpdateModal&quot; tabindex=&quot;-1&quot; aria-labelledby=&quot;UpdateModal&quot; role=&quot;dialog&quot; class=&quot;modal fade show&quot; aria-modal=&quot;true&quot; style=&quot;display: block;&quot;>...&lt;/div>
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.44', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-35-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.GjNHUO}, goog:chromeOptions: {debuggerAddress: localhost:45527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be575837db3d52546e28b508c817f954
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+"/>
+         <system-out><![CDATA[2022-03-31 11:01:05 - [TEST_CASE][FAILED] - Test Cases/Edit Email Templates: Test Cases/Edit Email Templates FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Email Templates/Page_Debt IMS/button_Accept edit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Email Templates.run(Edit Email Templates:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648738790671.run(TempTestSuite1648738790671.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-tek-c82="" type="button" title="Strikethrough" tabindex="-1" class="angular-editor-button" id="strikeThrough-">...</button> is not clickable at point (554, 527). Other element would receive the click: <div _ngcontent-tek-c36="" id="UpdateModal" tabindex="-1" aria-labelledby="UpdateModal" role="dialog" class="modal fade show" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.44', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-35-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.GjNHUO}, goog:chromeOptions: {debuggerAddress: localhost:45527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be575837db3d52546e28b508c817f954
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+2022-03-31 11:01:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-31 11:01:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-31 11:01:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-31 11:01:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-31 11:01:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-31 11:01:06 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-31 11:01:09 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-31 11:01:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-31 11:01:10 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-31 11:01:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-31 11:01:11 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-31 11:01:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Email Templates/Page_Debt IMS/button_Login")): Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-31 11:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-31 11:01:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools")): Object: 'Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-03-31 11:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-03-31 11:01:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Email Templates/Page_Debt IMS/span_Email Templates")): Object: 'Object Repository/Email Templates/Page_Debt IMS/span_Email Templates' is clicked on
+
+2022-03-31 11:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/span_Email Templates' is clicked on
+
+2022-03-31 11:01:14 - [TEST_STEP][PASSED] - setText(findTestObject("Email Templates/Page_Debt IMS/input_Email to search"), "test aut"): Text 'test aut' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Email to search'
+
+2022-03-31 11:01:15 - [MESSAGE][PASSED] - Text 'test aut' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Email to search'
+
+2022-03-31 11:01:15 - [TEST_STEP][PASSED] - click(findTestObject("Email Templates/Page_Debt IMS/button_Available In Client Letters_editButton")): Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Available In Client Letters_editButton' is clicked on
+
+2022-03-31 11:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Available In Client Letters_editButton' is clicked on
+
+2022-03-31 11:01:16 - [TEST_STEP][PASSED] - setText(findTestObject("Email Templates/Page_Debt IMS/input_Email Template Name"), templatename): Text 'Test aut modify' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Email Template Name'
+
+2022-03-31 11:01:18 - [MESSAGE][PASSED] - Text 'Test aut modify' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Email Template Name'
+
+2022-03-31 11:01:18 - [TEST_STEP][PASSED] - setText(findTestObject("Email Templates/Page_Debt IMS/input_Subject_"), subject): Text 'test modifify' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Subject_'
+
+2022-03-31 11:01:19 - [MESSAGE][PASSED] - Text 'test modifify' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Subject_'
+
+2022-03-31 11:01:19 - [TEST_STEP][PASSED] - setText(findTestObject("Email Templates/Page_Debt IMS/div_Test cuerpo mensaje"), body): Text 'body messagge modify' is set on object 'Object Repository/Email Templates/Page_Debt IMS/div_Test cuerpo mensaje'
+
+2022-03-31 11:01:20 - [MESSAGE][PASSED] - Text 'body messagge modify' is set on object 'Object Repository/Email Templates/Page_Debt IMS/div_Test cuerpo mensaje'
+
+2022-03-31 11:01:20 - [TEST_STEP][PASSED] - click(findTestObject("Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton edit")): Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton edit' is clicked on
+
+2022-03-31 11:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton edit' is clicked on
+
+2022-03-31 11:01:21 - [TEST_STEP][FAILED] - click(findTestObject("Email Templates/Page_Debt IMS/button_Accept edit")): Unable to click on object 'Object Repository/Email Templates/Page_Debt IMS/button_Accept edit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Email Templates/Page_Debt IMS/button_Accept edit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Email Templates.run(Edit Email Templates:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648738790671.run(TempTestSuite1648738790671.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-tek-c82="" type="button" title="Strikethrough" tabindex="-1" class="angular-editor-button" id="strikeThrough-">...</button> is not clickable at point (554, 527). Other element would receive the click: <div _ngcontent-tek-c36="" id="UpdateModal" tabindex="-1" aria-labelledby="UpdateModal" role="dialog" class="modal fade show" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.44', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-35-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.GjNHUO}, goog:chromeOptions: {debuggerAddress: localhost:45527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be575837db3d52546e28b508c817f954
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1648678624485.run(Script1648678624485.groovy:48)
+	... 14 more
+)
+
+2022-03-31 11:01:54 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Email Templates/Page_Debt IMS/button_Accept edit' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Email Templates/Page_Debt IMS/button_Accept edit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Email Templates.run(Edit Email Templates:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648738790671.run(TempTestSuite1648738790671.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-tek-c82="" type="button" title="Strikethrough" tabindex="-1" class="angular-editor-button" id="strikeThrough-">...</button> is not clickable at point (554, 527). Other element would receive the click: <div _ngcontent-tek-c36="" id="UpdateModal" tabindex="-1" aria-labelledby="UpdateModal" role="dialog" class="modal fade show" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.44', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-35-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.GjNHUO}, goog:chromeOptions: {debuggerAddress: localhost:45527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be575837db3d52546e28b508c817f954
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1648678624485.run(Script1648678624485.groovy:48)
+	... 14 more
+)
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220331_105950/Email Templates/20220331_105950/1648738914843.png]]]]></system-out>
+         <system-err><![CDATA[2022-03-31 11:01:05 - [TEST_CASE][FAILED] - Test Cases/Edit Email Templates: Test Cases/Edit Email Templates FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Email Templates/Page_Debt IMS/button_Accept edit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Email Templates.run(Edit Email Templates:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648738790671.run(TempTestSuite1648738790671.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-tek-c82="" type="button" title="Strikethrough" tabindex="-1" class="angular-editor-button" id="strikeThrough-">...</button> is not clickable at point (554, 527). Other element would receive the click: <div _ngcontent-tek-c36="" id="UpdateModal" tabindex="-1" aria-labelledby="UpdateModal" role="dialog" class="modal fade show" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.44', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-35-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.GjNHUO}, goog:chromeOptions: {debuggerAddress: localhost:45527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: be575837db3d52546e28b508c817f954
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Email Templates" time="12.736" classname="Test Cases/Delete Email Templates" status="PASSED">
+         <system-out><![CDATA[2022-03-31 11:02:06 - [TEST_CASE][PASSED] - Test Cases/Delete Email Templates: Test Cases/Delete Email Templates
+
+2022-03-31 11:02:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-31 11:02:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-31 11:02:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-31 11:02:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-31 11:02:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-31 11:02:07 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-31 11:02:10 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-31 11:02:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-31 11:02:11 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-31 11:02:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-31 11:02:11 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-31 11:02:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Email Templates/Page_Debt IMS/button_Login")): Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-31 11:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-31 11:02:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools")): Object: 'Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-03-31 11:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-03-31 11:02:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Email Templates/Page_Debt IMS/span_Email Templates")): Object: 'Object Repository/Email Templates/Page_Debt IMS/span_Email Templates' is clicked on
+
+2022-03-31 11:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/span_Email Templates' is clicked on
+
+2022-03-31 11:02:15 - [TEST_STEP][PASSED] - setText(findTestObject("Email Templates/Page_Debt IMS/input_Email to search"), "test aut"): Text 'test aut' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Email to search'
+
+2022-03-31 11:02:16 - [MESSAGE][PASSED] - Text 'test aut' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Email to search'
+
+2022-03-31 11:02:16 - [TEST_STEP][PASSED] - click(findTestObject("Email Templates/Page_Debt IMS/td_Asunto test choose to delete")): Object: 'Object Repository/Email Templates/Page_Debt IMS/td_Asunto test choose to delete' is clicked on
+
+2022-03-31 11:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/td_Asunto test choose to delete' is clicked on
+
+2022-03-31 11:02:17 - [TEST_STEP][PASSED] - click(findTestObject("Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_deleteButton")): Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-03-31 11:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-03-31 11:02:17 - [TEST_STEP][PASSED] - click(findTestObject("Email Templates/Page_Debt IMS/button_Accept edit")): Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Accept edit' is clicked on
+
+2022-03-31 11:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Accept edit' is clicked on
+
+2022-03-31 11:02:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-31 11:02:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-31 10:59:55 - [TEST_SUITE][FAILED] - Email Templates: Test Cases/Edit Email Templates FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Email Templates/Page_Debt IMS/button_Accept edit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Email Templates.run(Edit Email Templates:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648738790671.run(TempTestSuite1648738790671.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-por-c82="" type="button" title="Strikethrough" tabindex="-1" class="angular-editor-button" id="strikeThrough-">...</button> is not clickable at point (554, 527). Other element would receive the click: <div _ngcontent-por-c36="" id="UpdateModal" tabindex="-1" aria-labelledby="UpdateModal" role="dialog" class="modal fade show" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.44', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-35-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.N00hB0}, goog:chromeOptions: {debuggerAddress: localhost:46759}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 757acc306bfa5e3dc7f1da763d6f07f9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-03-31 10:59:55 - [TEST_SUITE][FAILED] - Email Templates: Test Cases/Edit Email Templates FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Email Templates/Page_Debt IMS/button_Accept edit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Edit Email Templates.run(Edit Email Templates:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1648738790671.run(TempTestSuite1648738790671.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-por-c82="" type="button" title="Strikethrough" tabindex="-1" class="angular-editor-button" id="strikeThrough-">...</button> is not clickable at point (554, 527). Other element would receive the click: <div _ngcontent-por-c36="" id="UpdateModal" tabindex="-1" aria-labelledby="UpdateModal" role="dialog" class="modal fade show" aria-modal="true" style="display: block;">...</div>
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.44', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-35-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.N00hB0}, goog:chromeOptions: {debuggerAddress: localhost:46759}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 757acc306bfa5e3dc7f1da763d6f07f9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
