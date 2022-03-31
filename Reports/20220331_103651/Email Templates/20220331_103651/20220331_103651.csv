@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Email Templates,Chrome 98.0.4758.102,,,2022-03-31 10:36:55,2022-03-31 10:37:14,"19,219s",PASSED
+,,,,,,,
+Test Cases/Add Email Templates,Chrome 98.0.4758.102,,,2022-03-31 10:36:55,2022-03-31 10:37:14,"18,581s",PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-31 10:36:56,2022-03-31 10:36:58,"2,290s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-31 10:36:58,2022-03-31 10:37:01,"2,695s",PASSED
+"setText(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-31 10:37:01,2022-03-31 10:37:02,"0,885s",PASSED
+"setText(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-03-31 10:37:02,2022-03-31 10:37:03,"0,855s",PASSED
+"click(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-03-31 10:37:03,2022-03-31 10:37:05,"2,617s",PASSED
+"click(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 98.0.4758.102,,,2022-03-31 10:37:05,2022-03-31 10:37:06,"0,782s",PASSED
+"click(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/span_Email Templates""))",Chrome 98.0.4758.102,,,2022-03-31 10:37:06,2022-03-31 10:37:07,"0,574s",PASSED
+"click(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_addButton""))",Chrome 98.0.4758.102,,,2022-03-31 10:37:07,2022-03-31 10:37:08,"0,921s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/select_Select OneDebt - ImsConsumer Capital_ea227b""), ""1"", true)",Chrome 98.0.4758.102,,,2022-03-31 10:37:08,2022-03-31 10:37:09,"1,343s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/select_Select OneHFG 2020HFG NONEHFG PAYDAY_b8a107""), ""1"", true)",Chrome 98.0.4758.102,,,2022-03-31 10:37:09,2022-03-31 10:37:10,"1,260s",PASSED
+"setText(findTestObject(""Email Templates/Page_Debt IMS/input_Email Template Name""), templatename)",Chrome 98.0.4758.102,,,2022-03-31 10:37:10,2022-03-31 10:37:11,"0,756s",PASSED
+"setText(findTestObject(""Email Templates/Page_Debt IMS/input_Subject_""), subject)",Chrome 98.0.4758.102,,,2022-03-31 10:37:11,2022-03-31 10:37:12,"0,836s",PASSED
+"setText(findTestObject(""Email Templates/Page_Debt IMS/div_Test cuerpo mensaje""), body)",Chrome 98.0.4758.102,,,2022-03-31 10:37:12,2022-03-31 10:37:13,"1,384s",PASSED
+"click(findTestObject(""Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton add""))",Chrome 98.0.4758.102,,,2022-03-31 10:37:13,2022-03-31 10:37:14,"0,639s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-03-31 10:37:14,2022-03-31 10:37:14,"0,130s",PASSED

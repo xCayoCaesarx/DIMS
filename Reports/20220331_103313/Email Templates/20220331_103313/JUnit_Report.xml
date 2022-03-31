@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Email Templates" time="25.109" tests="1" failures="0" errors="0">
+   <testsuite name="Email Templates" tests="1" failures="0" errors="0" time="25.109" skipped="0" timestamp="2022-03-31 10:33:18" hostname="juzcategui - juzcategui" id="Test Suites/Email Templates">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220331_103313/Email Templates/20220331_103313"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220331_103313/Email Templates/20220331_103313/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.12.44"/>
+         <property name="sessionId" value="d3a43473f4ec26cc1a6b10dd568f2d16"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add Email Templates" time="23.924" classname="Test Cases/Add Email Templates" status="PASSED">
+         <system-out><![CDATA[2022-03-31 10:33:19 - [TEST_CASE][PASSED] - Test Cases/Add Email Templates: Test Cases/Add Email Templates
+
+2022-03-31 10:33:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-31 10:33:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-31 10:33:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-31 10:33:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-31 10:33:22 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-31 10:33:30 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-31 10:33:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-31 10:33:31 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-31 10:33:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-31 10:33:32 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-31 10:33:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Email Templates/Page_Debt IMS/button_Login")): Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-31 10:33:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-31 10:33:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools")): Object: 'Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-03-31 10:33:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-03-31 10:33:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Email Templates/Page_Debt IMS/span_Email Templates")): Object: 'Object Repository/Email Templates/Page_Debt IMS/span_Email Templates' is clicked on
+
+2022-03-31 10:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/span_Email Templates' is clicked on
+
+2022-03-31 10:33:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_addButton")): Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-03-31 10:33:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-03-31 10:33:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Email Templates/Page_Debt IMS/select_Select OneDebt - ImsConsumer Capital_ea227b"), "1", true): All options with value '1' are selected in object 'Object Repository/Email Templates/Page_Debt IMS/select_Select OneDebt - ImsConsumer Capital_ea227b'  using regular expression
+
+2022-03-31 10:33:38 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Email Templates/Page_Debt IMS/select_Select OneDebt - ImsConsumer Capital_ea227b'  using regular expression
+
+2022-03-31 10:33:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Email Templates/Page_Debt IMS/select_Select OneHFG 2020HFG NONEHFG PAYDAY_b8a107"), "1", true): All options with value '1' are selected in object 'Object Repository/Email Templates/Page_Debt IMS/select_Select OneHFG 2020HFG NONEHFG PAYDAY_b8a107'  using regular expression
+
+2022-03-31 10:33:39 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Email Templates/Page_Debt IMS/select_Select OneHFG 2020HFG NONEHFG PAYDAY_b8a107'  using regular expression
+
+2022-03-31 10:33:39 - [TEST_STEP][PASSED] - setText(findTestObject("Email Templates/Page_Debt IMS/input_Email Template Name"), templatename): Text 'test aut' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Email Template Name'
+
+2022-03-31 10:33:40 - [MESSAGE][PASSED] - Text 'test aut' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Email Template Name'
+
+2022-03-31 10:33:40 - [TEST_STEP][PASSED] - setText(findTestObject("Email Templates/Page_Debt IMS/input_Subject_"), subject): Text 'test' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Subject_'
+
+2022-03-31 10:33:41 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Subject_'
+
+2022-03-31 10:33:41 - [TEST_STEP][PASSED] - setText(findTestObject("Email Templates/Page_Debt IMS/input_Email Template Name"), body): Text 'body messagge' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Email Template Name'
+
+2022-03-31 10:33:42 - [MESSAGE][PASSED] - Text 'body messagge' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Email Template Name'
+
+2022-03-31 10:33:42 - [TEST_STEP][PASSED] - click(findTestObject("Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton add")): Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton add' is clicked on
+
+2022-03-31 10:33:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton add' is clicked on
+
+2022-03-31 10:33:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-31 10:33:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-31 10:33:18 - [TEST_SUITE][PASSED] - Email Templates: Test Cases/Add Email Templates]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

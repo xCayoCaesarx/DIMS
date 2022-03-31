@@ -45,7 +45,7 @@ WebUI.setText(findTestObject('Email Templates/Page_Debt IMS/input_Email Template
 
 WebUI.setText(findTestObject('Email Templates/Page_Debt IMS/input_Subject_'), subject)
 
-WebUI.setText(findTestObject('Email Templates/Page_Debt IMS/input_Email Template Name'), body)
+WebUI.setText(findTestObject('Email Templates/Page_Debt IMS/div_Test cuerpo mensaje'), body)
 
 WebUI.click(findTestObject('Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton add'))
 
