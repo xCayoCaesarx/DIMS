@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Quick notes/Page_Debt IMS/button_Office_editButton",
+      "brokenLocator": "//table[@id\u003d\u0027pr_id_2-table\u0027]/tbody/tr/td/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220329_211538/Quick Notes/20220329_211538/Object Repository/Quick notes/Page_Debt IMS/button_Office_editButton_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Quick notes/Page_Debt IMS/td_Office_tdEditButton",
+      "brokenLocator": "//table[@id\u003d\u0027pr_id_3-table\u0027]/tbody/tr/td",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Office\u0027])[1]/following::td[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220329_211538/Quick Notes/20220329_211538/Object Repository/Quick notes/Page_Debt IMS/td_Office_tdEditButton_neighbor.png"
+    }
+  ]
+}
