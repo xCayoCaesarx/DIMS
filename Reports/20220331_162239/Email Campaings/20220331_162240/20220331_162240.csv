@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Email Campaings,Chrome 98.0.4758.102,,,2022-03-31 16:22:44,2022-03-31 16:23:01,"17,078s",PASSED
+,,,,,,,
+Test Cases/Delete Email Campaing,Chrome 98.0.4758.102,,,2022-03-31 16:22:45,2022-03-31 16:23:01,"16,395s",PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-31 16:22:45,2022-03-31 16:22:47,"2,062s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-31 16:22:47,2022-03-31 16:22:55,"7,351s",PASSED
+"setText(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-31 16:22:55,2022-03-31 16:22:56,"0,791s",PASSED
+"setText(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-03-31 16:22:56,2022-03-31 16:22:56,"0,806s",PASSED
+"click(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-03-31 16:22:56,2022-03-31 16:22:57,"0,460s",PASSED
+"click(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 98.0.4758.102,,,2022-03-31 16:22:57,2022-03-31 16:22:58,"0,743s",PASSED
+"click(findTestObject(""Email Campaings/add/span_Email Campaigns""))",Chrome 98.0.4758.102,,,2022-03-31 16:22:58,2022-03-31 16:22:58,"0,530s",PASSED
+"setText(findTestObject(""Email Campaings/Edit/input_Email Campaign choose to edit""), ""test aut"")",Chrome 98.0.4758.102,,,2022-03-31 16:22:58,2022-03-31 16:22:59,"1,021s",PASSED
+"click(findTestObject(""Email Campaings/Delete/td_Action_tdEditButton choose to delete""))",Chrome 98.0.4758.102,,,2022-03-31 16:22:59,2022-03-31 16:23:00,"0,789s",PASSED
+"click(findTestObject(""Email Campaings/Delete/button_Welcome, Julio Uzctegui_deleteButton""))",Chrome 98.0.4758.102,,,2022-03-31 16:23:00,2022-03-31 16:23:00,"0,488s",PASSED
+"click(findTestObject(""Email Campaings/Delete/button_Accept""))",Chrome 98.0.4758.102,,,2022-03-31 16:23:00,2022-03-31 16:23:01,"0,712s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-03-31 16:23:01,2022-03-31 16:23:01,"0,153s",PASSED

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Email Campaings" time="40.998" tests="1" failures="0" errors="0">
+   <testsuite name="Email Campaings" tests="1" failures="0" errors="0" time="40.998" skipped="0" timestamp="2022-03-31 15:42:42" hostname="juzcategui - juzcategui" id="Test Suites/Email Campaings">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220331_154239/Email Campaings/20220331_154239"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220331_154239/Email Campaings/20220331_154239/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.12.44"/>
+         <property name="sessionId" value="780d4005298f663d8f20ae32b727c2ae"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add Email Campaing" time="40.368" classname="Test Cases/Add Email Campaing" status="PASSED">
+         <system-out><![CDATA[2022-03-31 15:42:43 - [TEST_CASE][PASSED] - Test Cases/Add Email Campaing: Test Cases/Add Email Campaing
+
+2022-03-31 15:42:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-31 15:42:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-31 15:42:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-31 15:42:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-31 15:42:45 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-31 15:43:07 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-03-31 15:43:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-31 15:43:08 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-03-31 15:43:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-31 15:43:09 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-03-31 15:43:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Email Templates/Page_Debt IMS/button_Login")): Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-31 15:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/button_Login' is clicked on
+
+2022-03-31 15:43:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools")): Object: 'Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-03-31 15:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-03-31 15:43:12 - [TEST_STEP][PASSED] - click(findTestObject("Email Campaings/add/span_Email Campaigns")): Object: 'Object Repository/Email Campaings/add/span_Email Campaigns' is clicked on
+
+2022-03-31 15:43:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Campaings/add/span_Email Campaigns' is clicked on
+
+2022-03-31 15:43:13 - [TEST_STEP][PASSED] - click(findTestObject("Email Campaings/add/button_Welcome, Julio Uzctegui_addButton")): Object: 'Object Repository/Email Campaings/add/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-03-31 15:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Campaings/add/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-03-31 15:43:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Email Campaings/add/select_Select OneDebt - ImsConsumer"), "1", true): All options with value '1' are selected in object 'Object Repository/Email Campaings/add/select_Select OneDebt - ImsConsumer'  using regular expression
+
+2022-03-31 15:43:15 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Email Campaings/add/select_Select OneDebt - ImsConsumer'  using regular expression
+
+2022-03-31 15:43:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Email Campaings/add/select_Select status"), "1", true): All options with value '1' are selected in object 'Object Repository/Email Campaings/add/select_Select status'  using regular expression
+
+2022-03-31 15:43:16 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Email Campaings/add/select_Select status'  using regular expression
+
+2022-03-31 15:43:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Email Campaings/add/select_Select OneNew LeadEmail"), "1", true): All options with value '1' are selected in object 'Object Repository/Email Campaings/add/select_Select OneNew LeadEmail'  using regular expression
+
+2022-03-31 15:43:17 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Email Campaings/add/select_Select OneNew LeadEmail'  using regular expression
+
+2022-03-31 15:43:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Email Campaings/add/select_Select OneEmailTestCzxcz"), "1", true): All options with value '1' are selected in object 'Object Repository/Email Campaings/add/select_Select OneEmailTestCzxcz'  using regular expression
+
+2022-03-31 15:43:18 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Email Campaings/add/select_Select OneEmailTestCzxcz'  using regular expression
+
+2022-03-31 15:43:18 - [TEST_STEP][PASSED] - setText(findTestObject("Email Campaings/add/input_Campaign Name_"), name): Text 'Test aut modify' is set on object 'Object Repository/Email Campaings/add/input_Campaign Name_'
+
+2022-03-31 15:43:19 - [MESSAGE][PASSED] - Text 'Test aut modify' is set on object 'Object Repository/Email Campaings/add/input_Campaign Name_'
+
+2022-03-31 15:43:19 - [TEST_STEP][PASSED] - setText(findTestObject("Email Campaings/add/input_Send From Email"), fromemail): Text 'testmodify@test.com' is set on object 'Object Repository/Email Campaings/add/input_Send From Email'
+
+2022-03-31 15:43:20 - [MESSAGE][PASSED] - Text 'testmodify@test.com' is set on object 'Object Repository/Email Campaings/add/input_Send From Email'
+
+2022-03-31 15:43:20 - [TEST_STEP][PASSED] - setText(findTestObject("Email Campaings/add/input_Send To Email"), toemail): Text 'testmodify@test.com' is set on object 'Object Repository/Email Campaings/add/input_Send To Email'
+
+2022-03-31 15:43:21 - [MESSAGE][PASSED] - Text 'testmodify@test.com' is set on object 'Object Repository/Email Campaings/add/input_Send To Email'
+
+2022-03-31 15:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Email Campaings/add/input_Campaign Date_"), STOP_ON_FAILURE): Object: 'Object Repository/Email Campaings/add/input_Campaign Date_' is clicked on
+
+2022-03-31 15:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Campaings/add/input_Campaign Date_' is clicked on
+
+2022-03-31 15:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Email Campaings/add/span_"), STOP_ON_FAILURE): Object: 'Object Repository/Email Campaings/add/span_' is clicked on
+
+2022-03-31 15:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Campaings/add/span_' is clicked on
+
+2022-03-31 15:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Email Campaings/add/span_5"), STOP_ON_FAILURE): Object: 'Object Repository/Email Campaings/add/span_5' is clicked on
+
+2022-03-31 15:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Campaings/add/span_5' is clicked on
+
+2022-03-31 15:43:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Email Campaings/add/button_Welcome, Julio Uzctegui_saveButton"), 0): Scroll to object 'Object Repository/Email Campaings/add/button_Welcome, Julio Uzctegui_saveButton' successfully
+
+2022-03-31 15:43:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-31 15:43:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Email Campaings/add/button_Welcome, Julio Uzctegui_saveButton' successfully
+
+2022-03-31 15:43:22 - [TEST_STEP][PASSED] - click(findTestObject("Email Campaings/add/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Email Campaings/add/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-03-31 15:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Email Campaings/add/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-03-31 15:43:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-31 15:43:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-31 15:42:42 - [TEST_SUITE][PASSED] - Email Campaings: Test Cases/Add Email Campaing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

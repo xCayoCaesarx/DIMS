@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Email Campaings,Chrome 98.0.4758.102,,,2022-03-31 16:00:44,2022-03-31 16:01:39,"55,153s",PASSED
+,,,,,,,
+Test Cases/Edit Email Campaing,Chrome 98.0.4758.102,,,2022-03-31 16:00:45,2022-03-31 16:01:39,"54,607s",PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-03-31 16:00:45,2022-03-31 16:00:47,"2,001s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-03-31 16:00:47,2022-03-31 16:00:55,"7,769s",PASSED
+"setText(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-03-31 16:00:55,2022-03-31 16:00:56,"0,871s",PASSED
+"setText(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-03-31 16:00:56,2022-03-31 16:00:57,"0,892s",PASSED
+"click(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-03-31 16:00:57,2022-03-31 16:00:57,"0,430s",PASSED
+"click(findTestObject(""Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 98.0.4758.102,,,2022-03-31 16:00:57,2022-03-31 16:00:58,"0,728s",PASSED
+"click(findTestObject(""Email Campaings/add/span_Email Campaigns""))",Chrome 98.0.4758.102,,,2022-03-31 16:00:58,2022-03-31 16:00:58,"0,506s",PASSED
+"setText(findTestObject(""Email Campaings/Edit/input_Email Campaign choose to edit""), ""test aut"")",Chrome 98.0.4758.102,,,2022-03-31 16:00:58,2022-03-31 16:01:00,"1,021s",PASSED
+"click(findTestObject(""Email Campaings/Edit/button_Action_editButton""))",Chrome 98.0.4758.102,,,2022-03-31 16:01:00,2022-03-31 16:01:00,"0,930s",PASSED
+"selectOptionByValue(findTestObject(""Email Campaings/add/select_Select OneDebt - ImsConsumer""), ""2"", true)",Chrome 98.0.4758.102,,,2022-03-31 16:01:00,2022-03-31 16:01:02,"1,355s",PASSED
+"selectOptionByValue(findTestObject(""Email Campaings/add/select_Select status""), ""2"", true)",Chrome 98.0.4758.102,,,2022-03-31 16:01:02,2022-03-31 16:01:03,"1,195s",PASSED
+"setText(findTestObject(""Email Campaings/add/input_Campaign Name_""), name)",Chrome 98.0.4758.102,,,2022-03-31 16:01:03,2022-03-31 16:01:04,"0,772s",PASSED
+"setText(findTestObject(""Email Campaings/add/input_Send From Email""), fromemail)",Chrome 98.0.4758.102,,,2022-03-31 16:01:04,2022-03-31 16:01:05,"0,784s",PASSED
+"setText(findTestObject(""Email Campaings/add/input_Send To Email""), toemail)",Chrome 98.0.4758.102,,,2022-03-31 16:01:05,2022-03-31 16:01:05,"0,787s",PASSED
+"click(findTestObject(""Email Campaings/add/input_Campaign Date_""), STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-31 16:01:05,2022-03-31 16:01:06,"0,434s",PASSED
+"click(findTestObject(""Email Campaings/add/span_""), STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-31 16:01:06,2022-03-31 16:01:38,"31,997s",PASSED
+"click(findTestObject(""Email Campaings/add/span_5""), STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-03-31 16:01:38,2022-03-31 16:01:38,"0,610s",PASSED
+"scrollToElement(findTestObject(""Email Campaings/add/button_Welcome, Julio Uzctegui_saveButton""), 0)",Chrome 98.0.4758.102,,,2022-03-31 16:01:38,2022-03-31 16:01:39,"0,452s",PASSED
+"click(findTestObject(""Email Campaings/add/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 98.0.4758.102,,,2022-03-31 16:01:39,2022-03-31 16:01:39,"0,366s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-03-31 16:01:39,2022-03-31 16:01:39,"0,158s",PASSED

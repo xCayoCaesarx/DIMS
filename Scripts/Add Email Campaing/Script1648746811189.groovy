@@ -31,25 +31,35 @@ WebUI.click(findTestObject('Object Repository/Email Templates/Page_Debt IMS/butt
 
 WebUI.click(findTestObject('Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools'))
 
-WebUI.click(findTestObject('Object Repository/Email Templates/Page_Debt IMS/span_Email Templates'))
+WebUI.click(findTestObject('Email Campaings/add/span_Email Campaigns'))
 
-WebUI.click(findTestObject('Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_addButton'))
+WebUI.click(findTestObject('Email Campaings/add/button_Welcome, Julio Uzctegui_addButton'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Email Templates/Page_Debt IMS/select_Select OneDebt - ImsConsumer Capital_ea227b'), 
-    '1', true)
+WebUI.selectOptionByValue(findTestObject('Email Campaings/add/select_Select OneDebt - ImsConsumer'), '1', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Email Templates/Page_Debt IMS/select_Select OneHFG 2020HFG NONEHFG PAYDAY_b8a107'), 
-    '1', true)
+WebUI.selectOptionByValue(findTestObject('Email Campaings/add/select_Select status'), '1', true)
 
-WebUI.setText(findTestObject('Email Templates/Page_Debt IMS/input_Email Template Name'), name)
+WebUI.selectOptionByValue(findTestObject('Email Campaings/add/select_Select OneNew LeadEmail'), '1', true)
 
-WebUI.setText(findTestObject('Email Templates/Page_Debt IMS/input_Subject_'), subject)
+WebUI.selectOptionByValue(findTestObject('Email Campaings/add/select_Select OneEmailTestCzxcz'), '1', true)
 
-WebUI.setText(findTestObject('Email Templates/Page_Debt IMS/div_Test cuerpo mensaje'), body)
+WebUI.setText(findTestObject('Email Campaings/add/input_Campaign Name_'), name)
 
-WebUI.scrollToElement(findTestObject('Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton add'), 0)
+WebUI.setText(findTestObject('Email Campaings/add/input_Send From Email'), fromemail)
 
-WebUI.click(findTestObject('Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton add'))
+WebUI.setText(findTestObject('Email Campaings/add/input_Send To Email'), toemail)
+
+WebUI.click(findTestObject('Email Campaings/add/input_Campaign Date_'))
+
+WebUI.click(findTestObject('Email Campaings/add/span_'))
+
+WebUI.click(findTestObject('Email Campaings/add/span_5'))
+
+WebUI.scrollToElement(findTestObject('Email Campaings/Edit/button_Welcome, Julio Uzctegui_saveButton'), 0)
+
+WebUI.click(findTestObject('Email Campaings/Edit/button_Welcome, Julio Uzctegui_saveButton'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

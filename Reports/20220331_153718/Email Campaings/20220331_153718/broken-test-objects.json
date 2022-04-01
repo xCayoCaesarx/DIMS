@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Email Campaings/add/div_March",
+      "brokenLocator": "/html[1]/body[1]/div[@class\u003d\"flatpickr-calendar animate arrowTop arrowLeft open\"]/div[@class\u003d\"flatpickr-months\"]/div[@class\u003d\"flatpickr-month\"]/div[@class\u003d\"flatpickr-current-month\"][count(. | //div[@class \u003d \u0027flatpickr-current-month\u0027]) \u003d count(//div[@class \u003d \u0027flatpickr-current-month\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027\u003c\u0027])[1]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Email Campaings/add/div_March",
+      "brokenLocator": "/html[1]/body[1]/div[@class\u003d\"flatpickr-calendar animate arrowTop arrowLeft open\"]/div[@class\u003d\"flatpickr-months\"]/div[@class\u003d\"flatpickr-month\"]/div[@class\u003d\"flatpickr-current-month\"][count(. | //div[@class \u003d \u0027flatpickr-current-month\u0027]) \u003d count(//div[@class \u003d \u0027flatpickr-current-month\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027\u003c\u0027])[1]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220331_153718"
+    }
+  ]
+}

@@ -1,93 +1,124 @@
 {
-  "brokenTestObjects" : [ {
-    "approved" : false,
-    "testObjectId" : "Object Repository/Quick notes/Page_Debt IMS/button_Office_editButton",
-    "brokenLocator" : "//table[@id='pr_id_2-table']/tbody/tr/td/button",
-    "brokenLocatorMethod" : "XPATH",
-    "proposedLocator" : "//td/button",
-    "proposedLocatorMethod" : "XPATH",
-    "recoveryMethod" : "XPATH",
-    "pathToScreenshot" : "Reports/Self-healing/Object Repository/Quick notes/Page_Debt IMS/button_Office_editButton_position.png"
-  }, {
-    "approved" : false,
-    "testObjectId" : "Object Repository/Reject reasons/EDIT/Page_Debt IMS/button_Reason_editButton",
-    "brokenLocator" : "//table[@id='pr_id_2-table']/tbody/tr/td/button",
-    "brokenLocatorMethod" : "XPATH",
-    "proposedLocator" : "//td/button",
-    "proposedLocatorMethod" : "XPATH",
-    "recoveryMethod" : "XPATH",
-    "pathToScreenshot" : "Reports/Self-healing/Object Repository/Reject reasons/EDIT/Page_Debt IMS/button_Reason_editButton_position.png"
-  }, {
-    "approved" : false,
-    "testObjectId" : "Object Repository/Create Lead/Page_Debt IMS/edit -delete lead source/Page_Debt IMS/td_POST Specification_tdEditButton",
-    "brokenLocator" : "//table[@id='pr_id_2-table']/tbody/tr/td",
-    "brokenLocatorMethod" : "XPATH",
-    "proposedLocator" : "(.//*[normalize-space(text()) and normalize-space(.)='POST Specification'])[1]/following::td[1]",
-    "proposedLocatorMethod" : "XPATH",
-    "recoveryMethod" : "XPATH",
-    "pathToScreenshot" : "Reports/Self-healing/Object Repository/Create Lead/Page_Debt IMS/edit -delete lead source/Page_Debt IMS/td_POST Specification_tdEditButton_neighbor.png"
-  }, {
-    "approved" : false,
-    "testObjectId" : "Object Repository/debt type/add/div_Consumer Capital Advocates LLC_to choose office",
-    "brokenLocator" : "(.//*[normalize-space(text()) and normalize-space(.)='Consumer Capital Advocates LLC'])[2]/following::div[2]",
-    "brokenLocatorMethod" : "XPATH",
-    "proposedLocator" : "(.//*[normalize-space(text()) and normalize-space(.)='Debt - Ims'])[1]/following::div[4]",
-    "proposedLocatorMethod" : "XPATH",
-    "recoveryMethod" : "XPATH",
-    "pathToScreenshot" : "Reports/Self-healing/Object Repository/debt type/add/div_Consumer Capital Advocates LLC_to choose office_neighbor.png"
-  }, {
-    "approved" : false,
-    "testObjectId" : "Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton",
-    "brokenLocator" : "",
-    "brokenLocatorMethod" : "XPATH",
-    "proposedLocator" : "//button[3]",
-    "proposedLocatorMethod" : "XPATH",
-    "recoveryMethod" : "XPATH",
-    "pathToScreenshot" : "Reports/Self-healing/Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton_position.png"
-  }, {
-    "approved" : false,
-    "testObjectId" : "Object Repository/Email Templates/Page_Debt IMS/button_Accept edit",
-    "brokenLocator" : "(//button[@type='button'])[53]",
-    "brokenLocatorMethod" : "XPATH",
-    "proposedLocator" : "//div[@id='UpdateModal']/div/div[2]/div/div[2]/div/button",
-    "proposedLocatorMethod" : "XPATH",
-    "recoveryMethod" : "XPATH",
-    "pathToScreenshot" : ""
-  }, {
-    "approved" : false,
-    "testObjectId" : "Object Repository/Reject reasons/delete/Page_Debt IMS/td_Reason_choose to delete",
-    "brokenLocator" : "//table[@id='pr_id_5-table']/tbody/tr/td",
-    "brokenLocatorMethod" : "XPATH",
-    "proposedLocator" : "(.//*[normalize-space(text()) and normalize-space(.)='Reason'])[1]/following::td[1]",
-    "proposedLocatorMethod" : "XPATH",
-    "recoveryMethod" : "XPATH",
-    "pathToScreenshot" : "Reports/Self-healing/Object Repository/Reject reasons/delete/Page_Debt IMS/td_Reason_choose to delete_neighbor.png"
-  }, {
-    "approved" : false,
-    "testObjectId" : "Object Repository/Create Lead/Page_Debt IMS/div_Select an Office(s)_p-checkbox-box",
-    "brokenLocator" : "(.//*[normalize-space(text()) and normalize-space(.)='Select an Office(s)'])[1]/following::div[10]",
-    "brokenLocatorMethod" : "XPATH",
-    "proposedLocator" : "(.//*[normalize-space(text()) and normalize-space(.)='Office'])[1]/following::div[16]",
-    "proposedLocatorMethod" : "XPATH",
-    "recoveryMethod" : "XPATH",
-    "pathToScreenshot" : "Reports/Self-healing/Object Repository/Create Lead/Page_Debt IMS/div_Select an Office(s)_p-checkbox-box_neighbor.png"
-  }, {
-    "approved" : false,
-    "testObjectId" : "Object Repository/Quick notes/Page_Debt IMS/td_Office_tdEditButton",
-    "brokenLocator" : "//table[@id='pr_id_3-table']/tbody/tr/td",
-    "brokenLocatorMethod" : "XPATH",
-    "proposedLocator" : "(.//*[normalize-space(text()) and normalize-space(.)='Office'])[1]/following::td[1]",
-    "proposedLocatorMethod" : "XPATH",
-    "recoveryMethod" : "XPATH",
-    "pathToScreenshot" : "Reports/Self-healing/Object Repository/Quick notes/Page_Debt IMS/td_Office_tdEditButton_neighbor.png"
-  }, {
-    "approved" : false,
-    "testObjectId" : "Object Repository/Programs/Page_Debt IMS/span_Home Improvements Loans select unaceptable",
-    "brokenLocator" : "(.//*[normalize-space(text()) and normalize-space(.)='Accounts in pre-litigation'])[1]/following::span[2]",
-    "brokenLocatorMethod" : "XPATH",
-    "proposedLocator" : "(.//*[normalize-space(text()) and normalize-space(.)='Secured debts'])[1]/following::span[4]",
-    "proposedLocatorMethod" : "XPATH",
-    "recoveryMethod" : "XPATH",
-    "pathToScreenshot" : "Reports/Self-healing/Object Repository/Programs/Page_Debt IMS/span_Home Improvements Loans select unaceptable_neighbor.png"
-  } ]
+  "brokenTestObjects": [
+    {
+      "approved": false,
+      "testObjectId": "Object Repository/Quick notes/Page_Debt IMS/button_Office_editButton",
+      "brokenLocator": "//table[@id\u003d\u0027pr_id_2-table\u0027]/tbody/tr/td/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Quick notes/Page_Debt IMS/button_Office_editButton_position.png"
+    },
+    {
+      "approved": false,
+      "testObjectId": "Object Repository/Reject reasons/EDIT/Page_Debt IMS/button_Reason_editButton",
+      "brokenLocator": "//table[@id\u003d\u0027pr_id_2-table\u0027]/tbody/tr/td/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Reject reasons/EDIT/Page_Debt IMS/button_Reason_editButton_position.png"
+    },
+    {
+      "approved": false,
+      "testObjectId": "Object Repository/Create Lead/Page_Debt IMS/edit -delete lead source/Page_Debt IMS/td_POST Specification_tdEditButton",
+      "brokenLocator": "//table[@id\u003d\u0027pr_id_2-table\u0027]/tbody/tr/td",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027POST Specification\u0027])[1]/following::td[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create Lead/Page_Debt IMS/edit -delete lead source/Page_Debt IMS/td_POST Specification_tdEditButton_neighbor.png"
+    },
+    {
+      "approved": false,
+      "testObjectId": "Object Repository/debt type/add/div_Consumer Capital Advocates LLC_to choose office",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Consumer Capital Advocates LLC\u0027])[2]/following::div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Debt - Ims\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/debt type/add/div_Consumer Capital Advocates LLC_to choose office_neighbor.png"
+    },
+    {
+      "approved": false,
+      "testObjectId": "Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton_position.png"
+    },
+    {
+      "approved": false,
+      "testObjectId": "Object Repository/Email Templates/Page_Debt IMS/button_Accept edit",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[53]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027UpdateModal\u0027]/div/div[2]/div/div[2]/div/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": false,
+      "testObjectId": "Object Repository/Reject reasons/delete/Page_Debt IMS/td_Reason_choose to delete",
+      "brokenLocator": "//table[@id\u003d\u0027pr_id_5-table\u0027]/tbody/tr/td",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Reason\u0027])[1]/following::td[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Reject reasons/delete/Page_Debt IMS/td_Reason_choose to delete_neighbor.png"
+    },
+    {
+      "approved": false,
+      "testObjectId": "Object Repository/Create Lead/Page_Debt IMS/div_Select an Office(s)_p-checkbox-box",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Select an Office(s)\u0027])[1]/following::div[10]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Office\u0027])[1]/following::div[16]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Create Lead/Page_Debt IMS/div_Select an Office(s)_p-checkbox-box_neighbor.png"
+    },
+    {
+      "approved": false,
+      "testObjectId": "Object Repository/Quick notes/Page_Debt IMS/td_Office_tdEditButton",
+      "brokenLocator": "//table[@id\u003d\u0027pr_id_3-table\u0027]/tbody/tr/td",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Office\u0027])[1]/following::td[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Quick notes/Page_Debt IMS/td_Office_tdEditButton_neighbor.png"
+    },
+    {
+      "approved": false,
+      "testObjectId": "Object Repository/Programs/Page_Debt IMS/span_Home Improvements Loans select unaceptable",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accounts in pre-litigation\u0027])[1]/following::span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Secured debts\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Programs/Page_Debt IMS/span_Home Improvements Loans select unaceptable_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Email Campaings/add/div_March",
+      "brokenLocator": "/html[1]/body[1]/div[@class\u003d\"flatpickr-calendar animate arrowTop arrowLeft open\"]/div[@class\u003d\"flatpickr-months\"]/div[@class\u003d\"flatpickr-month\"]/div[@class\u003d\"flatpickr-current-month\"][count(. | //div[@class \u003d \u0027flatpickr-current-month\u0027]) \u003d count(//div[@class \u003d \u0027flatpickr-current-month\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027\u003c\u0027])[1]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Email Campaings/add/span_",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027March\u0027])[1]/following::span[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027\u003c\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Email Campaings/add/span__neighbor.png"
+    }
+  ]
 }

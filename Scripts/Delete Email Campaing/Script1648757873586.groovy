@@ -31,25 +31,15 @@ WebUI.click(findTestObject('Object Repository/Email Templates/Page_Debt IMS/butt
 
 WebUI.click(findTestObject('Object Repository/Email Templates/Page_Debt IMS/strong_Maintenance Tools'))
 
-WebUI.click(findTestObject('Object Repository/Email Templates/Page_Debt IMS/span_Email Templates'))
+WebUI.click(findTestObject('Email Campaings/add/span_Email Campaigns'))
 
-WebUI.click(findTestObject('Object Repository/Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_addButton'))
+WebUI.setText(findTestObject('Email Campaings/Edit/input_Email Campaign choose to edit'), 'test aut')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Email Templates/Page_Debt IMS/select_Select OneDebt - ImsConsumer Capital_ea227b'), 
-    '1', true)
+WebUI.click(findTestObject('Email Campaings/Delete/td_Action_tdEditButton choose to delete'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Email Templates/Page_Debt IMS/select_Select OneHFG 2020HFG NONEHFG PAYDAY_b8a107'), 
-    '1', true)
+WebUI.click(findTestObject('Email Campaings/Delete/button_Welcome, Julio Uzctegui_deleteButton'))
 
-WebUI.setText(findTestObject('Email Templates/Page_Debt IMS/input_Email Template Name'), name)
-
-WebUI.setText(findTestObject('Email Templates/Page_Debt IMS/input_Subject_'), subject)
-
-WebUI.setText(findTestObject('Email Templates/Page_Debt IMS/div_Test cuerpo mensaje'), body)
-
-WebUI.scrollToElement(findTestObject('Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton add'), 0)
-
-WebUI.click(findTestObject('Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton add'))
+WebUI.click(findTestObject('Email Campaings/Delete/button_Accept'))
 
 WebUI.closeBrowser()
 
