@@ -6,19 +6,19 @@
    <elementGuidId>2ac58120-c6c0-47ba-9509-295cf3c8af7b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt;'])[1]/following::div[2]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>/html[1]/body[1]/div[@class=&quot;flatpickr-calendar animate arrowTop arrowLeft open&quot;]/div[@class=&quot;flatpickr-months&quot;]/div[@class=&quot;flatpickr-month&quot;]/div[@class=&quot;flatpickr-current-month&quot;][count(. | //div[@class = 'flatpickr-current-month']) = count(//div[@class = 'flatpickr-current-month'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt;'])[1]/following::div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.flatpickr-current-month</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

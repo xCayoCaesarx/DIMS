@@ -6,19 +6,19 @@
    <elementGuidId>1bd6d43c-7ca8-448a-b46d-4f492ca15398</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;UpdateModal&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;modal-body-buttons&quot;]/div[1]/button[@class=&quot;btn btn-primary&quot;][count(. | //button[@type = 'button' and @class = 'btn btn-primary' and (text() = 'Accept' or . = 'Accept')]) = count(//button[@type = 'button' and @class = 'btn btn-primary' and (text() = 'Accept' or . = 'Accept')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[6]</value>
+         <value>//div[@id='UpdateModal']/div/div[2]/div/div[2]/div/button</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#UpdateModal > div.modal-dialog.modal-dialog-centered > div.modal-content > div.modal-body > div.modal-body-buttons > div > button.btn.btn-primary</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;UpdateModal&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;modal-body-buttons&quot;]/div[1]/button[@class=&quot;btn btn-primary&quot;][count(. | //button[@type = 'button' and @class = 'btn btn-primary' and (text() = 'Accept' or . = 'Accept')]) = count(//button[@type = 'button' and @class = 'btn btn-primary' and (text() = 'Accept' or . = 'Accept')])]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
