@@ -6,12 +6,11 @@
    <elementGuidId>4e2a55a7-5908-48d2-9e87-9a53d5e6b380</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Julio Uzcátegui'])[2]/following::div[2]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//p-multiselectitem[2]/li/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

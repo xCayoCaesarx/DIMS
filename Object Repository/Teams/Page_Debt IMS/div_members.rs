@@ -6,12 +6,12 @@
    <elementGuidId>e4362a18-777d-4e73-bf65-0e0668971767</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Julio Uzcátegui'])[1]/following::div[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.ng-tns-c64-1.p-multiselect-trigger</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Team Members'])[1]/following::div[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
