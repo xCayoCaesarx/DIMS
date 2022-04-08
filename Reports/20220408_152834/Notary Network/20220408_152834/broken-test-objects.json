@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Notary Network/Delete/td_Email_tdEditButton",
+      "brokenLocator": "id(\"pr_id_2-table\")/tbody[@class\u003d\"p-element p-datatable-tbody\"]/tr[@class\u003d\"p-element p-selectable-row ng-star-inserted\"]/td[@class\u003d\"tdEditButton\"][count(. | //td[@class \u003d \u0027tdEditButton\u0027]) \u003d count(//td[@class \u003d \u0027tdEditButton\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Email\u0027])[1]/following::td[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220408_152834/Notary Network/20220408_152834/Object Repository/Notary Network/Delete/td_Email_tdEditButton_XPATH.png"
+    }
+  ]
+}

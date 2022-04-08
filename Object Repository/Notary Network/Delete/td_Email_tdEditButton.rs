@@ -6,25 +6,29 @@
    <elementGuidId>ded2870f-8b5e-4cde-94f3-2673422586de</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td.tdEditButton</value>
+         <key>BASIC</key>
+         <value>id(&quot;pr_id_2-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;p-element p-selectable-row ng-star-inserted&quot;]/td[@class=&quot;tdEditButton&quot;][count(. | //td[@class = 'tdEditButton']) = count(//td[@class = 'tdEditButton'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::td[1]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.tdEditButton</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
