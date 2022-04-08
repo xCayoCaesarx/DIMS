@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teams/Page_Debt IMS/td_Test aut modifcado",
+      "brokenLocator": "id(\"pr_id_1-table\")/tbody[@class\u003d\"p-element p-datatable-tbody\"]/tr[@class\u003d\"p-element p-selectable-row ng-star-inserted\"]/td[3][count(. | //td[(text() \u003d \u0027Test aut modifcadi\u0027 or . \u003d \u0027Test aut modifcadi\u0027)]) \u003d count(//td[(text() \u003d \u0027Test aut modifcadi\u0027 or . \u003d \u0027Test aut modifcadi\u0027)])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//table[@id\u003d\u0027pr_id_1-table\u0027]/tbody/tr/td[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220408_150016/Teams/20220408_150016/Object Repository/Teams/Page_Debt IMS/td_Test aut modifcado_XPATH.png"
+    }
+  ]
+}

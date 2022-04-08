@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Teams" time="82.619" tests="3" failures="0" errors="0">
+   <testsuite name="Teams" tests="3" failures="0" errors="0" time="82.619" skipped="0" timestamp="2022-04-08 15:00:19" hostname="juzcategui - juzcategui" id="Test Suites/Teams">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220408_150016/Teams/20220408_150016"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220408_150016/Teams/20220408_150016/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.12.62"/>
+         <property name="sessionId" value="48213d34a7365e30764c3b98d63fc99d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add Teams" time="18.867" classname="Test Cases/Add Teams" status="PASSED">
+         <system-out><![CDATA[2022-04-08 15:00:20 - [TEST_CASE][PASSED] - Test Cases/Add Teams: Test Cases/Add Teams
+
+2022-04-08 15:00:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-08 15:00:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-08 15:00:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-08 15:00:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-08 15:00:23 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-08 15:00:29 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-08 15:00:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-08 15:00:30 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-08 15:00:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-08 15:00:31 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-08 15:00:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-08 15:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-08 15:00:33 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/strong_Office Tools")): Object: 'Object Repository/Teams/Page_Debt IMS/strong_Office Tools' is clicked on
+
+2022-04-08 15:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/strong_Office Tools' is clicked on
+
+2022-04-08 15:00:34 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/span_Teams")): Object: 'Object Repository/Teams/Page_Debt IMS/span_Teams' is clicked on
+
+2022-04-08 15:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/span_Teams' is clicked on
+
+2022-04-08 15:00:34 - [TEST_STEP][PASSED] - click(findTestObject("Create Lead/Page_Debt IMS/button_Welcome, Julio Uzctegui_addButton")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-04-08 15:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-04-08 15:00:35 - [TEST_STEP][PASSED] - setText(findTestObject("Teams/Page_Debt IMS/Page_Debt IMS/input_Team Name"), teamname): Text 'Test aut' is set on object 'Object Repository/Teams/Page_Debt IMS/Page_Debt IMS/input_Team Name'
+
+2022-04-08 15:00:36 - [MESSAGE][PASSED] - Text 'Test aut' is set on object 'Object Repository/Teams/Page_Debt IMS/Page_Debt IMS/input_Team Name'
+
+2022-04-08 15:00:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Teams/Page_Debt IMS/Page_Debt IMS/Page_Debt IMS/select_Select OneDebt - ImsConsumer Capital_47cd32"), "1", false): All options with value '1' are selected in object 'Object Repository/Teams/Page_Debt IMS/Page_Debt IMS/Page_Debt IMS/select_Select OneDebt - ImsConsumer Capital_47cd32' 
+
+2022-04-08 15:00:37 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Teams/Page_Debt IMS/Page_Debt IMS/Page_Debt IMS/select_Select OneDebt - ImsConsumer Capital_47cd32' 
+
+2022-04-08 15:00:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Teams/Page_Debt IMS/Page_Debt IMS/Page_Debt IMS/select_Select OneDixon GranadoJose Urribarr_e2400b"), "1002", false): All options with value '1002' are selected in object 'Object Repository/Teams/Page_Debt IMS/Page_Debt IMS/Page_Debt IMS/select_Select OneDixon GranadoJose Urribarr_e2400b' 
+
+2022-04-08 15:00:37 - [MESSAGE][PASSED] - All options with value '1002' are selected in object 'Object Repository/Teams/Page_Debt IMS/Page_Debt IMS/Page_Debt IMS/select_Select OneDixon GranadoJose Urribarr_e2400b' 
+
+2022-04-08 15:00:37 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/div_Select a User(s)")): Object: 'Object Repository/Teams/Page_Debt IMS/div_Select a User(s)' is clicked on
+
+2022-04-08 15:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/div_Select a User(s)' is clicked on
+
+2022-04-08 15:00:38 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/Page_Debt IMS/div_Select a team members primero")): Object: 'Object Repository/Teams/Page_Debt IMS/Page_Debt IMS/div_Select a team members primero' is clicked on
+
+2022-04-08 15:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/Page_Debt IMS/div_Select a team members primero' is clicked on
+
+2022-04-08 15:00:38 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-04-08 15:00:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Teams" time="16.23" classname="Test Cases/Edit Teams" status="PASSED">
+         <system-out><![CDATA[2022-04-08 15:00:39 - [TEST_CASE][PASSED] - Test Cases/Edit Teams: Test Cases/Edit Teams
+
+2022-04-08 15:00:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-08 15:00:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-08 15:00:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-08 15:00:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-08 15:00:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-08 15:00:40 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-08 15:00:45 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-08 15:00:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-08 15:00:46 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-08 15:00:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-08 15:00:47 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-08 15:00:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-08 15:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-08 15:00:49 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/strong_Office Tools")): Object: 'Object Repository/Teams/Page_Debt IMS/strong_Office Tools' is clicked on
+
+2022-04-08 15:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/strong_Office Tools' is clicked on
+
+2022-04-08 15:00:50 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/span_Teams")): Object: 'Object Repository/Teams/Page_Debt IMS/span_Teams' is clicked on
+
+2022-04-08 15:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/span_Teams' is clicked on
+
+2022-04-08 15:00:50 - [TEST_STEP][PASSED] - setText(findTestObject("Teams/Page_Debt IMS/input_Teams_p-inputtext p-component p-element"), "test aut"): Text 'test aut' is set on object 'Object Repository/Teams/Page_Debt IMS/input_Teams_p-inputtext p-component p-element'
+
+2022-04-08 15:00:51 - [MESSAGE][PASSED] - Text 'test aut' is set on object 'Object Repository/Teams/Page_Debt IMS/input_Teams_p-inputtext p-component p-element'
+
+2022-04-08 15:00:51 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/button_Team Details_editButton")): Object: 'Object Repository/Teams/Page_Debt IMS/button_Team Details_editButton' is clicked on
+
+2022-04-08 15:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/button_Team Details_editButton' is clicked on
+
+2022-04-08 15:00:52 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/div_members")): Object: 'Object Repository/Teams/Page_Debt IMS/div_members' is clicked on
+
+2022-04-08 15:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/div_members' is clicked on
+
+2022-04-08 15:00:53 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/div_select 2nd member")): Object: 'Object Repository/Teams/Page_Debt IMS/div_select 2nd member' is clicked on
+
+2022-04-08 15:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/div_select 2nd member' is clicked on
+
+2022-04-08 15:00:53 - [TEST_STEP][PASSED] - setText(findTestObject("Teams/Page_Debt IMS/Page_Debt IMS/input_Team Name"), teamname): Text 'Test aut modificado' is set on object 'Object Repository/Teams/Page_Debt IMS/Page_Debt IMS/input_Team Name'
+
+2022-04-08 15:00:54 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/Teams/Page_Debt IMS/Page_Debt IMS/input_Team Name'
+
+2022-04-08 15:00:54 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-04-08 15:00:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-04-08 15:00:54 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/button_Accept edit")): Object: 'Object Repository/Teams/Page_Debt IMS/button_Accept edit' is clicked on
+
+2022-04-08 15:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/button_Accept edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Teams" time="46.739" classname="Test Cases/Delete Teams" status="PASSED">
+         <system-out><![CDATA[2022-04-08 15:00:55 - [TEST_CASE][PASSED] - Test Cases/Delete Teams: Test Cases/Delete Teams
+
+2022-04-08 15:00:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-08 15:00:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-08 15:00:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-08 15:00:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-08 15:00:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-08 15:00:56 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-08 15:01:03 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-08 15:01:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-08 15:01:04 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-08 15:01:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-08 15:01:04 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-08 15:01:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-08 15:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-08 15:01:07 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/strong_Office Tools")): Object: 'Object Repository/Teams/Page_Debt IMS/strong_Office Tools' is clicked on
+
+2022-04-08 15:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/strong_Office Tools' is clicked on
+
+2022-04-08 15:01:07 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/span_Teams")): Object: 'Object Repository/Teams/Page_Debt IMS/span_Teams' is clicked on
+
+2022-04-08 15:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/span_Teams' is clicked on
+
+2022-04-08 15:01:08 - [TEST_STEP][PASSED] - setText(findTestObject("Teams/Page_Debt IMS/input_Teams_p-inputtext p-component p-element"), teamname): Text 'Test aut' is set on object 'Object Repository/Teams/Page_Debt IMS/input_Teams_p-inputtext p-component p-element'
+
+2022-04-08 15:01:09 - [MESSAGE][PASSED] - Text 'Test aut' is set on object 'Object Repository/Teams/Page_Debt IMS/input_Teams_p-inputtext p-component p-element'
+
+2022-04-08 15:01:09 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/td_Test aut modifcado")): Object: 'Object Repository/Teams/Page_Debt IMS/td_Test aut modifcado' is clicked on
+
+2022-04-08 15:01:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("pr_id_1-table")/tbody[@class="p-element p-datatable-tbody"]/tr[@class="p-element p-selectable-row ng-star-inserted"]/td[3][count(. | //td[(text() = 'Test aut modifcadi' or . = 'Test aut modifcadi')]) = count(//td[(text() = 'Test aut modifcadi' or . = 'Test aut modifcadi')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-08 15:01:40 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Teams/Page_Debt IMS/td_Test aut modifcado'. Try using Self-healing.
+
+2022-04-08 15:01:41 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /home/juzcategui/git/DIMS/Reports/Self-healing/Object Repository/Teams/Page_Debt IMS/td_Test aut modifcado_XPATH.png
+
+2022-04-08 15:01:41 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Teams/Page_Debt IMS/td_Test aut modifcado' was broken. Propose an alternative one: '//table[@id='pr_id_1-table']/tbody/tr/td[3]'.
+
+2022-04-08 15:01:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/td_Test aut modifcado' is clicked on
+
+2022-04-08 15:01:41 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_deleteButton")): Object: 'Object Repository/Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-04-08 15:01:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-04-08 15:01:41 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/button_Accept delete")): Object: 'Object Repository/Teams/Page_Debt IMS/button_Accept delete' is clicked on
+
+2022-04-08 15:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/button_Accept delete' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-08 15:00:19 - [TEST_SUITE][PASSED] - Teams: Test Cases/Delete Teams]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -6,6 +6,10 @@
    <elementGuidId>70c51f0c-a40b-431e-b1a1-39dda070802b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;pr_id_1-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;p-element p-selectable-row ng-star-inserted&quot;]/td[@class=&quot;tdEditButton&quot;]/button[@class=&quot;editButton&quot;][count(. | //button[@class = 'editButton']) = count(//button[@class = 'editButton'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//table[@id='pr_id_1-table']/tbody/tr/td/button</value>
       </entry>
@@ -14,17 +18,17 @@
          <value>button.editButton</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

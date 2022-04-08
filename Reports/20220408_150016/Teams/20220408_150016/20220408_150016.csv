@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Teams,Chrome 98.0.4758.102,,,2022-04-08 15:00:19,2022-04-08 15:01:42,"1m - 22,619s",PASSED
+,,,,,,,
+Test Cases/Add Teams,Chrome 98.0.4758.102,,,2022-04-08 15:00:20,2022-04-08 15:00:39,"18,867s",PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-04-08 15:00:20,2022-04-08 15:00:23,"2,157s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-04-08 15:00:23,2022-04-08 15:00:29,"6,429s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-04-08 15:00:29,2022-04-08 15:00:30,"0,818s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-04-08 15:00:30,2022-04-08 15:00:31,"0,787s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-04-08 15:00:31,2022-04-08 15:00:33,"2,527s",PASSED
+"click(findTestObject(""Teams/Page_Debt IMS/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-04-08 15:00:33,2022-04-08 15:00:34,"0,673s",PASSED
+"click(findTestObject(""Teams/Page_Debt IMS/span_Teams""))",Chrome 98.0.4758.102,,,2022-04-08 15:00:34,2022-04-08 15:00:34,"0,493s",PASSED
+"click(findTestObject(""Create Lead/Page_Debt IMS/button_Welcome, Julio Uzctegui_addButton""))",Chrome 98.0.4758.102,,,2022-04-08 15:00:34,2022-04-08 15:00:35,"0,742s",PASSED
+"setText(findTestObject(""Teams/Page_Debt IMS/Page_Debt IMS/input_Team Name""), teamname)",Chrome 98.0.4758.102,,,2022-04-08 15:00:35,2022-04-08 15:00:36,"0,951s",PASSED
+"selectOptionByValue(findTestObject(""Teams/Page_Debt IMS/Page_Debt IMS/Page_Debt IMS/select_Select OneDebt - ImsConsumer Capital_47cd32""), ""1"", false)",Chrome 98.0.4758.102,,,2022-04-08 15:00:36,2022-04-08 15:00:37,"0,697s",PASSED
+"selectOptionByValue(findTestObject(""Teams/Page_Debt IMS/Page_Debt IMS/Page_Debt IMS/select_Select OneDixon GranadoJose Urribarr_e2400b""), ""1002"", false)",Chrome 98.0.4758.102,,,2022-04-08 15:00:37,2022-04-08 15:00:37,"0,678s",PASSED
+"click(findTestObject(""Teams/Page_Debt IMS/div_Select a User(s)""))",Chrome 98.0.4758.102,,,2022-04-08 15:00:37,2022-04-08 15:00:38,"0,391s",PASSED
+"click(findTestObject(""Teams/Page_Debt IMS/Page_Debt IMS/div_Select a team members primero""))",Chrome 98.0.4758.102,,,2022-04-08 15:00:38,2022-04-08 15:00:38,"0,499s",PASSED
+"click(findTestObject(""Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 98.0.4758.102,,,2022-04-08 15:00:38,2022-04-08 15:00:39,"0,496s",PASSED
+,,,,,,,
+Test Cases/Edit Teams,Chrome 98.0.4758.102,,,2022-04-08 15:00:39,2022-04-08 15:00:55,"16,230s",PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-04-08 15:00:39,2022-04-08 15:00:40,"0,918s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-04-08 15:00:40,2022-04-08 15:00:45,"5,252s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-04-08 15:00:45,2022-04-08 15:00:46,"0,689s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-04-08 15:00:46,2022-04-08 15:00:47,"0,694s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-04-08 15:00:47,2022-04-08 15:00:49,"2,408s",PASSED
+"click(findTestObject(""Teams/Page_Debt IMS/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-04-08 15:00:49,2022-04-08 15:00:50,"0,737s",PASSED
+"click(findTestObject(""Teams/Page_Debt IMS/span_Teams""))",Chrome 98.0.4758.102,,,2022-04-08 15:00:50,2022-04-08 15:00:50,"0,491s",PASSED
+"setText(findTestObject(""Teams/Page_Debt IMS/input_Teams_p-inputtext p-component p-element""), ""test aut"")",Chrome 98.0.4758.102,,,2022-04-08 15:00:50,2022-04-08 15:00:51,"1,025s",PASSED
+"click(findTestObject(""Teams/Page_Debt IMS/button_Team Details_editButton""))",Chrome 98.0.4758.102,,,2022-04-08 15:00:51,2022-04-08 15:00:52,"0,456s",PASSED
+"click(findTestObject(""Teams/Page_Debt IMS/div_members""))",Chrome 98.0.4758.102,,,2022-04-08 15:00:52,2022-04-08 15:00:53,"0,761s",PASSED
+"click(findTestObject(""Teams/Page_Debt IMS/div_select 2nd member""))",Chrome 98.0.4758.102,,,2022-04-08 15:00:53,2022-04-08 15:00:53,"0,471s",PASSED
+"setText(findTestObject(""Teams/Page_Debt IMS/Page_Debt IMS/input_Team Name""), teamname)",Chrome 98.0.4758.102,,,2022-04-08 15:00:53,2022-04-08 15:00:54,"0,859s",PASSED
+"click(findTestObject(""Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 98.0.4758.102,,,2022-04-08 15:00:54,2022-04-08 15:00:54,"0,399s",PASSED
+"click(findTestObject(""Teams/Page_Debt IMS/button_Accept edit""))",Chrome 98.0.4758.102,,,2022-04-08 15:00:54,2022-04-08 15:00:55,"0,695s",PASSED
+,,,,,,,
+Test Cases/Delete Teams,Chrome 98.0.4758.102,,,2022-04-08 15:00:55,2022-04-08 15:01:42,"46,739s",PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-04-08 15:00:56,2022-04-08 15:00:56,"0,944s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-04-08 15:00:56,2022-04-08 15:01:03,"6,364s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-04-08 15:01:03,2022-04-08 15:01:04,"0,688s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-04-08 15:01:04,2022-04-08 15:01:04,"0,671s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-04-08 15:01:04,2022-04-08 15:01:07,"2,454s",PASSED
+"click(findTestObject(""Teams/Page_Debt IMS/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-04-08 15:01:07,2022-04-08 15:01:07,"0,736s",PASSED
+"click(findTestObject(""Teams/Page_Debt IMS/span_Teams""))",Chrome 98.0.4758.102,,,2022-04-08 15:01:07,2022-04-08 15:01:08,"0,483s",PASSED
+"setText(findTestObject(""Teams/Page_Debt IMS/input_Teams_p-inputtext p-component p-element""), teamname)",Chrome 98.0.4758.102,,,2022-04-08 15:01:08,2022-04-08 15:01:09,"1,035s",PASSED
+"click(findTestObject(""Teams/Page_Debt IMS/td_Test aut modifcado""))",Chrome 98.0.4758.102,,,2022-04-08 15:01:09,2022-04-08 15:01:41,"31,737s",PASSED
+"click(findTestObject(""Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_deleteButton""))",Chrome 98.0.4758.102,,,2022-04-08 15:01:41,2022-04-08 15:01:41,"0,595s",PASSED
+"click(findTestObject(""Teams/Page_Debt IMS/button_Accept delete""))",Chrome 98.0.4758.102,,,2022-04-08 15:01:41,2022-04-08 15:01:42,"0,667s",PASSED

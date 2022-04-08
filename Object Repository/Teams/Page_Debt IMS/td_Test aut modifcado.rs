@@ -6,22 +6,21 @@
    <elementGuidId>111344b8-03fb-4e4b-a474-2c993fa18af6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;pr_id_1-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;p-element p-selectable-row ng-star-inserted&quot;]/td[3][count(. | //td[(text() = 'Test aut modifcadi' or . = 'Test aut modifcadi')]) = count(//td[(text() = 'Test aut modifcadi' or . = 'Test aut modifcadi')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//table[@id='pr_id_1-table']/tbody/tr/td[3]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;pr_id_1-table&quot;)/tbody[@class=&quot;p-element p-datatable-tbody&quot;]/tr[@class=&quot;p-element p-selectable-row ng-star-inserted&quot;]/td[3][count(. | //*[(text() = 'Test aut modifcadi' or . = 'Test aut modifcadi')]) = count(//*[(text() = 'Test aut modifcadi' or . = 'Test aut modifcadi')])]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

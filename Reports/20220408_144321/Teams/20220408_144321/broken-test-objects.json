@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teams/Page_Debt IMS/div_members",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Julio Uzcátegui\u0027])[1]/following::div[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Team Members\u0027])[1]/following::div[7]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220408_144321/Teams/20220408_144321/Object Repository/Teams/Page_Debt IMS/div_members_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Teams/Page_Debt IMS/div_select 2nd member",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Julio Uzcátegui\u0027])[2]/following::div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//p-multiselectitem[2]/li/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220408_144321/Teams/20220408_144321/Object Repository/Teams/Page_Debt IMS/div_select 2nd member_position.png"
+    }
+  ]
+}
