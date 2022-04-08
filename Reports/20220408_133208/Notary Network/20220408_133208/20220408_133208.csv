@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Notary Network,Chrome 98.0.4758.102,,,2022-04-08 13:32:13,2022-04-08 13:33:07,"53,778s",PASSED
+,,,,,,,
+Test Cases/Delete Notary Network,Chrome 98.0.4758.102,,,2022-04-08 13:32:14,2022-04-08 13:33:07,"53,051s",PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-04-08 13:32:14,2022-04-08 13:32:17,"2,903s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-04-08 13:32:17,2022-04-08 13:32:26,"9,026s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-04-08 13:32:26,2022-04-08 13:32:27,"1,151s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-04-08 13:32:27,2022-04-08 13:32:28,"1,025s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-04-08 13:32:28,2022-04-08 13:32:31,"2,673s",PASSED
+"click(findTestObject(""Notary Network/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-04-08 13:32:31,2022-04-08 13:32:32,"0,904s",PASSED
+"click(findTestObject(""Notary Network/span_Notary Network""))",Chrome 98.0.4758.102,,,2022-04-08 13:32:32,2022-04-08 13:32:33,"0,570s",PASSED
+"setText(findTestObject(""Notary Network/Edit/input_Notary Network_search""), ""lisbeth"")",Chrome 98.0.4758.102,,,2022-04-08 13:32:33,2022-04-08 13:32:34,"1,105s",PASSED
+"click(findTestObject(""Notary Network/Delete/td_Email_tdEditButton""))",Chrome 98.0.4758.102,,,2022-04-08 13:32:34,2022-04-08 13:33:06,"31,800s",PASSED
+"click(findTestObject(""Notary Network/Delete/button_Welcome, Julio Uzctegui_deleteButton""), STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-04-08 13:33:06,2022-04-08 13:33:06,"0,520s",PASSED
+"click(findTestObject(""Notary Network/Delete/button_Accept delete""))",Chrome 98.0.4758.102,,,2022-04-08 13:33:06,2022-04-08 13:33:07,"0,723s",PASSED

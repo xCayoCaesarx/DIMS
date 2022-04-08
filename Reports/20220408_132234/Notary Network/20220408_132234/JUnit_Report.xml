@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Notary Network" time="82.252" tests="2" failures="0" errors="0">
+   <testsuite name="Notary Network" tests="2" failures="0" errors="0" time="82.252" skipped="0" timestamp="2022-04-08 13:22:39" hostname="juzcategui - juzcategui" id="Test Suites/Notary Network">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220408_132234/Notary Network/20220408_132234"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220408_132234/Notary Network/20220408_132234/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.12.62"/>
+         <property name="sessionId" value="bdaff07df644de5a0e4d565a4e02a696"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Edit Notary Network" time="34.329" classname="Test Cases/Edit Notary Network" status="PASSED">
+         <system-out><![CDATA[2022-04-08 13:22:40 - [TEST_CASE][PASSED] - Test Cases/Edit Notary Network: Test Cases/Edit Notary Network
+
+2022-04-08 13:22:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-08 13:22:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-08 13:22:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-08 13:22:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-08 13:22:44 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-08 13:22:58 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-08 13:22:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-08 13:22:59 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-08 13:22:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-08 13:23:00 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-08 13:23:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-08 13:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-08 13:23:02 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/strong_Office Tools")): Object: 'Object Repository/Notary Network/strong_Office Tools' is clicked on
+
+2022-04-08 13:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/strong_Office Tools' is clicked on
+
+2022-04-08 13:23:03 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/span_Notary Network")): Object: 'Object Repository/Notary Network/span_Notary Network' is clicked on
+
+2022-04-08 13:23:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/span_Notary Network' is clicked on
+
+2022-04-08 13:23:04 - [TEST_STEP][PASSED] - setText(findTestObject("Notary Network/Edit/input_Notary Network_search"), "lisbeth"): Text 'lisbeth' is set on object 'Object Repository/Notary Network/Edit/input_Notary Network_search'
+
+2022-04-08 13:23:05 - [MESSAGE][PASSED] - Text 'lisbeth' is set on object 'Object Repository/Notary Network/Edit/input_Notary Network_search'
+
+2022-04-08 13:23:05 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/Edit/button_Email_editButton")): Object: 'Object Repository/Notary Network/Edit/button_Email_editButton' is clicked on
+
+2022-04-08 13:23:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/Edit/button_Email_editButton' is clicked on
+
+2022-04-08 13:23:06 - [TEST_STEP][PASSED] - setText(findTestObject("Notary Network/input_First Name_form"), firstname): Text 'taiana' is set on object 'Object Repository/Notary Network/input_First Name_form'
+
+2022-04-08 13:23:07 - [MESSAGE][PASSED] - Text 'taiana' is set on object 'Object Repository/Notary Network/input_First Name_form'
+
+2022-04-08 13:23:07 - [TEST_STEP][PASSED] - setText(findTestObject("Notary Network/input_Last Name_form"), lastname): Text 'flores' is set on object 'Object Repository/Notary Network/input_Last Name_form'
+
+2022-04-08 13:23:07 - [MESSAGE][PASSED] - Text 'flores' is set on object 'Object Repository/Notary Network/input_Last Name_form'
+
+2022-04-08 13:23:07 - [TEST_STEP][PASSED] - setText(findTestObject("Notary Network/input_Address_form"), address): Text 'alaska' is set on object 'Object Repository/Notary Network/input_Address_form'
+
+2022-04-08 13:23:08 - [MESSAGE][PASSED] - Text 'alaska' is set on object 'Object Repository/Notary Network/input_Address_form'
+
+2022-04-08 13:23:08 - [TEST_STEP][PASSED] - setText(findTestObject("Notary Network/input_City_form"), city): Text 'miranda' is set on object 'Object Repository/Notary Network/input_City_form'
+
+2022-04-08 13:23:09 - [MESSAGE][PASSED] - Text 'miranda' is set on object 'Object Repository/Notary Network/input_City_form'
+
+2022-04-08 13:23:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Notary Network/select_Select OneUS Armed Forces E"), "3: 3", false): All options with value '3: 3' are selected in object 'Object Repository/Notary Network/select_Select OneUS Armed Forces E' 
+
+2022-04-08 13:23:09 - [MESSAGE][PASSED] - All options with value '3: 3' are selected in object 'Object Repository/Notary Network/select_Select OneUS Armed Forces E' 
+
+2022-04-08 13:23:09 - [TEST_STEP][PASSED] - setText(findTestObject("Notary Network/input_Extension_form"), extension): Text '87654321' is set on object 'Object Repository/Notary Network/input_Extension_form'
+
+2022-04-08 13:23:10 - [MESSAGE][PASSED] - Text '87654321' is set on object 'Object Repository/Notary Network/input_Extension_form'
+
+2022-04-08 13:23:10 - [TEST_STEP][PASSED] - setText(findTestObject("Notary Network/input_FAX_form"), fax): Text '87654321' is set on object 'Object Repository/Notary Network/input_FAX_form'
+
+2022-04-08 13:23:11 - [MESSAGE][PASSED] - Text '87654321' is set on object 'Object Repository/Notary Network/input_FAX_form'
+
+2022-04-08 13:23:11 - [TEST_STEP][PASSED] - setText(findTestObject("Notary Network/input_Phone Number_form"), phonenumber): Text '87654321' is set on object 'Object Repository/Notary Network/input_Phone Number_form'
+
+2022-04-08 13:23:12 - [MESSAGE][PASSED] - Text '87654321' is set on object 'Object Repository/Notary Network/input_Phone Number_form'
+
+2022-04-08 13:23:12 - [TEST_STEP][PASSED] - setText(findTestObject("Notary Network/input_ZIP_form-control"), zip): Text '2020' is set on object 'Object Repository/Notary Network/input_ZIP_form-control'
+
+2022-04-08 13:23:12 - [MESSAGE][PASSED] - Text '2020' is set on object 'Object Repository/Notary Network/input_ZIP_form-control'
+
+2022-04-08 13:23:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Notary Network/button_Welcome, Julio Uzctegui_saveButton"), 0): Scroll to object 'Object Repository/Notary Network/button_Welcome, Julio Uzctegui_saveButton' successfully
+
+2022-04-08 13:23:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-08 13:23:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Notary Network/button_Welcome, Julio Uzctegui_saveButton' successfully
+
+2022-04-08 13:23:13 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/Edit/button_Welcome, Julio Uzctegui_saveButton edit")): Object: 'Object Repository/Notary Network/Edit/button_Welcome, Julio Uzctegui_saveButton edit' is clicked on
+
+2022-04-08 13:23:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/Edit/button_Welcome, Julio Uzctegui_saveButton edit' is clicked on
+
+2022-04-08 13:23:13 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/Edit/button_Accept edit")): Object: 'Object Repository/Notary Network/Edit/button_Accept edit' is clicked on
+
+2022-04-08 13:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/Edit/button_Accept edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Notary Network" time="46.841" classname="Test Cases/Delete Notary Network" status="PASSED">
+         <system-out><![CDATA[2022-04-08 13:23:14 - [TEST_CASE][PASSED] - Test Cases/Delete Notary Network: Test Cases/Delete Notary Network
+
+2022-04-08 13:23:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-08 13:23:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-08 13:23:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-08 13:23:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-08 13:23:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-08 13:23:16 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-08 13:23:21 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-08 13:23:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-08 13:23:22 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-08 13:23:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-08 13:23:23 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-08 13:23:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-08 13:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-08 13:23:25 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/strong_Office Tools")): Object: 'Object Repository/Notary Network/strong_Office Tools' is clicked on
+
+2022-04-08 13:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/strong_Office Tools' is clicked on
+
+2022-04-08 13:23:26 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/span_Notary Network")): Object: 'Object Repository/Notary Network/span_Notary Network' is clicked on
+
+2022-04-08 13:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/span_Notary Network' is clicked on
+
+2022-04-08 13:23:26 - [TEST_STEP][PASSED] - setText(findTestObject("Notary Network/Edit/input_Notary Network_search"), "lisbeth"): Text 'lisbeth' is set on object 'Object Repository/Notary Network/Edit/input_Notary Network_search'
+
+2022-04-08 13:23:27 - [MESSAGE][PASSED] - Text 'lisbeth' is set on object 'Object Repository/Notary Network/Edit/input_Notary Network_search'
+
+2022-04-08 13:23:27 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/Delete/td_Email_tdEditButton")): Object: 'Object Repository/Notary Network/Delete/td_Email_tdEditButton' is clicked on
+
+2022-04-08 13:23:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id='pr_id_2-table']/tbody/tr/td'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-08 13:23:59 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Notary Network/Delete/td_Email_tdEditButton'. Try using Self-healing.
+
+2022-04-08 13:23:59 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//table[@id='pr_id_2-table']/tbody/tr/td'.
+
+2022-04-08 13:23:59 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::td[1]'.
+
+2022-04-08 13:24:00 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /home/juzcategui/git/DIMS/Reports/Self-healing/Object Repository/Notary Network/Delete/td_Email_tdEditButton_neighbor.png
+
+2022-04-08 13:24:00 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Notary Network/Delete/td_Email_tdEditButton' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::td[1]'.
+
+2022-04-08 13:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/Delete/td_Email_tdEditButton' is clicked on
+
+2022-04-08 13:24:00 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/Delete/button_Welcome, Julio Uzctegui_deleteButton"), STOP_ON_FAILURE): Object: 'Object Repository/Notary Network/Delete/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-04-08 13:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/Delete/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-04-08 13:24:00 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/Delete/button_Accept delete")): Object: 'Object Repository/Notary Network/Delete/button_Accept delete' is clicked on
+
+2022-04-08 13:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/Delete/button_Accept delete' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-08 13:22:39 - [TEST_SUITE][PASSED] - Notary Network: Test Cases/Delete Notary Network]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
