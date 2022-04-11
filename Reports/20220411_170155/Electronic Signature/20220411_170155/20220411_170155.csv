@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Electronic Signature,Chrome 98.0.4758.102,,,2022-04-11 17:01:59,2022-04-11 17:04:13,"2m - 14,329s",ERROR
+,,,,,,,
+Test Cases/Add Electronic Signature,Chrome 98.0.4758.102,,,2022-04-11 17:02:00,2022-04-11 17:02:35,"35,135s",PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-04-11 17:02:00,2022-04-11 17:02:03,"2,738s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-04-11 17:02:03,2022-04-11 17:02:25,"21,925s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-04-11 17:02:25,2022-04-11 17:02:26,"0,828s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-04-11 17:02:26,2022-04-11 17:02:27,"0,755s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-04-11 17:02:27,2022-04-11 17:02:29,"2,579s",PASSED
+"click(findTestObject(""Notary Network/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-04-11 17:02:29,2022-04-11 17:02:31,"1,452s",PASSED
+"click(findTestObject(""Electronic Signature/span_Electronic Signature Information""))",Chrome 98.0.4758.102,,,2022-04-11 17:02:31,2022-04-11 17:02:31,"0,595s",PASSED
+"click(findTestObject(""Notary Network/button_Welcome, Julio Uzctegui_addButton""))",Chrome 98.0.4758.102,,,2022-04-11 17:02:31,2022-04-11 17:02:33,"1,703s",PASSED
+"selectOptionByValue(findTestObject(""Electronic Signature/select_Select OneAlpha trustDocusign""), ""Alpha trust"", false)",Chrome 98.0.4758.102,,,2022-04-11 17:02:33,2022-04-11 17:02:34,"0,816s",PASSED
+"setText(findTestObject(""Electronic Signature/input_Esign Complete Email""), email)",Chrome 98.0.4758.102,,,2022-04-11 17:02:34,2022-04-11 17:02:34,"0,773s",PASSED
+"click(findTestObject(""Breaks/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 98.0.4758.102,,,2022-04-11 17:02:34,2022-04-11 17:02:35,"0,381s",PASSED
+,,,,,,,
+Test Cases/Edit Electronic Signature,Chrome 98.0.4758.102,,,2022-04-11 17:02:35,2022-04-11 17:03:10,"34,810s",ERROR
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-04-11 17:02:35,2022-04-11 17:02:36,"0,867s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-04-11 17:02:36,2022-04-11 17:03:04,"27,672s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-04-11 17:03:04,2022-04-11 17:03:04,"0,699s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-04-11 17:03:04,2022-04-11 17:03:05,"0,713s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-04-11 17:03:05,2022-04-11 17:03:06,"0,370s",PASSED
+"click(findTestObject(""Notary Network/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-04-11 17:03:06,2022-04-11 17:03:06,"0,757s",PASSED
+"click(findTestObject(""Electronic Signature/span_Electronic Signature Information""))",Chrome 98.0.4758.102,,,2022-04-11 17:03:06,2022-04-11 17:03:07,"0,574s",PASSED
+"setText(findTestObject(""Electronic Signature/input_Electronic Signature to search""), ""Testaut"")",Chrome 98.0.4758.102,,,2022-04-11 17:03:07,2022-04-11 17:03:08,"1,133s",PASSED
+"click(findTestObject(""Notary Network/Edit/button_Email_editButton""))",Chrome 98.0.4758.102,,,2022-04-11 17:03:08,2022-04-11 17:03:09,"0,871s",PASSED
+"selectOptionByValue(findTestObject(""Electronic Signature/select_Select OneAlpha trustDocusign""), ""Docusign"", false)",Chrome 98.0.4758.102,,,2022-04-11 17:03:09,2022-04-11 17:03:10,"0,730s",PASSED
+"setText(findTestObject(""Electronic Signature/input_Esign Complete Email""), extension)",Chrome 98.0.4758.102,,,2022-04-11 17:03:10,2022-04-11 17:03:10,"0,093s",ERROR
+,,,,,,,
+Test Cases/Delete Electronic Signature,Chrome 98.0.4758.102,,,2022-04-11 17:03:10,2022-04-11 17:04:13,"1m - 3,382s",PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-04-11 17:03:10,2022-04-11 17:03:11,"1,064s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-04-11 17:03:11,2022-04-11 17:03:34,"22,331s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-04-11 17:03:34,2022-04-11 17:03:34,"0,704s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-04-11 17:03:34,2022-04-11 17:03:35,"0,718s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-04-11 17:03:35,2022-04-11 17:03:37,"2,446s",PASSED
+"click(findTestObject(""Notary Network/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-04-11 17:03:37,2022-04-11 17:03:38,"0,760s",PASSED
+"click(findTestObject(""Electronic Signature/span_Electronic Signature Information""))",Chrome 98.0.4758.102,,,2022-04-11 17:03:38,2022-04-11 17:03:39,"0,499s",PASSED
+"setText(findTestObject(""Electronic Signature/input_Electronic Signature to search""), ""Testaut"")",Chrome 98.0.4758.102,,,2022-04-11 17:03:39,2022-04-11 17:03:40,"1,030s",PASSED
+"click(findTestObject(""Electronic Signature/td_Esign Complete Email_to delete""))",Chrome 98.0.4758.102,,,2022-04-11 17:03:40,2022-04-11 17:04:12,"32,264s",PASSED
+"click(findTestObject(""Notary Network/Delete/button_Welcome, Julio Uzctegui_deleteButton""), STOP_ON_FAILURE)",Chrome 98.0.4758.102,,,2022-04-11 17:04:12,2022-04-11 17:04:12,"0,510s",PASSED
+"click(findTestObject(""Notary Network/Delete/button_Accept delete""))",Chrome 98.0.4758.102,,,2022-04-11 17:04:12,2022-04-11 17:04:13,"0,692s",PASSED

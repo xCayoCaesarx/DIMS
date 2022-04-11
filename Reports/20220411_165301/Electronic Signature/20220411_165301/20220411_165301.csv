@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Electronic Signature,Chrome 98.0.4758.102,,,2022-04-11 16:53:04,2022-04-11 16:53:39,"34,845s",FAILED
+,,,,,,,
+Test Cases/Add Electronic Signature,Chrome 98.0.4758.102,,,2022-04-11 16:53:05,2022-04-11 16:53:32,"26,616s",FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-04-11 16:53:06,2022-04-11 16:53:07,"1,927s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-04-11 16:53:07,2022-04-11 16:53:25,"17,206s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-04-11 16:53:25,2022-04-11 16:53:25,"0,791s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 98.0.4758.102,,,2022-04-11 16:53:25,2022-04-11 16:53:26,"0,766s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 98.0.4758.102,,,2022-04-11 16:53:26,2022-04-11 16:53:29,"2,563s",PASSED
+"click(findTestObject(""Notary Network/strong_Office Tools""))",Chrome 98.0.4758.102,,,2022-04-11 16:53:29,2022-04-11 16:53:30,"0,734s",PASSED
+"click(findTestObject(""Electronic Signature/span_Electronic Signature Information""))",Chrome 98.0.4758.102,,,2022-04-11 16:53:30,2022-04-11 16:53:30,"0,519s",PASSED
+"click(findTestObject(""Notary Network/button_Welcome, Julio Uzctegui_addButton""))",Chrome 98.0.4758.102,,,2022-04-11 16:53:30,2022-04-11 16:53:31,"0,716s",PASSED
+"selectOptionByValue(findTestObject(""Electronic Signature/select_Select OneAlpha trustDocusign""), ""1"", false)",Chrome 98.0.4758.102,,,2022-04-11 16:53:31,2022-04-11 16:53:32,"0,863s",FAILED
+,,,,,,,
+Test Cases/Edit Electronic Signature,Chrome 98.0.4758.102,,,2022-04-11 16:53:32,2022-04-11 16:53:37,"4,790s",FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-04-11 16:53:32,2022-04-11 16:53:33,"0,893s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-04-11 16:53:33,2022-04-11 16:53:36,"3,436s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 98.0.4758.102,,,2022-04-11 16:53:36,2022-04-11 16:53:36,"0,243s",FAILED
+,,,,,,,
+Test Cases/Delete Electronic Signature,Chrome 98.0.4758.102,,,2022-04-11 16:53:37,2022-04-11 16:53:39,"2,742s",FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-04-11 16:53:37,2022-04-11 16:53:38,"1,104s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 98.0.4758.102,,,2022-04-11 16:53:38,2022-04-11 16:53:39,"1,250s",FAILED

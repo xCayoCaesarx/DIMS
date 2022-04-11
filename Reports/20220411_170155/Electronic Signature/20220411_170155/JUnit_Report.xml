@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Electronic Signature" time="134.329" tests="3" failures="0" errors="1">
+   <testsuite name="Electronic Signature" tests="3" failures="0" errors="1" time="134.329" skipped="0" timestamp="2022-04-11 17:01:59" hostname="juzcategui - juzcategui" id="Test Suites/Electronic Signature">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220411_170155/Electronic Signature/20220411_170155"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220411_170155/Electronic Signature/20220411_170155/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="65ebf02fc9340d29860366048fff6a30"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add Electronic Signature" time="35.135" classname="Test Cases/Add Electronic Signature" status="PASSED">
+         <system-out><![CDATA[2022-04-11 17:02:00 - [TEST_CASE][PASSED] - Test Cases/Add Electronic Signature: Test Cases/Add Electronic Signature
+
+2022-04-11 17:02:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-11 17:02:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-11 17:02:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-11 17:02:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-11 17:02:03 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-11 17:02:25 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-11 17:02:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-11 17:02:26 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-11 17:02:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-11 17:02:27 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-11 17:02:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-11 17:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-11 17:02:29 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/strong_Office Tools")): Object: 'Object Repository/Notary Network/strong_Office Tools' is clicked on
+
+2022-04-11 17:02:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/strong_Office Tools' is clicked on
+
+2022-04-11 17:02:31 - [TEST_STEP][PASSED] - click(findTestObject("Electronic Signature/span_Electronic Signature Information")): Object: 'Object Repository/Electronic Signature/span_Electronic Signature Information' is clicked on
+
+2022-04-11 17:02:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Electronic Signature/span_Electronic Signature Information' is clicked on
+
+2022-04-11 17:02:31 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/button_Welcome, Julio Uzctegui_addButton")): Object: 'Object Repository/Notary Network/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-04-11 17:02:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-04-11 17:02:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Electronic Signature/select_Select OneAlpha trustDocusign"), "Alpha trust", false): All options with value 'Alpha trust' are selected in object 'Object Repository/Electronic Signature/select_Select OneAlpha trustDocusign' 
+
+2022-04-11 17:02:34 - [MESSAGE][PASSED] - All options with value 'Alpha trust' are selected in object 'Object Repository/Electronic Signature/select_Select OneAlpha trustDocusign' 
+
+2022-04-11 17:02:34 - [TEST_STEP][PASSED] - setText(findTestObject("Electronic Signature/input_Esign Complete Email"), email): Text 'TestAut@qa.com' is set on object 'Object Repository/Electronic Signature/input_Esign Complete Email'
+
+2022-04-11 17:02:34 - [MESSAGE][PASSED] - Text 'TestAut@qa.com' is set on object 'Object Repository/Electronic Signature/input_Esign Complete Email'
+
+2022-04-11 17:02:34 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Breaks/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-04-11 17:02:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/button_Welcome, Julio Uzctegui_saveButton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Electronic Signature" time="34.81" classname="Test Cases/Edit Electronic Signature" status="ERROR">
+         <error type="ERROR" message="Test Cases/Edit Electronic Signature FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: extension for class: Script1649690041803
+	at Edit Electronic Signature.run(Edit Electronic Signature:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649710915218.run(TempTestSuite1649710915218.groovy:36)
+"/>
+         <system-out><![CDATA[2022-04-11 17:02:35 - [TEST_CASE][ERROR] - Test Cases/Edit Electronic Signature: Test Cases/Edit Electronic Signature FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: extension for class: Script1649690041803
+	at Edit Electronic Signature.run(Edit Electronic Signature:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649710915218.run(TempTestSuite1649710915218.groovy:36)
+
+
+2022-04-11 17:02:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-11 17:02:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-11 17:02:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-11 17:02:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-11 17:02:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-11 17:02:36 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-11 17:03:04 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-11 17:03:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-11 17:03:04 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-11 17:03:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-11 17:03:05 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-11 17:03:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-11 17:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-11 17:03:06 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/strong_Office Tools")): Object: 'Object Repository/Notary Network/strong_Office Tools' is clicked on
+
+2022-04-11 17:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/strong_Office Tools' is clicked on
+
+2022-04-11 17:03:06 - [TEST_STEP][PASSED] - click(findTestObject("Electronic Signature/span_Electronic Signature Information")): Object: 'Object Repository/Electronic Signature/span_Electronic Signature Information' is clicked on
+
+2022-04-11 17:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Electronic Signature/span_Electronic Signature Information' is clicked on
+
+2022-04-11 17:03:07 - [TEST_STEP][PASSED] - setText(findTestObject("Electronic Signature/input_Electronic Signature to search"), "Testaut"): Text 'Testaut' is set on object 'Object Repository/Electronic Signature/input_Electronic Signature to search'
+
+2022-04-11 17:03:08 - [MESSAGE][PASSED] - Text 'Testaut' is set on object 'Object Repository/Electronic Signature/input_Electronic Signature to search'
+
+2022-04-11 17:03:08 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/Edit/button_Email_editButton")): Object: 'Object Repository/Notary Network/Edit/button_Email_editButton' is clicked on
+
+2022-04-11 17:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/Edit/button_Email_editButton' is clicked on
+
+2022-04-11 17:03:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Electronic Signature/select_Select OneAlpha trustDocusign"), "Docusign", false): All options with value 'Docusign' are selected in object 'Object Repository/Electronic Signature/select_Select OneAlpha trustDocusign' 
+
+2022-04-11 17:03:10 - [MESSAGE][PASSED] - All options with value 'Docusign' are selected in object 'Object Repository/Electronic Signature/select_Select OneAlpha trustDocusign' 
+
+2022-04-11 17:03:10 - [TEST_STEP][ERROR] - setText(findTestObject("Electronic Signature/input_Esign Complete Email"), extension): Test Cases/Edit Electronic Signature FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: extension for class: Script1649690041803
+	at Edit Electronic Signature.run(Edit Electronic Signature:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649710915218.run(TempTestSuite1649710915218.groovy:36)
+
+
+2022-04-11 17:03:10 - [MESSAGE][ERROR] - Test Cases/Edit Electronic Signature FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: extension for class: Script1649690041803
+	at Edit Electronic Signature.run(Edit Electronic Signature:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649710915218.run(TempTestSuite1649710915218.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-04-11 17:02:35 - [TEST_CASE][ERROR] - Test Cases/Edit Electronic Signature: Test Cases/Edit Electronic Signature FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: extension for class: Script1649690041803
+	at Edit Electronic Signature.run(Edit Electronic Signature:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649710915218.run(TempTestSuite1649710915218.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Electronic Signature" time="63.382" classname="Test Cases/Delete Electronic Signature" status="PASSED">
+         <system-out><![CDATA[2022-04-11 17:03:10 - [TEST_CASE][PASSED] - Test Cases/Delete Electronic Signature: Test Cases/Delete Electronic Signature
+
+2022-04-11 17:03:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-11 17:03:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-11 17:03:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-11 17:03:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-11 17:03:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-11 17:03:11 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-11 17:03:34 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-11 17:03:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-11 17:03:34 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-11 17:03:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-11 17:03:35 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-11 17:03:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-11 17:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-11 17:03:37 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/strong_Office Tools")): Object: 'Object Repository/Notary Network/strong_Office Tools' is clicked on
+
+2022-04-11 17:03:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/strong_Office Tools' is clicked on
+
+2022-04-11 17:03:38 - [TEST_STEP][PASSED] - click(findTestObject("Electronic Signature/span_Electronic Signature Information")): Object: 'Object Repository/Electronic Signature/span_Electronic Signature Information' is clicked on
+
+2022-04-11 17:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Electronic Signature/span_Electronic Signature Information' is clicked on
+
+2022-04-11 17:03:39 - [TEST_STEP][PASSED] - setText(findTestObject("Electronic Signature/input_Electronic Signature to search"), "Testaut"): Text 'Testaut' is set on object 'Object Repository/Electronic Signature/input_Electronic Signature to search'
+
+2022-04-11 17:03:40 - [MESSAGE][PASSED] - Text 'Testaut' is set on object 'Object Repository/Electronic Signature/input_Electronic Signature to search'
+
+2022-04-11 17:03:40 - [TEST_STEP][PASSED] - click(findTestObject("Electronic Signature/td_Esign Complete Email_to delete")): Object: 'Object Repository/Electronic Signature/td_Esign Complete Email_to delete' is clicked on
+
+2022-04-11 17:04:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id='pr_id_3-table']/tbody/tr/td'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-11 17:04:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Electronic Signature/td_Esign Complete Email_to delete'. Try using Self-healing.
+
+2022-04-11 17:04:11 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//table[@id='pr_id_3-table']/tbody/tr/td'.
+
+2022-04-11 17:04:11 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Esign Complete Email'])[1]/following::td[1]'.
+
+2022-04-11 17:04:12 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /home/juzcategui/git/DIMS/Reports/Self-healing/Object Repository/Electronic Signature/td_Esign Complete Email_to delete_neighbor.png
+
+2022-04-11 17:04:12 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Electronic Signature/td_Esign Complete Email_to delete' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Esign Complete Email'])[1]/following::td[1]'.
+
+2022-04-11 17:04:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Electronic Signature/td_Esign Complete Email_to delete' is clicked on
+
+2022-04-11 17:04:12 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/Delete/button_Welcome, Julio Uzctegui_deleteButton"), STOP_ON_FAILURE): Object: 'Object Repository/Notary Network/Delete/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-04-11 17:04:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/Delete/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-04-11 17:04:12 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/Delete/button_Accept delete")): Object: 'Object Repository/Notary Network/Delete/button_Accept delete' is clicked on
+
+2022-04-11 17:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/Delete/button_Accept delete' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-11 17:01:59 - [TEST_SUITE][ERROR] - Electronic Signature: Test Cases/Edit Electronic Signature FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: extension for class: Script1649690041803
+	at Edit Electronic Signature.run(Edit Electronic Signature:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649710915218.run(TempTestSuite1649710915218.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-04-11 17:01:59 - [TEST_SUITE][ERROR] - Electronic Signature: Test Cases/Edit Electronic Signature FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: extension for class: Script1649690041803
+	at Edit Electronic Signature.run(Edit Electronic Signature:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649710915218.run(TempTestSuite1649710915218.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

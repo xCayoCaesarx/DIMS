@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Electronic Signature" time="89.382" tests="3" failures="0" errors="0">
+   <testsuite name="Electronic Signature" tests="3" failures="0" errors="0" time="89.382" skipped="0" timestamp="2022-04-11 17:14:36" hostname="juzcategui - juzcategui" id="Test Suites/Electronic Signature">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220411_171433/Electronic Signature/20220411_171433"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220411_171433/Electronic Signature/20220411_171433/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="7df4f74eb40a5fb47b76e906f6ef6ec1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add Electronic Signature" time="28.335" classname="Test Cases/Add Electronic Signature" status="PASSED">
+         <system-out><![CDATA[2022-04-11 17:14:37 - [TEST_CASE][PASSED] - Test Cases/Add Electronic Signature: Test Cases/Add Electronic Signature
+
+2022-04-11 17:14:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-11 17:14:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-11 17:14:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-11 17:14:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-11 17:14:41 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-11 17:14:57 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-11 17:14:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-11 17:14:58 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-11 17:14:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-11 17:14:59 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-11 17:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-11 17:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-11 17:15:01 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/strong_Office Tools")): Object: 'Object Repository/Notary Network/strong_Office Tools' is clicked on
+
+2022-04-11 17:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/strong_Office Tools' is clicked on
+
+2022-04-11 17:15:02 - [TEST_STEP][PASSED] - click(findTestObject("Electronic Signature/span_Electronic Signature Information")): Object: 'Object Repository/Electronic Signature/span_Electronic Signature Information' is clicked on
+
+2022-04-11 17:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Electronic Signature/span_Electronic Signature Information' is clicked on
+
+2022-04-11 17:15:03 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/button_Welcome, Julio Uzctegui_addButton")): Object: 'Object Repository/Notary Network/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-04-11 17:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-04-11 17:15:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Electronic Signature/select_Select OneAlpha trustDocusign"), "Alpha trust", false): All options with value 'Alpha trust' are selected in object 'Object Repository/Electronic Signature/select_Select OneAlpha trustDocusign' 
+
+2022-04-11 17:15:04 - [MESSAGE][PASSED] - All options with value 'Alpha trust' are selected in object 'Object Repository/Electronic Signature/select_Select OneAlpha trustDocusign' 
+
+2022-04-11 17:15:04 - [TEST_STEP][PASSED] - setText(findTestObject("Electronic Signature/input_Esign Complete Email"), email): Text 'TestAut@qa.com' is set on object 'Object Repository/Electronic Signature/input_Esign Complete Email'
+
+2022-04-11 17:15:05 - [MESSAGE][PASSED] - Text 'TestAut@qa.com' is set on object 'Object Repository/Electronic Signature/input_Esign Complete Email'
+
+2022-04-11 17:15:05 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Breaks/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-04-11 17:15:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/button_Welcome, Julio Uzctegui_saveButton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Electronic Signature" time="31.001" classname="Test Cases/Edit Electronic Signature" status="PASSED">
+         <system-out><![CDATA[2022-04-11 17:15:05 - [TEST_CASE][PASSED] - Test Cases/Edit Electronic Signature: Test Cases/Edit Electronic Signature
+
+2022-04-11 17:15:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-11 17:15:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-11 17:15:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-11 17:15:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-11 17:15:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-11 17:15:07 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-11 17:15:27 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-11 17:15:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-11 17:15:28 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-11 17:15:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-11 17:15:28 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-11 17:15:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-11 17:15:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-11 17:15:31 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/strong_Office Tools")): Object: 'Object Repository/Notary Network/strong_Office Tools' is clicked on
+
+2022-04-11 17:15:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/strong_Office Tools' is clicked on
+
+2022-04-11 17:15:32 - [TEST_STEP][PASSED] - click(findTestObject("Electronic Signature/span_Electronic Signature Information")): Object: 'Object Repository/Electronic Signature/span_Electronic Signature Information' is clicked on
+
+2022-04-11 17:15:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Electronic Signature/span_Electronic Signature Information' is clicked on
+
+2022-04-11 17:15:32 - [TEST_STEP][PASSED] - setText(findTestObject("Electronic Signature/input_Electronic Signature to search"), "Testaut"): Text 'Testaut' is set on object 'Object Repository/Electronic Signature/input_Electronic Signature to search'
+
+2022-04-11 17:15:33 - [MESSAGE][PASSED] - Text 'Testaut' is set on object 'Object Repository/Electronic Signature/input_Electronic Signature to search'
+
+2022-04-11 17:15:33 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/Edit/button_Email_editButton")): Object: 'Object Repository/Notary Network/Edit/button_Email_editButton' is clicked on
+
+2022-04-11 17:15:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/Edit/button_Email_editButton' is clicked on
+
+2022-04-11 17:15:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Electronic Signature/select_Select OneAlpha trustDocusign"), "Docusign", false): All options with value 'Docusign' are selected in object 'Object Repository/Electronic Signature/select_Select OneAlpha trustDocusign' 
+
+2022-04-11 17:15:35 - [MESSAGE][PASSED] - All options with value 'Docusign' are selected in object 'Object Repository/Electronic Signature/select_Select OneAlpha trustDocusign' 
+
+2022-04-11 17:15:35 - [TEST_STEP][PASSED] - setText(findTestObject("Electronic Signature/input_Esign Complete Email"), email): Text 'testaut@qamodificado.com' is set on object 'Object Repository/Electronic Signature/input_Esign Complete Email'
+
+2022-04-11 17:15:35 - [MESSAGE][PASSED] - Text 'testaut@qamodificado.com' is set on object 'Object Repository/Electronic Signature/input_Esign Complete Email'
+
+2022-04-11 17:15:35 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/Edit/button_Welcome, Julio Uzctegui_saveButton edit")): Object: 'Object Repository/Notary Network/Edit/button_Welcome, Julio Uzctegui_saveButton edit' is clicked on
+
+2022-04-11 17:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/Edit/button_Welcome, Julio Uzctegui_saveButton edit' is clicked on
+
+2022-04-11 17:15:36 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/Edit/button_Accept edit")): Object: 'Object Repository/Notary Network/Edit/button_Accept edit' is clicked on
+
+2022-04-11 17:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/Edit/button_Accept edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Electronic Signature" time="29.19" classname="Test Cases/Delete Electronic Signature" status="PASSED">
+         <system-out><![CDATA[2022-04-11 17:15:36 - [TEST_CASE][PASSED] - Test Cases/Delete Electronic Signature: Test Cases/Delete Electronic Signature
+
+2022-04-11 17:15:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-11 17:15:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-11 17:15:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-11 17:15:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-11 17:15:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-11 17:15:38 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-11 17:15:57 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-11 17:15:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-11 17:15:58 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-11 17:15:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-11 17:15:59 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-11 17:15:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-11 17:16:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-11 17:16:01 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/strong_Office Tools")): Object: 'Object Repository/Notary Network/strong_Office Tools' is clicked on
+
+2022-04-11 17:16:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/strong_Office Tools' is clicked on
+
+2022-04-11 17:16:02 - [TEST_STEP][PASSED] - click(findTestObject("Electronic Signature/span_Electronic Signature Information")): Object: 'Object Repository/Electronic Signature/span_Electronic Signature Information' is clicked on
+
+2022-04-11 17:16:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Electronic Signature/span_Electronic Signature Information' is clicked on
+
+2022-04-11 17:16:03 - [TEST_STEP][PASSED] - setText(findTestObject("Electronic Signature/input_Electronic Signature to search"), "Testaut"): Text 'Testaut' is set on object 'Object Repository/Electronic Signature/input_Electronic Signature to search'
+
+2022-04-11 17:16:04 - [MESSAGE][PASSED] - Text 'Testaut' is set on object 'Object Repository/Electronic Signature/input_Electronic Signature to search'
+
+2022-04-11 17:16:04 - [TEST_STEP][PASSED] - click(findTestObject("Electronic Signature/td_Esign Complete Email_to delete")): Object: 'Object Repository/Electronic Signature/td_Esign Complete Email_to delete' is clicked on
+
+2022-04-11 17:16:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Electronic Signature/td_Esign Complete Email_to delete' is clicked on
+
+2022-04-11 17:16:04 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/Delete/button_Welcome, Julio Uzctegui_deleteButton"), STOP_ON_FAILURE): Object: 'Object Repository/Notary Network/Delete/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-04-11 17:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/Delete/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-04-11 17:16:05 - [TEST_STEP][PASSED] - click(findTestObject("Notary Network/Delete/button_Accept delete")): Object: 'Object Repository/Notary Network/Delete/button_Accept delete' is clicked on
+
+2022-04-11 17:16:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Notary Network/Delete/button_Accept delete' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-11 17:14:36 - [TEST_SUITE][PASSED] - Electronic Signature: Test Cases/Delete Electronic Signature]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

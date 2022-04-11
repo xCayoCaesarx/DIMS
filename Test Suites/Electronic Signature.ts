@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Electronic Signature</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>e84f03c2-2eda-474b-96c8-69362e257bdf</testSuiteGuid>
+   <testCaseLink>
+      <guid>ce907178-11a8-44c0-a831-d04a79bdc14c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Add Electronic Signature</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7224a8cd-e4a7-4f43-8e92-3a033e5bb352</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Electronic Signature Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7224a8cd-e4a7-4f43-8e92-3a033e5bb352</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>983dd0a2-e135-48c8-b82d-56f299ce4239</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7224a8cd-e4a7-4f43-8e92-3a033e5bb352</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>8add1588-fd50-4f21-86ca-db53d6528eb5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7224a8cd-e4a7-4f43-8e92-3a033e5bb352</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>d4a6948a-985b-4ca1-8e58-71839e67190f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dc8c05bd-785f-4f62-ab37-1db6c6269999</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit Electronic Signature</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>cb2d396c-4d1e-49df-83ab-b6f3eb829869</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>2</value>
+         </iterationEntity>
+         <testDataId>Data Files/Electronic Signature Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>cb2d396c-4d1e-49df-83ab-b6f3eb829869</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>85dd57ea-7442-45ad-afbb-1a7acecc70af</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>cb2d396c-4d1e-49df-83ab-b6f3eb829869</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>5d823080-175d-4297-b74e-478b919a1248</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>cb2d396c-4d1e-49df-83ab-b6f3eb829869</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>e274be94-1644-4a87-a3b6-9e34a2ef743c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>49cfe27b-66b5-4282-9909-f81f3d2452c2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Delete Electronic Signature</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fc5145cd-d214-4631-a1a7-c1f3a5c92153</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>2</value>
+         </iterationEntity>
+         <testDataId>Data Files/Electronic Signature Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fc5145cd-d214-4631-a1a7-c1f3a5c92153</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>b83ca7a3-8174-4a4d-92fe-4688f36b753d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fc5145cd-d214-4631-a1a7-c1f3a5c92153</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>16f3c46e-7758-47ca-8ec6-2481c5129cf2</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
