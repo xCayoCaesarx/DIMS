@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Object Repository/Create Lead/input_Username_form-
 
 WebUI.setText(findTestObject('Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'), pass)
 
-WebUI.authenticate('', '', '', 0)
+WebUI.click(findTestObject('Object Repository/Create Lead/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/Create Lead/strong_My Tools'))
 
