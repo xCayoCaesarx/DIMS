@@ -68,11 +68,7 @@ WebUI.setText(findTestObject('Create Lead/input_Email_form-control shadow-none n
 
 WebUI.setText(findTestObject('Create Lead/input_Mailer Code'), maildercode)
 
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
 WebUI.scrollToElement(findTestObject('Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton'), 0)
 
 WebUI.click(findTestObject('Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton'))
-
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 

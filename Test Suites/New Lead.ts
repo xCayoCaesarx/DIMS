@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>6ff59690-b348-414d-b7d6-2bee960635e5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Create Lead - Required Fields</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

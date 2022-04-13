@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Breaks" time="141.505" tests="3" failures="0" errors="0">
+   <testsuite name="Breaks" tests="3" failures="0" errors="0" time="141.505" skipped="0" timestamp="2022-04-13 15:56:07" hostname="juzcategui - juzcategui" id="Test Suites/Breaks">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220413_155604/Breaks/20220413_155604"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220413_155604/Breaks/20220413_155604/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="88b3fc3dc214d167ead3eeb43ea273ca"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add break" time="49.198" classname="Test Cases/Add break" status="PASSED">
+         <system-out><![CDATA[2022-04-13 15:56:08 - [TEST_CASE][PASSED] - Test Cases/Add break: Test Cases/Add break
+
+2022-04-13 15:56:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-13 15:56:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-13 15:56:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-13 15:56:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-13 15:56:11 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-13 15:56:47 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-13 15:56:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-13 15:56:48 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-13 15:56:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-13 15:56:49 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-13 15:56:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-13 15:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-13 15:56:51 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/Page_Debt IMS/strong_Administration")): Object: 'Object Repository/Breaks/Page_Debt IMS/strong_Administration' is clicked on
+
+2022-04-13 15:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/Page_Debt IMS/strong_Administration' is clicked on
+
+2022-04-13 15:56:53 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/Page_Debt IMS/span_Breaks")): Object: 'Object Repository/Breaks/Page_Debt IMS/span_Breaks' is clicked on
+
+2022-04-13 15:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/Page_Debt IMS/span_Breaks' is clicked on
+
+2022-04-13 15:56:53 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/button_Welcome, Julio Uzctegui_addButton")): Object: 'Object Repository/Breaks/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-04-13 15:56:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-04-13 15:56:55 - [TEST_STEP][PASSED] - setText(findTestObject("Breaks/input_Name_form-control shadow-none ng-untouched ng-pristine ng-invalid"), name): Text 'Test aut' is set on object 'Object Repository/Breaks/input_Name_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-04-13 15:56:56 - [MESSAGE][PASSED] - Text 'Test aut' is set on object 'Object Repository/Breaks/input_Name_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-04-13 15:56:56 - [TEST_STEP][PASSED] - setText(findTestObject("Breaks/input_Description_form-control shadow-none ng-untouched ng-pristine ng-invalid"), description): Text 'Test aut' is set on object 'Object Repository/Breaks/input_Description_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-04-13 15:56:57 - [MESSAGE][PASSED] - Text 'Test aut' is set on object 'Object Repository/Breaks/input_Description_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-04-13 15:56:57 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Breaks/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-04-13 15:56:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/button_Welcome, Julio Uzctegui_saveButton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Break" time="47.576" classname="Test Cases/Edit Break" status="PASSED">
+         <system-out><![CDATA[2022-04-13 15:56:57 - [TEST_CASE][PASSED] - Test Cases/Edit Break: Test Cases/Edit Break
+
+2022-04-13 15:56:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-13 15:56:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-13 15:56:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-13 15:56:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-13 15:56:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-13 15:56:58 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-13 15:57:33 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-13 15:57:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-13 15:57:34 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-13 15:57:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-13 15:57:34 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-13 15:57:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-13 15:57:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-13 15:57:37 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/Page_Debt IMS/strong_Administration")): Object: 'Object Repository/Breaks/Page_Debt IMS/strong_Administration' is clicked on
+
+2022-04-13 15:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/Page_Debt IMS/strong_Administration' is clicked on
+
+2022-04-13 15:57:38 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/Page_Debt IMS/span_Breaks")): Object: 'Object Repository/Breaks/Page_Debt IMS/span_Breaks' is clicked on
+
+2022-04-13 15:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/Page_Debt IMS/span_Breaks' is clicked on
+
+2022-04-13 15:57:39 - [TEST_STEP][PASSED] - setText(findTestObject("Breaks/input_Break search"), "test aut"): Text 'test aut' is set on object 'Object Repository/Breaks/input_Break search'
+
+2022-04-13 15:57:41 - [MESSAGE][PASSED] - Text 'test aut' is set on object 'Object Repository/Breaks/input_Break search'
+
+2022-04-13 15:57:41 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/button_Status_editButton")): Object: 'Object Repository/Breaks/button_Status_editButton' is clicked on
+
+2022-04-13 15:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/button_Status_editButton' is clicked on
+
+2022-04-13 15:57:42 - [TEST_STEP][PASSED] - setText(findTestObject("Breaks/input_Name_form-control shadow-none ng-untouched ng-pristine ng-invalid"), name): Text 'Test aut modificado' is set on object 'Object Repository/Breaks/input_Name_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-04-13 15:57:43 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/Breaks/input_Name_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-04-13 15:57:43 - [TEST_STEP][PASSED] - setText(findTestObject("Breaks/input_Description_form-control shadow-none ng-untouched ng-pristine ng-invalid"), description): Text 'Test aut modificado' is set on object 'Object Repository/Breaks/input_Description_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-04-13 15:57:44 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/Breaks/input_Description_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-04-13 15:57:44 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Breaks/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-04-13 15:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-04-13 15:57:44 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/button_Accept edit")): Object: 'Object Repository/Breaks/button_Accept edit' is clicked on
+
+2022-04-13 15:57:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/button_Accept edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Break" time="43.878" classname="Test Cases/Delete Break" status="PASSED">
+         <system-out><![CDATA[2022-04-13 15:57:45 - [TEST_CASE][PASSED] - Test Cases/Delete Break: Test Cases/Delete Break
+
+2022-04-13 15:57:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-13 15:57:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-13 15:57:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-13 15:57:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-13 15:57:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-13 15:57:46 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-13 15:58:20 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-13 15:58:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-13 15:58:20 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-13 15:58:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-13 15:58:21 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-13 15:58:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-13 15:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-13 15:58:24 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/Page_Debt IMS/strong_Administration")): Object: 'Object Repository/Breaks/Page_Debt IMS/strong_Administration' is clicked on
+
+2022-04-13 15:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/Page_Debt IMS/strong_Administration' is clicked on
+
+2022-04-13 15:58:25 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/Page_Debt IMS/span_Breaks")): Object: 'Object Repository/Breaks/Page_Debt IMS/span_Breaks' is clicked on
+
+2022-04-13 15:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/Page_Debt IMS/span_Breaks' is clicked on
+
+2022-04-13 15:58:25 - [TEST_STEP][PASSED] - setText(findTestObject("Breaks/input_Break search"), "test aut"): Text 'test aut' is set on object 'Object Repository/Breaks/input_Break search'
+
+2022-04-13 15:58:27 - [MESSAGE][PASSED] - Text 'test aut' is set on object 'Object Repository/Breaks/input_Break search'
+
+2022-04-13 15:58:27 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/td_Status_tdEditButton choose to delete")): Object: 'Object Repository/Breaks/td_Status_tdEditButton choose to delete' is clicked on
+
+2022-04-13 15:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/td_Status_tdEditButton choose to delete' is clicked on
+
+2022-04-13 15:58:28 - [TEST_STEP][PASSED] - click(findTestObject("Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_deleteButton")): Object: 'Object Repository/Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-04-13 15:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-04-13 15:58:28 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/button_Accept delete")): Object: 'Object Repository/Breaks/button_Accept delete' is clicked on
+
+2022-04-13 15:58:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/button_Accept delete' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-13 15:56:07 - [TEST_SUITE][PASSED] - Breaks: Test Cases/Delete Break]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

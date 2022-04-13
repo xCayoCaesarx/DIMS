@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Breaks/Page_Debt IMS/span_Breaks'))
 
 WebUI.setText(findTestObject('Breaks/input_Break search'), 'test aut')
 
-WebUI.click(findTestObject('Breaks/td_Status_tdEditButton choose to delete'))
+WebUI.click(findTestObject('Breaks/Page_Debt IMS/Page_Debt IMS/td_Test aut modificado'))
 
 WebUI.click(findTestObject('Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_deleteButton'))
 
