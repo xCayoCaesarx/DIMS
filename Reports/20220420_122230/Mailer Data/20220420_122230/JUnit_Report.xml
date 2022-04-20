@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mailer Data" time="116.811" tests="2" failures="1" errors="0">
+   <testsuite name="Mailer Data" tests="2" failures="1" errors="0" time="116.811" skipped="0" timestamp="2022-04-20 12:22:34" hostname="juzcategui - juzcategui" id="Test Suites/Mailer Data">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220420_122230/Mailer Data/20220420_122230"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220420_122230/Mailer Data/20220420_122230/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220420_122230/Mailer Data/20220420_122230/1650471870803.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 100.0.4896.75"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="02b0cd9c899013c4a67c57459ed00272"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add Mailer Data" time="46.245" classname="Test Cases/Add Mailer Data" status="PASSED">
+         <system-out><![CDATA[2022-04-20 12:22:35 - [TEST_CASE][PASSED] - Test Cases/Add Mailer Data: Test Cases/Add Mailer Data
+
+2022-04-20 12:22:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-20 12:22:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-20 12:22:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-20 12:22:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-20 12:22:38 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-20 12:23:03 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-20 12:23:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-20 12:23:04 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-20 12:23:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-20 12:23:05 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-20 12:23:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-04-20 12:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-04-20 12:23:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/strong_My Tools")): Object: 'Object Repository/Create Lead/strong_My Tools' is clicked on
+
+2022-04-20 12:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/strong_My Tools' is clicked on
+
+2022-04-20 12:23:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/span_New Lead")): Object: 'Object Repository/Create Lead/span_New Lead' is clicked on
+
+2022-04-20 12:23:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/span_New Lead' is clicked on
+
+2022-04-20 12:23:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create Lead/select_Select OneAdvertising-Stop My Payday_d308cb"), "10", true): All options with value '10' are selected in object 'Object Repository/Create Lead/select_Select OneAdvertising-Stop My Payday_d308cb'  using regular expression
+
+2022-04-20 12:23:11 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Create Lead/select_Select OneAdvertising-Stop My Payday_d308cb'  using regular expression
+
+2022-04-20 12:23:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0"), "2", true): All options with value '2' are selected in object 'Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0'  using regular expression
+
+2022-04-20 12:23:12 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0'  using regular expression
+
+2022-04-20 12:23:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Create Lead/status select"), "12", true): All options with value '12' are selected in object 'Object Repository/Create Lead/status select'  using regular expression
+
+2022-04-20 12:23:13 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/Create Lead/status select'  using regular expression
+
+2022-04-20 12:23:13 - [TEST_STEP][PASSED] - setText(findTestObject("Create Lead/input_First Name"), firstname): Text 'Test Mailer' is set on object 'Object Repository/Create Lead/input_First Name'
+
+2022-04-20 12:23:14 - [MESSAGE][PASSED] - Text 'Test Mailer' is set on object 'Object Repository/Create Lead/input_First Name'
+
+2022-04-20 12:23:14 - [TEST_STEP][PASSED] - setText(findTestObject("Create Lead/input_Last Name"), lastname): Text 'Test Data' is set on object 'Object Repository/Create Lead/input_Last Name'
+
+2022-04-20 12:23:15 - [MESSAGE][PASSED] - Text 'Test Data' is set on object 'Object Repository/Create Lead/input_Last Name'
+
+2022-04-20 12:23:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create Lead/select_Select OneUS Armed Forces EuropeAlas_fd93bc"), "2: 2", true): All options with value '2: 2' are selected in object 'Object Repository/Create Lead/select_Select OneUS Armed Forces EuropeAlas_fd93bc'  using regular expression
+
+2022-04-20 12:23:17 - [MESSAGE][PASSED] - All options with value '2: 2' are selected in object 'Object Repository/Create Lead/select_Select OneUS Armed Forces EuropeAlas_fd93bc'  using regular expression
+
+2022-04-20 12:23:17 - [TEST_STEP][PASSED] - setText(findTestObject("Create Lead/input_Zip"), zip): Text '1010' is set on object 'Object Repository/Create Lead/input_Zip'
+
+2022-04-20 12:23:17 - [MESSAGE][PASSED] - Text '1010' is set on object 'Object Repository/Create Lead/input_Zip'
+
+2022-04-20 12:23:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("debt ims R/Page_Debt IMS/select_Select OneUNITED STATES OF AMERICA"), "62", true): All options with value '62' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneUNITED STATES OF AMERICA'  using regular expression
+
+2022-04-20 12:23:18 - [MESSAGE][PASSED] - All options with value '62' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneUNITED STATES OF AMERICA'  using regular expression
+
+2022-04-20 12:23:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Home Phone_form-control shadow-none n_1c6889"), homephone): Text '2129909090' is set on object 'Object Repository/Create Lead/input_Home Phone_form-control shadow-none n_1c6889'
+
+2022-04-20 12:23:19 - [MESSAGE][PASSED] - Text '2129909090' is set on object 'Object Repository/Create Lead/input_Home Phone_form-control shadow-none n_1c6889'
+
+2022-04-20 12:23:19 - [TEST_STEP][PASSED] - setText(findTestObject("Create Lead/input_Email_form-control shadow-none ng-untouched ng-pristine ng-invalid"), email): Text 'test@mailer.com' is set on object 'Object Repository/Create Lead/input_Email_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-04-20 12:23:20 - [MESSAGE][PASSED] - Text 'test@mailer.com' is set on object 'Object Repository/Create Lead/input_Email_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-04-20 12:23:20 - [TEST_STEP][PASSED] - setText(findTestObject("Create Lead/input_Mailer Code"), maildercode): Text 'CodeAut100' is set on object 'Object Repository/Create Lead/input_Mailer Code'
+
+2022-04-20 12:23:20 - [MESSAGE][PASSED] - Text 'CodeAut100' is set on object 'Object Repository/Create Lead/input_Mailer Code'
+
+2022-04-20 12:23:20 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton"), 0): Scroll to object 'Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton' successfully
+
+2022-04-20 12:23:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-20 12:23:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton' successfully
+
+2022-04-20 12:23:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-04-20 12:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search Mailer Data" time="69.439" classname="Test Cases/Search Mailer Data" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Search Mailer Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search Mailder Data/button_Assign'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Search Mailer Data.run(Search Mailer Data:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650471750154.run(TempTestSuite1650471750154.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Search Mailder Data/button_Assign' located by '//table[@id='pr_id_1-table']/tbody/tr/td[11]/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-04-20 12:23:21 - [TEST_CASE][FAILED] - Test Cases/Search Mailer Data: Test Cases/Search Mailer Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search Mailder Data/button_Assign'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Search Mailer Data.run(Search Mailer Data:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650471750154.run(TempTestSuite1650471750154.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Search Mailder Data/button_Assign' located by '//table[@id='pr_id_1-table']/tbody/tr/td[11]/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-04-20 12:23:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-20 12:23:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-20 12:23:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-20 12:23:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-20 12:23:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-20 12:23:23 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-20 12:23:40 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-20 12:23:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-20 12:23:40 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-20 12:23:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-20 12:23:41 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-20 12:23:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-04-20 12:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-04-20 12:23:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/strong_My Tools")): Object: 'Object Repository/Create Lead/strong_My Tools' is clicked on
+
+2022-04-20 12:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/strong_My Tools' is clicked on
+
+2022-04-20 12:23:42 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/span_Mailer Data")): Object: 'Object Repository/Search Mailder Data/span_Mailer Data' is clicked on
+
+2022-04-20 12:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/span_Mailer Data' is clicked on
+
+2022-04-20 12:23:43 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Phone_form-"), homephone): Text '2129909090' is set on object 'Object Repository/Search Mailder Data/input_Phone_form-'
+
+2022-04-20 12:23:44 - [MESSAGE][PASSED] - Text '2129909090' is set on object 'Object Repository/Search Mailder Data/input_Phone_form-'
+
+2022-04-20 12:23:44 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:23:44 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Reset")): Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:23:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:23:45 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_First Name_form"), firstname): Text 'Test Mailer' is set on object 'Object Repository/Search Mailder Data/input_First Name_form'
+
+2022-04-20 12:23:46 - [MESSAGE][PASSED] - Text 'Test Mailer' is set on object 'Object Repository/Search Mailder Data/input_First Name_form'
+
+2022-04-20 12:23:46 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:23:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:23:47 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Reset")): Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:23:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:23:47 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Last Name_form"), lastname): Text 'Test Data' is set on object 'Object Repository/Search Mailder Data/input_Last Name_form'
+
+2022-04-20 12:23:49 - [MESSAGE][PASSED] - Text 'Test Data' is set on object 'Object Repository/Search Mailder Data/input_Last Name_form'
+
+2022-04-20 12:23:49 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:23:49 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Reset")): Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:23:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:23:50 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Zip_form"), zip): Text '1010' is set on object 'Object Repository/Search Mailder Data/input_Zip_form'
+
+2022-04-20 12:23:51 - [MESSAGE][PASSED] - Text '1010' is set on object 'Object Repository/Search Mailder Data/input_Zip_form'
+
+2022-04-20 12:23:51 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:23:51 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Reset")): Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:23:52 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Custom Code_form"), maildercode): Text 'CodeAut100' is set on object 'Object Repository/Search Mailder Data/input_Custom Code_form'
+
+2022-04-20 12:23:53 - [MESSAGE][PASSED] - Text 'CodeAut100' is set on object 'Object Repository/Search Mailder Data/input_Custom Code_form'
+
+2022-04-20 12:23:53 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:23:54 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Reset")): Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:23:54 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Phone_form-"), homephone): Text '2129909090' is set on object 'Object Repository/Search Mailder Data/input_Phone_form-'
+
+2022-04-20 12:23:55 - [MESSAGE][PASSED] - Text '2129909090' is set on object 'Object Repository/Search Mailder Data/input_Phone_form-'
+
+2022-04-20 12:23:55 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_First Name_form"), firstname): Text 'Test Mailer' is set on object 'Object Repository/Search Mailder Data/input_First Name_form'
+
+2022-04-20 12:23:56 - [MESSAGE][PASSED] - Text 'Test Mailer' is set on object 'Object Repository/Search Mailder Data/input_First Name_form'
+
+2022-04-20 12:23:56 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Last Name_form"), lastname): Text 'Test Data' is set on object 'Object Repository/Search Mailder Data/input_Last Name_form'
+
+2022-04-20 12:23:57 - [MESSAGE][PASSED] - Text 'Test Data' is set on object 'Object Repository/Search Mailder Data/input_Last Name_form'
+
+2022-04-20 12:23:57 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Zip_form"), zip): Text '1010' is set on object 'Object Repository/Search Mailder Data/input_Zip_form'
+
+2022-04-20 12:23:58 - [MESSAGE][PASSED] - Text '1010' is set on object 'Object Repository/Search Mailder Data/input_Zip_form'
+
+2022-04-20 12:23:58 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Custom Code_form"), maildercode): Text 'CodeAut100' is set on object 'Object Repository/Search Mailder Data/input_Custom Code_form'
+
+2022-04-20 12:23:59 - [MESSAGE][PASSED] - Text 'CodeAut100' is set on object 'Object Repository/Search Mailder Data/input_Custom Code_form'
+
+2022-04-20 12:23:59 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:23:59 - [TEST_STEP][FAILED] - click(findTestObject("Search Mailder Data/button_Assign")): Unable to click on object 'Object Repository/Search Mailder Data/button_Assign' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search Mailder Data/button_Assign'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Search Mailer Data.run(Search Mailer Data:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650471750154.run(TempTestSuite1650471750154.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Search Mailder Data/button_Assign' located by '//table[@id='pr_id_1-table']/tbody/tr/td[11]/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1650312198196.run(Script1650312198196.groovy:76)
+	... 13 more
+)
+
+2022-04-20 12:24:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id='pr_id_1-table']/tbody/tr/td[11]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-20 12:24:31 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Search Mailder Data/button_Assign' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search Mailder Data/button_Assign'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Search Mailer Data.run(Search Mailer Data:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650471750154.run(TempTestSuite1650471750154.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Search Mailder Data/button_Assign' located by '//table[@id='pr_id_1-table']/tbody/tr/td[11]/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1650312198196.run(Script1650312198196.groovy:76)
+	... 13 more
+)
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220420_122230/Mailer Data/20220420_122230/1650471870803.png]]]]></system-out>
+         <system-err><![CDATA[2022-04-20 12:23:21 - [TEST_CASE][FAILED] - Test Cases/Search Mailer Data: Test Cases/Search Mailer Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search Mailder Data/button_Assign'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Search Mailer Data.run(Search Mailer Data:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650471750154.run(TempTestSuite1650471750154.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Search Mailder Data/button_Assign' located by '//table[@id='pr_id_1-table']/tbody/tr/td[11]/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-20 12:22:34 - [TEST_SUITE][FAILED] - Mailer Data: Test Cases/Search Mailer Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search Mailder Data/button_Assign'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Search Mailer Data.run(Search Mailer Data:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650471750154.run(TempTestSuite1650471750154.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Search Mailder Data/button_Assign' located by '//table[@id='pr_id_1-table']/tbody/tr/td[11]/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-04-20 12:22:34 - [TEST_SUITE][FAILED] - Mailer Data: Test Cases/Search Mailer Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search Mailder Data/button_Assign'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Search Mailer Data.run(Search Mailer Data:76)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1650471750154.run(TempTestSuite1650471750154.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Search Mailder Data/button_Assign' located by '//table[@id='pr_id_1-table']/tbody/tr/td[11]/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

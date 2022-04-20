@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mailer Data" time="75.071" tests="1" failures="0" errors="0">
+   <testsuite name="Mailer Data" tests="1" failures="0" errors="0" time="75.071" skipped="0" timestamp="2022-04-20 12:13:54" hostname="juzcategui - juzcategui" id="Test Suites/Mailer Data">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220420_121350/Mailer Data/20220420_121350"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220420_121350/Mailer Data/20220420_121350/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 100.0.4896.75"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="a8477050a07de2bd554c5a7389447614"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Search Mailer Data" time="74.238" classname="Test Cases/Search Mailer Data" status="PASSED">
+         <system-out><![CDATA[2022-04-20 12:13:55 - [TEST_CASE][PASSED] - Test Cases/Search Mailer Data: Test Cases/Search Mailer Data
+
+2022-04-20 12:13:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-20 12:13:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-20 12:13:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-20 12:13:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-20 12:13:58 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-20 12:14:44 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-20 12:14:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-20 12:14:45 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-20 12:14:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-20 12:14:45 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-20 12:14:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-04-20 12:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-04-20 12:14:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/strong_My Tools")): Object: 'Object Repository/Create Lead/strong_My Tools' is clicked on
+
+2022-04-20 12:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/strong_My Tools' is clicked on
+
+2022-04-20 12:14:49 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/span_Mailer Data")): Object: 'Object Repository/Search Mailder Data/span_Mailer Data' is clicked on
+
+2022-04-20 12:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/span_Mailer Data' is clicked on
+
+2022-04-20 12:14:50 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Phone_form-"), homephone): Text '2129909090' is set on object 'Object Repository/Search Mailder Data/input_Phone_form-'
+
+2022-04-20 12:14:51 - [MESSAGE][PASSED] - Text '2129909090' is set on object 'Object Repository/Search Mailder Data/input_Phone_form-'
+
+2022-04-20 12:14:51 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:14:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:14:52 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Reset")): Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:14:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:14:53 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_First Name_form"), firstname): Text 'Test Mailer' is set on object 'Object Repository/Search Mailder Data/input_First Name_form'
+
+2022-04-20 12:14:54 - [MESSAGE][PASSED] - Text 'Test Mailer' is set on object 'Object Repository/Search Mailder Data/input_First Name_form'
+
+2022-04-20 12:14:54 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:14:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:14:55 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Reset")): Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:14:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:14:55 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Last Name_form"), lastname): Text 'Test Data' is set on object 'Object Repository/Search Mailder Data/input_Last Name_form'
+
+2022-04-20 12:14:57 - [MESSAGE][PASSED] - Text 'Test Data' is set on object 'Object Repository/Search Mailder Data/input_Last Name_form'
+
+2022-04-20 12:14:57 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:14:57 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Reset")): Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:14:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:14:58 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Zip_form"), zip): Text '1010' is set on object 'Object Repository/Search Mailder Data/input_Zip_form'
+
+2022-04-20 12:14:58 - [MESSAGE][PASSED] - Text '1010' is set on object 'Object Repository/Search Mailder Data/input_Zip_form'
+
+2022-04-20 12:14:58 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Reset")): Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:15:00 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Custom Code_form"), maildercode): Text 'CodeAut100' is set on object 'Object Repository/Search Mailder Data/input_Custom Code_form'
+
+2022-04-20 12:15:01 - [MESSAGE][PASSED] - Text 'CodeAut100' is set on object 'Object Repository/Search Mailder Data/input_Custom Code_form'
+
+2022-04-20 12:15:01 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:15:01 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Reset")): Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-04-20 12:15:02 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-04-20 12:15:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-04-20 12:15:05 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Phone_form-"), homephone): Text '2129909090' is set on object 'Object Repository/Search Mailder Data/input_Phone_form-'
+
+2022-04-20 12:15:06 - [MESSAGE][PASSED] - Text '2129909090' is set on object 'Object Repository/Search Mailder Data/input_Phone_form-'
+
+2022-04-20 12:15:06 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_First Name_form"), firstname): Text 'Test Mailer' is set on object 'Object Repository/Search Mailder Data/input_First Name_form'
+
+2022-04-20 12:15:07 - [MESSAGE][PASSED] - Text 'Test Mailer' is set on object 'Object Repository/Search Mailder Data/input_First Name_form'
+
+2022-04-20 12:15:07 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Last Name_form"), lastname): Text 'Test Data' is set on object 'Object Repository/Search Mailder Data/input_Last Name_form'
+
+2022-04-20 12:15:07 - [MESSAGE][PASSED] - Text 'Test Data' is set on object 'Object Repository/Search Mailder Data/input_Last Name_form'
+
+2022-04-20 12:15:07 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Zip_form"), zip): Text '1010' is set on object 'Object Repository/Search Mailder Data/input_Zip_form'
+
+2022-04-20 12:15:08 - [MESSAGE][PASSED] - Text '1010' is set on object 'Object Repository/Search Mailder Data/input_Zip_form'
+
+2022-04-20 12:15:08 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Custom Code_form"), maildercode): Text 'CodeAut100' is set on object 'Object Repository/Search Mailder Data/input_Custom Code_form'
+
+2022-04-20 12:15:09 - [MESSAGE][PASSED] - Text 'CodeAut100' is set on object 'Object Repository/Search Mailder Data/input_Custom Code_form'
+
+2022-04-20 12:15:09 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-04-20 12:15:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-20 12:13:54 - [TEST_SUITE][PASSED] - Mailer Data: Test Cases/Search Mailer Data]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
