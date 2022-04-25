@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Breaks,Chrome 100.0.4896.75,,,2022-04-25 09:12:33,2022-04-25 09:13:04,"30,157s",FAILED
+,,,,,,,
+Test Cases/Add break,Chrome 100.0.4896.75,,,2022-04-25 09:12:34,2022-04-25 09:13:04,"29,566s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-04-25 09:12:35,2022-04-25 09:12:37,"2,415s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-04-25 09:12:37,2022-04-25 09:12:55,"17,866s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-04-25 09:12:55,2022-04-25 09:12:56,"0,860s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-04-25 09:12:56,2022-04-25 09:12:57,"0,961s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 100.0.4896.75,,,2022-04-25 09:12:57,2022-04-25 09:12:59,"2,568s",PASSED
+"click(findTestObject(""Breaks/Page_Debt IMS/strong_Administration""))",Chrome 100.0.4896.75,,,2022-04-25 09:12:59,2022-04-25 09:13:00,"0,813s",PASSED
+"click(findTestObject(""Breaks/Page_Debt IMS/span_Breaks""))",Chrome 100.0.4896.75,,,2022-04-25 09:13:00,2022-04-25 09:13:01,"0,509s",PASSED
+"click(findTestObject(""Breaks/button_Welcome, Julio Uzctegui_addButton""))",Chrome 100.0.4896.75,,,2022-04-25 09:13:01,2022-04-25 09:13:02,"0,851s",PASSED
+"setText(findTestObject(""Breaks/input_Name_form-control shadow-none ng-untouched ng-pristine ng-invalid""), name)",Chrome 100.0.4896.75,,,2022-04-25 09:13:02,2022-04-25 09:13:02,"0,829s",PASSED
+"setText(findTestObject(""Breaks/input_Description_form-control shadow-none ng-untouched ng-pristine ng-invalid""), description)",Chrome 100.0.4896.75,,,2022-04-25 09:13:02,2022-04-25 09:13:03,"0,750s",PASSED
+"click(findTestObject(""Breaks/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 100.0.4896.75,,,2022-04-25 09:13:03,2022-04-25 09:13:04,"0,390s",PASSED
+"takeFullPageScreenshotAsCheckpoint("""")",Chrome 100.0.4896.75,,,2022-04-25 09:13:04,2022-04-25 09:13:04,"0,089s",FAILED

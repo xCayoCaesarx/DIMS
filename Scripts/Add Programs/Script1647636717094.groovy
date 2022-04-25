@@ -91,9 +91,11 @@ WebUI.selectOptionByValue(findTestObject('Programs/Page_Debt IMS/select_Monthly 
 
 WebUI.selectOptionByValue(findTestObject('Programs/Page_Debt IMS/select_Credit Analyzer'), 'false', true)
 
-WebUI.delay(2)
-
 WebUI.scrollToElement(findTestObject('Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton'), 0)
 
 WebUI.click(findTestObject('Object Repository/Programs/button_Welcome, Julio Uzctegui_saveButton'))
+
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
 

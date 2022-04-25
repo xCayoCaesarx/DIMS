@@ -59,7 +59,9 @@ WebUI.scrollToElement(findTestObject('Email Campaings/Edit/button_Welcome, Julio
 
 WebUI.click(findTestObject('Email Campaings/Edit/button_Welcome, Julio Uzctegui_saveButton'))
 
-WebUI.delay(4)
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.closeBrowser()
 

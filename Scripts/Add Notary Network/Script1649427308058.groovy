@@ -63,3 +63,7 @@ WebUI.click(findTestObject('Notary Network/Page_Debt IMS/div_Debt - Ims_p-checkb
 
 WebUI.click(findTestObject('Breaks/button_Welcome, Julio Uzctegui_saveButton'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+

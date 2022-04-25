@@ -41,3 +41,7 @@ WebUI.click(findTestObject('Delete Options/Delete button'))
 
 WebUI.click(findTestObject('Delete Options/button_Accept'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+

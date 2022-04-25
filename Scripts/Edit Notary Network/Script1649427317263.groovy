@@ -61,3 +61,7 @@ WebUI.click(findTestObject('Notary Network/Edit/button_Welcome, Julio Uzctegui_s
 
 WebUI.click(findTestObject('Notary Network/Edit/button_Accept edit'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+

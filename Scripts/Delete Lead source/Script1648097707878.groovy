@@ -42,3 +42,7 @@ WebUI.click(findTestObject('Object Repository/Create Lead/Page_Debt IMS/edit -de
 
 WebUI.click(findTestObject('Create Lead/Page_Debt IMS/edit -delete lead source/Page_Debt IMS/button_Accept delete'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+

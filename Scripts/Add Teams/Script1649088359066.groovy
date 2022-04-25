@@ -49,3 +49,7 @@ WebUI.click(findTestObject('Teams/Page_Debt IMS/Page_Debt IMS/div_Select a team 
 
 WebUI.click(findTestObject('Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+

@@ -92,9 +92,11 @@ WebUI.scrollToElement(findTestObject('Object Repository/Create Lead/button_Welco
 
 WebUI.click(findTestObject('debt ims R/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('edit actions/Page_Debt/button_Accept'))
+
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.closeBrowser()
 

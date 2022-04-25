@@ -51,5 +51,9 @@ WebUI.scrollToElement(findTestObject('Email Templates/Page_Debt IMS/button_Welco
 
 WebUI.click(findTestObject('Email Templates/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton add'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.closeBrowser()
 

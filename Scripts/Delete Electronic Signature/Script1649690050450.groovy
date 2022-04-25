@@ -41,3 +41,7 @@ WebUI.click(findTestObject('Notary Network/Delete/button_Welcome, Julio Uzctegui
 
 WebUI.click(findTestObject('Notary Network/Delete/button_Accept delete'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+

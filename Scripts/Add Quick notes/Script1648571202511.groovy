@@ -45,3 +45,7 @@ WebUI.click(findTestObject('Object Repository/Quick notes/Page_Debt IMS/div_Sele
 
 WebUI.click(findTestObject('Object Repository/Quick notes/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+

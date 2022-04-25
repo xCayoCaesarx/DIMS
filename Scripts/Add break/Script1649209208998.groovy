@@ -41,3 +41,7 @@ WebUI.setText(findTestObject('Breaks/input_Description_form-control shadow-none 
 
 WebUI.click(findTestObject('Breaks/button_Welcome, Julio Uzctegui_saveButton'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+

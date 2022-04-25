@@ -45,5 +45,9 @@ WebUI.click(findTestObject('Object Repository/Add IP objects/button_Welcome, Jul
 
 WebUI.click(findTestObject('edit actions/button_Accept'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.closeBrowser()
 

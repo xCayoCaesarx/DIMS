@@ -77,5 +77,7 @@ WebUI.click(findTestObject('Search Mailder Data/button_Assign'))
 
 WebUI.click(findTestObject('Search Mailder Data/button_Accept'))
 
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
 

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Breaks" time="35.283" tests="1" failures="0" errors="0">
+   <testsuite name="Breaks" tests="1" failures="0" errors="0" time="35.283" skipped="0" timestamp="2022-04-25 09:19:10" hostname="juzcategui - juzcategui" id="Test Suites/Breaks">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220425_091907/Breaks/20220425_091907"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220425_091907/Breaks/20220425_091907/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220425_091907/Breaks/20220425_091907/1650892784048.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 100.0.4896.75"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="6fb84950a882d47a184fbf95422c281a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add break" time="34.696" classname="Test Cases/Add break" status="PASSED">
+         <system-out><![CDATA[2022-04-25 09:19:11 - [TEST_CASE][PASSED] - Test Cases/Add break: Test Cases/Add break
+
+2022-04-25 09:19:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-25 09:19:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-25 09:19:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-25 09:19:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-25 09:19:13 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-25 09:19:37 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-25 09:19:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-25 09:19:38 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-25 09:19:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-25 09:19:39 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-25 09:19:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-25 09:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-04-25 09:19:40 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/Page_Debt IMS/strong_Administration")): Object: 'Object Repository/Breaks/Page_Debt IMS/strong_Administration' is clicked on
+
+2022-04-25 09:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/Page_Debt IMS/strong_Administration' is clicked on
+
+2022-04-25 09:19:40 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/Page_Debt IMS/span_Breaks")): Object: 'Object Repository/Breaks/Page_Debt IMS/span_Breaks' is clicked on
+
+2022-04-25 09:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/Page_Debt IMS/span_Breaks' is clicked on
+
+2022-04-25 09:19:41 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/button_Welcome, Julio Uzctegui_addButton")): Object: 'Object Repository/Breaks/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-04-25 09:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-04-25 09:19:41 - [TEST_STEP][PASSED] - setText(findTestObject("Breaks/input_Name_form-control shadow-none ng-untouched ng-pristine ng-invalid"), name): Text 'Test aut' is set on object 'Object Repository/Breaks/input_Name_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-04-25 09:19:42 - [MESSAGE][PASSED] - Text 'Test aut' is set on object 'Object Repository/Breaks/input_Name_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-04-25 09:19:42 - [TEST_STEP][PASSED] - setText(findTestObject("Breaks/input_Description_form-control shadow-none ng-untouched ng-pristine ng-invalid"), description): Text 'Test aut' is set on object 'Object Repository/Breaks/input_Description_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-04-25 09:19:43 - [MESSAGE][PASSED] - Text 'Test aut' is set on object 'Object Repository/Breaks/input_Description_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-04-25 09:19:43 - [TEST_STEP][PASSED] - click(findTestObject("Breaks/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Breaks/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-04-25 09:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Breaks/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-04-25 09:19:43 - [TEST_STEP][PASSED] - takeElementScreenshot(findTestObject("Breaks/button_Welcome, Julio Uzctegui_saveButton")): Taking screenshot successfully
+
+2022-04-25 09:19:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-25 09:19:45 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-25 09:19:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220425_091907/Breaks/20220425_091907/1650892784048.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-25 09:19:10 - [TEST_SUITE][PASSED] - Breaks: Test Cases/Add break]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

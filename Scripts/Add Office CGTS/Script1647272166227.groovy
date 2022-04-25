@@ -86,9 +86,11 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/debt ims R/Page_Debt
 
 WebUI.click(findTestObject('edit actions/SaveButton'))
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('edit actions/button_Accept'))
+
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.closeBrowser()
 

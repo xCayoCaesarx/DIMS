@@ -47,3 +47,7 @@ WebUI.click(findTestObject('Object Repository/Quick notes/Page_Debt IMS/button_W
 
 WebUI.click(findTestObject('edit actions/button_Accept'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+

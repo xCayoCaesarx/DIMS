@@ -43,3 +43,7 @@ WebUI.click(findTestObject('Delete Options/deleteButton ip'))
 
 WebUI.click(findTestObject('Delete Options/button_Accept ip'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+

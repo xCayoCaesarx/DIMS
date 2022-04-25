@@ -43,3 +43,7 @@ WebUI.setText(findTestObject('debt type/add/input_Debt name'), debttypename)
 
 WebUI.click(findTestObject('Object Repository/Create Lead/Page_Debt IMS/edit -delete lead source/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+

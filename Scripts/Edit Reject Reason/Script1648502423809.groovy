@@ -45,3 +45,7 @@ WebUI.click(findTestObject('Reject reasons/EDIT/Page_Debt IMS/button_Welcome, Ju
 
 WebUI.click(findTestObject('Reject reasons/EDIT/Page_Debt IMS/button_Accept'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+

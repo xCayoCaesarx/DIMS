@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="My Worklist" time="24.968" tests="1" failures="0" errors="0">
+   <testsuite name="My Worklist" tests="1" failures="0" errors="0" time="24.968" skipped="0" timestamp="2022-04-21 14:57:27" hostname="juzcategui - juzcategui" id="Test Suites/My Worklist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220421_145724/My Worklist/20220421_145724"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220421_145724/My Worklist/20220421_145724/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 100.0.4896.75"/>
+         <property name="hostAddress" value="192.168.12.57"/>
+         <property name="sessionId" value="11c00fb12881ef565a5a6b7eaceb7289"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Filter My Worklist" time="24.325" classname="Test Cases/Filter My Worklist" status="PASSED">
+         <system-out><![CDATA[2022-04-21 14:57:28 - [TEST_CASE][PASSED] - Test Cases/Filter My Worklist: Test Cases/Filter My Worklist
+
+2022-04-21 14:57:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-21 14:57:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-21 14:57:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-21 14:57:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-21 14:57:30 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-21 14:57:39 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-21 14:57:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-21 14:57:40 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-21 14:57:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-21 14:57:41 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-21 14:57:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-04-21 14:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-04-21 14:57:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/strong_My Tools")): Object: 'Object Repository/Create Lead/strong_My Tools' is clicked on
+
+2022-04-21 14:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/strong_My Tools' is clicked on
+
+2022-04-21 14:57:42 - [TEST_STEP][PASSED] - click(findTestObject("Lead Status/Page_Debt IMS/span_My Worklist")): Object: 'Object Repository/Lead Status/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-04-21 14:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Lead Status/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-04-21 14:57:43 - [TEST_STEP][PASSED] - click(findTestObject("Lead Status/Page_Debt IMS/div_Select a Status(es)")): Object: 'Object Repository/Lead Status/Page_Debt IMS/div_Select a Status(es)' is clicked on
+
+2022-04-21 14:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Lead Status/Page_Debt IMS/div_Select a Status(es)' is clicked on
+
+2022-04-21 14:57:43 - [TEST_STEP][PASSED] - click(findTestObject("Lead Status/Page_Debt IMS/lead status select span_Attempting contact")): Object: 'Object Repository/Lead Status/Page_Debt IMS/lead status select span_Attempting contact' is clicked on
+
+2022-04-21 14:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Lead Status/Page_Debt IMS/lead status select span_Attempting contact' is clicked on
+
+2022-04-21 14:57:44 - [TEST_STEP][PASSED] - click(findTestObject("Lead Status/Page_Debt IMS/div_Select a Status(es)")): Object: 'Object Repository/Lead Status/Page_Debt IMS/div_Select a Status(es)' is clicked on
+
+2022-04-21 14:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Lead Status/Page_Debt IMS/div_Select a Status(es)' is clicked on
+
+2022-04-21 14:57:44 - [TEST_STEP][PASSED] - click(findTestObject("Lead Status/Page_Debt IMS/button_Filter")): Object: 'Object Repository/Lead Status/Page_Debt IMS/button_Filter' is clicked on
+
+2022-04-21 14:57:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Lead Status/Page_Debt IMS/button_Filter' is clicked on
+
+2022-04-21 14:57:45 - [TEST_STEP][PASSED] - click(findTestObject("Lead Status/Page_Debt IMS/button_Reset")): Object: 'Object Repository/Lead Status/Page_Debt IMS/button_Reset' is clicked on
+
+2022-04-21 14:57:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Lead Status/Page_Debt IMS/button_Reset' is clicked on
+
+2022-04-21 14:57:46 - [TEST_STEP][PASSED] - click(findTestObject("Lead Status/Page_Debt IMS/div_Select Lead Source")): Object: 'Object Repository/Lead Status/Page_Debt IMS/div_Select Lead Source' is clicked on
+
+2022-04-21 14:57:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Lead Status/Page_Debt IMS/div_Select Lead Source' is clicked on
+
+2022-04-21 14:57:47 - [TEST_STEP][PASSED] - click(findTestObject("Lead Status/Page_Debt IMS/lead source  select span_Mailer")): Object: 'Object Repository/Lead Status/Page_Debt IMS/lead source  select span_Mailer' is clicked on
+
+2022-04-21 14:57:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Lead Status/Page_Debt IMS/lead source  select span_Mailer' is clicked on
+
+2022-04-21 14:57:47 - [TEST_STEP][PASSED] - click(findTestObject("Lead Status/Page_Debt IMS/div_Select Lead Source")): Object: 'Object Repository/Lead Status/Page_Debt IMS/div_Select Lead Source' is clicked on
+
+2022-04-21 14:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Lead Status/Page_Debt IMS/div_Select Lead Source' is clicked on
+
+2022-04-21 14:57:48 - [TEST_STEP][PASSED] - click(findTestObject("Lead Status/Page_Debt IMS/button_Filter")): Object: 'Object Repository/Lead Status/Page_Debt IMS/button_Filter' is clicked on
+
+2022-04-21 14:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Lead Status/Page_Debt IMS/button_Filter' is clicked on
+
+2022-04-21 14:57:48 - [TEST_STEP][PASSED] - click(findTestObject("Lead Status/Page_Debt IMS/button_Reset")): Object: 'Object Repository/Lead Status/Page_Debt IMS/button_Reset' is clicked on
+
+2022-04-21 14:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Lead Status/Page_Debt IMS/button_Reset' is clicked on
+
+2022-04-21 14:57:49 - [TEST_STEP][PASSED] - click(findTestObject("Lead Status/Page_Debt IMS/div_Select Queue")): Object: 'Object Repository/Lead Status/Page_Debt IMS/div_Select Queue' is clicked on
+
+2022-04-21 14:57:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Lead Status/Page_Debt IMS/div_Select Queue' is clicked on
+
+2022-04-21 14:57:50 - [TEST_STEP][PASSED] - click(findTestObject("Lead Status/Page_Debt IMS/lead queue span_MAIN")): Object: 'Object Repository/Lead Status/Page_Debt IMS/lead queue span_MAIN' is clicked on
+
+2022-04-21 14:57:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Lead Status/Page_Debt IMS/lead queue span_MAIN' is clicked on
+
+2022-04-21 14:57:50 - [TEST_STEP][PASSED] - click(findTestObject("Lead Status/Page_Debt IMS/div_Select Queue")): Object: 'Object Repository/Lead Status/Page_Debt IMS/div_Select Queue' is clicked on
+
+2022-04-21 14:57:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Lead Status/Page_Debt IMS/div_Select Queue' is clicked on
+
+2022-04-21 14:57:51 - [TEST_STEP][PASSED] - click(findTestObject("Lead Status/Page_Debt IMS/button_Filter")): Object: 'Object Repository/Lead Status/Page_Debt IMS/button_Filter' is clicked on
+
+2022-04-21 14:57:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Lead Status/Page_Debt IMS/button_Filter' is clicked on
+
+2022-04-21 14:57:51 - [TEST_STEP][PASSED] - click(findTestObject("Lead Status/Page_Debt IMS/button_Reset")): Object: 'Object Repository/Lead Status/Page_Debt IMS/button_Reset' is clicked on
+
+2022-04-21 14:57:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Lead Status/Page_Debt IMS/button_Reset' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-21 14:57:27 - [TEST_SUITE][PASSED] - My Worklist: Test Cases/Filter My Worklist]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -72,3 +72,7 @@ WebUI.scrollToElement(findTestObject('Object Repository/Create Lead/button_Welco
 
 WebUI.click(findTestObject('Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+

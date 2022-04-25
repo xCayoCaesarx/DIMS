@@ -53,5 +53,9 @@ WebUI.click(findTestObject('Email Campaings/add/button_Welcome, Julio Uzctegui_s
 
 WebUI.click(findTestObject('Email Campaings/Edit/button_Accept'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.closeBrowser()
 

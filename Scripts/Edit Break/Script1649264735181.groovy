@@ -45,3 +45,7 @@ WebUI.click(findTestObject('Breaks/button_Welcome, Julio Uzctegui_saveButton'))
 
 WebUI.click(findTestObject('Breaks/button_Accept edit'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+

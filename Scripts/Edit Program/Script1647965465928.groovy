@@ -89,11 +89,13 @@ WebUI.selectOptionByValue(findTestObject('Programs/Page_Debt IMS/select_Credit A
 
 WebUI.setText(findTestObject('Programs/Page_Debt IMS/input_amount_ credit analizer'), '1000')
 
-WebUI.delay(2)
-
 WebUI.scrollToElement(findTestObject('Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton'), 0)
 
 WebUI.click(findTestObject('Object Repository/Programs/button_Welcome, Julio Uzctegui_saveButton'))
 
 WebUI.click(findTestObject('edit actions/button_Accept'))
+
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
 

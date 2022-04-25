@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My Worklist,Chrome 100.0.4896.75,,,2022-04-22 15:07:52,2022-04-22 15:08:46,"53,716s",FAILED
+,,,,,,,
+Test Cases/Filter My Worklist,Chrome 100.0.4896.75,,,2022-04-22 15:07:52,2022-04-22 15:08:46,"53,222s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-04-22 15:07:53,2022-04-22 15:07:55,"2,062s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-04-22 15:07:55,2022-04-22 15:08:03,"8,228s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-04-22 15:08:03,2022-04-22 15:08:04,"0,993s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-04-22 15:08:04,2022-04-22 15:08:05,"0,785s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 100.0.4896.75,,,2022-04-22 15:08:05,2022-04-22 15:08:05,"0,463s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/Page_Debt IMS/strong_My Tools""))",Chrome 100.0.4896.75,,,2022-04-22 15:08:05,2022-04-22 15:08:08,"2,896s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/Page_Debt IMS/span_My Worklist""))",Chrome 100.0.4896.75,,,2022-04-22 15:08:08,2022-04-22 15:08:09,"0,592s",PASSED
+delay(5),Chrome 100.0.4896.75,,,2022-04-22 15:08:09,2022-04-22 15:08:14,"5,049s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/input_From""))",Chrome 100.0.4896.75,,,2022-04-22 15:08:14,2022-04-22 15:08:14,"0,435s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/span_1""))",Chrome 100.0.4896.75,,,2022-04-22 15:08:14,2022-04-22 15:08:46,"31,250s",FAILED

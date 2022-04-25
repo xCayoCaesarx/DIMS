@@ -41,3 +41,7 @@ WebUI.click(findTestObject('Reject reasons/delete/Page_Debt IMS/button_Welcome, 
 
 WebUI.click(findTestObject('Reject reasons/delete/Page_Debt IMS/button_Accept'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+

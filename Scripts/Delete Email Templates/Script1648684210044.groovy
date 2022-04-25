@@ -41,5 +41,9 @@ WebUI.click(findTestObject('Email Templates/Page_Debt IMS/button_Welcome, Julio 
 
 WebUI.click(findTestObject('Email Templates/Page_Debt IMS/button_Accept to delete'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+
 WebUI.closeBrowser()
 

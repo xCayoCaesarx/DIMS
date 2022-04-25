@@ -39,9 +39,11 @@ WebUI.click(findTestObject('Programs/delete program/Page_Debt IMS/td_Office_tdEd
 
 WebUI.click(findTestObject('Programs/delete program/Page_Debt IMS/button_Welcome, Julio Uzctegui_deleteButton'))
 
+WebUI.click(findTestObject('Programs/delete program/Page_Debt IMS/button_Accept'))
+
 WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Programs/delete program/Page_Debt IMS/button_Accept'))
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Programs/span_Programs'))
 

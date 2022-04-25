@@ -41,3 +41,7 @@ WebUI.click(findTestObject('Teams/Page_Debt IMS/button_Welcome, Julio Uzctegui_d
 
 WebUI.click(findTestObject('Breaks/button_Accept delete'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+
