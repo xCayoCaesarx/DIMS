@@ -6,6 +6,10 @@
    <elementGuidId>ba5f7f29-790a-4bc9-9986-3953d0495c00</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//select[@aria-label = 'Default select example' and @formcontrolname = 'idQuickNotes']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[(text() = 'Select OneCalle &amp; textedHOT LEADLEFT MESSAGESEND LINKWrongs number' or . = 'Select OneCalle &amp; textedHOT LEADLEFT MESSAGESEND LINKWrongs number')]</value>
       </entry>
@@ -14,24 +18,24 @@
          <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
       <value>Default select example</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>formcontrolname</name>
       <type>Main</type>
@@ -45,7 +49,7 @@
       <value>form-select shadow-none ng-untouched ng-pristine ng-valid</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

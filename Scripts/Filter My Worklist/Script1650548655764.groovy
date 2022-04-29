@@ -117,4 +117,3 @@ WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search oji
 
 WebUI.takeFullPageScreenshot()
 
-

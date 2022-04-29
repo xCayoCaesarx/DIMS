@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My Worklist,Chrome 100.0.4896.75,,,2022-04-29 14:51:51,2022-04-29 14:52:35,"43,778s",PASSED
+,,,,,,,
+Test Cases/Filter My Worklist,Chrome 100.0.4896.75,,,2022-04-29 14:51:52,2022-04-29 14:52:35,"43,088s",PASSED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-04-29 14:51:52,2022-04-29 14:51:55,"2,189s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-04-29 14:51:55,2022-04-29 14:52:12,"17,653s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-04-29 14:52:12,2022-04-29 14:52:13,"0,862s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-04-29 14:52:13,2022-04-29 14:52:14,"0,809s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 100.0.4896.75,,,2022-04-29 14:52:14,2022-04-29 14:52:14,"0,417s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/strong_My Tools""))",Chrome 100.0.4896.75,,,2022-04-29 14:52:14,2022-04-29 14:52:17,"2,973s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/span_My Worklist""))",Chrome 100.0.4896.75,,,2022-04-29 14:52:17,2022-04-29 14:52:18,"0,608s",PASSED
+"setText(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/input_Filter""), statuses)",Chrome 100.0.4896.75,,,2022-04-29 14:52:18,2022-04-29 14:52:19,"1,256s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 100.0.4896.75,,,2022-04-29 14:52:19,2022-04-29 14:52:20,"1,042s",PASSED
+"setText(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/input_Filter_2nd""), state)",Chrome 100.0.4896.75,,,2022-04-29 14:52:20,2022-04-29 14:52:21,"0,689s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 100.0.4896.75,,,2022-04-29 14:52:21,2022-04-29 14:52:22,"1,006s",PASSED
+"setText(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/input_Filter_2nd""), source)",Chrome 100.0.4896.75,,,2022-04-29 14:52:22,2022-04-29 14:52:23,"0,663s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 100.0.4896.75,,,2022-04-29 14:52:23,2022-04-29 14:52:24,"1,005s",PASSED
+"setText(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/input_Filter_2nd""), zip)",Chrome 100.0.4896.75,,,2022-04-29 14:52:24,2022-04-29 14:52:24,"0,680s",PASSED
+"click(findTestObject(""Myworklist(lead status)/search ojito add note/button_FILE_editButton""))",Chrome 100.0.4896.75,,,2022-04-29 14:52:24,2022-04-29 14:52:25,"1,089s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/button_Save Note""), 0, STOP_ON_FAILURE)",Chrome 100.0.4896.75,,,2022-04-29 14:52:25,2022-04-29 14:52:26,"0,692s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/select_Select OneCalle  textedHOT LEADLEFT _fb051f""), ""1"", true)",Chrome 100.0.4896.75,,,2022-04-29 14:52:26,2022-04-29 14:52:27,"1,040s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/button_Save Note""))",Chrome 100.0.4896.75,,,2022-04-29 14:52:27,2022-04-29 14:52:28,"0,514s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 100.0.4896.75,,,2022-04-29 14:52:28,2022-04-29 14:52:29,"1,008s",PASSED
+takeFullPageScreenshot(),Chrome 100.0.4896.75,,,2022-04-29 14:52:29,2022-04-29 14:52:29,"0,831s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/button_Back""))",Chrome 100.0.4896.75,,,2022-04-29 14:52:29,2022-04-29 14:52:30,"0,531s",PASSED
+"setText(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/input_Filter""), zip)",Chrome 100.0.4896.75,,,2022-04-29 14:52:30,2022-04-29 14:52:33,"3,271s",PASSED
+"scrollToPosition(150, 100, STOP_ON_FAILURE)",Chrome 100.0.4896.75,,,2022-04-29 14:52:33,2022-04-29 14:52:33,"0,031s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/button_ojito""))",Chrome 100.0.4896.75,,,2022-04-29 14:52:33,2022-04-29 14:52:34,"0,833s",PASSED
+takeFullPageScreenshot(),Chrome 100.0.4896.75,,,2022-04-29 14:52:34,2022-04-29 14:52:35,"0,712s",PASSED
