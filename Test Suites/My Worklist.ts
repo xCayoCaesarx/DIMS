@@ -48,7 +48,7 @@
          <id>4b8d86b3-2fae-4463-b6cb-64c6c1ba9db5</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/My Worklist Data</testDataId>
       </testDataLink>
@@ -63,6 +63,30 @@
          <type>DATA_COLUMN</type>
          <value>pass</value>
          <variableId>03ed95d6-5b3d-4caf-a714-2bcf462371de</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4b8d86b3-2fae-4463-b6cb-64c6c1ba9db5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>statuses</value>
+         <variableId>ef2ac103-f1a0-4a78-a2c1-27f2fc1cd86b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4b8d86b3-2fae-4463-b6cb-64c6c1ba9db5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>zip</value>
+         <variableId>404cf399-d0e4-4bb8-a408-9ccfc3667438</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4b8d86b3-2fae-4463-b6cb-64c6c1ba9db5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>source</value>
+         <variableId>b0002fad-49f9-4b5e-a52a-7d8b91c8f87e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4b8d86b3-2fae-4463-b6cb-64c6c1ba9db5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>state</value>
+         <variableId>53aaaf0e-4cea-4357-985c-1f184b72ff91</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

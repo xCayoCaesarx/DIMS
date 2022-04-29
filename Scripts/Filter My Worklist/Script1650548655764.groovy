@@ -27,59 +27,94 @@ WebUI.setText(findTestObject('Object Repository/Create Lead/input_Password_form-
 
 WebUI.click(findTestObject('Object Repository/Create Lead/button_Login'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/Page_Debt IMS/strong_My Tools'))
+WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/strong_My Tools'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/Page_Debt IMS/span_My Worklist'))
+WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/span_My Worklist'))
 
-WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_From'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/input_From'))
+WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_1'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/span_1'))
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_To_form'))
 
-WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_31'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/input_From'))
+WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_30'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/input_To_form'))
+WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_29'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/span_30'))
+WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_28'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/input_To_form'))
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter'))
 
-WebUI.delay(10)
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/button_Filter'))
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select a Status(es)'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/button_Reset'))
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/lead status select span_Attempting contact'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/div_Select a Status(es)'))
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select a Status(es)'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/lead status select span_Attempting contact'))
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/div_Select a Status(es)'))
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/button_Filter'))
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select Lead Source'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/button_Reset'))
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/lead source  select span_Mailer'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/div_Select Lead Source'))
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select Lead Source'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/lead source  select span_Mailer'))
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/div_Select Lead Source'))
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/button_Filter'))
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select Queue'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/button_Reset'))
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/lead queue span_MAIN'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/div_Select Queue'))
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select Queue'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/lead queue span_MAIN'))
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/div_Select Queue'))
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/button_Filter'))
+WebUI.setText(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'), statuses)
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/button_Reset'))
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/input_Filter_2nd'), state)
+
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/input_Filter_2nd'), source)
+
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/input_Filter_2nd'), zip)
+
+WebUI.click(findTestObject('Myworklist(lead status)/search ojito add note/button_FILE_editButton'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/button_Save Note'), 
+    0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/select_Select OneCalle  textedHOT LEADLEFT _fb051f'), 
+    '1', true)
+
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/button_Save Note'))
+
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/button_Back'))
+
+WebUI.setText(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'), zip)
+
+WebUI.scrollToPosition(150, 100, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/button_ojito'))
+
+WebUI.takeFullPageScreenshot()
+
 

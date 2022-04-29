@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="My Worklist" time="21.082" tests="1" failures="0" errors="0">
+   <testsuite name="My Worklist" tests="1" failures="0" errors="0" time="21.082" skipped="0" timestamp="2022-04-29 10:45:39" hostname="juzcategui - juzcategui" id="Test Suites/My Worklist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220429_104535/My Worklist/20220429_104535"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220429_104535/My Worklist/20220429_104535/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220429_104535/My Worklist/20220429_104535/1651243555899.png, /home/juzcategui/git/DIMS/Reports/20220429_104535/My Worklist/20220429_104535/1651243557353.png, /home/juzcategui/git/DIMS/Reports/20220429_104535/My Worklist/20220429_104535/1651243559207.png, /home/juzcategui/git/DIMS/Reports/20220429_104535/My Worklist/20220429_104535/1651243560004.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 100.0.4896.75"/>
+         <property name="hostAddress" value="192.168.12.57"/>
+         <property name="sessionId" value="2bf17c1e193869b42c7612a3319efb18"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Filter My Worklist" time="20.405" classname="Test Cases/Filter My Worklist" status="PASSED">
+         <system-out><![CDATA[2022-04-29 10:45:40 - [TEST_CASE][PASSED] - Test Cases/Filter My Worklist: Test Cases/Filter My Worklist
+
+2022-04-29 10:45:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-29 10:45:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-29 10:45:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-29 10:45:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-29 10:45:43 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-29 10:45:49 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-29 10:45:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-29 10:45:50 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-29 10:45:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-29 10:45:51 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-29 10:45:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-04-29 10:45:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-04-29 10:45:52 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/strong_My Tools")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-04-29 10:45:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-04-29 10:45:52 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/span_My Worklist")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-04-29 10:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-04-29 10:45:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/input_Filter"), zip): Text '1010' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-04-29 10:45:54 - [MESSAGE][PASSED] - Text '1010' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-04-29 10:45:54 - [TEST_STEP][PASSED] - scrollToPosition(150, 100, STOP_ON_FAILURE): Browser is scrolled to position x = 150, y = 100
+
+2022-04-29 10:45:54 - [MESSAGE][PASSED] - Browser is scrolled to position x = 150, y = 100
+
+2022-04-29 10:45:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/button_ojito")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_ojito' is clicked on
+
+2022-04-29 10:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_ojito' is clicked on
+
+2022-04-29 10:45:55 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-04-29 10:45:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-29 10:45:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220429_104535/My Worklist/20220429_104535/1651243555899.png]]
+
+2022-04-29 10:45:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/span folder to donwload CSV")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/span folder to donwload CSV' is clicked on
+
+2022-04-29 10:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/span folder to donwload CSV' is clicked on
+
+2022-04-29 10:45:57 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-04-29 10:45:57 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-29 10:45:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220429_104535/My Worklist/20220429_104535/1651243557353.png]]
+
+2022-04-29 10:45:58 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-04-29 10:45:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-04-29 10:45:59 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-04-29 10:45:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-29 10:45:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220429_104535/My Worklist/20220429_104535/1651243559207.png]]
+
+2022-04-29 10:45:59 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-04-29 10:46:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-29 10:46:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220429_104535/My Worklist/20220429_104535/1651243560004.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-29 10:45:39 - [TEST_SUITE][PASSED] - My Worklist: Test Cases/Filter My Worklist]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

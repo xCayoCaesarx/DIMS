@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="My Worklist" time="104.81" tests="1" failures="0" errors="0">
+   <testsuite name="My Worklist" tests="1" failures="0" errors="0" time="104.81" skipped="0" timestamp="2022-04-29 10:29:39" hostname="juzcategui - juzcategui" id="Test Suites/My Worklist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220429_102935/My Worklist/20220429_102935"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220429_102935/My Worklist/20220429_102935/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220429_102935/My Worklist/20220429_102935/1651242622991.png, /home/juzcategui/git/DIMS/Reports/20220429_102935/My Worklist/20220429_102935/1651242654952.png, /home/juzcategui/git/DIMS/Reports/20220429_102935/My Worklist/20220429_102935/1651242655599.png, /home/juzcategui/git/DIMS/Reports/20220429_102935/My Worklist/20220429_102935/1651242676149.png, /home/juzcategui/git/DIMS/Reports/20220429_102935/My Worklist/20220429_102935/1651242681426.png, /home/juzcategui/git/DIMS/Reports/20220429_102935/My Worklist/20220429_102935/1651242683638.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 100.0.4896.75"/>
+         <property name="hostAddress" value="192.168.12.57"/>
+         <property name="sessionId" value="85bb0b930aa44cb45f29b463a43d66af"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Filter My Worklist" time="104.162" classname="Test Cases/Filter My Worklist" status="PASSED">
+         <system-out><![CDATA[2022-04-29 10:29:40 - [TEST_CASE][PASSED] - Test Cases/Filter My Worklist: Test Cases/Filter My Worklist
+
+2022-04-29 10:29:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-29 10:29:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-29 10:29:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-29 10:29:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-29 10:29:42 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-29 10:29:46 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-04-29 10:29:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-29 10:29:47 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-04-29 10:29:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-29 10:29:48 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-04-29 10:29:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-04-29 10:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-04-29 10:29:48 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/strong_My Tools")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-04-29 10:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-04-29 10:29:49 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/span_My Worklist")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-04-29 10:29:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-04-29 10:29:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_From")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_From' is clicked on
+
+2022-04-29 10:29:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_From' is clicked on
+
+2022-04-29 10:29:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/span_1")): Object: 'Object Repository/debt ims R/Page_Debt IMS/span_1' is clicked on
+
+2022-04-29 10:29:51 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/span_1' is clicked on
+
+2022-04-29 10:29:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_To_form")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_To_form' is clicked on
+
+2022-04-29 10:29:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_To_form' is clicked on
+
+2022-04-29 10:29:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/span_31"), OPTIONAL): Unable to click on object 'Object Repository/debt ims R/Page_Debt IMS/span_31' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/debt ims R/Page_Debt IMS/span_31'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Filter My Worklist.run(Filter My Worklist:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1651242575232.run(TempTestSuite1651242575232.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/debt ims R/Page_Debt IMS/span_31' located by '/html/body/div[2]/div[2]/div/div[2]/div/span[(text() = '31' or . = '31')]
+[count(. | //*[@class = 'flatpickr-day']) = count(//*[@class = 'flatpickr-day'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1650548655764.run(Script1650548655764.groovy:40)
+	... 13 more
+)
+
+2022-04-29 10:30:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[2]/div[2]/div/div[2]/div/span[(text() = '31' or . = '31')]
+[count(. | //*[@class = 'flatpickr-day']) = count(//*[@class = 'flatpickr-day'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-29 10:30:23 - [MESSAGE][WARNING] - Unable to click on object 'Object Repository/debt ims R/Page_Debt IMS/span_31' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/debt ims R/Page_Debt IMS/span_31'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Filter My Worklist.run(Filter My Worklist:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1651242575232.run(TempTestSuite1651242575232.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/debt ims R/Page_Debt IMS/span_31' located by '/html/body/div[2]/div[2]/div/div[2]/div/span[(text() = '31' or . = '31')]
+[count(. | //*[@class = 'flatpickr-day']) = count(//*[@class = 'flatpickr-day'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1650548655764.run(Script1650548655764.groovy:40)
+	... 13 more
+)
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220429_102935/My Worklist/20220429_102935/1651242622991.png]]
+
+2022-04-29 10:30:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/span_30"), OPTIONAL): Object: 'Object Repository/debt ims R/Page_Debt IMS/span_30' is clicked on
+
+2022-04-29 10:30:23 - [MESSAGE][PASSED] - Object: 'Object Repository/debt ims R/Page_Debt IMS/span_30' is clicked on
+
+2022-04-29 10:30:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/span_29"), OPTIONAL): Unable to click on object 'Object Repository/debt ims R/Page_Debt IMS/span_29' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/debt ims R/Page_Debt IMS/span_29'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Filter My Worklist.run(Filter My Worklist:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1651242575232.run(TempTestSuite1651242575232.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/debt ims R/Page_Debt IMS/span_29' located by '/html/body/div[2]/div[2]/div/div[2]/div/span[(text() = '29' or . = '29')]
+[count(. | //*[@class = 'flatpickr-day']) = count(//*[@class = 'flatpickr-day'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1650548655764.run(Script1650548655764.groovy:44)
+	... 13 more
+)
+
+2022-04-29 10:30:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[2]/div[2]/div/div[2]/div/span[(text() = '29' or . = '29')]
+[count(. | //*[@class = 'flatpickr-day']) = count(//*[@class = 'flatpickr-day'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-29 10:30:55 - [MESSAGE][WARNING] - Unable to click on object 'Object Repository/debt ims R/Page_Debt IMS/span_29' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/debt ims R/Page_Debt IMS/span_29'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Filter My Worklist.run(Filter My Worklist:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1651242575232.run(TempTestSuite1651242575232.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/debt ims R/Page_Debt IMS/span_29' located by '/html/body/div[2]/div[2]/div/div[2]/div/span[(text() = '29' or . = '29')]
+[count(. | //*[@class = 'flatpickr-day']) = count(//*[@class = 'flatpickr-day'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1650548655764.run(Script1650548655764.groovy:44)
+	... 13 more
+)
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220429_102935/My Worklist/20220429_102935/1651242654952.png]]
+
+2022-04-29 10:30:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/debt ims R/Page_Debt IMS/span_28"), OPTIONAL): Unable to click on object 'Object Repository/debt ims R/Page_Debt IMS/span_28' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/debt ims R/Page_Debt IMS/span_28'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Filter My Worklist.run(Filter My Worklist:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1651242575232.run(TempTestSuite1651242575232.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.57', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-39-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.DCB8Mq}, goog:chromeOptions: {debuggerAddress: localhost:42589}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 85bb0b930aa44cb45f29b463a43d66af
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1650548655764.run(Script1650548655764.groovy:46)
+	... 13 more
+)
+
+2022-04-29 10:30:55 - [MESSAGE][WARNING] - Unable to click on object 'Object Repository/debt ims R/Page_Debt IMS/span_28' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/debt ims R/Page_Debt IMS/span_28'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Filter My Worklist.run(Filter My Worklist:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1651242575232.run(TempTestSuite1651242575232.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.57', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-39-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.DCB8Mq}, goog:chromeOptions: {debuggerAddress: localhost:42589}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 85bb0b930aa44cb45f29b463a43d66af
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1650548655764.run(Script1650548655764.groovy:46)
+	... 13 more
+)
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220429_102935/My Worklist/20220429_102935/1651242655599.png]]
+
+2022-04-29 10:30:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter' is clicked on
+
+2022-04-29 10:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter' is clicked on
+
+2022-04-29 10:30:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset' is clicked on
+
+2022-04-29 10:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset' is clicked on
+
+2022-04-29 10:30:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select a Status(es)")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select a Status(es)' is clicked on
+
+2022-04-29 10:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select a Status(es)' is clicked on
+
+2022-04-29 10:30:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/lead status select span_Attempting contact")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/lead status select span_Attempting contact' is clicked on
+
+2022-04-29 10:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/lead status select span_Attempting contact' is clicked on
+
+2022-04-29 10:30:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select a Status(es)")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select a Status(es)' is clicked on
+
+2022-04-29 10:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select a Status(es)' is clicked on
+
+2022-04-29 10:30:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter' is clicked on
+
+2022-04-29 10:30:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter' is clicked on
+
+2022-04-29 10:30:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset' is clicked on
+
+2022-04-29 10:30:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset' is clicked on
+
+2022-04-29 10:30:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select Lead Source")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select Lead Source' is clicked on
+
+2022-04-29 10:31:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select Lead Source' is clicked on
+
+2022-04-29 10:31:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/lead source  select span_Mailer")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/lead source  select span_Mailer' is clicked on
+
+2022-04-29 10:31:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/lead source  select span_Mailer' is clicked on
+
+2022-04-29 10:31:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select Lead Source")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select Lead Source' is clicked on
+
+2022-04-29 10:31:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select Lead Source' is clicked on
+
+2022-04-29 10:31:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter' is clicked on
+
+2022-04-29 10:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter' is clicked on
+
+2022-04-29 10:31:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset' is clicked on
+
+2022-04-29 10:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset' is clicked on
+
+2022-04-29 10:31:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select Queue")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select Queue' is clicked on
+
+2022-04-29 10:31:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select Queue' is clicked on
+
+2022-04-29 10:31:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/lead queue span_MAIN")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/lead queue span_MAIN' is clicked on
+
+2022-04-29 10:31:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/lead queue span_MAIN' is clicked on
+
+2022-04-29 10:31:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select Queue")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select Queue' is clicked on
+
+2022-04-29 10:31:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select Queue' is clicked on
+
+2022-04-29 10:31:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter' is clicked on
+
+2022-04-29 10:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter' is clicked on
+
+2022-04-29 10:31:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset' is clicked on
+
+2022-04-29 10:31:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset' is clicked on
+
+2022-04-29 10:31:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/input_Filter"), statuses): Text 'Attempting' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-04-29 10:31:07 - [MESSAGE][PASSED] - Text 'Attempting' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-04-29 10:31:07 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-04-29 10:31:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-04-29 10:31:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/input_Filter_2nd"), state): Text 'alaska' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter_2nd'
+
+2022-04-29 10:31:08 - [MESSAGE][PASSED] - Text 'alaska' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter_2nd'
+
+2022-04-29 10:31:08 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-04-29 10:31:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-04-29 10:31:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/input_Filter_2nd"), source): Text 'mailer' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter_2nd'
+
+2022-04-29 10:31:10 - [MESSAGE][PASSED] - Text 'mailer' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter_2nd'
+
+2022-04-29 10:31:10 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-04-29 10:31:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-04-29 10:31:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/input_Filter_2nd"), zip): Text '1010' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter_2nd'
+
+2022-04-29 10:31:12 - [MESSAGE][PASSED] - Text '1010' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter_2nd'
+
+2022-04-29 10:31:12 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/search ojito add note/button_FILE_editButton")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-04-29 10:31:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-04-29 10:31:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/button_Save Note"), 0, STOP_ON_FAILURE): Scroll to object 'Object Repository/Myworklist(lead status)/search ojito add note/button_Save Note' successfully
+
+2022-04-29 10:31:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-29 10:31:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Myworklist(lead status)/search ojito add note/button_Save Note' successfully
+
+2022-04-29 10:31:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/select_Select OneCalle  textedHOT LEADLEFT _fb051f"), "1", true): All options with value '1' are selected in object 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/select_Select OneCalle  textedHOT LEADLEFT _fb051f'  using regular expression
+
+2022-04-29 10:31:14 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/select_Select OneCalle  textedHOT LEADLEFT _fb051f'  using regular expression
+
+2022-04-29 10:31:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/button_Save Note")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_Save Note' is clicked on
+
+2022-04-29 10:31:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_Save Note' is clicked on
+
+2022-04-29 10:31:15 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-04-29 10:31:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-04-29 10:31:16 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-04-29 10:31:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-29 10:31:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220429_102935/My Worklist/20220429_102935/1651242676149.png]]
+
+2022-04-29 10:31:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/button_Back")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_Back' is clicked on
+
+2022-04-29 10:31:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_Back' is clicked on
+
+2022-04-29 10:31:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/input_Filter"), zip): Text '1010' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-04-29 10:31:18 - [MESSAGE][PASSED] - Text '1010' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-04-29 10:31:18 - [TEST_STEP][PASSED] - scrollToPosition(150, 100, STOP_ON_FAILURE): Browser is scrolled to position x = 150, y = 100
+
+2022-04-29 10:31:18 - [MESSAGE][PASSED] - Browser is scrolled to position x = 150, y = 100
+
+2022-04-29 10:31:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/button_ojito")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_ojito' is clicked on
+
+2022-04-29 10:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_ojito' is clicked on
+
+2022-04-29 10:31:21 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-04-29 10:31:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-29 10:31:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220429_102935/My Worklist/20220429_102935/1651242681426.png]]
+
+2022-04-29 10:31:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/span folder to donwload CSV")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/span folder to donwload CSV' is clicked on
+
+2022-04-29 10:31:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/span folder to donwload CSV' is clicked on
+
+2022-04-29 10:31:22 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-04-29 10:31:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-04-29 10:31:23 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-04-29 10:31:24 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-29 10:31:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220429_102935/My Worklist/20220429_102935/1651242683638.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-29 10:29:39 - [TEST_SUITE][PASSED] - My Worklist: Test Cases/Filter My Worklist]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

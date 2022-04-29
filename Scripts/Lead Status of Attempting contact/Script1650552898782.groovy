@@ -41,3 +41,7 @@ WebUI.click(findTestObject('Myworklist(lead status)/button_Welcome, Julio Uzcteg
 
 WebUI.click(findTestObject('Myworklist(lead status)/button_Accept'))
 
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+

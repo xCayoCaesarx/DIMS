@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_New Note_</name>
+   <tag></tag>
+   <elementGuidId>a16443f9-190e-43a8-b208-4a8a1deb1cf7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;d-flex flex-column ng-star-inserted&quot;]/div[@class=&quot;menuShow&quot;]/div[@class=&quot;w-100 d-flex flex-column&quot;]/div[@class=&quot;w-auto&quot;]/app-community-leads-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex h-100&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;container-fluid shadow h-auto&quot;]/app-apliccant-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column w-100&quot;]/div[2]/div[@class=&quot;container-fluid&quot;]/form[@class=&quot;container row ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;form-group col-4&quot;]/input[@class=&quot;form-control shadow-none ng-untouched ng-valid ng-dirty&quot;][count(. | //input[@type = 'text' and @formcontrolname = 'note']) = count(//input[@type = 'text' and @formcontrolname = 'note'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[61]/input[@class='form-control shadow-none ng-untouched ng-pristine ng-valid']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.shadow-none.ng-untouched.ng-valid.ng-dirty</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>note</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control shadow-none ng-untouched ng-valid ng-dirty</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;d-flex flex-column ng-star-inserted&quot;]/div[@class=&quot;menuShow&quot;]/div[@class=&quot;w-100 d-flex flex-column&quot;]/div[@class=&quot;w-auto&quot;]/app-community-leads-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex h-100&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;container-fluid shadow h-auto&quot;]/app-apliccant-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column w-100&quot;]/div[2]/div[@class=&quot;container-fluid&quot;]/form[@class=&quot;container row ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;form-group col-4&quot;]/input[@class=&quot;form-control shadow-none ng-untouched ng-valid ng-dirty&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[31]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[61]/input</value>
+   </webElementXpaths>
+</WebElementEntity>

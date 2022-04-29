@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My Worklist,Chrome 100.0.4896.75,,,2022-04-26 17:07:15,2022-04-26 17:08:09,"53,544s",FAILED
+,,,,,,,
+Test Cases/Filter My Worklist,Chrome 100.0.4896.75,,,2022-04-26 17:07:16,2022-04-26 17:08:09,"52,895s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-04-26 17:07:17,2022-04-26 17:07:19,"2,320s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-04-26 17:07:19,2022-04-26 17:07:53,"33,781s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-04-26 17:07:53,2022-04-26 17:07:54,"0,950s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-04-26 17:07:54,2022-04-26 17:07:55,"0,929s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 100.0.4896.75,,,2022-04-26 17:07:55,2022-04-26 17:07:57,"2,626s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/Page_Debt IMS/strong_My Tools""))",Chrome 100.0.4896.75,,,2022-04-26 17:07:57,2022-04-26 17:07:58,"0,860s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/Page_Debt IMS/span_My Worklist""))",Chrome 100.0.4896.75,,,2022-04-26 17:07:58,2022-04-26 17:07:59,"0,575s",PASSED
+delay(4),Chrome 100.0.4896.75,,,2022-04-26 17:07:59,2022-04-26 17:08:03,"4,074s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/input_From""))",Chrome 100.0.4896.75,,,2022-04-26 17:08:03,2022-04-26 17:08:03,"0,412s",PASSED
+"click(findTestObject(""Object Repository/a/Page_Debt IMS/span_1""))",Chrome 100.0.4896.75,,,2022-04-26 17:08:03,2022-04-26 17:08:04,"0,442s",PASSED
+delay(4),Chrome 100.0.4896.75,,,2022-04-26 17:08:04,2022-04-26 17:08:08,"4,004s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/input_To_form""))",Chrome 100.0.4896.75,,,2022-04-26 17:08:08,2022-04-26 17:08:08,"0,419s",PASSED
+"click(findTestObject(""Object Repository/a/Page_Debt IMS/span_30""))",Chrome 100.0.4896.75,,,2022-04-26 17:08:08,2022-04-26 17:08:08,"0,371s",PASSED
+"setText(findTestObject(""Object Repository/a/Page_Debt IMS/input_From_form-control shadow-none ng-unto_cd0147""), ""04/30/2022"")",Chrome 100.0.4896.75,,,2022-04-26 17:08:08,2022-04-26 17:08:09,"0,495s",FAILED
