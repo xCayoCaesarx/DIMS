@@ -16,17 +16,77 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Manual Lead Distribution</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b18c46bb-54d4-4e46-822f-d68c6b1af626</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Distribute Leads Data</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>b18c46bb-54d4-4e46-822f-d68c6b1af626</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
          <variableId>7225c2a2-7543-491f-9e81-88059bb0715e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>b18c46bb-54d4-4e46-822f-d68c6b1af626</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
          <variableId>3180c89f-86fe-4e0f-8ec2-462b4bd30608</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>58b99bad-a6cc-42a8-a198-2fb06b0473ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Create 5 Leads</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>61ec12f0-9b50-468d-a60a-5c6c8f1824f6</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>3-7</value>
+         </iterationEntity>
+         <testDataId>Data Files/Distribute Leads Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>61ec12f0-9b50-468d-a60a-5c6c8f1824f6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>c9226952-ac3a-463d-af57-d339e32b13f4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>61ec12f0-9b50-468d-a60a-5c6c8f1824f6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>314ea197-3704-4420-9461-5de5a4a3a3ee</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>61ec12f0-9b50-468d-a60a-5c6c8f1824f6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>414ec1b1-9e81-41dc-985e-2421e553ff85</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>61ec12f0-9b50-468d-a60a-5c6c8f1824f6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastname</value>
+         <variableId>81233fc0-2913-4446-a02a-b16569c669f8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>61ec12f0-9b50-468d-a60a-5c6c8f1824f6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>homephone</value>
+         <variableId>7533e6de-3fc6-44ff-af9a-1b43663102b8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>61ec12f0-9b50-468d-a60a-5c6c8f1824f6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>81542c68-f889-4fd3-a480-69b6d91add81</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

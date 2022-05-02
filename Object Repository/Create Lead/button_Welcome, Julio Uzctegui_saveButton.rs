@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[3]</value>
+         <value>//button[@class='saveButton']</value>
       </entry>
       <entry>
          <key>CSS</key>

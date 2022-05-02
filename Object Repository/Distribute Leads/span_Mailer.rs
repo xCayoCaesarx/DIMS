@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Mailer</name>
    <tag></tag>
-   <elementGuidId>81fbb1b2-f4cb-4c82-818b-bf7ce84f9f69</elementGuidId>
+   <elementGuidId>a1eb312f-7253-4dc2-80cd-79527c76ae79</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;d-flex flex-column ng-star-inserted&quot;]/div[@class=&quot;menuShow&quot;]/div[@class=&quot;w-100 d-flex flex-column&quot;]/div[@class=&quot;w-auto&quot;]/app-distribute-leads[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column w-100&quot;]/div[@class=&quot;w-100 h-100 ps-5 mb-5&quot;]/div[@class=&quot;container formCRUD&quot;]/form[@class=&quot;container row pb-5 ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;form-group col-6&quot;]/div[@class=&quot;p-fluid&quot;]/p-multiselect[@class=&quot;p-element p-inputwrapper form-control shadow-none border-0 ng-tns-c62-1 ng-valid ng-star-inserted ng-dirty ng-touched p-inputwrapper-focus&quot;]/div[@class=&quot;ng-tns-c62-1 p-multiselect p-component p-multiselect-open&quot;]/div[@class=&quot;ng-trigger ng-trigger-overlayAnimation ng-tns-c62-1 p-multiselect-panel p-component ng-star-inserted&quot;]/div[@class=&quot;p-multiselect-items-wrapper ng-tns-c62-1&quot;]/ul[@class=&quot;p-multiselect-items p-component ng-tns-c62-1&quot;]/p-multiselectitem[@class=&quot;p-element ng-tns-c62-1 ng-star-inserted&quot;]/li[@class=&quot;p-ripple p-element p-multiselect-item&quot;]/span[@class=&quot;ng-star-inserted&quot;]</value>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;d-flex flex-column ng-star-inserted&quot;]/div[@class=&quot;menuShow&quot;]/div[@class=&quot;w-100 d-flex flex-column&quot;]/div[@class=&quot;w-auto&quot;]/app-distribute-leads[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column w-100&quot;]/div[@class=&quot;w-100 h-100 ps-5 mb-5&quot;]/div[@class=&quot;container formCRUD&quot;]/form[@class=&quot;container row pb-5 ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;form-group col-6&quot;]/div[@class=&quot;p-fluid&quot;]/p-multiselect[@class=&quot;p-element p-inputwrapper form-control shadow-none border-0 ng-tns-c62-1 ng-pristine ng-valid ng-star-inserted ng-touched p-inputwrapper-focus&quot;]/div[@class=&quot;ng-tns-c62-1 p-multiselect p-component p-multiselect-open&quot;]/div[@class=&quot;ng-trigger ng-trigger-overlayAnimation ng-tns-c62-1 p-multiselect-panel p-component ng-star-inserted&quot;]/div[@class=&quot;p-multiselect-items-wrapper ng-tns-c62-1&quot;]/ul[@class=&quot;p-multiselect-items p-component ng-tns-c62-1&quot;]/p-multiselectitem[@class=&quot;p-element ng-tns-c62-1 ng-star-inserted&quot;]/li[@class=&quot;p-ripple p-element p-multiselect-item&quot;]/span[@class=&quot;ng-star-inserted&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

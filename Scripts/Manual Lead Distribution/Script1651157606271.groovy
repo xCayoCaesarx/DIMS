@@ -27,11 +27,11 @@ WebUI.setText(findTestObject('Object Repository/Create Lead/input_Password_form-
 
 WebUI.click(findTestObject('Object Repository/Create Lead/button_Login'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/Page_Debt IMS/strong_My Tools'))
+WebUI.click(findTestObject('Distribute Leads/strong_Lead Maintenance'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/Page_Debt IMS/span_My Worklist'))
+WebUI.click(findTestObject('Distribute Leads/span_Distribute Leads'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/input_From'))
+WebUI.click(findTestObject('Distribute Leads/input_Lead date from'))
 
 WebUI.click(findTestObject('debt ims R/Page_Debt IMS/span_1'))
 
@@ -45,39 +45,19 @@ WebUI.click(findTestObject('debt ims R/Page_Debt IMS/span_29'), FailureHandling.
 
 WebUI.click(findTestObject('debt ims R/Page_Debt IMS/span_28'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/button_Filter'))
+WebUI.click(findTestObject('Distribute Leads/div_Select a Source(s)'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/button_Reset'))
+WebUI.click(findTestObject('Distribute Leads/span_Mailer'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/div_Select a Status(es)'))
+WebUI.click(findTestObject('Distribute Leads/div_Select a User(s)'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/lead status select span_Attempting contact'))
+WebUI.click(findTestObject('Distribute Leads/span_Taiana Rondon'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/div_Select a Status(es)'))
+WebUI.click(findTestObject('Distribute Leads/span_Anifer Da Rocha'))
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/button_Filter'))
+WebUI.selectOptionByValue(findTestObject('Distribute Leads/select_number'), '2', false)
 
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/button_Reset'))
-
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/div_Select Lead Source'))
-
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/lead source  select span_Mailer'))
-
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/div_Select Lead Source'))
-
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/button_Filter'))
-
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/button_Reset'))
-
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/div_Select Queue'))
-
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/lead queue span_MAIN'))
-
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/div_Select Queue'))
-
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/button_Filter'))
-
-WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/button_Reset'))
+WebUI.click(findTestObject('Distribute Leads/div_Total Leads_p-checkbox-box'))
 
 WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
