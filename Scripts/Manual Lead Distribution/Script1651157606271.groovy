@@ -59,6 +59,46 @@ WebUI.selectOptionByValue(findTestObject('Distribute Leads/select_number'), '2',
 
 WebUI.click(findTestObject('Distribute Leads/div_Total Leads_p-checkbox-box'))
 
+WebUI.click(findTestObject('Distribute Leads/button_Distribute'))
+
+WebUI.scrollToElement(findTestObject('Distribute Leads/Page_Debt IMS/h4_Distribution Details'), 0)
+
+WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Distribute Leads/input_Lead date from'))
+
+WebUI.click(findTestObject('debt ims R/Page_Debt IMS/span_1'))
+
+WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/input_To_form'))
+
+WebUI.click(findTestObject('debt ims R/Page_Debt IMS/span_31'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('debt ims R/Page_Debt IMS/span_30'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('debt ims R/Page_Debt IMS/span_29'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('debt ims R/Page_Debt IMS/span_28'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Distribute Leads/div_Select a Source(s)'))
+
+WebUI.click(findTestObject('Distribute Leads/span_Mailer'))
+
+WebUI.click(findTestObject('Distribute Leads/div_Select mailer'))
+
+WebUI.click(findTestObject('Distribute Leads/div_Select a User(s)'))
+
+WebUI.click(findTestObject('Distribute Leads/span_Taiana Rondon'))
+
+WebUI.click(findTestObject('Distribute Leads/span_Anifer Da Rocha'))
+
+WebUI.click(findTestObject('Distribute Leads/div_Total Leads_p-checkbox-box'))
+
+WebUI.click(findTestObject('Distribute Leads/button_Distribute'))
+
+WebUI.scrollToElement(findTestObject('Distribute Leads/Page_Debt IMS/h4_Distribution Details'), 0)
+
 WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeFullPageScreenshot()
