@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Bulk Reassign,Chrome 100.0.4896.75,,,2022-05-05 16:12:22,2022-05-05 16:13:12,"50,888s",FAILED
+,,,,,,,
+Test Cases/Reassign Leads,Chrome 100.0.4896.75,,,2022-05-05 16:12:22,2022-05-05 16:13:12,"50,303s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-05 16:12:23,2022-05-05 16:12:25,"2,033s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-05 16:12:25,2022-05-05 16:12:28,"3,193s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-05-05 16:12:28,2022-05-05 16:12:29,"0,973s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-05-05 16:12:29,2022-05-05 16:12:30,"0,831s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 100.0.4896.75,,,2022-05-05 16:12:30,2022-05-05 16:12:30,"0,626s",PASSED
+"click(findTestObject(""Distribute Leads/strong_Lead Maintenance""))",Chrome 100.0.4896.75,,,2022-05-05 16:12:30,2022-05-05 16:12:31,"0,627s",PASSED
+"click(findTestObject(""Bulk Reassign/span_Bulk Reassign""))",Chrome 100.0.4896.75,,,2022-05-05 16:12:31,2022-05-05 16:12:32,"0,620s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_From""))",Chrome 100.0.4896.75,,,2022-05-05 16:12:32,2022-05-05 16:12:32,"0,791s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_1""))",Chrome 100.0.4896.75,,,2022-05-05 16:12:32,2022-05-05 16:12:33,"0,443s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_To_form""))",Chrome 100.0.4896.75,,,2022-05-05 16:12:33,2022-05-05 16:12:34,"0,768s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_31""), OPTIONAL)",Chrome 100.0.4896.75,,,2022-05-05 16:12:34,2022-05-05 16:12:34,"0,409s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_30""), OPTIONAL)",Chrome 100.0.4896.75,,,2022-05-05 16:12:34,2022-05-05 16:12:35,"0,936s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_29""), OPTIONAL)",Chrome 100.0.4896.75,,,2022-05-05 16:12:35,2022-05-05 16:12:35,"0,456s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_28""), OPTIONAL)",Chrome 100.0.4896.75,,,2022-05-05 16:12:35,2022-05-05 16:12:36,"0,456s",PASSED
+"click(findTestObject(""Bulk Reassign/div_Select a Status(es)""))",Chrome 100.0.4896.75,,,2022-05-05 16:12:36,2022-05-05 16:12:36,"0,420s",PASSED
+"click(findTestObject(""Bulk Reassign/span_Attempting contact""))",Chrome 100.0.4896.75,,,2022-05-05 16:12:36,2022-05-05 16:12:37,"0,772s",PASSED
+"click(findTestObject(""Bulk Reassign/div_Select a Source(s)""))",Chrome 100.0.4896.75,,,2022-05-05 16:12:37,2022-05-05 16:12:38,"0,739s",PASSED
+"click(findTestObject(""Bulk Reassign/span_Mailer""))",Chrome 100.0.4896.75,,,2022-05-05 16:12:38,2022-05-05 16:12:39,"0,721s",PASSED
+"click(findTestObject(""Bulk Reassign/div_Select a Program(s)""))",Chrome 100.0.4896.75,,,2022-05-05 16:12:39,2022-05-05 16:12:39,"0,742s",PASSED
+"click(findTestObject(""Bulk Reassign/span_HFG NONE""))",Chrome 100.0.4896.75,,,2022-05-05 16:12:39,2022-05-05 16:12:40,"0,739s",PASSED
+"selectOptionByValue(findTestObject(""Bulk Reassign/select_Select from user""), ""1008"", false)",Chrome 100.0.4896.75,,,2022-05-05 16:12:40,2022-05-05 16:12:41,"0,973s",PASSED
+"selectOptionByValue(findTestObject(""Bulk Reassign/select_Select  to user""), ""1001"", false)",Chrome 100.0.4896.75,,,2022-05-05 16:12:41,2022-05-05 16:13:12,"31,383s",FAILED
