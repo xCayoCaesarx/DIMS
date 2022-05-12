@@ -37,7 +37,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Create Lead/select_S
 WebUI.selectOptionByValue(findTestObject('Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0'), 
     '2', true)
 
-WebUI.selectOptionByValue(findTestObject('Create Lead/status select'), '12', true)
+WebUI.selectOptionByValue(findTestObject('Create Lead/status select'), '13', true)
 
 WebUI.setText(findTestObject('Create Lead/input_First Name'), firstname)
 

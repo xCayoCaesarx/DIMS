@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Mailer Data,Chrome 100.0.4896.75,,,2022-05-09 17:30:22,2022-05-09 17:31:30,"1m - 7,604s",FAILED
+,,,,,,,
+Test Cases/Add Mailer Data,Chrome 100.0.4896.75,,,2022-05-09 17:30:23,2022-05-09 17:31:30,"1m - 7,013s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-09 17:30:24,2022-05-09 17:30:26,"1,886s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-09 17:30:26,2022-05-09 17:30:50,"24,046s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-05-09 17:30:50,2022-05-09 17:30:50,"0,802s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-05-09 17:30:50,2022-05-09 17:30:51,"0,758s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 100.0.4896.75,,,2022-05-09 17:30:51,2022-05-09 17:30:52,"0,430s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/strong_My Tools""))",Chrome 100.0.4896.75,,,2022-05-09 17:30:52,2022-05-09 17:30:55,"2,932s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/span_New Lead""))",Chrome 100.0.4896.75,,,2022-05-09 17:30:55,2022-05-09 17:30:55,"0,558s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create Lead/select_Select OneAdvertising-Stop My Payday_d308cb""), ""10"", true)",Chrome 100.0.4896.75,,,2022-05-09 17:30:55,2022-05-09 17:30:57,"2,236s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0""), ""2"", true)",Chrome 100.0.4896.75,,,2022-05-09 17:30:57,2022-05-09 17:30:59,"1,262s",PASSED
+"selectOptionByValue(findTestObject(""Create Lead/status select""), ""13"", true)",Chrome 100.0.4896.75,,,2022-05-09 17:30:59,2022-05-09 17:31:30,"31,470s",FAILED

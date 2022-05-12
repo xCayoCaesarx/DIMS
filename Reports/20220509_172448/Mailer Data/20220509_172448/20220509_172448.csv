@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Mailer Data,Chrome 100.0.4896.75,,,2022-05-09 17:24:51,2022-05-09 17:25:55,"1m - 3,833s",FAILED
+,,,,,,,
+Test Cases/Add Mailer Data,Chrome 100.0.4896.75,,,2022-05-09 17:24:52,2022-05-09 17:25:55,"1m - 3,180s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-09 17:24:53,2022-05-09 17:24:55,"2,190s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-09 17:24:55,2022-05-09 17:25:26,"31,457s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-05-09 17:25:26,2022-05-09 17:25:27,"0,953s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-05-09 17:25:27,2022-05-09 17:25:28,"0,827s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 100.0.4896.75,,,2022-05-09 17:25:28,2022-05-09 17:25:28,"0,399s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/strong_My Tools""))",Chrome 100.0.4896.75,,,2022-05-09 17:25:28,2022-05-09 17:25:55,"26,780s",FAILED

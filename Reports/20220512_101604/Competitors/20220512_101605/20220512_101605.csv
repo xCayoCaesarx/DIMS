@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Competitors,Chrome 100.0.4896.75,,,2022-05-12 10:16:09,2022-05-12 10:17:01,"51,435s",FAILED
+,,,,,,,
+Test Cases/Edit Competitor,Chrome 100.0.4896.75,,,2022-05-12 10:16:10,2022-05-12 10:16:57,"47,716s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-12 10:16:10,2022-05-12 10:16:13,"2,384s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-12 10:16:13,2022-05-12 10:16:20,"7,704s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-05-12 10:16:20,2022-05-12 10:16:21,"0,869s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-05-12 10:16:21,2022-05-12 10:16:22,"0,788s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 100.0.4896.75,,,2022-05-12 10:16:22,2022-05-12 10:16:23,"0,519s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/strong_Maintenance Tools""))",Chrome 100.0.4896.75,,,2022-05-12 10:16:23,2022-05-12 10:16:23,"0,798s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/span_Competitors""))",Chrome 100.0.4896.75,,,2022-05-12 10:16:23,2022-05-12 10:16:26,"2,712s",PASSED
+"setText(findTestObject(""Competitors/Edit Competitor/input competitors for search""), competitorname)",Chrome 100.0.4896.75,,,2022-05-12 10:16:26,2022-05-12 10:16:57,"31,399s",FAILED
+,,,,,,,
+Test Cases/Delete Competitor,Chrome 100.0.4896.75,,,2022-05-12 10:16:58,2022-05-12 10:17:01,"3,026s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-12 10:16:58,2022-05-12 10:16:59,"0,954s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-12 10:16:59,2022-05-12 10:17:01,"1,723s",FAILED

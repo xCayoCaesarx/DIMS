@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Competitors,Chrome 100.0.4896.75,,,2022-05-12 11:21:44,2022-05-12 11:22:34,"49,690s",PASSED
+,,,,,,,
+Test Cases/Add Competitor,Chrome 100.0.4896.75,,,2022-05-12 11:21:45,2022-05-12 11:22:05,"19,938s",PASSED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-12 11:21:46,2022-05-12 11:21:48,"1,977s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-12 11:21:48,2022-05-12 11:21:55,"7,433s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-05-12 11:21:55,2022-05-12 11:21:56,"0,873s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-05-12 11:21:56,2022-05-12 11:21:57,"0,764s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 100.0.4896.75,,,2022-05-12 11:21:57,2022-05-12 11:21:59,"2,581s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/strong_Maintenance Tools""))",Chrome 100.0.4896.75,,,2022-05-12 11:21:59,2022-05-12 11:22:00,"0,698s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/span_Competitors""))",Chrome 100.0.4896.75,,,2022-05-12 11:22:00,2022-05-12 11:22:01,"0,526s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/button_Welcome, Julio Uzctegui_addButton""))",Chrome 100.0.4896.75,,,2022-05-12 11:22:01,2022-05-12 11:22:01,"0,725s",PASSED
+"selectOptionByValue(findTestObject(""Competitors/Add Competitors/select_office""), ""1"", false)",Chrome 100.0.4896.75,,,2022-05-12 11:22:01,2022-05-12 11:22:02,"0,914s",PASSED
+"setText(findTestObject(""Competitors/Add Competitors/input_Competitor_form""), competitorname)",Chrome 100.0.4896.75,,,2022-05-12 11:22:02,2022-05-12 11:22:03,"0,730s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 100.0.4896.75,,,2022-05-12 11:22:03,2022-05-12 11:22:03,"0,369s",PASSED
+delay(1),Chrome 100.0.4896.75,,,2022-05-12 11:22:03,2022-05-12 11:22:04,"1,028s",PASSED
+takeFullPageScreenshot([]),Chrome 100.0.4896.75,,,2022-05-12 11:22:04,2022-05-12 11:22:05,"0,715s",PASSED
+,,,,,,,
+Test Cases/Edit Competitor,Chrome 100.0.4896.75,,,2022-05-12 11:22:05,2022-05-12 11:22:20,"14,791s",PASSED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-12 11:22:05,2022-05-12 11:22:06,"1,020s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-12 11:22:06,2022-05-12 11:22:10,"3,078s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-05-12 11:22:10,2022-05-12 11:22:10,"0,718s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-05-12 11:22:10,2022-05-12 11:22:11,"0,711s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 100.0.4896.75,,,2022-05-12 11:22:11,2022-05-12 11:22:11,"0,384s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/strong_Maintenance Tools""))",Chrome 100.0.4896.75,,,2022-05-12 11:22:11,2022-05-12 11:22:12,"0,706s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/span_Competitors""))",Chrome 100.0.4896.75,,,2022-05-12 11:22:12,2022-05-12 11:22:15,"2,648s",PASSED
+"setText(findTestObject(""Competitors/Edit Competitor/input competitors for search""), competitorname)",Chrome 100.0.4896.75,,,2022-05-12 11:22:15,2022-05-12 11:22:16,"0,967s",PASSED
+"click(findTestObject(""Competitors/Edit Competitor/button_Competitors_editButton""))",Chrome 100.0.4896.75,,,2022-05-12 11:22:16,2022-05-12 11:22:16,"0,458s",PASSED
+"setText(findTestObject(""Competitors/Edit Competitor/Page_Debt IMS/input_Competitor2nd""), competitornamemodify)",Chrome 100.0.4896.75,,,2022-05-12 11:22:16,2022-05-12 11:22:17,"0,982s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 100.0.4896.75,,,2022-05-12 11:22:17,2022-05-12 11:22:18,"0,432s",PASSED
+"click(findTestObject(""Competitors/Edit Competitor/button_Accept""))",Chrome 100.0.4896.75,,,2022-05-12 11:22:18,2022-05-12 11:22:18,"0,695s",PASSED
+delay(1),Chrome 100.0.4896.75,,,2022-05-12 11:22:18,2022-05-12 11:22:19,"1,004s",PASSED
+takeFullPageScreenshot([]),Chrome 100.0.4896.75,,,2022-05-12 11:22:19,2022-05-12 11:22:20,"0,589s",PASSED
+,,,,,,,
+Test Cases/Delete Competitor,Chrome 100.0.4896.75,,,2022-05-12 11:22:20,2022-05-12 11:22:34,"14,184s",PASSED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-12 11:22:20,2022-05-12 11:22:21,"0,982s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-12 11:22:21,2022-05-12 11:22:24,"3,013s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-05-12 11:22:24,2022-05-12 11:22:25,"0,767s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-05-12 11:22:25,2022-05-12 11:22:26,"0,750s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 100.0.4896.75,,,2022-05-12 11:22:26,2022-05-12 11:22:26,"0,383s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/strong_Maintenance Tools""))",Chrome 100.0.4896.75,,,2022-05-12 11:22:26,2022-05-12 11:22:27,"0,630s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/span_Competitors""))",Chrome 100.0.4896.75,,,2022-05-12 11:22:27,2022-05-12 11:22:29,"2,588s",PASSED
+"setText(findTestObject(""Competitors/Edit Competitor/input competitors for search""), competitornamemodify)",Chrome 100.0.4896.75,,,2022-05-12 11:22:29,2022-05-12 11:22:30,"1,079s",PASSED
+"click(findTestObject(""Competitors/Delete competitor/Choose to delete""))",Chrome 100.0.4896.75,,,2022-05-12 11:22:30,2022-05-12 11:22:31,"0,816s",PASSED
+"click(findTestObject(""Competitors/Delete competitor/button_Welcome, Julio Uzctegui_deleteButton""))",Chrome 100.0.4896.75,,,2022-05-12 11:22:31,2022-05-12 11:22:32,"0,540s",PASSED
+"click(findTestObject(""Competitors/Delete competitor/button_Accept""))",Chrome 100.0.4896.75,,,2022-05-12 11:22:32,2022-05-12 11:22:32,"0,646s",PASSED
+delay(1),Chrome 100.0.4896.75,,,2022-05-12 11:22:32,2022-05-12 11:22:33,"1,005s",PASSED
+takeFullPageScreenshot([]),Chrome 100.0.4896.75,,,2022-05-12 11:22:33,2022-05-12 11:22:34,"0,598s",PASSED

@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Competitors,Chrome 100.0.4896.75,,,2022-05-12 11:10:07,2022-05-12 11:11:07,"59,825s",FAILED
+,,,,,,,
+Test Cases/Edit Competitor,Chrome 100.0.4896.75,,,2022-05-12 11:10:08,2022-05-12 11:10:25,"16,829s",PASSED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-12 11:10:08,2022-05-12 11:10:10,"1,970s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-12 11:10:10,2022-05-12 11:10:13,"2,919s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-05-12 11:10:13,2022-05-12 11:10:14,"0,832s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-05-12 11:10:14,2022-05-12 11:10:15,"0,749s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 100.0.4896.75,,,2022-05-12 11:10:15,2022-05-12 11:10:18,"2,644s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/strong_Maintenance Tools""))",Chrome 100.0.4896.75,,,2022-05-12 11:10:18,2022-05-12 11:10:18,"0,698s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/span_Competitors""))",Chrome 100.0.4896.75,,,2022-05-12 11:10:18,2022-05-12 11:10:19,"0,526s",PASSED
+"setText(findTestObject(""Competitors/Edit Competitor/input competitors for search""), competitorname)",Chrome 100.0.4896.75,,,2022-05-12 11:10:19,2022-05-12 11:10:20,"1,013s",PASSED
+"click(findTestObject(""Competitors/Edit Competitor/button_Competitors_editButton""))",Chrome 100.0.4896.75,,,2022-05-12 11:10:20,2022-05-12 11:10:21,"0,882s",PASSED
+"setText(findTestObject(""Competitors/Edit Competitor/Page_Debt IMS/input_Competitor2nd""), competitornamemodify)",Chrome 100.0.4896.75,,,2022-05-12 11:10:21,2022-05-12 11:10:22,"1,024s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 100.0.4896.75,,,2022-05-12 11:10:22,2022-05-12 11:10:22,"0,424s",PASSED
+"click(findTestObject(""Competitors/Edit Competitor/button_Accept""))",Chrome 100.0.4896.75,,,2022-05-12 11:10:22,2022-05-12 11:10:23,"0,729s",PASSED
+delay(1),Chrome 100.0.4896.75,,,2022-05-12 11:10:23,2022-05-12 11:10:24,"1,027s",PASSED
+takeFullPageScreenshot([]),Chrome 100.0.4896.75,,,2022-05-12 11:10:24,2022-05-12 11:10:25,"0,840s",PASSED
+,,,,,,,
+Test Cases/Delete Competitor,Chrome 100.0.4896.75,,,2022-05-12 11:10:25,2022-05-12 11:11:07,"42,253s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-12 11:10:25,2022-05-12 11:10:26,"1,097s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-12 11:10:26,2022-05-12 11:10:29,"3,100s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-05-12 11:10:29,2022-05-12 11:10:30,"0,712s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-05-12 11:10:30,2022-05-12 11:10:31,"0,695s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 100.0.4896.75,,,2022-05-12 11:10:31,2022-05-12 11:10:33,"2,480s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/strong_Maintenance Tools""))",Chrome 100.0.4896.75,,,2022-05-12 11:10:33,2022-05-12 11:10:34,"0,719s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/span_Competitors""))",Chrome 100.0.4896.75,,,2022-05-12 11:10:34,2022-05-12 11:10:34,"0,516s",PASSED
+"setText(findTestObject(""Competitors/Edit Competitor/input competitors for search""), competitornamemodify)",Chrome 100.0.4896.75,,,2022-05-12 11:10:34,2022-05-12 11:10:36,"1,096s",PASSED
+"click(findTestObject(""Competitors/Delete competitor/Choose to delete""))",Chrome 100.0.4896.75,,,2022-05-12 11:10:36,2022-05-12 11:11:07,"31,490s",FAILED

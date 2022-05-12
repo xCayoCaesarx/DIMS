@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>56fc8e05-4df0-45b4-ab86-11bf42ffbd29</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Add Mailer Data</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -77,7 +77,7 @@
    <testCaseLink>
       <guid>3df531c6-f6d0-4427-8b0b-49920680cff5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Search Mailer Data</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Bulk Update,Chrome 100.0.4896.75,,,2022-05-10 08:36:54,2022-05-10 08:38:07,"1m - 13,395s",FAILED
+,,,,,,,
+Test Cases/Update Leads,Chrome 100.0.4896.75,,,2022-05-10 08:36:55,2022-05-10 08:38:07,"1m - 12,829s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-10 08:36:55,2022-05-10 08:36:57,"2,106s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-10 08:36:57,2022-05-10 08:37:28,"31,246s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-05-10 08:37:28,2022-05-10 08:37:29,"0,820s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-05-10 08:37:29,2022-05-10 08:37:30,"0,753s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 100.0.4896.75,,,2022-05-10 08:37:30,2022-05-10 08:37:30,"0,430s",PASSED
+"click(findTestObject(""Distribute Leads/strong_Lead Maintenance""))",Chrome 100.0.4896.75,,,2022-05-10 08:37:30,2022-05-10 08:37:32,"1,093s",PASSED
+"click(findTestObject(""Bulk Update/span_Bulk Update""))",Chrome 100.0.4896.75,,,2022-05-10 08:37:32,2022-05-10 08:37:32,"0,627s",PASSED
+"click(findTestObject(""Bulk Update/Page_Debt IMS/div_Select an Office(s)""))",Chrome 100.0.4896.75,,,2022-05-10 08:37:32,2022-05-10 08:37:35,"2,822s",PASSED
+"click(findTestObject(""Bulk Update/span_Debt - Ims""))",Chrome 100.0.4896.75,,,2022-05-10 08:37:35,2022-05-10 08:37:36,"1,198s",PASSED
+"click(findTestObject(""Bulk Update/Page_Debt IMS/div_Select a User(s)""))",Chrome 100.0.4896.75,,,2022-05-10 08:37:36,2022-05-10 08:38:07,"31,266s",FAILED

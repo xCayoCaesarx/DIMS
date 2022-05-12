@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Competitors,Chrome 100.0.4896.75,,,2022-05-12 10:58:54,2022-05-12 10:59:46,"51,439s",FAILED
+,,,,,,,
+Test Cases/Edit Competitor,Chrome 100.0.4896.75,,,2022-05-12 10:58:55,2022-05-12 10:59:42,"47,053s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-12 10:58:55,2022-05-12 10:58:57,"1,973s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-12 10:58:57,2022-05-12 10:59:01,"3,794s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-05-12 10:59:01,2022-05-12 10:59:02,"0,836s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-05-12 10:59:02,2022-05-12 10:59:03,"0,744s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 100.0.4896.75,,,2022-05-12 10:59:03,2022-05-12 10:59:05,"2,758s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/strong_Maintenance Tools""))",Chrome 100.0.4896.75,,,2022-05-12 10:59:05,2022-05-12 10:59:06,"0,802s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/span_Competitors""))",Chrome 100.0.4896.75,,,2022-05-12 10:59:06,2022-05-12 10:59:07,"0,523s",PASSED
+"setText(findTestObject(""Competitors/Edit Competitor/input competitors for search""), competitorname)",Chrome 100.0.4896.75,,,2022-05-12 10:59:07,2022-05-12 10:59:08,"1,192s",PASSED
+"click(findTestObject(""Competitors/Edit Competitor/button_Competitors_editButton""))",Chrome 100.0.4896.75,,,2022-05-12 10:59:08,2022-05-12 10:59:09,"0,861s",PASSED
+"setText(findTestObject(""Competitors/Edit Competitor/Page_Debt IMS/input_Competitor2nd""), competitornamemodify)",Chrome 100.0.4896.75,,,2022-05-12 10:59:09,2022-05-12 10:59:42,"33,016s",FAILED
+,,,,,,,
+Test Cases/Delete Competitor,Chrome 100.0.4896.75,,,2022-05-12 10:59:42,2022-05-12 10:59:46,"3,662s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-12 10:59:42,2022-05-12 10:59:43,"1,239s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-12 10:59:43,2022-05-12 10:59:46,"2,167s",FAILED

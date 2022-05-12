@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Competitors,Chrome 100.0.4896.75,,,2022-05-12 11:13:55,2022-05-12 11:14:40,"44,147s",FAILED
+,,,,,,,
+Test Cases/Delete Competitor,Chrome 100.0.4896.75,,,2022-05-12 11:13:56,2022-05-12 11:14:40,"43,434s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-12 11:13:57,2022-05-12 11:13:59,"1,972s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-12 11:13:59,2022-05-12 11:14:01,"2,870s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-05-12 11:14:01,2022-05-12 11:14:02,"0,852s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-05-12 11:14:02,2022-05-12 11:14:03,"0,772s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 100.0.4896.75,,,2022-05-12 11:14:03,2022-05-12 11:14:06,"2,565s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/strong_Maintenance Tools""))",Chrome 100.0.4896.75,,,2022-05-12 11:14:06,2022-05-12 11:14:06,"0,670s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/span_Competitors""))",Chrome 100.0.4896.75,,,2022-05-12 11:14:06,2022-05-12 11:14:07,"0,512s",PASSED
+"setText(findTestObject(""Competitors/Edit Competitor/input competitors for search""), competitornamemodify)",Chrome 100.0.4896.75,,,2022-05-12 11:14:07,2022-05-12 11:14:08,"1,130s",PASSED
+"click(findTestObject(""Competitors/Delete competitor/Choose to delete""))",Chrome 100.0.4896.75,,,2022-05-12 11:14:08,2022-05-12 11:14:40,"31,545s",FAILED

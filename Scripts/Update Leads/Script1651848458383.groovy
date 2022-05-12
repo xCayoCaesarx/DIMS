@@ -29,87 +29,23 @@ WebUI.click(findTestObject('Object Repository/Create Lead/button_Login'))
 
 WebUI.click(findTestObject('Distribute Leads/strong_Lead Maintenance'))
 
-WebUI.click(findTestObject('Bulk Reassign/span_Bulk Reassign'))
+WebUI.click(findTestObject('Bulk Update/span_Bulk Update'))
 
-WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_From'))
+WebUI.click(findTestObject('Bulk Update/Page_Debt IMS/div_Select an Office(s)'))
 
-WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_1'))
+WebUI.click(findTestObject('Bulk Update/span_Debt - Ims'))
 
-WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_To_form'))
+WebUI.click(findTestObject('Bulk Update/Page_Debt IMS/div_Select a User(s)'))
 
-WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_31'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Bulk Update/span_Julio Uzctegui'))
 
-WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_30'), FailureHandling.OPTIONAL)
+WebUI.selectOptionByValue(findTestObject('Bulk Update/select_type'), '1', false)
 
-WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_29'), FailureHandling.OPTIONAL)
+WebUI.selectOptionByValue(findTestObject('Bulk Update/select_from source'), '12', false)
 
-WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_28'), FailureHandling.OPTIONAL)
+WebUI.selectOptionByValue(findTestObject('Bulk Update/select_to source'), '19', false)
 
-WebUI.click(findTestObject('Bulk Reassign/div_Select a Status(es)'))
+WebUI.click(findTestObject('Bulk Update/div_Leadsource_p-checkbox-box p-component'))
 
-WebUI.click(findTestObject('Bulk Reassign/span_Attempting contact'))
-
-WebUI.click(findTestObject('Bulk Reassign/div_Select a Source(s)'))
-
-WebUI.click(findTestObject('Bulk Reassign/span_Mailer'))
-
-WebUI.click(findTestObject('Bulk Reassign/div_Select a Program(s)'))
-
-WebUI.click(findTestObject('Bulk Reassign/span_HFG NONE'))
-
-WebUI.selectOptionByValue(findTestObject('Bulk Reassign/select_Select from user'), '1008', false)
-
-WebUI.selectOptionByValue(findTestObject('Bulk Reassign/select_Select  to user'), '1001', false)
-
-WebUI.click(findTestObject('Bulk Reassign/Page_Debt IMS/div_primero'))
-
-WebUI.takeFullPageScreenshot()
-
-WebUI.click(findTestObject('Bulk Reassign/Page_Debt IMS/button_Reassign'))
-
-WebUI.delay(1)
-
-WebUI.takeFullPageScreenshot()
-
-WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_From'))
-
-WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_1'))
-
-WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_To_form'))
-
-WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_31'), FailureHandling.OPTIONAL)
-
-WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_30'), FailureHandling.OPTIONAL)
-
-WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_29'), FailureHandling.OPTIONAL)
-
-WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_28'), FailureHandling.OPTIONAL)
-
-WebUI.click(findTestObject('Bulk Reassign/div_Select a Status(es)'))
-
-WebUI.click(findTestObject('Bulk Reassign/span_Attempting contact'))
-
-WebUI.click(findTestObject('Bulk Reassign/div_Select a Source(s)'))
-
-WebUI.click(findTestObject('Bulk Reassign/span_Mailer'))
-
-WebUI.click(findTestObject('Bulk Reassign/div_Select a Program(s)'))
-
-WebUI.click(findTestObject('Bulk Reassign/span_HFG NONE'))
-
-WebUI.selectOptionByValue(findTestObject('Bulk Reassign/select_Select from user'), '1001', false)
-
-WebUI.selectOptionByValue(findTestObject('Bulk Reassign/select_Select  to user'), '1008', false)
-
-WebUI.click(findTestObject('Bulk Reassign/Clean label_Yes'))
-
-WebUI.click(findTestObject('Bulk Reassign/Page_Debt IMS/div_primero'))
-
-WebUI.takeFullPageScreenshot()
-
-WebUI.click(findTestObject('Bulk Reassign/Page_Debt IMS/button_Reassign'))
-
-WebUI.delay(1)
-
-WebUI.takeFullPageScreenshot()
+WebUI.click(findTestObject('Bulk Update/button_Update Leads'))
 

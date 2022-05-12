@@ -6,18 +6,23 @@
    <elementGuidId>f60baaf1-efc1-4fa1-9fcd-9a16f9f91544</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::select[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>select.form-select.shadow-none.ng-untouched.ng-valid.ng-dirty</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@formcontrolname = 'statusesList' and @class = 'form-select shadow-none ng-valid ng-touched ng-dirty']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/div[1]/div[2]/div[2]/div[2]/app-new-lead/div/div[2]/div/form/div[3]/select
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,21 +36,21 @@
       <value>Default select example</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>formcontrolname</name>
       <type>Main</type>
       <value>statusesList</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-select shadow-none ng-untouched ng-valid ng-dirty</value>
+      <value>form-select shadow-none ng-valid ng-touched ng-dirty</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
