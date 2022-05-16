@@ -6,46 +6,50 @@
    <elementGuidId>512ea355-3ad3-49be-95e3-00a82d0b70b8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>select.form-select.shadow-none.ng-untouched.ng-pristine.ng-valid</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[(text() = 'Select OneDebt - ImsConsumer Capital Advocates LLCOliver Law GroupConsumer Credit Card ReliefParagon Financial CorpLigthspeed Settlements LLCTest' or . = 'Select OneDebt - ImsConsumer Capital Advocates LLCOliver Law GroupConsumer Credit Card ReliefParagon Financial CorpLigthspeed Settlements LLCTest')]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@aria-label = 'Default select example' and @formcontrolname = 'offices' and @class = 'form-select shadow-none ng-untouched ng-pristine ng-valid']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select.form-select.shadow-none.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
       <value>Default select example</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>formcontrolname</name>
       <type>Main</type>
       <value>offices</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-select shadow-none ng-untouched ng-pristine ng-valid</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
