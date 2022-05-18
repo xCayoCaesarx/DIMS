@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Community Rules" time="81.25" tests="1" failures="0" errors="0">
+   <testsuite name="Community Rules" tests="1" failures="0" errors="0" time="81.25" skipped="0" timestamp="2022-05-17 12:09:24" hostname="juzcategui - juzcategui" id="Test Suites/Community Rules">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220517_120920/Community Rules/20220517_120920"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220517_120920/Community Rules/20220517_120920/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220517_120920/Community Rules/20220517_120920/1652803844735.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 100.0.4896.75"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="76a13daa8807698edee6c4cab0949462"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add Community Rule" time="80.612" classname="Test Cases/Add Community Rule" status="PASSED">
+         <system-out><![CDATA[2022-05-17 12:09:24 - [TEST_CASE][PASSED] - Test Cases/Add Community Rule: Test Cases/Add Community Rule
+
+2022-05-17 12:09:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-17 12:09:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-17 12:09:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-17 12:09:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-17 12:09:27 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-05-17 12:10:31 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-05-17 12:10:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-05-17 12:10:32 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-05-17 12:10:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-05-17 12:10:33 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-05-17 12:10:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-05-17 12:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-05-17 12:10:33 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Add Competitors/strong_Maintenance Tools")): Object: 'Object Repository/Competitors/Add Competitors/strong_Maintenance Tools' is clicked on
+
+2022-05-17 12:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Add Competitors/strong_Maintenance Tools' is clicked on
+
+2022-05-17 12:10:35 - [TEST_STEP][PASSED] - click(findTestObject("Community Rules/Add community rule/span_Community Rules")): Object: 'Object Repository/Community Rules/Add community rule/span_Community Rules' is clicked on
+
+2022-05-17 12:10:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Community Rules/Add community rule/span_Community Rules' is clicked on
+
+2022-05-17 12:10:38 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Add Competitors/button_Welcome, Julio Uzctegui_addButton")): Object: 'Object Repository/Competitors/Add Competitors/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-05-17 12:10:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Add Competitors/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-05-17 12:10:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Community Rules/Add community rule/select_office"), "1", false): All options with value '1' are selected in object 'Object Repository/Community Rules/Add community rule/select_office' 
+
+2022-05-17 12:10:42 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Community Rules/Add community rule/select_office' 
+
+2022-05-17 12:10:42 - [TEST_STEP][PASSED] - setText(findTestObject("Community Rules/Add community rule/input_Community Rule Name_"), communityrulename): Text 'Test aut' is set on object 'Object Repository/Community Rules/Add community rule/input_Community Rule Name_'
+
+2022-05-17 12:10:43 - [MESSAGE][PASSED] - Text 'Test aut' is set on object 'Object Repository/Community Rules/Add community rule/input_Community Rule Name_'
+
+2022-05-17 12:10:43 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Add Competitors/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Competitors/Add Competitors/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-05-17 12:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Add Competitors/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-05-17 12:10:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-17 12:10:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-17 12:10:44 - [TEST_STEP][PASSED] - takeFullPageScreenshot([]): Taking screenshot successfully
+
+2022-05-17 12:10:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-17 12:10:45 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-17 12:10:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220517_120920/Community Rules/20220517_120920/1652803844735.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-17 12:09:24 - [TEST_SUITE][PASSED] - Community Rules: Test Cases/Add Community Rule]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

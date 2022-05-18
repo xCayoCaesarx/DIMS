@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Community Rules" time="49.55" tests="1" failures="0" errors="0">
+   <testsuite name="Community Rules" tests="1" failures="0" errors="0" time="49.55" skipped="0" timestamp="2022-05-17 14:40:42" hostname="juzcategui - juzcategui" id="Test Suites/Community Rules">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220517_144039/Community Rules/20220517_144039"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220517_144039/Community Rules/20220517_144039/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220517_144039/Community Rules/20220517_144039/1652812891353.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 100.0.4896.75"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="764067f9754f454c76eb3bb6766350d3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Delete Community Rule" time="48.977" classname="Test Cases/Delete Community Rule" status="PASSED">
+         <system-out><![CDATA[2022-05-17 14:40:43 - [TEST_CASE][PASSED] - Test Cases/Delete Community Rule: Test Cases/Delete Community Rule
+
+2022-05-17 14:40:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-17 14:40:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-17 14:40:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-17 14:40:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-17 14:40:45 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-05-17 14:41:21 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-05-17 14:41:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-05-17 14:41:22 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-05-17 14:41:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-05-17 14:41:23 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-05-17 14:41:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-05-17 14:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-05-17 14:41:23 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Add Competitors/strong_Maintenance Tools")): Object: 'Object Repository/Competitors/Add Competitors/strong_Maintenance Tools' is clicked on
+
+2022-05-17 14:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Add Competitors/strong_Maintenance Tools' is clicked on
+
+2022-05-17 14:41:24 - [TEST_STEP][PASSED] - click(findTestObject("Community Rules/Add community rule/span_Community Rules")): Object: 'Object Repository/Community Rules/Add community rule/span_Community Rules' is clicked on
+
+2022-05-17 14:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Community Rules/Add community rule/span_Community Rules' is clicked on
+
+2022-05-17 14:41:27 - [TEST_STEP][PASSED] - setText(findTestObject("Competitors/Edit Competitor/input competitors for search"), communityrulenamemodify): Text 'Test aut modificado' is set on object 'Object Repository/Competitors/Edit Competitor/input competitors for search'
+
+2022-05-17 14:41:28 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/Competitors/Edit Competitor/input competitors for search'
+
+2022-05-17 14:41:28 - [TEST_STEP][PASSED] - click(findTestObject("Community Rules/Delete community rule/td_Office_tdEditButton")): Object: 'Object Repository/Community Rules/Delete community rule/td_Office_tdEditButton' is clicked on
+
+2022-05-17 14:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Community Rules/Delete community rule/td_Office_tdEditButton' is clicked on
+
+2022-05-17 14:41:29 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Delete competitor/button_Welcome, Julio Uzctegui_deleteButton")): Object: 'Object Repository/Competitors/Delete competitor/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-05-17 14:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Delete competitor/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-05-17 14:41:29 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Delete competitor/button_Accept")): Object: 'Object Repository/Competitors/Delete competitor/button_Accept' is clicked on
+
+2022-05-17 14:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Delete competitor/button_Accept' is clicked on
+
+2022-05-17 14:41:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-17 14:41:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-17 14:41:31 - [TEST_STEP][PASSED] - takeFullPageScreenshot([]): Taking screenshot successfully
+
+2022-05-17 14:41:31 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-17 14:41:31 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-17 14:41:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220517_144039/Community Rules/20220517_144039/1652812891353.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-17 14:40:42 - [TEST_SUITE][PASSED] - Community Rules: Test Cases/Delete Community Rule]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

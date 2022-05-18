@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Competitors" time="124.668" tests="3" failures="0" errors="0">
+   <testsuite name="Competitors" tests="3" failures="0" errors="0" time="124.668" skipped="0" timestamp="2022-05-16 11:44:15" hostname="juzcategui - juzcategui" id="Test Suites/Competitors">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220516_114407/Competitors/20220516_114407"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220516_114407/Competitors/20220516_114407/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220516_114407/Competitors/20220516_114407/1652715900406.png, /home/juzcategui/git/DIMS/Reports/20220516_114407/Competitors/20220516_114407/1652715938107.png, /home/juzcategui/git/DIMS/Reports/20220516_114407/Competitors/20220516_114407/1652715979247.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 100.0.4896.75"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="b36cd25dcb51ce75ee5e85bc26753f30"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add Competitor" time="45.037" classname="Test Cases/Add Competitor" status="PASSED">
+         <system-out><![CDATA[2022-05-16 11:44:16 - [TEST_CASE][PASSED] - Test Cases/Add Competitor: Test Cases/Add Competitor
+
+2022-05-16 11:44:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-16 11:44:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-16 11:44:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-16 11:44:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-16 11:44:22 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-05-16 11:44:44 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-05-16 11:44:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-05-16 11:44:45 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-05-16 11:44:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-05-16 11:44:46 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-05-16 11:44:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-05-16 11:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-05-16 11:44:46 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Add Competitors/strong_Maintenance Tools")): Object: 'Object Repository/Competitors/Add Competitors/strong_Maintenance Tools' is clicked on
+
+2022-05-16 11:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Add Competitors/strong_Maintenance Tools' is clicked on
+
+2022-05-16 11:44:47 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Add Competitors/span_Competitors")): Object: 'Object Repository/Competitors/Add Competitors/span_Competitors' is clicked on
+
+2022-05-16 11:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Add Competitors/span_Competitors' is clicked on
+
+2022-05-16 11:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Add Competitors/button_Welcome, Julio Uzctegui_addButton")): Object: 'Object Repository/Competitors/Add Competitors/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-05-16 11:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Add Competitors/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-05-16 11:44:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Competitors/Add Competitors/select_office"), "1", false): All options with value '1' are selected in object 'Object Repository/Competitors/Add Competitors/select_office' 
+
+2022-05-16 11:44:57 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Competitors/Add Competitors/select_office' 
+
+2022-05-16 11:44:57 - [TEST_STEP][PASSED] - setText(findTestObject("Competitors/Add Competitors/input_Competitor_form"), competitorname): Text 'Test aut' is set on object 'Object Repository/Competitors/Add Competitors/input_Competitor_form'
+
+2022-05-16 11:44:58 - [MESSAGE][PASSED] - Text 'Test aut' is set on object 'Object Repository/Competitors/Add Competitors/input_Competitor_form'
+
+2022-05-16 11:44:58 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Add Competitors/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Competitors/Add Competitors/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-05-16 11:44:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Add Competitors/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-05-16 11:44:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-16 11:45:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-16 11:45:00 - [TEST_STEP][PASSED] - takeFullPageScreenshot([]): Taking screenshot successfully
+
+2022-05-16 11:45:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-16 11:45:01 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-16 11:45:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220516_114407/Competitors/20220516_114407/1652715900406.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Competitor" time="37.242" classname="Test Cases/Edit Competitor" status="PASSED">
+         <system-out><![CDATA[2022-05-16 11:45:01 - [TEST_CASE][PASSED] - Test Cases/Edit Competitor: Test Cases/Edit Competitor
+
+2022-05-16 11:45:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-16 11:45:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-16 11:45:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-16 11:45:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-16 11:45:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-16 11:45:03 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-05-16 11:45:27 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-05-16 11:45:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-05-16 11:45:28 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-05-16 11:45:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-05-16 11:45:29 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-05-16 11:45:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-05-16 11:45:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-05-16 11:45:29 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Add Competitors/strong_Maintenance Tools")): Object: 'Object Repository/Competitors/Add Competitors/strong_Maintenance Tools' is clicked on
+
+2022-05-16 11:45:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Add Competitors/strong_Maintenance Tools' is clicked on
+
+2022-05-16 11:45:30 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Add Competitors/span_Competitors")): Object: 'Object Repository/Competitors/Add Competitors/span_Competitors' is clicked on
+
+2022-05-16 11:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Add Competitors/span_Competitors' is clicked on
+
+2022-05-16 11:45:33 - [TEST_STEP][PASSED] - setText(findTestObject("Competitors/Edit Competitor/input competitors for search"), competitorname): Text 'Test aut' is set on object 'Object Repository/Competitors/Edit Competitor/input competitors for search'
+
+2022-05-16 11:45:34 - [MESSAGE][PASSED] - Text 'Test aut' is set on object 'Object Repository/Competitors/Edit Competitor/input competitors for search'
+
+2022-05-16 11:45:34 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Edit Competitor/button_Competitors_editButton")): Object: 'Object Repository/Competitors/Edit Competitor/button_Competitors_editButton' is clicked on
+
+2022-05-16 11:45:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Edit Competitor/button_Competitors_editButton' is clicked on
+
+2022-05-16 11:45:34 - [TEST_STEP][PASSED] - setText(findTestObject("Competitors/Edit Competitor/Page_Debt IMS/input_Competitor2nd"), competitornamemodify): Text 'Test aut modificado' is set on object 'Object Repository/Competitors/Edit Competitor/Page_Debt IMS/input_Competitor2nd'
+
+2022-05-16 11:45:35 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/Competitors/Edit Competitor/Page_Debt IMS/input_Competitor2nd'
+
+2022-05-16 11:45:35 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Add Competitors/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Competitors/Add Competitors/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-05-16 11:45:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Add Competitors/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-05-16 11:45:36 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Edit Competitor/button_Accept")): Object: 'Object Repository/Competitors/Edit Competitor/button_Accept' is clicked on
+
+2022-05-16 11:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Edit Competitor/button_Accept' is clicked on
+
+2022-05-16 11:45:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-16 11:45:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-16 11:45:38 - [TEST_STEP][PASSED] - takeFullPageScreenshot([]): Taking screenshot successfully
+
+2022-05-16 11:45:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-16 11:45:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-16 11:45:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220516_114407/Competitors/20220516_114407/1652715938107.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Competitor" time="40.85" classname="Test Cases/Delete Competitor" status="PASSED">
+         <system-out><![CDATA[2022-05-16 11:45:39 - [TEST_CASE][PASSED] - Test Cases/Delete Competitor: Test Cases/Delete Competitor
+
+2022-05-16 11:45:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-16 11:45:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-05-16 11:45:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-16 11:45:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-16 11:45:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-16 11:45:40 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-05-16 11:46:09 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-05-16 11:46:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-05-16 11:46:10 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-05-16 11:46:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-05-16 11:46:11 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-05-16 11:46:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-05-16 11:46:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-05-16 11:46:13 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Add Competitors/strong_Maintenance Tools")): Object: 'Object Repository/Competitors/Add Competitors/strong_Maintenance Tools' is clicked on
+
+2022-05-16 11:46:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Add Competitors/strong_Maintenance Tools' is clicked on
+
+2022-05-16 11:46:14 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Add Competitors/span_Competitors")): Object: 'Object Repository/Competitors/Add Competitors/span_Competitors' is clicked on
+
+2022-05-16 11:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Add Competitors/span_Competitors' is clicked on
+
+2022-05-16 11:46:15 - [TEST_STEP][PASSED] - setText(findTestObject("Competitors/Edit Competitor/input competitors for search"), competitornamemodify): Text 'Test aut modificado' is set on object 'Object Repository/Competitors/Edit Competitor/input competitors for search'
+
+2022-05-16 11:46:16 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/Competitors/Edit Competitor/input competitors for search'
+
+2022-05-16 11:46:16 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Delete competitor/Choose to delete")): Object: 'Object Repository/Competitors/Delete competitor/Choose to delete' is clicked on
+
+2022-05-16 11:46:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Delete competitor/Choose to delete' is clicked on
+
+2022-05-16 11:46:16 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Delete competitor/button_Welcome, Julio Uzctegui_deleteButton")): Object: 'Object Repository/Competitors/Delete competitor/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-05-16 11:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Delete competitor/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-05-16 11:46:17 - [TEST_STEP][PASSED] - click(findTestObject("Competitors/Delete competitor/button_Accept")): Object: 'Object Repository/Competitors/Delete competitor/button_Accept' is clicked on
+
+2022-05-16 11:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Competitors/Delete competitor/button_Accept' is clicked on
+
+2022-05-16 11:46:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-05-16 11:46:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-16 11:46:19 - [TEST_STEP][PASSED] - takeFullPageScreenshot([]): Taking screenshot successfully
+
+2022-05-16 11:46:19 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-16 11:46:19 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-16 11:46:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220516_114407/Competitors/20220516_114407/1652715979247.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-16 11:44:15 - [TEST_SUITE][PASSED] - Competitors: Test Cases/Delete Competitor]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

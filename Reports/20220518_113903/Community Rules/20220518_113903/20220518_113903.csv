@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Community Rules,Chrome 100.0.4896.75,,,2022-05-18 11:39:06,2022-05-18 11:40:16,"1m - 9,737s",FAILED
+,,,,,,,
+Test Cases/Delete Community Rule,Chrome 100.0.4896.75,,,2022-05-18 11:39:07,2022-05-18 11:40:16,"1m - 9,226s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-18 11:39:07,2022-05-18 11:39:09,"1,912s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-18 11:39:09,2022-05-18 11:39:56,"46,459s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-05-18 11:39:56,2022-05-18 11:39:57,"0,837s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-05-18 11:39:57,2022-05-18 11:39:57,"0,790s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 100.0.4896.75,,,2022-05-18 11:39:57,2022-05-18 11:40:00,"2,565s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/strong_Maintenance Tools""))",Chrome 100.0.4896.75,,,2022-05-18 11:40:00,2022-05-18 11:40:01,"0,751s",PASSED
+"click(findTestObject(""Community Rules/Add community rule/span_Community Rules""))",Chrome 100.0.4896.75,,,2022-05-18 11:40:01,2022-05-18 11:40:01,"0,512s",PASSED
+"setText(findTestObject(""Competitors/Edit Competitor/input competitors for search""), communityrulenamemodify)",Chrome 100.0.4896.75,,,2022-05-18 11:40:01,2022-05-18 11:40:04,"3,192s",PASSED
+"click(findTestObject(""Community Rules/Delete community rule/td_Office_tdEditButton""))",Chrome 100.0.4896.75,,,2022-05-18 11:40:04,2022-05-18 11:40:05,"0,966s",PASSED
+"click(findTestObject(""Competitors/Delete competitor/button_Welcome, Julio Uzctegui_deleteButton""))",Chrome 100.0.4896.75,,,2022-05-18 11:40:05,2022-05-18 11:40:15,"10,111s",PASSED
+"click(findTestObject(""Competitors/Delete competitor/button_Accept""))",Chrome 100.0.4896.75,,,2022-05-18 11:40:15,2022-05-18 11:40:16,"0,688s",FAILED

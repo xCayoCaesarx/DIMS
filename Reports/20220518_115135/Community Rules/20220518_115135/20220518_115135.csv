@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Community Rules,Chrome 100.0.4896.75,,,2022-05-18 11:51:39,2022-05-18 11:52:26,"46,972s",PASSED
+,,,,,,,
+Test Cases/Delete Community Rule,Chrome 100.0.4896.75,,,2022-05-18 11:51:39,2022-05-18 11:52:26,"46,459s",PASSED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-18 11:51:40,2022-05-18 11:51:42,"1,888s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-18 11:51:42,2022-05-18 11:52:15,"33,175s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-05-18 11:52:15,2022-05-18 11:52:16,"0,866s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-05-18 11:52:16,2022-05-18 11:52:16,"0,756s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 100.0.4896.75,,,2022-05-18 11:52:16,2022-05-18 11:52:17,"0,417s",PASSED
+"click(findTestObject(""Competitors/Add Competitors/strong_Maintenance Tools""))",Chrome 100.0.4896.75,,,2022-05-18 11:52:17,2022-05-18 11:52:18,"0,851s",PASSED
+"click(findTestObject(""Community Rules/Add community rule/span_Community Rules""))",Chrome 100.0.4896.75,,,2022-05-18 11:52:18,2022-05-18 11:52:20,"2,648s",PASSED
+"setText(findTestObject(""Competitors/Edit Competitor/input competitors for search""), communityrulenamemodify)",Chrome 100.0.4896.75,,,2022-05-18 11:52:20,2022-05-18 11:52:22,"2,085s",PASSED
+"click(findTestObject(""Community Rules/Delete community rule/td_Office_tdEditButton""))",Chrome 100.0.4896.75,,,2022-05-18 11:52:22,2022-05-18 11:52:23,"0,392s",PASSED
+"click(findTestObject(""Competitors/Delete competitor/button_Welcome, Julio Uzctegui_deleteButton""))",Chrome 100.0.4896.75,,,2022-05-18 11:52:23,2022-05-18 11:52:23,"0,533s",PASSED
+"click(findTestObject(""Competitors/Delete competitor/button_Accept""))",Chrome 100.0.4896.75,,,2022-05-18 11:52:23,2022-05-18 11:52:24,"0,678s",PASSED
+delay(1),Chrome 100.0.4896.75,,,2022-05-18 11:52:24,2022-05-18 11:52:25,"1,027s",PASSED
+takeFullPageScreenshot([]),Chrome 100.0.4896.75,,,2022-05-18 11:52:25,2022-05-18 11:52:26,"0,724s",PASSED
