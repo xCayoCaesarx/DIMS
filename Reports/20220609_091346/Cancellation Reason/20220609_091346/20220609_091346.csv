@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cancellation Reason,Chrome 102.0.5005.61,,,2022-06-09 09:13:50,2022-06-09 09:14:40,"49,890s",FAILED
+,,,,,,,
+Test Cases/Add Cancellation Reason,Chrome 102.0.5005.61,,,2022-06-09 09:13:51,2022-06-09 09:14:18,"26,553s",PASSED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-09 09:13:51,2022-06-09 09:13:54,"2,235s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-09 09:13:54,2022-06-09 09:14:06,"12,353s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-09 09:14:06,2022-06-09 09:14:07,"0,833s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.61,,,2022-06-09 09:14:07,2022-06-09 09:14:08,"0,907s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.61,,,2022-06-09 09:14:08,2022-06-09 09:14:10,"2,650s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 102.0.5005.61,,,2022-06-09 09:14:10,2022-06-09 09:14:11,"0,821s",PASSED
+"click(findTestObject(""Cancelled reason/span_Cancellation Reason""))",Chrome 102.0.5005.61,,,2022-06-09 09:14:11,2022-06-09 09:14:12,"0,576s",PASSED
+"click(findTestObject(""Cancelled reason/button_Welcome, Julio Uzctegui_addButton""))",Chrome 102.0.5005.61,,,2022-06-09 09:14:12,2022-06-09 09:14:13,"0,813s",PASSED
+"setText(findTestObject(""Cancelled reason/input_Cancellation Reason_f""), name)",Chrome 102.0.5005.61,,,2022-06-09 09:14:13,2022-06-09 09:14:14,"0,879s",PASSED
+"selectOptionByValue(findTestObject(""Cancelled reason/select_ActiveInactive""), ""true"", false)",Chrome 102.0.5005.61,,,2022-06-09 09:14:14,2022-06-09 09:14:14,"0,772s",PASSED
+"setText(findTestObject(""Cancelled reason/input_Order By""), ""1"")",Chrome 102.0.5005.61,,,2022-06-09 09:14:14,2022-06-09 09:14:15,"0,848s",PASSED
+"click(findTestObject(""Cancelled reason/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 102.0.5005.61,,,2022-06-09 09:14:15,2022-06-09 09:14:16,"0,415s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 102.0.5005.61,,,2022-06-09 09:14:16,2022-06-09 09:14:17,"1,055s",PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.61,,,2022-06-09 09:14:17,2022-06-09 09:14:18,"0,893s",PASSED
+,,,,,,,
+Test Cases/Edit Cancellation Reason,Chrome 102.0.5005.61,,,2022-06-09 09:14:18,2022-06-09 09:14:25,"7,247s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-09 09:14:18,2022-06-09 09:14:19,"1,125s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-09 09:14:19,2022-06-09 09:14:25,"5,555s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-09 09:14:25,2022-06-09 09:14:25,"0,178s",FAILED
+,,,,,,,
+Test Cases/Delete Cancellation Reason,Chrome 102.0.5005.61,,,2022-06-09 09:14:25,2022-06-09 09:14:40,"15,335s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-09 09:14:25,2022-06-09 09:14:26,"0,960s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-09 09:14:26,2022-06-09 09:14:40,"14,003s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-09 09:14:40,2022-06-09 09:14:40,"0,114s",FAILED

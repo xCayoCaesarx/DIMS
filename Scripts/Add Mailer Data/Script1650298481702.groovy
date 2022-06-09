@@ -34,17 +34,17 @@ WebUI.click(findTestObject('Object Repository/Create Lead/span_New Lead'))
 WebUI.selectOptionByValue(findTestObject('Object Repository/Create Lead/select_Select OneAdvertising-Stop My Payday_d308cb'), 
     '10', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0'), 
-    '2', true)
-
-WebUI.selectOptionByValue(findTestObject('Create Lead/status select'), '13', true)
+WebUI.selectOptionByValue(findTestObject('Create Lead/status select'), '12', true)
 
 WebUI.setText(findTestObject('Create Lead/input_First Name'), firstname)
 
 WebUI.setText(findTestObject('Create Lead/input_Last Name'), lastname)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Create Lead/select_Select OneUS Armed Forces EuropeAlas_fd93bc'), 
-    '2: 2', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Create Lead/select_Select OneUS Armed Forces EuropeAlas_fd93bc'), 
+    'Alaska', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0'), 
+    '1', true)
 
 WebUI.setText(findTestObject('Create Lead/input_Zip'), zip)
 

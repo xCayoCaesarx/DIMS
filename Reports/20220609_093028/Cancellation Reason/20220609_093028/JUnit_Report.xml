@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Cancellation Reason" time="26.543" tests="1" failures="0" errors="0">
+   <testsuite name="Cancellation Reason" tests="1" failures="0" errors="0" time="26.543" skipped="0" timestamp="2022-06-09 09:30:32" hostname="juzcategui - juzcategui" id="Test Suites/Cancellation Reason">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220609_093028/Cancellation Reason/20220609_093028"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220609_093028/Cancellation Reason/20220609_093028/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220609_093028/Cancellation Reason/20220609_093028/1654781458295.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.61"/>
+         <property name="hostAddress" value="192.168.12.200"/>
+         <property name="sessionId" value="a28983249b1f76b79d2582a077705ed5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Delete Cancellation Reason" time="25.956" classname="Test Cases/Delete Cancellation Reason" status="PASSED">
+         <system-out><![CDATA[2022-06-09 09:30:33 - [TEST_CASE][PASSED] - Test Cases/Delete Cancellation Reason: Test Cases/Delete Cancellation Reason
+
+2022-06-09 09:30:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-09 09:30:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-09 09:30:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-09 09:30:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-09 09:30:35 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-09 09:30:48 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-09 09:30:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-09 09:30:49 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-09 09:30:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-09 09:30:49 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-09 09:30:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick notes/Page_Debt IMS/button_Login")): Object: 'Object Repository/Quick notes/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-09 09:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick notes/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-09 09:30:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools")): Object: 'Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-06-09 09:30:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-06-09 09:30:53 - [TEST_STEP][PASSED] - click(findTestObject("Cancelled reason/span_Cancellation Reason")): Object: 'Object Repository/Cancelled reason/span_Cancellation Reason' is clicked on
+
+2022-06-09 09:30:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Cancelled reason/span_Cancellation Reason' is clicked on
+
+2022-06-09 09:30:53 - [TEST_STEP][PASSED] - setText(findTestObject("Cancelled reason/input_Cancellation Reasons"), namemodify): Text 'Test aut modificado' is set on object 'Object Repository/Cancelled reason/input_Cancellation Reasons'
+
+2022-06-09 09:30:55 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/Cancelled reason/input_Cancellation Reasons'
+
+2022-06-09 09:30:55 - [TEST_STEP][PASSED] - click(findTestObject("Cancelled reason/td_Order By_to delete"), STOP_ON_FAILURE): Object: 'Object Repository/Cancelled reason/td_Order By_to delete' is clicked on
+
+2022-06-09 09:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Cancelled reason/td_Order By_to delete' is clicked on
+
+2022-06-09 09:30:55 - [TEST_STEP][PASSED] - click(findTestObject("Cancelled reason/button_Welcome, Julio Uzctegui_deleteButton"), STOP_ON_FAILURE): Object: 'Object Repository/Cancelled reason/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-06-09 09:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Cancelled reason/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-06-09 09:30:56 - [TEST_STEP][PASSED] - click(findTestObject("Cancelled reason/button_Accept - Delete")): Object: 'Object Repository/Cancelled reason/button_Accept - Delete' is clicked on
+
+2022-06-09 09:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Cancelled reason/button_Accept - Delete' is clicked on
+
+2022-06-09 09:30:57 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-06-09 09:30:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 09:30:58 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-06-09 09:30:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-09 09:30:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220609_093028/Cancellation Reason/20220609_093028/1654781458295.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-09 09:30:32 - [TEST_SUITE][PASSED] - Cancellation Reason: Test Cases/Delete Cancellation Reason]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

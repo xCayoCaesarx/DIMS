@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cancellation Reason,Chrome 102.0.5005.61,,,2022-06-09 09:30:32,2022-06-09 09:30:59,"26,543s",PASSED
+,,,,,,,
+Test Cases/Delete Cancellation Reason,Chrome 102.0.5005.61,,,2022-06-09 09:30:33,2022-06-09 09:30:59,"25,956s",PASSED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-09 09:30:33,2022-06-09 09:30:35,"2,188s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-09 09:30:35,2022-06-09 09:30:48,"12,496s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-09 09:30:48,2022-06-09 09:30:49,"0,845s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.61,,,2022-06-09 09:30:49,2022-06-09 09:30:49,"0,811s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.61,,,2022-06-09 09:30:49,2022-06-09 09:30:52,"2,613s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 102.0.5005.61,,,2022-06-09 09:30:52,2022-06-09 09:30:53,"0,796s",PASSED
+"click(findTestObject(""Cancelled reason/span_Cancellation Reason""))",Chrome 102.0.5005.61,,,2022-06-09 09:30:53,2022-06-09 09:30:53,"0,497s",PASSED
+"setText(findTestObject(""Cancelled reason/input_Cancellation Reasons""), namemodify)",Chrome 102.0.5005.61,,,2022-06-09 09:30:53,2022-06-09 09:30:55,"1,178s",PASSED
+"click(findTestObject(""Cancelled reason/td_Order By_to delete""), STOP_ON_FAILURE)",Chrome 102.0.5005.61,,,2022-06-09 09:30:55,2022-06-09 09:30:55,"0,831s",PASSED
+"click(findTestObject(""Cancelled reason/button_Welcome, Julio Uzctegui_deleteButton""), STOP_ON_FAILURE)",Chrome 102.0.5005.61,,,2022-06-09 09:30:55,2022-06-09 09:30:56,"0,606s",PASSED
+"click(findTestObject(""Cancelled reason/button_Accept - Delete""))",Chrome 102.0.5005.61,,,2022-06-09 09:30:56,2022-06-09 09:30:57,"0,734s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 102.0.5005.61,,,2022-06-09 09:30:57,2022-06-09 09:30:58,"1,036s",PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.61,,,2022-06-09 09:30:58,2022-06-09 09:30:59,"0,803s",PASSED

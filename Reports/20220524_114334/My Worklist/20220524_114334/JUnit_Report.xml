@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="My Worklist" time="58.211" tests="1" failures="1" errors="0">
+   <testsuite name="My Worklist" tests="1" failures="1" errors="0" time="58.211" skipped="0" timestamp="2022-05-24 11:43:40" hostname="juzcategui - juzcategui" id="Test Suites/My Worklist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220524_114334/My Worklist/20220524_114334"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220524_114334/My Worklist/20220524_114334/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220524_114334/My Worklist/20220524_114334/1653407078732.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 100.0.4896.75"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="f94930f11d936425155600cc2c420056"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/My Worklist - Budget" time="57.695" classname="Test Cases/My Worklist - Budget" status="FAILED">
+         <failure type="FAILED" message="Test Cases/My Worklist - Budget FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'false' of object 'Object Repository/Myworklist(lead status)/Budget/select_loss of job' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at My Worklist - Budget.run(My Worklist - Budget:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653407015026.run(TempTestSuite1653407015026.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: false
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.250.10', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-39-generic', java.version: '1.8.0_312'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-05-24 11:43:41 - [TEST_CASE][FAILED] - Test Cases/My Worklist - Budget: Test Cases/My Worklist - Budget FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'false' of object 'Object Repository/Myworklist(lead status)/Budget/select_loss of job' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at My Worklist - Budget.run(My Worklist - Budget:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653407015026.run(TempTestSuite1653407015026.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: false
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.250.10', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-39-generic', java.version: '1.8.0_312'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-05-24 11:43:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-24 11:43:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-24 11:43:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-24 11:43:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-24 11:43:44 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-05-24 11:44:12 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-05-24 11:44:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), "SUPER_USER7"): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-05-24 11:44:13 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-05-24 11:44:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), "Abcd1234**"): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-05-24 11:44:13 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-05-24 11:44:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-05-24 11:44:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-05-24 11:44:14 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/strong_My Tools")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-05-24 11:44:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-05-24 11:44:17 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/span_My Worklist")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-05-24 11:44:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-05-24 11:44:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/input_Filter"), "56793"): Text '56793' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-05-24 11:44:19 - [MESSAGE][PASSED] - Text '56793' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-05-24 11:44:19 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/search ojito add note/button_FILE_editButton")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-05-24 11:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-05-24 11:44:20 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Budget/a_Budget"), STOP_ON_FAILURE): Object: 'Object Repository/Myworklist(lead status)/Budget/a_Budget' is clicked on
+
+2022-05-24 11:44:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Budget/a_Budget' is clicked on
+
+2022-05-24 11:44:21 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_Housing Payment_2-1"), "1000"): Text '1000' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Housing Payment_2-1'
+
+2022-05-24 11:44:22 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Housing Payment_2-1'
+
+2022-05-24 11:44:22 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_Secondary Housing Payment_4-1"), "500"): Text '500' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Secondary Housing Payment_4-1'
+
+2022-05-24 11:44:23 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Secondary Housing Payment_4-1'
+
+2022-05-24 11:44:23 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_Auto Payments_5-1"), "150"): Text '150' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Auto Payments_5-1'
+
+2022-05-24 11:44:24 - [MESSAGE][PASSED] - Text '150' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Auto Payments_5-1'
+
+2022-05-24 11:44:24 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_Auto Insurance (monthly)_6-1"), "1500"): Text '1500' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Auto Insurance (monthly)_6-1'
+
+2022-05-24 11:44:24 - [MESSAGE][PASSED] - Text '1500' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Auto Insurance (monthly)_6-1'
+
+2022-05-24 11:44:24 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_Auto Other_7-1"), "100"): Text '100' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Auto Other_7-1'
+
+2022-05-24 11:44:25 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Auto Other_7-1'
+
+2022-05-24 11:44:25 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_Gasoline (monthly)_8-1"), "100"): Text '100' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Gasoline (monthly)_8-1'
+
+2022-05-24 11:44:26 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Gasoline (monthly)_8-1'
+
+2022-05-24 11:44:26 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_HealthLife Insurance_9-1"), "1500"): Text '1500' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_HealthLife Insurance_9-1'
+
+2022-05-24 11:44:27 - [MESSAGE][PASSED] - Text '1500' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_HealthLife Insurance_9-1'
+
+2022-05-24 11:44:27 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_Average GasElectricOil_10-1"), "1000"): Text '1000' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Average GasElectricOil_10-1'
+
+2022-05-24 11:44:28 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Average GasElectricOil_10-1'
+
+2022-05-24 11:44:28 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_Average Phone Bill (including cell)_11-1"), "100"): Text '100' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Average Phone Bill (including cell)_11-1'
+
+2022-05-24 11:44:29 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Average Phone Bill (including cell)_11-1'
+
+2022-05-24 11:44:29 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_Average WaterSewerGarbage_12-1"), "100"): Text '100' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Average WaterSewerGarbage_12-1'
+
+2022-05-24 11:44:29 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Average WaterSewerGarbage_12-1'
+
+2022-05-24 11:44:29 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_CableSatellite Bill_13-1"), "1000"): Text '1000' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_CableSatellite Bill_13-1'
+
+2022-05-24 11:44:30 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_CableSatellite Bill_13-1'
+
+2022-05-24 11:44:30 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_Personal Care_15-1"), "100"): Text '100' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Personal Care_15-1'
+
+2022-05-24 11:44:31 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Personal Care_15-1'
+
+2022-05-24 11:44:31 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_Medical Care_16-1"), "500"): Text '500' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Medical Care_16-1'
+
+2022-05-24 11:44:32 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Medical Care_16-1'
+
+2022-05-24 11:44:32 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_Groceries(monthly)_18-1"), "1000"): Text '1000' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Groceries(monthly)_18-1'
+
+2022-05-24 11:44:33 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Groceries(monthly)_18-1'
+
+2022-05-24 11:44:33 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_Education_20-1"), "1000"): Text '1000' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Education_20-1'
+
+2022-05-24 11:44:34 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Education_20-1'
+
+2022-05-24 11:44:34 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_Clothing_25-1"), "2000"): Text '2000' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Clothing_25-1'
+
+2022-05-24 11:44:34 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Clothing_25-1'
+
+2022-05-24 11:44:34 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_Laundry_26-1"), "100"): Text '100' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Laundry_26-1'
+
+2022-05-24 11:44:35 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Laundry_26-1'
+
+2022-05-24 11:44:35 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_Pet Care_29-1"), "1000"): Text '1000' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Pet Care_29-1'
+
+2022-05-24 11:44:36 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Pet Care_29-1'
+
+2022-05-24 11:44:36 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_Detailed Hardship Reason"), "100"): Text '100' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Detailed Hardship Reason'
+
+2022-05-24 11:44:37 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_Detailed Hardship Reason'
+
+2022-05-24 11:44:37 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Budget/input_income applicant"), "1000000"): Text '1000000' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_income applicant'
+
+2022-05-24 11:44:38 - [MESSAGE][PASSED] - Text '1000000' is set on object 'Object Repository/Myworklist(lead status)/Budget/input_income applicant'
+
+2022-05-24 11:44:38 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Myworklist(lead status)/Budget/select_loss of job"), "false", false): Unable to select option by value 'false' of object 'Object Repository/Myworklist(lead status)/Budget/select_loss of job'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'false' of object 'Object Repository/Myworklist(lead status)/Budget/select_loss of job' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at My Worklist - Budget.run(My Worklist - Budget:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653407015026.run(TempTestSuite1653407015026.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: false
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.250.10', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-39-generic', java.version: '1.8.0_312'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Script1653338753611.run(Script1653338753611.groovy:80)
+	... 13 more
+)
+
+2022-05-24 11:44:38 - [MESSAGE][FAILED] - Unable to select option by value 'false' of object 'Object Repository/Myworklist(lead status)/Budget/select_loss of job'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'false' of object 'Object Repository/Myworklist(lead status)/Budget/select_loss of job' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at My Worklist - Budget.run(My Worklist - Budget:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653407015026.run(TempTestSuite1653407015026.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: false
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.250.10', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-39-generic', java.version: '1.8.0_312'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Script1653338753611.run(Script1653338753611.groovy:80)
+	... 13 more
+)
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220524_114334/My Worklist/20220524_114334/1653407078732.png]]]]></system-out>
+         <system-err><![CDATA[2022-05-24 11:43:41 - [TEST_CASE][FAILED] - Test Cases/My Worklist - Budget: Test Cases/My Worklist - Budget FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'false' of object 'Object Repository/Myworklist(lead status)/Budget/select_loss of job' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at My Worklist - Budget.run(My Worklist - Budget:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653407015026.run(TempTestSuite1653407015026.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: false
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.250.10', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-39-generic', java.version: '1.8.0_312'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-24 11:43:40 - [TEST_SUITE][FAILED] - My Worklist: Test Cases/My Worklist - Budget FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'false' of object 'Object Repository/Myworklist(lead status)/Budget/select_loss of job' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at My Worklist - Budget.run(My Worklist - Budget:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653407015026.run(TempTestSuite1653407015026.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: false
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.250.10', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-39-generic', java.version: '1.8.0_312'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-05-24 11:43:40 - [TEST_SUITE][FAILED] - My Worklist: Test Cases/My Worklist - Budget FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'false' of object 'Object Repository/Myworklist(lead status)/Budget/select_loss of job' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at My Worklist - Budget.run(My Worklist - Budget:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653407015026.run(TempTestSuite1653407015026.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: false
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.250.10', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-39-generic', java.version: '1.8.0_312'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByValue(WebUiCommonHelper.java:266)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

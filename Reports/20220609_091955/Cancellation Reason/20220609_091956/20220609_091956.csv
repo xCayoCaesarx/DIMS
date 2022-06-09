@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cancellation Reason,Chrome 102.0.5005.61,,,2022-06-09 09:20:00,2022-06-09 09:21:03,"1m - 2,509s",FAILED
+,,,,,,,
+Test Cases/Edit Cancellation Reason,Chrome 102.0.5005.61,,,2022-06-09 09:20:01,2022-06-09 09:20:52,"51,027s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-09 09:20:01,2022-06-09 09:20:04,"2,276s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-09 09:20:04,2022-06-09 09:20:14,"10,208s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-09 09:20:14,2022-06-09 09:20:15,"0,810s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.61,,,2022-06-09 09:20:15,2022-06-09 09:20:15,"0,775s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.61,,,2022-06-09 09:20:15,2022-06-09 09:20:18,"2,585s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 102.0.5005.61,,,2022-06-09 09:20:18,2022-06-09 09:20:19,"0,783s",PASSED
+"click(findTestObject(""Cancelled reason/span_Cancellation Reason""))",Chrome 102.0.5005.61,,,2022-06-09 09:20:19,2022-06-09 09:20:19,"0,505s",PASSED
+"setText(findTestObject(""Cancelled reason/input_Cancellation Reasons""), name)",Chrome 102.0.5005.61,,,2022-06-09 09:20:19,2022-06-09 09:20:20,"1,099s",PASSED
+"click(findTestObject(""Cancelled reason/button_Order By_editButton""), STOP_ON_FAILURE)",Chrome 102.0.5005.61,,,2022-06-09 09:20:20,2022-06-09 09:20:52,"31,419s",FAILED
+,,,,,,,
+Test Cases/Delete Cancellation Reason,Chrome 102.0.5005.61,,,2022-06-09 09:20:52,2022-06-09 09:21:03,"10,750s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-09 09:20:52,2022-06-09 09:20:53,"0,937s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-09 09:20:53,2022-06-09 09:21:02,"9,351s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-09 09:21:02,2022-06-09 09:21:03,"0,112s",FAILED

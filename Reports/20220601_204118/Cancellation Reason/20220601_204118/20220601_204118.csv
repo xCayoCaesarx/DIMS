@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cancellation Reason,Chrome 100.0.4896.75,,,2022-06-01 20:41:22,2022-06-01 20:43:45,"2m - 23,740s",FAILED
+,,,,,,,
+Test Cases/Add Cancellation Reason,Chrome 100.0.4896.75,,,2022-06-01 20:41:22,2022-06-01 20:43:40,"2m - 18,152s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-06-01 20:41:23,2022-06-01 20:41:25,"2,032s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-06-01 20:41:25,2022-06-01 20:43:17,"1m - 52,688s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-06-01 20:43:17,2022-06-01 20:43:18,"0,840s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-06-01 20:43:18,2022-06-01 20:43:19,"0,705s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/button_Login""))",Chrome 100.0.4896.75,,,2022-06-01 20:43:19,2022-06-01 20:43:21,"2,590s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 100.0.4896.75,,,2022-06-01 20:43:21,2022-06-01 20:43:40,"18,840s",FAILED
+,,,,,,,
+Test Cases/Edit Cancellation Reason,Chrome 100.0.4896.75,,,2022-06-01 20:43:40,2022-06-01 20:43:43,"2,391s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-06-01 20:43:41,2022-06-01 20:43:42,"0,942s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-06-01 20:43:42,2022-06-01 20:43:43,"1,104s",FAILED
+,,,,,,,
+Test Cases/Delete Cancellation Reason,Chrome 100.0.4896.75,,,2022-06-01 20:43:43,2022-06-01 20:43:45,"2,525s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-06-01 20:43:43,2022-06-01 20:43:44,"1,158s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-06-01 20:43:44,2022-06-01 20:43:45,"1,045s",FAILED

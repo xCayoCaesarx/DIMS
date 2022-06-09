@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="My Worklist" time="26.628" tests="1" failures="0" errors="0">
+   <testsuite name="My Worklist" tests="1" failures="0" errors="0" time="26.628" skipped="0" timestamp="2022-05-20 12:35:29" hostname="juzcategui - juzcategui" id="Test Suites/My Worklist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220520_123522/My Worklist/20220520_123522"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220520_123522/My Worklist/20220520_123522/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220520_123522/My Worklist/20220520_123522/1653064555025.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 100.0.4896.75"/>
+         <property name="hostAddress" value="192.168.12.57"/>
+         <property name="sessionId" value="335281aa1562b5c33e3e0b165ef96991"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/My Worklist - Coapplicant" time="25.942" classname="Test Cases/My Worklist - Coapplicant" status="PASSED">
+         <system-out><![CDATA[2022-05-20 12:35:30 - [TEST_CASE][PASSED] - Test Cases/My Worklist - Coapplicant: Test Cases/My Worklist - Coapplicant
+
+2022-05-20 12:35:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-20 12:35:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-20 12:35:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-20 12:35:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-20 12:35:34 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-05-20 12:35:36 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-05-20 12:35:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), "SUPER_USER7"): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-05-20 12:35:37 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-05-20 12:35:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), "Abcd1234**"): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-05-20 12:35:38 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-05-20 12:35:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-05-20 12:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-05-20 12:35:41 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/strong_My Tools")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-05-20 12:35:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-05-20 12:35:42 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/span_My Worklist")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-05-20 12:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-05-20 12:35:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/input_Filter"), "56793"): Text '56793' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-05-20 12:35:44 - [MESSAGE][PASSED] - Text '56793' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-05-20 12:35:44 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/search ojito add note/button_FILE_editButton")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-05-20 12:35:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-05-20 12:35:45 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Coapplicant/a_CoApplicant"), STOP_ON_FAILURE): Object: 'Object Repository/Myworklist(lead status)/Coapplicant/a_CoApplicant' is clicked on
+
+2022-05-20 12:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Coapplicant/a_CoApplicant' is clicked on
+
+2022-05-20 12:35:46 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_First Name"), "aaaa"): Text 'aaaa' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_First Name'
+
+2022-05-20 12:35:47 - [MESSAGE][PASSED] - Text 'aaaa' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_First Name'
+
+2022-05-20 12:35:47 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Last Name"), "bbbb"): Text 'bbbb' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Last Name'
+
+2022-05-20 12:35:48 - [MESSAGE][PASSED] - Text 'bbbb' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Last Name'
+
+2022-05-20 12:35:48 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Address"), "direccionnnnnnnnn"): Text 'direccionnnnnnnnn' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Address'
+
+2022-05-20 12:35:49 - [MESSAGE][PASSED] - Text 'direccionnnnnnnnn' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Address'
+
+2022-05-20 12:35:49 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_City"), "ciudaddddd"): Text 'ciudaddddd' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_City'
+
+2022-05-20 12:35:50 - [MESSAGE][PASSED] - Text 'ciudaddddd' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_City'
+
+2022-05-20 12:35:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Myworklist(lead status)/Coapplicant/select_State"), "2: 2", false): All options with value '2: 2' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/select_State' 
+
+2022-05-20 12:35:51 - [MESSAGE][PASSED] - All options with value '2: 2' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/select_State' 
+
+2022-05-20 12:35:51 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Email"), "jtegui@ggmail.com"): Text 'jtegui@ggmail.com' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email'
+
+2022-05-20 12:35:51 - [MESSAGE][PASSED] - Text 'jtegui@ggmail.com' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email'
+
+2022-05-20 12:35:51 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Gross Annual Income"), "1000"): Text '1000' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Gross Annual Income'
+
+2022-05-20 12:35:52 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Gross Annual Income'
+
+2022-05-20 12:35:52 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Payment_"), "100"): Text '100' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Payment_'
+
+2022-05-20 12:35:53 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Payment_'
+
+2022-05-20 12:35:53 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Coapplicant/button_History_saveButton")): Object: 'Object Repository/Myworklist(lead status)/Coapplicant/button_History_saveButton' is clicked on
+
+2022-05-20 12:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Coapplicant/button_History_saveButton' is clicked on
+
+2022-05-20 12:35:53 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-05-20 12:35:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-20 12:35:55 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-20 12:35:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-20 12:35:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220520_123522/My Worklist/20220520_123522/1653064555025.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-20 12:35:29 - [TEST_SUITE][PASSED] - My Worklist: Test Cases/My Worklist - Coapplicant]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

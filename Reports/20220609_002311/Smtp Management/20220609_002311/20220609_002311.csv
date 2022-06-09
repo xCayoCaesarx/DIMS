@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smtp Management,Chrome 102.0.5005.61,,,2022-06-09 00:23:14,2022-06-09 00:25:28,"2m - 13,848s",PASSED
+,,,,,,,
+Test Cases/Add Smtp,Chrome 102.0.5005.61,,,2022-06-09 00:23:15,2022-06-09 00:24:07,"52,210s",PASSED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-09 00:23:15,2022-06-09 00:23:17,"1,740s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-09 00:23:17,2022-06-09 00:23:52,"35,036s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-09 00:23:52,2022-06-09 00:23:53,"0,810s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.61,,,2022-06-09 00:23:53,2022-06-09 00:23:53,"0,724s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.61,,,2022-06-09 00:23:53,2022-06-09 00:23:56,"2,608s",PASSED
+"click(findTestObject(""Smtp Management/Add Smtp/strong_Office Tools""))",Chrome 102.0.5005.61,,,2022-06-09 00:23:56,2022-06-09 00:23:57,"0,964s",PASSED
+"click(findTestObject(""Smtp Management/Add Smtp/span_Smtp Management""))",Chrome 102.0.5005.61,,,2022-06-09 00:23:57,2022-06-09 00:23:58,"0,489s",PASSED
+"click(findTestObject(""Smtp Management/Add Smtp/button_Welcome, Julio Uzctegui_addButton""))",Chrome 102.0.5005.61,,,2022-06-09 00:23:58,2022-06-09 00:23:59,"1,035s",PASSED
+"selectOptionByValue(findTestObject(""Smtp Management/Add Smtp/select_office""), ""1"", false)",Chrome 102.0.5005.61,,,2022-06-09 00:23:59,2022-06-09 00:24:00,"1,212s",PASSED
+"setText(findTestObject(""Smtp Management/Add Smtp/input_Smtp Server address""), serveraddress)",Chrome 102.0.5005.61,,,2022-06-09 00:24:00,2022-06-09 00:24:01,"0,729s",PASSED
+"setText(findTestObject(""Smtp Management/Add Smtp/input_Smtp Username""), smtpusername)",Chrome 102.0.5005.61,,,2022-06-09 00:24:01,2022-06-09 00:24:01,"0,725s",PASSED
+"setText(findTestObject(""Smtp Management/Add Smtp/input_Smtp Server Port""), smtpport)",Chrome 102.0.5005.61,,,2022-06-09 00:24:01,2022-06-09 00:24:02,"0,681s",PASSED
+"setText(findTestObject(""Smtp Management/Add Smtp/input_Smtp Password""), smtppass)",Chrome 102.0.5005.61,,,2022-06-09 00:24:02,2022-06-09 00:24:03,"0,697s",PASSED
+"click(findTestObject(""Smtp Management/Add Smtp/button_Test""))",Chrome 102.0.5005.61,,,2022-06-09 00:24:03,2022-06-09 00:24:03,"0,390s",PASSED
+"click(findTestObject(""Smtp Management/Add Smtp/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 102.0.5005.61,,,2022-06-09 00:24:03,2022-06-09 00:24:05,"2,159s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 102.0.5005.61,,,2022-06-09 00:24:05,2022-06-09 00:24:06,"1,029s",PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.61,,,2022-06-09 00:24:06,2022-06-09 00:24:07,"0,704s",PASSED
+,,,,,,,
+Test Cases/Edit Smtp,Chrome 102.0.5005.61,,,2022-06-09 00:24:07,2022-06-09 00:24:47,"39,622s",PASSED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-09 00:24:07,2022-06-09 00:24:08,"0,998s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-09 00:24:08,2022-06-09 00:24:30,"22,122s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-09 00:24:30,2022-06-09 00:24:31,"0,712s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.61,,,2022-06-09 00:24:31,2022-06-09 00:24:32,"0,688s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.61,,,2022-06-09 00:24:32,2022-06-09 00:24:34,"2,472s",PASSED
+"click(findTestObject(""Smtp Management/Add Smtp/strong_Office Tools""))",Chrome 102.0.5005.61,,,2022-06-09 00:24:34,2022-06-09 00:24:36,"1,271s",PASSED
+"click(findTestObject(""Smtp Management/Add Smtp/span_Smtp Management""))",Chrome 102.0.5005.61,,,2022-06-09 00:24:36,2022-06-09 00:24:36,"0,502s",PASSED
+"setText(findTestObject(""Smtp Management/Edit and delete Smtp/input_Smtp search""), serveraddress)",Chrome 102.0.5005.61,,,2022-06-09 00:24:36,2022-06-09 00:24:40,"4,239s",PASSED
+"click(findTestObject(""Smtp Management/Edit and delete Smtp/button_Smtp Server Port_editButton""))",Chrome 102.0.5005.61,,,2022-06-09 00:24:40,2022-06-09 00:24:41,"0,445s",PASSED
+"setText(findTestObject(""Smtp Management/Edit and delete Smtp/input_Smtp Server modify""), serveraddressmodify)",Chrome 102.0.5005.61,,,2022-06-09 00:24:41,2022-06-09 00:24:42,"1,599s",PASSED
+"click(findTestObject(""Smtp Management/Add Smtp/button_Test""))",Chrome 102.0.5005.61,,,2022-06-09 00:24:42,2022-06-09 00:24:43,"0,378s",PASSED
+"click(findTestObject(""Smtp Management/Edit and delete Smtp/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 102.0.5005.61,,,2022-06-09 00:24:43,2022-06-09 00:24:44,"1,611s",PASSED
+"click(findTestObject(""Smtp Management/Edit and delete Smtp/button_Accept""))",Chrome 102.0.5005.61,,,2022-06-09 00:24:44,2022-06-09 00:24:45,"0,681s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 102.0.5005.61,,,2022-06-09 00:24:45,2022-06-09 00:24:46,"1,004s",PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.61,,,2022-06-09 00:24:46,2022-06-09 00:24:47,"0,550s",PASSED
+,,,,,,,
+Test Cases/Delete Smtp,Chrome 102.0.5005.61,,,2022-06-09 00:24:47,2022-06-09 00:25:28,"41,246s",PASSED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-09 00:24:47,2022-06-09 00:24:48,"1,119s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-09 00:24:48,2022-06-09 00:25:18,"30,248s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-09 00:25:18,2022-06-09 00:25:19,"0,701s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.61,,,2022-06-09 00:25:19,2022-06-09 00:25:20,"0,697s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.61,,,2022-06-09 00:25:20,2022-06-09 00:25:22,"2,490s",PASSED
+"click(findTestObject(""Smtp Management/Add Smtp/strong_Office Tools""))",Chrome 102.0.5005.61,,,2022-06-09 00:25:22,2022-06-09 00:25:23,"0,747s",PASSED
+"click(findTestObject(""Smtp Management/Add Smtp/span_Smtp Management""))",Chrome 102.0.5005.61,,,2022-06-09 00:25:23,2022-06-09 00:25:24,"0,603s",PASSED
+"setText(findTestObject(""Smtp Management/Edit and delete Smtp/input_Smtp search""), serveraddressmodify)",Chrome 102.0.5005.61,,,2022-06-09 00:25:24,2022-06-09 00:25:25,"1,087s",PASSED
+"click(findTestObject(""Smtp Management/Edit and delete Smtp/td_Smtp Server Port_to delete""))",Chrome 102.0.5005.61,,,2022-06-09 00:25:25,2022-06-09 00:25:25,"0,359s",PASSED
+"click(findTestObject(""Smtp Management/Edit and delete Smtp/button_Welcome, Julio Uzctegui_deleteButton""))",Chrome 102.0.5005.61,,,2022-06-09 00:25:25,2022-06-09 00:25:26,"0,581s",PASSED
+"click(findTestObject(""Smtp Management/Edit and delete Smtp/button_Accept - delete""))",Chrome 102.0.5005.61,,,2022-06-09 00:25:26,2022-06-09 00:25:26,"0,677s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 102.0.5005.61,,,2022-06-09 00:25:26,2022-06-09 00:25:27,"1,004s",PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.61,,,2022-06-09 00:25:27,2022-06-09 00:25:28,"0,523s",PASSED

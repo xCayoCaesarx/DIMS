@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smtp Management,Chrome 102.0.5005.61,,,2022-06-08 22:31:24,2022-06-08 22:34:35,"3m - 10,768s",FAILED
+,,,,,,,
+Test Cases/Edit Smtp,Chrome 102.0.5005.61,,,2022-06-08 22:31:25,2022-06-08 22:32:28,"1m - 3,532s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-08 22:31:25,2022-06-08 22:31:27,"1,942s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-08 22:31:27,2022-06-08 22:32:04,"36,327s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-08 22:32:04,2022-06-08 22:32:04,"0,801s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.61,,,2022-06-08 22:32:04,2022-06-08 22:32:05,"0,699s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.61,,,2022-06-08 22:32:05,2022-06-08 22:32:08,"2,576s",PASSED
+"click(findTestObject(""Smtp Management/Add Smtp/strong_Office Tools""))",Chrome 102.0.5005.61,,,2022-06-08 22:32:08,2022-06-08 22:32:09,"0,847s",PASSED
+"click(findTestObject(""Smtp Management/Add Smtp/span_Smtp Management""))",Chrome 102.0.5005.61,,,2022-06-08 22:32:09,2022-06-08 22:32:09,"0,520s",PASSED
+"setText(findTestObject(""Smtp Management/Edit and delete Smtp/input_Smtp search""), serveraddress)",Chrome 102.0.5005.61,,,2022-06-08 22:32:09,2022-06-08 22:32:11,"1,744s",PASSED
+"click(findTestObject(""Smtp Management/Edit and delete Smtp/button_Smtp Server Port_editButton""))",Chrome 102.0.5005.61,,,2022-06-08 22:32:11,2022-06-08 22:32:11,"0,499s",PASSED
+"setText(findTestObject(""Smtp Management/Edit and delete Smtp/input_Smtp Server modify""), serveraddressmodify)",Chrome 102.0.5005.61,,,2022-06-08 22:32:11,2022-06-08 22:32:28,"17,054s",FAILED
+,,,,,,,
+Test Cases/Edit Smtp,Chrome 102.0.5005.61,,,2022-06-08 22:32:28,2022-06-08 22:32:35,"6,564s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-08 22:32:29,2022-06-08 22:32:30,"1,092s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-08 22:32:30,2022-06-08 22:32:35,"5,244s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-08 22:32:35,2022-06-08 22:32:35,"0,141s",FAILED
+,,,,,,,
+Test Cases/Delete Smtp,Chrome 102.0.5005.61,,,2022-06-08 22:32:35,2022-06-08 22:34:26,"1m - 50,545s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-08 22:32:35,2022-06-08 22:32:36,"0,983s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-08 22:32:36,2022-06-08 22:34:25,"1m - 49,044s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-08 22:34:25,2022-06-08 22:34:26,"0,177s",FAILED
+,,,,,,,
+Test Cases/Delete Smtp,Chrome 102.0.5005.61,,,2022-06-08 22:34:26,2022-06-08 22:34:35,"9,302s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-08 22:34:26,2022-06-08 22:34:27,"0,923s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-08 22:34:27,2022-06-08 22:34:35,"8,230s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-08 22:34:35,2022-06-08 22:34:35,"0,109s",FAILED

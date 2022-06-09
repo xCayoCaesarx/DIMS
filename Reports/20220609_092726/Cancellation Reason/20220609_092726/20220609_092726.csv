@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cancellation Reason,Chrome 102.0.5005.61,,,2022-06-09 09:27:30,2022-06-09 09:28:58,"1m - 28,581s",FAILED
+,,,,,,,
+Test Cases/Edit Cancellation Reason,Chrome 102.0.5005.61,,,2022-06-09 09:27:30,2022-06-09 09:28:02,"31,947s",PASSED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-09 09:27:31,2022-06-09 09:27:33,"2,023s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-09 09:27:33,2022-06-09 09:27:51,"17,803s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-09 09:27:51,2022-06-09 09:27:52,"0,927s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.61,,,2022-06-09 09:27:52,2022-06-09 09:27:52,"0,793s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.61,,,2022-06-09 09:27:52,2022-06-09 09:27:55,"2,619s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 102.0.5005.61,,,2022-06-09 09:27:55,2022-06-09 09:27:56,"0,840s",PASSED
+"click(findTestObject(""Cancelled reason/span_Cancellation Reason""))",Chrome 102.0.5005.61,,,2022-06-09 09:27:56,2022-06-09 09:27:56,"0,514s",PASSED
+"setText(findTestObject(""Cancelled reason/input_Cancellation Reasons""), name)",Chrome 102.0.5005.61,,,2022-06-09 09:27:56,2022-06-09 09:27:57,"1,089s",PASSED
+"click(findTestObject(""Cancelled reason/button_Order By_editButton""), STOP_ON_FAILURE)",Chrome 102.0.5005.61,,,2022-06-09 09:27:57,2022-06-09 09:27:58,"0,895s",PASSED
+"setText(findTestObject(""Cancelled reason/input_Cancellation Reason_modif""), namemodify)",Chrome 102.0.5005.61,,,2022-06-09 09:27:58,2022-06-09 09:27:59,"0,924s",PASSED
+"click(findTestObject(""Cancelled reason/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 102.0.5005.61,,,2022-06-09 09:27:59,2022-06-09 09:28:00,"0,378s",PASSED
+"click(findTestObject(""Cancelled reason/button_Accept - Edit""))",Chrome 102.0.5005.61,,,2022-06-09 09:28:00,2022-06-09 09:28:00,"0,722s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 102.0.5005.61,,,2022-06-09 09:28:00,2022-06-09 09:28:01,"1,034s",PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.61,,,2022-06-09 09:28:01,2022-06-09 09:28:02,"0,823s",PASSED
+,,,,,,,
+Test Cases/Delete Cancellation Reason,Chrome 102.0.5005.61,,,2022-06-09 09:28:02,2022-06-09 09:28:58,"55,941s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-09 09:28:03,2022-06-09 09:28:04,"0,962s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-09 09:28:04,2022-06-09 09:28:21,"17,149s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-09 09:28:21,2022-06-09 09:28:21,"0,709s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.61,,,2022-06-09 09:28:21,2022-06-09 09:28:22,"0,683s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.61,,,2022-06-09 09:28:22,2022-06-09 09:28:25,"2,421s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 102.0.5005.61,,,2022-06-09 09:28:25,2022-06-09 09:28:25,"0,738s",PASSED
+"click(findTestObject(""Cancelled reason/span_Cancellation Reason""))",Chrome 102.0.5005.61,,,2022-06-09 09:28:25,2022-06-09 09:28:26,"0,498s",PASSED
+"setText(findTestObject(""Cancelled reason/input_Cancellation Reasons""), namemodify)",Chrome 102.0.5005.61,,,2022-06-09 09:28:26,2022-06-09 09:28:27,"1,134s",PASSED
+"click(findTestObject(""Cancelled reason/td_Order By_to delete""), STOP_ON_FAILURE)",Chrome 102.0.5005.61,,,2022-06-09 09:28:27,2022-06-09 09:28:58,"31,229s",FAILED

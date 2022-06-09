@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="My Worklist" time="50.821" tests="1" failures="0" errors="0">
+   <testsuite name="My Worklist" tests="1" failures="0" errors="0" time="50.821" skipped="0" timestamp="2022-05-20 15:48:27" hostname="juzcategui - juzcategui" id="Test Suites/My Worklist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220520_154820/My Worklist/20220520_154820"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220520_154820/My Worklist/20220520_154820/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220520_154820/My Worklist/20220520_154820/1653076156837.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 100.0.4896.75"/>
+         <property name="hostAddress" value="192.168.12.57"/>
+         <property name="sessionId" value="cc59810c23189b1f5a41347016979bec"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/My Worklist - Coapplicant all fields" time="50.131" classname="Test Cases/My Worklist - Coapplicant all fields" status="PASSED">
+         <system-out><![CDATA[2022-05-20 15:48:27 - [TEST_CASE][PASSED] - Test Cases/My Worklist - Coapplicant all fields: Test Cases/My Worklist - Coapplicant all fields
+
+2022-05-20 15:48:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-20 15:48:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-20 15:48:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-20 15:48:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-20 15:48:31 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-05-20 15:48:44 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-05-20 15:48:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), "SUPER_USER7"): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-05-20 15:48:45 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-05-20 15:48:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), "Abcd1234**"): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-05-20 15:48:45 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-05-20 15:48:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-05-20 15:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-05-20 15:48:46 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/strong_My Tools")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-05-20 15:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-05-20 15:48:47 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/span_My Worklist")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-05-20 15:48:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-05-20 15:48:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/input_Filter"), "56793"): Text '56793' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-05-20 15:48:49 - [MESSAGE][PASSED] - Text '56793' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-05-20 15:48:49 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/search ojito add note/button_FILE_editButton")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-05-20 15:48:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-05-20 15:48:49 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Coapplicant/a_CoApplicant"), STOP_ON_FAILURE): Object: 'Object Repository/Myworklist(lead status)/Coapplicant/a_CoApplicant' is clicked on
+
+2022-05-20 15:48:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Coapplicant/a_CoApplicant' is clicked on
+
+2022-05-20 15:48:51 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_First Name"), "nombreeee"): Text 'nombreeee' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_First Name'
+
+2022-05-20 15:48:52 - [MESSAGE][PASSED] - Text 'nombreeee' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_First Name'
+
+2022-05-20 15:48:52 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Middle Initial"), "mediooo"): Text 'mediooo' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Middle Initial'
+
+2022-05-20 15:48:52 - [MESSAGE][PASSED] - Text 'mediooo' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Middle Initial'
+
+2022-05-20 15:48:52 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Last Name"), "apellidoooo"): Text 'apellidoooo' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Last Name'
+
+2022-05-20 15:48:53 - [MESSAGE][PASSED] - Text 'apellidoooo' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Last Name'
+
+2022-05-20 15:48:53 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Address"), "direccionnnnnnnnn"): Text 'direccionnnnnnnnn' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Address'
+
+2022-05-20 15:48:54 - [MESSAGE][PASSED] - Text 'direccionnnnnnnnn' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Address'
+
+2022-05-20 15:48:54 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Address 2"), "direccion 2222"): Text 'direccion 2222' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Address 2'
+
+2022-05-20 15:48:55 - [MESSAGE][PASSED] - Text 'direccion 2222' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Address 2'
+
+2022-05-20 15:48:55 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_City"), "ciudaddddd"): Text 'ciudaddddd' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_City'
+
+2022-05-20 15:48:56 - [MESSAGE][PASSED] - Text 'ciudaddddd' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_City'
+
+2022-05-20 15:48:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Myworklist(lead status)/Coapplicant/select_State"), "3: 3", false): All options with value '3: 3' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/select_State' 
+
+2022-05-20 15:48:57 - [MESSAGE][PASSED] - All options with value '3: 3' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/select_State' 
+
+2022-05-20 15:48:57 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address"), "direccion previaaaa"): Text 'direccion previaaaa' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address'
+
+2022-05-20 15:48:58 - [MESSAGE][PASSED] - Text 'direccion previaaaa' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address'
+
+2022-05-20 15:48:58 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address 2"), "direccion previaaaa 222222"): Text 'direccion previaaaa 222222' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address 2'
+
+2022-05-20 15:48:58 - [MESSAGE][PASSED] - Text 'direccion previaaaa 222222' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address 2'
+
+2022-05-20 15:48:58 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous City"), "ciudad previaaa"): Text 'ciudad previaaa' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous City'
+
+2022-05-20 15:48:59 - [MESSAGE][PASSED] - Text 'ciudad previaaa' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous City'
+
+2022-05-20 15:48:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state"), "2: 2", false): All options with value '2: 2' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state' 
+
+2022-05-20 15:49:00 - [MESSAGE][PASSED] - All options with value '2: 2' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state' 
+
+2022-05-20 15:49:00 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Zip"), "3090"): Text '3090' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Zip'
+
+2022-05-20 15:49:01 - [MESSAGE][PASSED] - Text '3090' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Zip'
+
+2022-05-20 15:49:01 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Phone"), "151515"): Text '151515' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Phone'
+
+2022-05-20 15:49:02 - [MESSAGE][PASSED] - Text '151515' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Phone'
+
+2022-05-20 15:49:02 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Cell"), "161616"): Text '161616' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Cell'
+
+2022-05-20 15:49:02 - [MESSAGE][PASSED] - Text '161616' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Cell'
+
+2022-05-20 15:49:02 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Work"), "171717"): Text '171717' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Work'
+
+2022-05-20 15:49:03 - [MESSAGE][PASSED] - Text '171717' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Work'
+
+2022-05-20 15:49:03 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Ext"), "161616"): Text '161616' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Ext'
+
+2022-05-20 15:49:04 - [MESSAGE][PASSED] - Text '161616' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Ext'
+
+2022-05-20 15:49:04 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Fax"), "171717"): Text '171717' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Fax'
+
+2022-05-20 15:49:05 - [MESSAGE][PASSED] - Text '171717' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Fax'
+
+2022-05-20 15:49:05 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Email"), "jtegui@ggmail.com"): Text 'jtegui@ggmail.com' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email'
+
+2022-05-20 15:49:06 - [MESSAGE][PASSED] - Text 'jtegui@ggmail.com' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email'
+
+2022-05-20 15:49:06 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input__email2"), "jtegui@ggmail2222.com"): Text 'jtegui@ggmail2222.com' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input__email2'
+
+2022-05-20 15:49:06 - [MESSAGE][PASSED] - Text 'jtegui@ggmail2222.com' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input__email2'
+
+2022-05-20 15:49:06 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Driver License"), "lencia test 12"): Text 'lencia test 12' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Driver License'
+
+2022-05-20 15:49:07 - [MESSAGE][PASSED] - Text 'lencia test 12' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Driver License'
+
+2022-05-20 15:49:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/select_driver state"), "1: 1", false): All options with value '1: 1' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_driver state' 
+
+2022-05-20 15:49:08 - [MESSAGE][PASSED] - All options with value '1: 1' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_driver state' 
+
+2022-05-20 15:49:08 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Social Security"), "111111"): Text '111111' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Social Security'
+
+2022-05-20 15:49:09 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Social Security'
+
+2022-05-20 15:49:09 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Mothers Maiden Name"), "maria test"): Text 'maria test' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Mothers Maiden Name'
+
+2022-05-20 15:49:10 - [MESSAGE][PASSED] - Text 'maria test' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Mothers Maiden Name'
+
+2022-05-20 15:49:10 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Self Employed_check"), STOP_ON_FAILURE): Object: 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Self Employed_check' is clicked on
+
+2022-05-20 15:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Self Employed_check' is clicked on
+
+2022-05-20 15:49:10 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Occupation"), "analista"): Text 'analista' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Occupation'
+
+2022-05-20 15:49:11 - [MESSAGE][PASSED] - Text 'analista' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Occupation'
+
+2022-05-20 15:49:11 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Employer"), "ca sal"): Text 'ca sal' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Employer'
+
+2022-05-20 15:49:12 - [MESSAGE][PASSED] - Text 'ca sal' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Employer'
+
+2022-05-20 15:49:12 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Length of employment"), "length of emplyment"): Text 'length of emplyment' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Length of employment'
+
+2022-05-20 15:49:12 - [MESSAGE][PASSED] - Text 'length of emplyment' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Length of employment'
+
+2022-05-20 15:49:12 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Gross Annual Income"), "1000000"): Text '1000000' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Gross Annual Income'
+
+2022-05-20 15:49:13 - [MESSAGE][PASSED] - Text '1000000' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Gross Annual Income'
+
+2022-05-20 15:49:13 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Employer"), "another company"): Text 'another company' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Employer'
+
+2022-05-20 15:49:14 - [MESSAGE][PASSED] - Text 'another company' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Employer'
+
+2022-05-20 15:49:14 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Payment_"), "10000"): Text '10000' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Payment_'
+
+2022-05-20 15:49:15 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Payment_'
+
+2022-05-20 15:49:15 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Coapplicant/button_History_saveButton")): Object: 'Object Repository/Myworklist(lead status)/Coapplicant/button_History_saveButton' is clicked on
+
+2022-05-20 15:49:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Coapplicant/button_History_saveButton' is clicked on
+
+2022-05-20 15:49:15 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-05-20 15:49:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-05-20 15:49:16 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-05-20 15:49:17 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-05-20 15:49:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220520_154820/My Worklist/20220520_154820/1653076156837.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-20 15:48:27 - [TEST_SUITE][PASSED] - My Worklist: Test Cases/My Worklist - Coapplicant all fields]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

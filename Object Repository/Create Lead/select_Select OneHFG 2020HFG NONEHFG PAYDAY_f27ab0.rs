@@ -6,46 +6,50 @@
    <elementGuidId>6c7e80d2-c5b3-491b-b0ff-bea8258cf886</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>select.form-select.shadow-none.ng-untouched.ng-pristine.ng-invalid</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Program'])[1]/following::select[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@aria-label = 'Default select example' and @formcontrolname = 'programList' and @class = 'form-select shadow-none ng-untouched ng-pristine ng-invalid']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select.form-select.shadow-none.ng-untouched.ng-pristine.ng-invalid</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
       <value>Default select example</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>formcontrolname</name>
       <type>Main</type>
       <value>programList</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-select shadow-none ng-untouched ng-pristine ng-invalid</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Mailer Data,Chrome 100.0.4896.75,,,2022-05-19 16:45:48,2022-05-19 16:46:09,"21,102s",FAILED
+,,,,,,,
+Test Cases/Add Mailer Data,Chrome 100.0.4896.75,,,2022-05-19 16:45:49,2022-05-19 16:46:02,"13,384s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-19 16:45:50,2022-05-19 16:45:52,"2,241s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-19 16:45:52,2022-05-19 16:45:55,"2,881s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-05-19 16:45:55,2022-05-19 16:45:56,"0,925s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-05-19 16:45:56,2022-05-19 16:45:57,"0,871s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 100.0.4896.75,,,2022-05-19 16:45:57,2022-05-19 16:45:57,"0,468s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/strong_My Tools""))",Chrome 100.0.4896.75,,,2022-05-19 16:45:57,2022-05-19 16:45:58,"0,753s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/span_New Lead""))",Chrome 100.0.4896.75,,,2022-05-19 16:45:58,2022-05-19 16:45:58,"0,596s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create Lead/select_Select OneAdvertising-Stop My Payday_d308cb""), ""10"", true)",Chrome 100.0.4896.75,,,2022-05-19 16:45:58,2022-05-19 16:46:00,"1,670s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0""), ""1"", true)",Chrome 100.0.4896.75,,,2022-05-19 16:46:00,2022-05-19 16:46:01,"1,325s",PASSED
+"selectOptionByValue(findTestObject(""Create Lead/status select""), ""13"", true)",Chrome 100.0.4896.75,,,2022-05-19 16:46:01,2022-05-19 16:46:02,"1,074s",FAILED
+,,,,,,,
+Test Cases/Search Mailer Data,Chrome 100.0.4896.75,,,2022-05-19 16:46:03,2022-05-19 16:46:09,"6,853s",FAILED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-05-19 16:46:03,2022-05-19 16:46:04,"0,932s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 100.0.4896.75,,,2022-05-19 16:46:04,2022-05-19 16:46:07,"3,149s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 100.0.4896.75,,,2022-05-19 16:46:07,2022-05-19 16:46:08,"0,803s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 100.0.4896.75,,,2022-05-19 16:46:08,2022-05-19 16:46:09,"0,808s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 100.0.4896.75,,,2022-05-19 16:46:09,2022-05-19 16:46:09,"0,526s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/strong_My Tools""))",Chrome 100.0.4896.75,,,2022-05-19 16:46:09,2022-05-19 16:46:09,"0,127s",FAILED

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smtp Management" time="133.848" tests="3" failures="0" errors="0">
+   <testsuite name="Smtp Management" tests="3" failures="0" errors="0" time="133.848" skipped="0" timestamp="2022-06-09 00:23:14" hostname="juzcategui - juzcategui" id="Test Suites/Smtp Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220609_002311/Smtp Management/20220609_002311"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220609_002311/Smtp Management/20220609_002311/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220609_002311/Smtp Management/20220609_002311/1654748646728.png, /home/juzcategui/git/DIMS/Reports/20220609_002311/Smtp Management/20220609_002311/1654748686579.png, /home/juzcategui/git/DIMS/Reports/20220609_002311/Smtp Management/20220609_002311/1654748727899.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.61"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="eceeb5d429bb20db455b7033f2456927"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add Smtp" time="52.21" classname="Test Cases/Add Smtp" status="PASSED">
+         <system-out><![CDATA[2022-06-09 00:23:15 - [TEST_CASE][PASSED] - Test Cases/Add Smtp: Test Cases/Add Smtp
+
+2022-06-09 00:23:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-09 00:23:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-09 00:23:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-09 00:23:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-09 00:23:17 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-09 00:23:52 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-09 00:23:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-09 00:23:53 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-09 00:23:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-09 00:23:53 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-09 00:23:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick notes/Page_Debt IMS/button_Login")): Object: 'Object Repository/Quick notes/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-09 00:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick notes/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-09 00:23:56 - [TEST_STEP][PASSED] - click(findTestObject("Smtp Management/Add Smtp/strong_Office Tools")): Object: 'Object Repository/Smtp Management/Add Smtp/strong_Office Tools' is clicked on
+
+2022-06-09 00:23:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Smtp Management/Add Smtp/strong_Office Tools' is clicked on
+
+2022-06-09 00:23:57 - [TEST_STEP][PASSED] - click(findTestObject("Smtp Management/Add Smtp/span_Smtp Management")): Object: 'Object Repository/Smtp Management/Add Smtp/span_Smtp Management' is clicked on
+
+2022-06-09 00:23:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Smtp Management/Add Smtp/span_Smtp Management' is clicked on
+
+2022-06-09 00:23:58 - [TEST_STEP][PASSED] - click(findTestObject("Smtp Management/Add Smtp/button_Welcome, Julio Uzctegui_addButton")): Object: 'Object Repository/Smtp Management/Add Smtp/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-06-09 00:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Smtp Management/Add Smtp/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-06-09 00:23:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Smtp Management/Add Smtp/select_office"), "1", false): All options with value '1' are selected in object 'Object Repository/Smtp Management/Add Smtp/select_office' 
+
+2022-06-09 00:24:00 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Smtp Management/Add Smtp/select_office' 
+
+2022-06-09 00:24:00 - [TEST_STEP][PASSED] - setText(findTestObject("Smtp Management/Add Smtp/input_Smtp Server address"), serveraddress): Text 'Test aut' is set on object 'Object Repository/Smtp Management/Add Smtp/input_Smtp Server address'
+
+2022-06-09 00:24:01 - [MESSAGE][PASSED] - Text 'Test aut' is set on object 'Object Repository/Smtp Management/Add Smtp/input_Smtp Server address'
+
+2022-06-09 00:24:01 - [TEST_STEP][PASSED] - setText(findTestObject("Smtp Management/Add Smtp/input_Smtp Username"), smtpusername): Text 'Test user' is set on object 'Object Repository/Smtp Management/Add Smtp/input_Smtp Username'
+
+2022-06-09 00:24:01 - [MESSAGE][PASSED] - Text 'Test user' is set on object 'Object Repository/Smtp Management/Add Smtp/input_Smtp Username'
+
+2022-06-09 00:24:01 - [TEST_STEP][PASSED] - setText(findTestObject("Smtp Management/Add Smtp/input_Smtp Server Port"), smtpport): Text '8080' is set on object 'Object Repository/Smtp Management/Add Smtp/input_Smtp Server Port'
+
+2022-06-09 00:24:02 - [MESSAGE][PASSED] - Text '8080' is set on object 'Object Repository/Smtp Management/Add Smtp/input_Smtp Server Port'
+
+2022-06-09 00:24:02 - [TEST_STEP][PASSED] - setText(findTestObject("Smtp Management/Add Smtp/input_Smtp Password"), smtppass): Text '123456' is set on object 'Object Repository/Smtp Management/Add Smtp/input_Smtp Password'
+
+2022-06-09 00:24:03 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Smtp Management/Add Smtp/input_Smtp Password'
+
+2022-06-09 00:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Smtp Management/Add Smtp/button_Test")): Object: 'Object Repository/Smtp Management/Add Smtp/button_Test' is clicked on
+
+2022-06-09 00:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Smtp Management/Add Smtp/button_Test' is clicked on
+
+2022-06-09 00:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Smtp Management/Add Smtp/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Smtp Management/Add Smtp/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-06-09 00:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Smtp Management/Add Smtp/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-06-09 00:24:05 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-06-09 00:24:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 00:24:06 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-06-09 00:24:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-09 00:24:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220609_002311/Smtp Management/20220609_002311/1654748646728.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit Smtp" time="39.622" classname="Test Cases/Edit Smtp" status="PASSED">
+         <system-out><![CDATA[2022-06-09 00:24:07 - [TEST_CASE][PASSED] - Test Cases/Edit Smtp: Test Cases/Edit Smtp
+
+2022-06-09 00:24:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-09 00:24:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-09 00:24:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-09 00:24:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-09 00:24:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-09 00:24:08 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-09 00:24:30 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-09 00:24:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-09 00:24:31 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-09 00:24:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-09 00:24:32 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-09 00:24:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick notes/Page_Debt IMS/button_Login")): Object: 'Object Repository/Quick notes/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-09 00:24:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick notes/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-09 00:24:34 - [TEST_STEP][PASSED] - click(findTestObject("Smtp Management/Add Smtp/strong_Office Tools")): Object: 'Object Repository/Smtp Management/Add Smtp/strong_Office Tools' is clicked on
+
+2022-06-09 00:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Smtp Management/Add Smtp/strong_Office Tools' is clicked on
+
+2022-06-09 00:24:36 - [TEST_STEP][PASSED] - click(findTestObject("Smtp Management/Add Smtp/span_Smtp Management")): Object: 'Object Repository/Smtp Management/Add Smtp/span_Smtp Management' is clicked on
+
+2022-06-09 00:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Smtp Management/Add Smtp/span_Smtp Management' is clicked on
+
+2022-06-09 00:24:36 - [TEST_STEP][PASSED] - setText(findTestObject("Smtp Management/Edit and delete Smtp/input_Smtp search"), serveraddress): Text 'Test aut' is set on object 'Object Repository/Smtp Management/Edit and delete Smtp/input_Smtp search'
+
+2022-06-09 00:24:40 - [MESSAGE][PASSED] - Text 'Test aut' is set on object 'Object Repository/Smtp Management/Edit and delete Smtp/input_Smtp search'
+
+2022-06-09 00:24:40 - [TEST_STEP][PASSED] - click(findTestObject("Smtp Management/Edit and delete Smtp/button_Smtp Server Port_editButton")): Object: 'Object Repository/Smtp Management/Edit and delete Smtp/button_Smtp Server Port_editButton' is clicked on
+
+2022-06-09 00:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Smtp Management/Edit and delete Smtp/button_Smtp Server Port_editButton' is clicked on
+
+2022-06-09 00:24:41 - [TEST_STEP][PASSED] - setText(findTestObject("Smtp Management/Edit and delete Smtp/input_Smtp Server modify"), serveraddressmodify): Text 'Test aut modificado' is set on object 'Object Repository/Smtp Management/Edit and delete Smtp/input_Smtp Server modify'
+
+2022-06-09 00:24:42 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/Smtp Management/Edit and delete Smtp/input_Smtp Server modify'
+
+2022-06-09 00:24:42 - [TEST_STEP][PASSED] - click(findTestObject("Smtp Management/Add Smtp/button_Test")): Object: 'Object Repository/Smtp Management/Add Smtp/button_Test' is clicked on
+
+2022-06-09 00:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Smtp Management/Add Smtp/button_Test' is clicked on
+
+2022-06-09 00:24:43 - [TEST_STEP][PASSED] - click(findTestObject("Smtp Management/Edit and delete Smtp/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Smtp Management/Edit and delete Smtp/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-06-09 00:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Smtp Management/Edit and delete Smtp/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-06-09 00:24:44 - [TEST_STEP][PASSED] - click(findTestObject("Smtp Management/Edit and delete Smtp/button_Accept")): Object: 'Object Repository/Smtp Management/Edit and delete Smtp/button_Accept' is clicked on
+
+2022-06-09 00:24:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Smtp Management/Edit and delete Smtp/button_Accept' is clicked on
+
+2022-06-09 00:24:45 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-06-09 00:24:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 00:24:46 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-06-09 00:24:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-09 00:24:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220609_002311/Smtp Management/20220609_002311/1654748686579.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Smtp" time="41.246" classname="Test Cases/Delete Smtp" status="PASSED">
+         <system-out><![CDATA[2022-06-09 00:24:47 - [TEST_CASE][PASSED] - Test Cases/Delete Smtp: Test Cases/Delete Smtp
+
+2022-06-09 00:24:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-09 00:24:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-09 00:24:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-09 00:24:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-09 00:24:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-09 00:24:48 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-09 00:25:18 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-09 00:25:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-09 00:25:19 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-09 00:25:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-09 00:25:20 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-09 00:25:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick notes/Page_Debt IMS/button_Login")): Object: 'Object Repository/Quick notes/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-09 00:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick notes/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-09 00:25:22 - [TEST_STEP][PASSED] - click(findTestObject("Smtp Management/Add Smtp/strong_Office Tools")): Object: 'Object Repository/Smtp Management/Add Smtp/strong_Office Tools' is clicked on
+
+2022-06-09 00:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Smtp Management/Add Smtp/strong_Office Tools' is clicked on
+
+2022-06-09 00:25:23 - [TEST_STEP][PASSED] - click(findTestObject("Smtp Management/Add Smtp/span_Smtp Management")): Object: 'Object Repository/Smtp Management/Add Smtp/span_Smtp Management' is clicked on
+
+2022-06-09 00:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Smtp Management/Add Smtp/span_Smtp Management' is clicked on
+
+2022-06-09 00:25:24 - [TEST_STEP][PASSED] - setText(findTestObject("Smtp Management/Edit and delete Smtp/input_Smtp search"), serveraddressmodify): Text 'Test aut modificado' is set on object 'Object Repository/Smtp Management/Edit and delete Smtp/input_Smtp search'
+
+2022-06-09 00:25:25 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/Smtp Management/Edit and delete Smtp/input_Smtp search'
+
+2022-06-09 00:25:25 - [TEST_STEP][PASSED] - click(findTestObject("Smtp Management/Edit and delete Smtp/td_Smtp Server Port_to delete")): Object: 'Object Repository/Smtp Management/Edit and delete Smtp/td_Smtp Server Port_to delete' is clicked on
+
+2022-06-09 00:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Smtp Management/Edit and delete Smtp/td_Smtp Server Port_to delete' is clicked on
+
+2022-06-09 00:25:25 - [TEST_STEP][PASSED] - click(findTestObject("Smtp Management/Edit and delete Smtp/button_Welcome, Julio Uzctegui_deleteButton")): Object: 'Object Repository/Smtp Management/Edit and delete Smtp/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-06-09 00:25:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Smtp Management/Edit and delete Smtp/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-06-09 00:25:26 - [TEST_STEP][PASSED] - click(findTestObject("Smtp Management/Edit and delete Smtp/button_Accept - delete")): Object: 'Object Repository/Smtp Management/Edit and delete Smtp/button_Accept - delete' is clicked on
+
+2022-06-09 00:25:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Smtp Management/Edit and delete Smtp/button_Accept - delete' is clicked on
+
+2022-06-09 00:25:26 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-06-09 00:25:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 00:25:27 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-06-09 00:25:28 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-09 00:25:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220609_002311/Smtp Management/20220609_002311/1654748727899.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-09 00:23:14 - [TEST_SUITE][PASSED] - Smtp Management: Test Cases/Delete Smtp]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
