@@ -33,19 +33,20 @@ WebUI.click(findTestObject('Object Repository/Quick notes/Page_Debt IMS/strong_M
 
 WebUI.click(findTestObject('External Link/Add external link/span_External Links'))
 
-WebUI.click(findTestObject('External Link/Add external link/button_Welcome, Julio Uzctegui_addButton'))
+WebUI.setText(findTestObject('External Link/Edit and delete external link/input_External Link_p-inputtext p-component p-element'), 
+    linkname)
 
-WebUI.selectOptionByValue(findTestObject('External Link/Add external link/select_office'), '1', false)
+WebUI.click(findTestObject('External Link/Edit and delete external link/button_URL_editButton'))
 
 WebUI.selectOptionByValue(findTestObject('External Link/Add external link/select_Program'), '1', false)
 
-WebUI.setText(findTestObject('External Link/Add external link/input_Link Name'), linkname)
+WebUI.setText(findTestObject('External Link/Edit and delete external link/input_Link Name_to modify'), linknamemodify)
 
-WebUI.setText(findTestObject('External Link/Add external link/input_URL'), url)
+WebUI.selectOptionByValue(findTestObject('External Link/Edit and delete external link/select_YesNo'), 'true', false)
 
-WebUI.click(findTestObject('External Link/Add external link/button_Welcome, Julio Uzctegui_saveButton'))
+WebUI.click(findTestObject('External Link/Edit and delete external link/button_Welcome, Julio Uzctegui_saveButton'))
 
-WebUI.click(findTestObject('External Link/Add external link/span_External Links'))
+WebUI.click(findTestObject('External Link/Edit and delete external link/button_Accept - edit'))
 
 WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 

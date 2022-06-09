@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+External Link,Chrome 102.0.5005.61,,,2022-06-09 15:38:04,2022-06-09 15:38:32,"28,200s",FAILED
+,,,,,,,
+Test Cases/Delete External Link,Chrome 102.0.5005.61,,,2022-06-09 15:38:04,2022-06-09 15:38:32,"27,530s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-09 15:38:05,2022-06-09 15:38:07,"2,065s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-09 15:38:07,2022-06-09 15:38:23,"15,851s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-09 15:38:23,2022-06-09 15:38:24,"0,818s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.61,,,2022-06-09 15:38:24,2022-06-09 15:38:24,"0,783s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.61,,,2022-06-09 15:38:24,2022-06-09 15:38:27,"2,573s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 102.0.5005.61,,,2022-06-09 15:38:27,2022-06-09 15:38:28,"0,702s",PASSED
+"click(findTestObject(""External Link/Add external link/span_External Links""))",Chrome 102.0.5005.61,,,2022-06-09 15:38:28,2022-06-09 15:38:28,"0,506s",PASSED
+"setText(findTestObject(""External Link/Edit and delete external link/input_External Link_p-inputtext p-component p-element""), linknamemodify)",Chrome 102.0.5005.61,,,2022-06-09 15:38:28,2022-06-09 15:38:29,"1,115s",PASSED
+"click(findTestObject(""External Link/Edit and delete external link/td_URL_tdEditButton""))",Chrome 102.0.5005.61,,,2022-06-09 15:38:29,2022-06-09 15:38:30,"0,889s",PASSED
+"click(findTestObject(""External Link/Edit and delete external link/button_Welcome, Julio Uzctegui_deleteButton""))",Chrome 102.0.5005.61,,,2022-06-09 15:38:30,2022-06-09 15:38:31,"0,659s",PASSED
+"click(findTestObject(""External Link/Edit and delete external link/button_Accept - delete""))",Chrome 102.0.5005.61,,,2022-06-09 15:38:31,2022-06-09 15:38:32,"0,979s",FAILED

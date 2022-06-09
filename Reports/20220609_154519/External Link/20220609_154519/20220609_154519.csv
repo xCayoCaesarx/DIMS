@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+External Link,Chrome 102.0.5005.61,,,2022-06-09 15:45:23,2022-06-09 15:46:47,"1m - 24,649s",PASSED
+,,,,,,,
+Test Cases/Add External Link,Chrome 102.0.5005.61,,,2022-06-09 15:45:23,2022-06-09 15:45:52,"28,754s",PASSED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-09 15:45:24,2022-06-09 15:45:26,"1,967s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-09 15:45:26,2022-06-09 15:45:42,"15,742s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-09 15:45:42,2022-06-09 15:45:42,"0,842s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.61,,,2022-06-09 15:45:42,2022-06-09 15:45:43,"0,751s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.61,,,2022-06-09 15:45:43,2022-06-09 15:45:44,"0,513s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 102.0.5005.61,,,2022-06-09 15:45:44,2022-06-09 15:45:45,"0,788s",PASSED
+"click(findTestObject(""External Link/Add external link/span_External Links""))",Chrome 102.0.5005.61,,,2022-06-09 15:45:45,2022-06-09 15:45:45,"0,520s",PASSED
+"click(findTestObject(""External Link/Add external link/button_Welcome, Julio Uzctegui_addButton""))",Chrome 102.0.5005.61,,,2022-06-09 15:45:45,2022-06-09 15:45:46,"0,746s",PASSED
+"selectOptionByValue(findTestObject(""External Link/Add external link/select_office""), ""1"", false)",Chrome 102.0.5005.61,,,2022-06-09 15:45:46,2022-06-09 15:45:47,"0,964s",PASSED
+"selectOptionByValue(findTestObject(""External Link/Add external link/select_Program""), ""1"", false)",Chrome 102.0.5005.61,,,2022-06-09 15:45:47,2022-06-09 15:45:47,"0,664s",PASSED
+"setText(findTestObject(""External Link/Add external link/input_Link Name""), linkname)",Chrome 102.0.5005.61,,,2022-06-09 15:45:47,2022-06-09 15:45:48,"0,774s",PASSED
+"setText(findTestObject(""External Link/Add external link/input_URL""), url)",Chrome 102.0.5005.61,,,2022-06-09 15:45:48,2022-06-09 15:45:49,"0,793s",PASSED
+"click(findTestObject(""External Link/Add external link/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 102.0.5005.61,,,2022-06-09 15:45:49,2022-06-09 15:45:49,"0,386s",PASSED
+"click(findTestObject(""External Link/Add external link/span_External Links""))",Chrome 102.0.5005.61,,,2022-06-09 15:45:49,2022-06-09 15:45:50,"0,813s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 102.0.5005.61,,,2022-06-09 15:45:50,2022-06-09 15:45:51,"1,035s",PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.61,,,2022-06-09 15:45:51,2022-06-09 15:45:52,"0,876s",PASSED
+,,,,,,,
+Test Cases/Edit External Link,Chrome 102.0.5005.61,,,2022-06-09 15:45:52,2022-06-09 15:46:19,"27,114s",PASSED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-09 15:45:52,2022-06-09 15:45:53,"1,004s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-09 15:45:53,2022-06-09 15:46:09,"15,421s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-09 15:46:09,2022-06-09 15:46:10,"0,742s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.61,,,2022-06-09 15:46:10,2022-06-09 15:46:10,"0,799s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.61,,,2022-06-09 15:46:10,2022-06-09 15:46:11,"0,402s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 102.0.5005.61,,,2022-06-09 15:46:11,2022-06-09 15:46:12,"0,785s",PASSED
+"click(findTestObject(""External Link/Add external link/span_External Links""))",Chrome 102.0.5005.61,,,2022-06-09 15:46:12,2022-06-09 15:46:12,"0,510s",PASSED
+"setText(findTestObject(""External Link/Edit and delete external link/input_External Link_p-inputtext p-component p-element""), linkname)",Chrome 102.0.5005.61,,,2022-06-09 15:46:12,2022-06-09 15:46:13,"1,052s",PASSED
+"click(findTestObject(""External Link/Edit and delete external link/button_URL_editButton""))",Chrome 102.0.5005.61,,,2022-06-09 15:46:13,2022-06-09 15:46:14,"0,858s",PASSED
+"selectOptionByValue(findTestObject(""External Link/Add external link/select_Program""), ""1"", false)",Chrome 102.0.5005.61,,,2022-06-09 15:46:14,2022-06-09 15:46:15,"0,919s",PASSED
+"setText(findTestObject(""External Link/Edit and delete external link/input_Link Name_to modify""), linknamemodify)",Chrome 102.0.5005.61,,,2022-06-09 15:46:15,2022-06-09 15:46:16,"0,879s",PASSED
+"selectOptionByValue(findTestObject(""External Link/Edit and delete external link/select_YesNo""), ""true"", false)",Chrome 102.0.5005.61,,,2022-06-09 15:46:16,2022-06-09 15:46:16,"0,647s",PASSED
+"click(findTestObject(""External Link/Edit and delete external link/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 102.0.5005.61,,,2022-06-09 15:46:16,2022-06-09 15:46:17,"0,390s",PASSED
+"click(findTestObject(""External Link/Edit and delete external link/button_Accept - edit""))",Chrome 102.0.5005.61,,,2022-06-09 15:46:17,2022-06-09 15:46:18,"0,643s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 102.0.5005.61,,,2022-06-09 15:46:18,2022-06-09 15:46:19,"1,006s",PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.61,,,2022-06-09 15:46:19,2022-06-09 15:46:19,"0,730s",PASSED
+,,,,,,,
+Test Cases/Delete External Link,Chrome 102.0.5005.61,,,2022-06-09 15:46:19,2022-06-09 15:46:47,"28,086s",PASSED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-09 15:46:20,2022-06-09 15:46:21,"0,907s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.61,,,2022-06-09 15:46:21,2022-06-09 15:46:40,"19,381s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.61,,,2022-06-09 15:46:40,2022-06-09 15:46:41,"0,680s",PASSED
+"setText(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.61,,,2022-06-09 15:46:41,2022-06-09 15:46:41,"0,743s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.61,,,2022-06-09 15:46:41,2022-06-09 15:46:42,"0,406s",PASSED
+"click(findTestObject(""Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 102.0.5005.61,,,2022-06-09 15:46:42,2022-06-09 15:46:43,"0,804s",PASSED
+"click(findTestObject(""External Link/Add external link/span_External Links""))",Chrome 102.0.5005.61,,,2022-06-09 15:46:43,2022-06-09 15:46:43,"0,519s",PASSED
+"setText(findTestObject(""External Link/Edit and delete external link/input_External Link_p-inputtext p-component p-element""), linknamemodify)",Chrome 102.0.5005.61,,,2022-06-09 15:46:43,2022-06-09 15:46:44,"1,094s",PASSED
+"click(findTestObject(""External Link/Edit and delete external link/td_URL_tdEditButton""))",Chrome 102.0.5005.61,,,2022-06-09 15:46:44,2022-06-09 15:46:45,"0,393s",PASSED
+"click(findTestObject(""External Link/Edit and delete external link/button_Welcome, Julio Uzctegui_deleteButton""))",Chrome 102.0.5005.61,,,2022-06-09 15:46:45,2022-06-09 15:46:45,"0,478s",PASSED
+"click(findTestObject(""External Link/Edit and delete external link/button_Accept - delete""))",Chrome 102.0.5005.61,,,2022-06-09 15:46:45,2022-06-09 15:46:46,"0,659s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 102.0.5005.61,,,2022-06-09 15:46:46,2022-06-09 15:46:47,"1,005s",PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.61,,,2022-06-09 15:46:47,2022-06-09 15:46:47,"0,654s",PASSED

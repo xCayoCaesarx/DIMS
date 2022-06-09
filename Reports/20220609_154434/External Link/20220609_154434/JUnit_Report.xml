@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="External Link" time="28.91" tests="1" failures="0" errors="0">
+   <testsuite name="External Link" tests="1" failures="0" errors="0" time="28.91" skipped="0" timestamp="2022-06-09 15:44:38" hostname="juzcategui - juzcategui" id="Test Suites/External Link">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220609_154434/External Link/20220609_154434"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220609_154434/External Link/20220609_154434/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220609_154434/External Link/20220609_154434/1654803906764.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.61"/>
+         <property name="hostAddress" value="192.168.12.66"/>
+         <property name="sessionId" value="4689fd0af5ae313e9f1d5586c79acbfe"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Delete External Link" time="28.259" classname="Test Cases/Delete External Link" status="PASSED">
+         <system-out><![CDATA[2022-06-09 15:44:39 - [TEST_CASE][PASSED] - Test Cases/Delete External Link: Test Cases/Delete External Link
+
+2022-06-09 15:44:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-09 15:44:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-09 15:44:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-09 15:44:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-09 15:44:41 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-09 15:44:57 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-09 15:44:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-09 15:44:58 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-09 15:44:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-09 15:44:58 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-09 15:44:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick notes/Page_Debt IMS/button_Login")): Object: 'Object Repository/Quick notes/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-09 15:45:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick notes/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-09 15:45:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools")): Object: 'Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-06-09 15:45:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-06-09 15:45:02 - [TEST_STEP][PASSED] - click(findTestObject("External Link/Add external link/span_External Links")): Object: 'Object Repository/External Link/Add external link/span_External Links' is clicked on
+
+2022-06-09 15:45:02 - [MESSAGE][PASSED] - Object: 'Object Repository/External Link/Add external link/span_External Links' is clicked on
+
+2022-06-09 15:45:02 - [TEST_STEP][PASSED] - setText(findTestObject("External Link/Edit and delete external link/input_External Link_p-inputtext p-component p-element"), linknamemodify): Text 'Test aut modificado' is set on object 'Object Repository/External Link/Edit and delete external link/input_External Link_p-inputtext p-component p-element'
+
+2022-06-09 15:45:04 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/External Link/Edit and delete external link/input_External Link_p-inputtext p-component p-element'
+
+2022-06-09 15:45:04 - [TEST_STEP][PASSED] - click(findTestObject("External Link/Edit and delete external link/td_URL_tdEditButton")): Object: 'Object Repository/External Link/Edit and delete external link/td_URL_tdEditButton' is clicked on
+
+2022-06-09 15:45:04 - [MESSAGE][PASSED] - Object: 'Object Repository/External Link/Edit and delete external link/td_URL_tdEditButton' is clicked on
+
+2022-06-09 15:45:04 - [TEST_STEP][PASSED] - click(findTestObject("External Link/Edit and delete external link/button_Welcome, Julio Uzctegui_deleteButton")): Object: 'Object Repository/External Link/Edit and delete external link/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-06-09 15:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/External Link/Edit and delete external link/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-06-09 15:45:05 - [TEST_STEP][PASSED] - click(findTestObject("External Link/Edit and delete external link/button_Accept - delete")): Object: 'Object Repository/External Link/Edit and delete external link/button_Accept - delete' is clicked on
+
+2022-06-09 15:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/External Link/Edit and delete external link/button_Accept - delete' is clicked on
+
+2022-06-09 15:45:05 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-06-09 15:45:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 15:45:06 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-06-09 15:45:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-09 15:45:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220609_154434/External Link/20220609_154434/1654803906764.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-09 15:44:38 - [TEST_SUITE][PASSED] - External Link: Test Cases/Delete External Link]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

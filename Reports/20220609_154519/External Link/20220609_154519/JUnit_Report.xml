@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="External Link" time="84.649" tests="3" failures="0" errors="0">
+   <testsuite name="External Link" tests="3" failures="0" errors="0" time="84.649" skipped="0" timestamp="2022-06-09 15:45:23" hostname="juzcategui - juzcategui" id="Test Suites/External Link">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220609_154519/External Link/20220609_154519"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220609_154519/External Link/20220609_154519/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220609_154519/External Link/20220609_154519/1654803951738.png, /home/juzcategui/git/DIMS/Reports/20220609_154519/External Link/20220609_154519/1654803979041.png, /home/juzcategui/git/DIMS/Reports/20220609_154519/External Link/20220609_154519/1654804007254.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.61"/>
+         <property name="hostAddress" value="192.168.12.66"/>
+         <property name="sessionId" value="b37a42d7011ee9281afb196011499593"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add External Link" time="28.754" classname="Test Cases/Add External Link" status="PASSED">
+         <system-out><![CDATA[2022-06-09 15:45:23 - [TEST_CASE][PASSED] - Test Cases/Add External Link: Test Cases/Add External Link
+
+2022-06-09 15:45:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-09 15:45:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-09 15:45:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-09 15:45:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-09 15:45:26 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-09 15:45:42 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-09 15:45:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-09 15:45:42 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-09 15:45:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-09 15:45:43 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-09 15:45:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick notes/Page_Debt IMS/button_Login")): Object: 'Object Repository/Quick notes/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-09 15:45:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick notes/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-09 15:45:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools")): Object: 'Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-06-09 15:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-06-09 15:45:45 - [TEST_STEP][PASSED] - click(findTestObject("External Link/Add external link/span_External Links")): Object: 'Object Repository/External Link/Add external link/span_External Links' is clicked on
+
+2022-06-09 15:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/External Link/Add external link/span_External Links' is clicked on
+
+2022-06-09 15:45:45 - [TEST_STEP][PASSED] - click(findTestObject("External Link/Add external link/button_Welcome, Julio Uzctegui_addButton")): Object: 'Object Repository/External Link/Add external link/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-06-09 15:45:46 - [MESSAGE][PASSED] - Object: 'Object Repository/External Link/Add external link/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-06-09 15:45:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("External Link/Add external link/select_office"), "1", false): All options with value '1' are selected in object 'Object Repository/External Link/Add external link/select_office' 
+
+2022-06-09 15:45:47 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/External Link/Add external link/select_office' 
+
+2022-06-09 15:45:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("External Link/Add external link/select_Program"), "1", false): All options with value '1' are selected in object 'Object Repository/External Link/Add external link/select_Program' 
+
+2022-06-09 15:45:47 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/External Link/Add external link/select_Program' 
+
+2022-06-09 15:45:47 - [TEST_STEP][PASSED] - setText(findTestObject("External Link/Add external link/input_Link Name"), linkname): Text 'Test aut' is set on object 'Object Repository/External Link/Add external link/input_Link Name'
+
+2022-06-09 15:45:48 - [MESSAGE][PASSED] - Text 'Test aut' is set on object 'Object Repository/External Link/Add external link/input_Link Name'
+
+2022-06-09 15:45:48 - [TEST_STEP][PASSED] - setText(findTestObject("External Link/Add external link/input_URL"), url): Text 'www.google.com' is set on object 'Object Repository/External Link/Add external link/input_URL'
+
+2022-06-09 15:45:49 - [MESSAGE][PASSED] - Text 'www.google.com' is set on object 'Object Repository/External Link/Add external link/input_URL'
+
+2022-06-09 15:45:49 - [TEST_STEP][PASSED] - click(findTestObject("External Link/Add external link/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/External Link/Add external link/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-06-09 15:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/External Link/Add external link/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-06-09 15:45:49 - [TEST_STEP][PASSED] - click(findTestObject("External Link/Add external link/span_External Links")): Object: 'Object Repository/External Link/Add external link/span_External Links' is clicked on
+
+2022-06-09 15:45:50 - [MESSAGE][PASSED] - Object: 'Object Repository/External Link/Add external link/span_External Links' is clicked on
+
+2022-06-09 15:45:50 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-06-09 15:45:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 15:45:51 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-06-09 15:45:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-09 15:45:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220609_154519/External Link/20220609_154519/1654803951738.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit External Link" time="27.114" classname="Test Cases/Edit External Link" status="PASSED">
+         <system-out><![CDATA[2022-06-09 15:45:52 - [TEST_CASE][PASSED] - Test Cases/Edit External Link: Test Cases/Edit External Link
+
+2022-06-09 15:45:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-09 15:45:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-09 15:45:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-09 15:45:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-09 15:45:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-09 15:45:53 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-09 15:46:09 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-09 15:46:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-09 15:46:10 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-09 15:46:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-09 15:46:10 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-09 15:46:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick notes/Page_Debt IMS/button_Login")): Object: 'Object Repository/Quick notes/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-09 15:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick notes/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-09 15:46:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools")): Object: 'Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-06-09 15:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-06-09 15:46:12 - [TEST_STEP][PASSED] - click(findTestObject("External Link/Add external link/span_External Links")): Object: 'Object Repository/External Link/Add external link/span_External Links' is clicked on
+
+2022-06-09 15:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/External Link/Add external link/span_External Links' is clicked on
+
+2022-06-09 15:46:12 - [TEST_STEP][PASSED] - setText(findTestObject("External Link/Edit and delete external link/input_External Link_p-inputtext p-component p-element"), linkname): Text 'Test aut' is set on object 'Object Repository/External Link/Edit and delete external link/input_External Link_p-inputtext p-component p-element'
+
+2022-06-09 15:46:13 - [MESSAGE][PASSED] - Text 'Test aut' is set on object 'Object Repository/External Link/Edit and delete external link/input_External Link_p-inputtext p-component p-element'
+
+2022-06-09 15:46:13 - [TEST_STEP][PASSED] - click(findTestObject("External Link/Edit and delete external link/button_URL_editButton")): Object: 'Object Repository/External Link/Edit and delete external link/button_URL_editButton' is clicked on
+
+2022-06-09 15:46:14 - [MESSAGE][PASSED] - Object: 'Object Repository/External Link/Edit and delete external link/button_URL_editButton' is clicked on
+
+2022-06-09 15:46:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("External Link/Add external link/select_Program"), "1", false): All options with value '1' are selected in object 'Object Repository/External Link/Add external link/select_Program' 
+
+2022-06-09 15:46:15 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/External Link/Add external link/select_Program' 
+
+2022-06-09 15:46:15 - [TEST_STEP][PASSED] - setText(findTestObject("External Link/Edit and delete external link/input_Link Name_to modify"), linknamemodify): Text 'Test aut modificado' is set on object 'Object Repository/External Link/Edit and delete external link/input_Link Name_to modify'
+
+2022-06-09 15:46:16 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/External Link/Edit and delete external link/input_Link Name_to modify'
+
+2022-06-09 15:46:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("External Link/Edit and delete external link/select_YesNo"), "true", false): All options with value 'true' are selected in object 'Object Repository/External Link/Edit and delete external link/select_YesNo' 
+
+2022-06-09 15:46:16 - [MESSAGE][PASSED] - All options with value 'true' are selected in object 'Object Repository/External Link/Edit and delete external link/select_YesNo' 
+
+2022-06-09 15:46:16 - [TEST_STEP][PASSED] - click(findTestObject("External Link/Edit and delete external link/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/External Link/Edit and delete external link/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-06-09 15:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/External Link/Edit and delete external link/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-06-09 15:46:17 - [TEST_STEP][PASSED] - click(findTestObject("External Link/Edit and delete external link/button_Accept - edit")): Object: 'Object Repository/External Link/Edit and delete external link/button_Accept - edit' is clicked on
+
+2022-06-09 15:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/External Link/Edit and delete external link/button_Accept - edit' is clicked on
+
+2022-06-09 15:46:18 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-06-09 15:46:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 15:46:19 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-06-09 15:46:19 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-09 15:46:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220609_154519/External Link/20220609_154519/1654803979041.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete External Link" time="28.086" classname="Test Cases/Delete External Link" status="PASSED">
+         <system-out><![CDATA[2022-06-09 15:46:19 - [TEST_CASE][PASSED] - Test Cases/Delete External Link: Test Cases/Delete External Link
+
+2022-06-09 15:46:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-09 15:46:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-06-09 15:46:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-09 15:46:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-09 15:46:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-09 15:46:21 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-09 15:46:40 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-09 15:46:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-09 15:46:41 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-09 15:46:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-09 15:46:41 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Quick notes/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-09 15:46:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick notes/Page_Debt IMS/button_Login")): Object: 'Object Repository/Quick notes/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-09 15:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick notes/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-09 15:46:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools")): Object: 'Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-06-09 15:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Quick notes/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-06-09 15:46:43 - [TEST_STEP][PASSED] - click(findTestObject("External Link/Add external link/span_External Links")): Object: 'Object Repository/External Link/Add external link/span_External Links' is clicked on
+
+2022-06-09 15:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/External Link/Add external link/span_External Links' is clicked on
+
+2022-06-09 15:46:43 - [TEST_STEP][PASSED] - setText(findTestObject("External Link/Edit and delete external link/input_External Link_p-inputtext p-component p-element"), linknamemodify): Text 'Test aut modificado' is set on object 'Object Repository/External Link/Edit and delete external link/input_External Link_p-inputtext p-component p-element'
+
+2022-06-09 15:46:44 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/External Link/Edit and delete external link/input_External Link_p-inputtext p-component p-element'
+
+2022-06-09 15:46:44 - [TEST_STEP][PASSED] - click(findTestObject("External Link/Edit and delete external link/td_URL_tdEditButton")): Object: 'Object Repository/External Link/Edit and delete external link/td_URL_tdEditButton' is clicked on
+
+2022-06-09 15:46:45 - [MESSAGE][PASSED] - Object: 'Object Repository/External Link/Edit and delete external link/td_URL_tdEditButton' is clicked on
+
+2022-06-09 15:46:45 - [TEST_STEP][PASSED] - click(findTestObject("External Link/Edit and delete external link/button_Welcome, Julio Uzctegui_deleteButton")): Object: 'Object Repository/External Link/Edit and delete external link/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-06-09 15:46:45 - [MESSAGE][PASSED] - Object: 'Object Repository/External Link/Edit and delete external link/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-06-09 15:46:45 - [TEST_STEP][PASSED] - click(findTestObject("External Link/Edit and delete external link/button_Accept - delete")): Object: 'Object Repository/External Link/Edit and delete external link/button_Accept - delete' is clicked on
+
+2022-06-09 15:46:46 - [MESSAGE][PASSED] - Object: 'Object Repository/External Link/Edit and delete external link/button_Accept - delete' is clicked on
+
+2022-06-09 15:46:46 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-06-09 15:46:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-09 15:46:47 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-06-09 15:46:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-09 15:46:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220609_154519/External Link/20220609_154519/1654804007254.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-09 15:45:23 - [TEST_SUITE][PASSED] - External Link: Test Cases/Delete External Link]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
