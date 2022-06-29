@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Worklist Rules,Chrome 102.0.5005.115,,,2022-06-23 10:24:48,2022-06-23 10:25:27,"39,007s",FAILED
+,,,,,,,
+Test Cases/Edit Worklist Rule,Chrome 102.0.5005.115,,,2022-06-23 10:24:49,2022-06-23 10:25:24,"35,698s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-06-23 10:24:49,2022-06-23 10:24:52,"2,247s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-06-23 10:24:52,2022-06-23 10:25:16,"23,909s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-06-23 10:25:16,2022-06-23 10:25:16,"0,803s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-06-23 10:25:16,2022-06-23 10:25:17,"0,757s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-06-23 10:25:17,2022-06-23 10:25:20,"2,576s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 102.0.5005.115,,,2022-06-23 10:25:20,2022-06-23 10:25:24,"4,811s",FAILED
+,,,,,,,
+Test Cases/Delete Worklist Rule,Chrome 102.0.5005.115,,,2022-06-23 10:25:25,2022-06-23 10:25:27,"2,706s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-06-23 10:25:25,2022-06-23 10:25:26,"1,168s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-06-23 10:25:26,2022-06-23 10:25:27,"1,214s",FAILED

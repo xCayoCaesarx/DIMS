@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Worklist Rules,Chrome 102.0.5005.115,,,2022-06-22 14:30:39,2022-06-22 14:32:43,"2m - 4,667s",FAILED
+,,,,,,,
+Test Cases/Edit Worklist Rule,Chrome 102.0.5005.115,,,2022-06-22 14:30:39,2022-06-22 14:31:31,"51,795s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-06-22 14:30:40,2022-06-22 14:30:42,"2,095s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-06-22 14:30:42,2022-06-22 14:31:19,"37,034s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-06-22 14:31:19,2022-06-22 14:31:20,"0,810s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-06-22 14:31:20,2022-06-22 14:31:20,"0,745s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-06-22 14:31:20,2022-06-22 14:31:23,"2,563s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 102.0.5005.115,,,2022-06-22 14:31:23,2022-06-22 14:31:24,"0,764s",PASSED
+"click(findTestObject(""Worklist Rule/Add worklist Rule/span_Worklist Rules""))",Chrome 102.0.5005.115,,,2022-06-22 14:31:24,2022-06-22 14:31:24,"0,528s",PASSED
+"setText(findTestObject(""Worklist Rule/Edit Worklist Rule/input_Worklist Rules_search""), worklistrule)",Chrome 102.0.5005.115,,,2022-06-22 14:31:24,2022-06-22 14:31:25,"1,156s",PASSED
+"click(findTestObject(""Worklist Rule/Edit Worklist Rule/button_Office_editButton""))",Chrome 102.0.5005.115,,,2022-06-22 14:31:25,2022-06-22 14:31:26,"0,526s",PASSED
+"setText(findTestObject(""Worklist Rule/Edit Worklist Rule/input_Worklist Rule Name_modify""), worklistrulemodify)",Chrome 102.0.5005.115,,,2022-06-22 14:31:26,2022-06-22 14:31:29,"3,050s",PASSED
+"click(findTestObject(""Worklist Rule/Add worklist Rule/span_Phone Number_p-inputswitch-slider""))",Chrome 102.0.5005.115,,,2022-06-22 14:31:29,2022-06-22 14:31:29,"0,376s",PASSED
+"click(findTestObject(""Worklist Rule/Add worklist Rule/span_Program_p-inputswitch-slider""))",Chrome 102.0.5005.115,,,2022-06-22 14:31:29,2022-06-22 14:31:30,"0,409s",PASSED
+"click(findTestObject(""Worklist Rule/Edit Worklist Rule/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 102.0.5005.115,,,2022-06-22 14:31:30,2022-06-22 14:31:30,"0,407s",PASSED
+"click(findTestObject(""Worklist Rule/Edit Worklist Rule/button_Accept""))",Chrome 102.0.5005.115,,,2022-06-22 14:31:30,2022-06-22 14:31:31,"0,841s",FAILED
+,,,,,,,
+Test Cases/Delete Worklist Rule,Chrome 102.0.5005.115,,,2022-06-22 14:31:31,2022-06-22 14:32:43,"1m - 12,298s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-06-22 14:31:31,2022-06-22 14:31:32,"0,974s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-06-22 14:31:32,2022-06-22 14:32:05,"33,065s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-06-22 14:32:05,2022-06-22 14:32:06,"0,692s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-06-22 14:32:06,2022-06-22 14:32:07,"0,715s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-06-22 14:32:07,2022-06-22 14:32:09,"2,462s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 102.0.5005.115,,,2022-06-22 14:32:09,2022-06-22 14:32:10,"0,988s",PASSED
+"click(findTestObject(""Worklist Rule/Add worklist Rule/span_Worklist Rules""))",Chrome 102.0.5005.115,,,2022-06-22 14:32:10,2022-06-22 14:32:11,"0,518s",PASSED
+"setText(findTestObject(""Worklist Rule/Edit Worklist Rule/input_Worklist Rules_search""), worklistrulemodify)",Chrome 102.0.5005.115,,,2022-06-22 14:32:11,2022-06-22 14:32:12,"1,113s",PASSED
+"click(findTestObject(""Worklist Rule/Delete Worlist Rule/td_Office_tdEditButton""))",Chrome 102.0.5005.115,,,2022-06-22 14:32:12,2022-06-22 14:32:43,"31,418s",FAILED

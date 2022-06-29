@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Worklist Rules,Chrome 102.0.5005.115,,,2022-06-28 23:13:20,2022-06-28 23:14:05,"44,903s",PASSED
+,,,,,,,
+Test Cases/Delete Worklist Rule,Chrome 102.0.5005.115,,,2022-06-28 23:13:21,2022-06-28 23:14:05,"44,393s",PASSED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-06-28 23:13:21,2022-06-28 23:13:23,"1,770s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-06-28 23:13:23,2022-06-28 23:13:55,"32,430s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-06-28 23:13:55,2022-06-28 23:13:56,"0,827s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-06-28 23:13:56,2022-06-28 23:13:57,"0,696s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-06-28 23:13:57,2022-06-28 23:13:59,"2,530s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 102.0.5005.115,,,2022-06-28 23:13:59,2022-06-28 23:14:00,"0,764s",PASSED
+"click(findTestObject(""Worklist Rule/Add worklist Rule/span_Worklist Rules""))",Chrome 102.0.5005.115,,,2022-06-28 23:14:00,2022-06-28 23:14:01,"0,486s",PASSED
+"setText(findTestObject(""Worklist Rule/Edit Worklist Rule/input_Worklist Rules_search""), worklistrulemodify)",Chrome 102.0.5005.115,,,2022-06-28 23:14:01,2022-06-28 23:14:02,"1,102s",PASSED
+"click(findTestObject(""Worklist Rule/Delete Worlist Rule/td_Office_tdEditButton""))",Chrome 102.0.5005.115,,,2022-06-28 23:14:02,2022-06-28 23:14:02,"0,386s",PASSED
+"click(findTestObject(""Worklist Rule/Delete Worlist Rule/button_Welcome, Julio Uzctegui_deleteButton""), STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-06-28 23:14:02,2022-06-28 23:14:03,"0,513s",PASSED
+"click(findTestObject(""Worklist Rule/Delete Worlist Rule/button_Accept""))",Chrome 102.0.5005.115,,,2022-06-28 23:14:03,2022-06-28 23:14:03,"0,686s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-06-28 23:14:03,2022-06-28 23:14:04,"1,027s",PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.115,,,2022-06-28 23:14:04,2022-06-28 23:14:05,"0,716s",PASSED

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Worklist Rules,Chrome 102.0.5005.115,,,2022-06-28 22:58:18,2022-06-28 22:59:13,"55,526s",FAILED
+,,,,,,,
+Test Cases/Delete Worklist Rule,Chrome 102.0.5005.115,,,2022-06-28 22:58:18,2022-06-28 22:59:13,"55,039s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-06-28 22:58:19,2022-06-28 22:58:20,"1,817s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-06-28 22:58:20,2022-06-28 22:59:05,"44,804s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-06-28 22:59:05,2022-06-28 22:59:06,"0,803s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-06-28 22:59:06,2022-06-28 22:59:07,"0,719s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-06-28 22:59:07,2022-06-28 22:59:09,"2,556s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 102.0.5005.115,,,2022-06-28 22:59:09,2022-06-28 22:59:10,"0,775s",PASSED
+"click(findTestObject(""Worklist Rule/Add worklist Rule/span_Worklist Rules""))",Chrome 102.0.5005.115,,,2022-06-28 22:59:10,2022-06-28 22:59:11,"0,505s",PASSED
+"setText(findTestObject(""Worklist Rule/Edit Worklist Rule/input_Worklist Rules_search""), worklistrulemodify)",Chrome 102.0.5005.115,,,2022-06-28 22:59:11,2022-06-28 22:59:12,"1,245s",PASSED
+"click(findTestObject(""Worklist Rule/Delete Worlist Rule/td_Office_tdEditButton""))",Chrome 102.0.5005.115,,,2022-06-28 22:59:12,2022-06-28 22:59:12,"0,520s",PASSED
+"setText(findTestObject(""Worklist Rule/Delete Worlist Rule/button_Welcome, Julio Uzctegui_deleteButton""), """")",Chrome 102.0.5005.115,,,2022-06-28 22:59:12,2022-06-28 22:59:13,"0,791s",FAILED

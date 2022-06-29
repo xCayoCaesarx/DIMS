@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Worklist Rules,Chrome 102.0.5005.115,,,2022-06-28 22:52:57,2022-06-28 22:54:21,"1m - 24,168s",FAILED
+,,,,,,,
+Test Cases/Delete Worklist Rule,Chrome 102.0.5005.115,,,2022-06-28 22:52:57,2022-06-28 22:54:21,"1m - 23,698s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-06-28 22:52:58,2022-06-28 22:52:59,"1,673s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-06-28 22:52:59,2022-06-28 22:54:11,"1m - 11,516s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-06-28 22:54:11,2022-06-28 22:54:12,"0,842s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-06-28 22:54:12,2022-06-28 22:54:13,"0,833s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-06-28 22:54:13,2022-06-28 22:54:15,"2,592s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/strong_Maintenance Tools""))",Chrome 102.0.5005.115,,,2022-06-28 22:54:15,2022-06-28 22:54:16,"0,903s",PASSED
+"click(findTestObject(""Worklist Rule/Add worklist Rule/span_Worklist Rules""))",Chrome 102.0.5005.115,,,2022-06-28 22:54:16,2022-06-28 22:54:17,"0,504s",PASSED
+"setText(findTestObject(""Worklist Rule/Edit Worklist Rule/input_Worklist Rules_search""), worklistrulemodify)",Chrome 102.0.5005.115,,,2022-06-28 22:54:17,2022-06-28 22:54:19,"2,480s",PASSED
+"click(findTestObject(""Worklist Rule/Delete Worlist Rule/td_Office_tdEditButton""))",Chrome 102.0.5005.115,,,2022-06-28 22:54:19,2022-06-28 22:54:20,"0,480s",PASSED
+"setText(findTestObject(""Worklist Rule/Delete Worlist Rule/button_Welcome, Julio Uzctegui_deleteButton""), """")",Chrome 102.0.5005.115,,,2022-06-28 22:54:20,2022-06-28 22:54:21,"1,438s",FAILED

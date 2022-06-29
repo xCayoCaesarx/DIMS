@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Worklist Rules" time="44.903" tests="1" failures="0" errors="0">
+   <testsuite name="Worklist Rules" tests="1" failures="0" errors="0" time="44.903" skipped="0" timestamp="2022-06-28 23:13:20" hostname="juzcategui - juzcategui" id="Test Suites/Worklist Rules">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220628_231317/Worklist Rules/20220628_231317"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220628_231317/Worklist Rules/20220628_231317/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220628_231317/Worklist Rules/20220628_231317/1656472444873.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="7f468e592ec8d779d5cb9cdcb0b6dfdb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Delete Worklist Rule" time="44.393" classname="Test Cases/Delete Worklist Rule" status="PASSED">
+         <system-out><![CDATA[2022-06-28 23:13:21 - [TEST_CASE][PASSED] - Test Cases/Delete Worklist Rule: Test Cases/Delete Worklist Rule
+
+2022-06-28 23:13:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-28 23:13:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-28 23:13:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-28 23:13:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-28 23:13:23 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-28 23:13:55 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-06-28 23:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-28 23:13:56 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-06-28 23:13:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-28 23:13:57 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-06-28 23:13:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-28 23:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-06-28 23:13:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/strong_Maintenance Tools")): Object: 'Object Repository/Create Lead/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-06-28 23:14:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/strong_Maintenance Tools' is clicked on
+
+2022-06-28 23:14:00 - [TEST_STEP][PASSED] - click(findTestObject("Worklist Rule/Add worklist Rule/span_Worklist Rules")): Object: 'Object Repository/Worklist Rule/Add worklist Rule/span_Worklist Rules' is clicked on
+
+2022-06-28 23:14:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Worklist Rule/Add worklist Rule/span_Worklist Rules' is clicked on
+
+2022-06-28 23:14:01 - [TEST_STEP][PASSED] - setText(findTestObject("Worklist Rule/Edit Worklist Rule/input_Worklist Rules_search"), worklistrulemodify): Text 'Test aut modificado' is set on object 'Object Repository/Worklist Rule/Edit Worklist Rule/input_Worklist Rules_search'
+
+2022-06-28 23:14:02 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/Worklist Rule/Edit Worklist Rule/input_Worklist Rules_search'
+
+2022-06-28 23:14:02 - [TEST_STEP][PASSED] - click(findTestObject("Worklist Rule/Delete Worlist Rule/td_Office_tdEditButton")): Object: 'Object Repository/Worklist Rule/Delete Worlist Rule/td_Office_tdEditButton' is clicked on
+
+2022-06-28 23:14:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Worklist Rule/Delete Worlist Rule/td_Office_tdEditButton' is clicked on
+
+2022-06-28 23:14:02 - [TEST_STEP][PASSED] - click(findTestObject("Worklist Rule/Delete Worlist Rule/button_Welcome, Julio Uzctegui_deleteButton"), STOP_ON_FAILURE): Object: 'Object Repository/Worklist Rule/Delete Worlist Rule/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-06-28 23:14:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Worklist Rule/Delete Worlist Rule/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-06-28 23:14:03 - [TEST_STEP][PASSED] - click(findTestObject("Worklist Rule/Delete Worlist Rule/button_Accept")): Object: 'Object Repository/Worklist Rule/Delete Worlist Rule/button_Accept' is clicked on
+
+2022-06-28 23:14:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Worklist Rule/Delete Worlist Rule/button_Accept' is clicked on
+
+2022-06-28 23:14:03 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-06-28 23:14:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-28 23:14:04 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-06-28 23:14:05 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-28 23:14:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220628_231317/Worklist Rules/20220628_231317/1656472444873.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-28 23:13:20 - [TEST_SUITE][PASSED] - Worklist Rules: Test Cases/Delete Worklist Rule]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
