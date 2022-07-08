@@ -11,4 +11,109 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>ee2e4d7f-1c00-4833-be1e-4540c78448d2</testSuiteGuid>
+   <testCaseLink>
+      <guid>b56b0e8d-415a-424c-bebe-2c83da500df7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Add Queue</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d91e1ea6-cbe8-4d7a-bfd9-e1076e169bea</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/QueueData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>d91e1ea6-cbe8-4d7a-bfd9-e1076e169bea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>5adc7a99-34a7-4fb9-b11f-0752708b2224</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d91e1ea6-cbe8-4d7a-bfd9-e1076e169bea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>62cf8679-f578-4d97-94cd-5f1d0ecdcd9c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d91e1ea6-cbe8-4d7a-bfd9-e1076e169bea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>queuename</value>
+         <variableId>a4f9c50b-dd6a-4b29-b53e-f6acc9b33bb1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>60f2f2b8-dff0-43bc-9696-85fb44559222</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit Queue</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9b464bcd-dfa4-4807-9100-ceca1925adef</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/QueueData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>9b464bcd-dfa4-4807-9100-ceca1925adef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>3b61db9c-8769-4538-8d76-9113e3929c1c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9b464bcd-dfa4-4807-9100-ceca1925adef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>a8639fd2-dbdf-4772-984c-480afac43cbb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9b464bcd-dfa4-4807-9100-ceca1925adef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>queuename</value>
+         <variableId>fca953b2-abaf-4614-84ea-3718c8877d54</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9b464bcd-dfa4-4807-9100-ceca1925adef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>queuenamemodify</value>
+         <variableId>f5b82b1e-b39e-45a5-8300-12cc6a13796f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e273c6cb-916f-4857-bb53-fda56ccbba74</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Delete Queue</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9db1442a-4032-47d9-91ed-061abd3db65d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/QueueData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>9db1442a-4032-47d9-91ed-061abd3db65d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>f2ae56ee-a1a8-4029-86b8-f7b2a7a267e9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9db1442a-4032-47d9-91ed-061abd3db65d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>8f286cb5-29c5-414c-abca-3c8a8f2e17d4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9db1442a-4032-47d9-91ed-061abd3db65d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>queuenamemodify</value>
+         <variableId>ea492809-aa12-44ce-9b28-08fc3c51d981</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

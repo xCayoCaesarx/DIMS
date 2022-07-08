@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Queues,Chrome 102.0.5005.115,,,2022-07-01 15:05:32,2022-07-01 15:06:27,"54,859s",FAILED
+,,,,,,,
+Test Cases/Edit Queue,Chrome 102.0.5005.115,,,2022-07-01 15:05:33,2022-07-01 15:06:23,"49,757s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-01 15:05:33,2022-07-01 15:05:36,"2,304s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-01 15:05:36,2022-07-01 15:05:45,"8,972s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-01 15:05:45,2022-07-01 15:05:46,"0,825s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-01 15:05:46,2022-07-01 15:05:46,"0,727s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-07-01 15:05:46,2022-07-01 15:05:49,"2,605s",PASSED
+"click(findTestObject(""Queue/Add Queue/strong_Maintenance Tools""))",Chrome 102.0.5005.115,,,2022-07-01 15:05:49,2022-07-01 15:05:50,"0,686s",PASSED
+"click(findTestObject(""Queue/Add Queue/span_Queues""))",Chrome 102.0.5005.115,,,2022-07-01 15:05:50,2022-07-01 15:05:50,"0,506s",PASSED
+"setText(findTestObject(""Queue/Edit Queue/input_Queues_p-inputtext p-component p-element""), queuename)",Chrome 102.0.5005.115,,,2022-07-01 15:05:50,2022-07-01 15:05:51,"1,042s",PASSED
+"click(findTestObject(""Queue/Edit Queue/button_Queue_editButton""), STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-07-01 15:05:51,2022-07-01 15:06:23,"31,493s",FAILED
+,,,,,,,
+Test Cases/Delete Queue,Chrome 102.0.5005.115,,,2022-07-01 15:06:23,2022-07-01 15:06:27,"4,421s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-01 15:06:23,2022-07-01 15:06:24,"1,000s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-01 15:06:24,2022-07-01 15:06:27,"2,943s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-01 15:06:27,2022-07-01 15:06:27,"0,176s",FAILED

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Queues" time="49.045" tests="2" failures="0" errors="0">
+   <testsuite name="Queues" tests="2" failures="0" errors="0" time="49.045" skipped="0" timestamp="2022-07-01 15:09:29" hostname="juzcategui - juzcategui" id="Test Suites/Queues">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220701_150925/Queues/20220701_150925"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220701_150925/Queues/20220701_150925/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220701_150925/Queues/20220701_150925/1656702597975.png, /home/juzcategui/git/DIMS/Reports/20220701_150925/Queues/20220701_150925/1656702617706.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="192.168.12.66"/>
+         <property name="sessionId" value="c79078ac850625cb1bae05e3aa339c40"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Edit Queue" time="28.763" classname="Test Cases/Edit Queue" status="PASSED">
+         <system-out><![CDATA[2022-07-01 15:09:29 - [TEST_CASE][PASSED] - Test Cases/Edit Queue: Test Cases/Edit Queue
+
+2022-07-01 15:09:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-01 15:09:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-01 15:09:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-01 15:09:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-01 15:09:32 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-01 15:09:46 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-01 15:09:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-01 15:09:47 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-01 15:09:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-01 15:09:48 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-01 15:09:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-01 15:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-01 15:09:50 - [TEST_STEP][PASSED] - click(findTestObject("Queue/Add Queue/strong_Maintenance Tools")): Object: 'Object Repository/Queue/Add Queue/strong_Maintenance Tools' is clicked on
+
+2022-07-01 15:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Queue/Add Queue/strong_Maintenance Tools' is clicked on
+
+2022-07-01 15:09:51 - [TEST_STEP][PASSED] - click(findTestObject("Queue/Add Queue/span_Queues")): Object: 'Object Repository/Queue/Add Queue/span_Queues' is clicked on
+
+2022-07-01 15:09:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Queue/Add Queue/span_Queues' is clicked on
+
+2022-07-01 15:09:52 - [TEST_STEP][PASSED] - setText(findTestObject("Queue/Edit Queue/input_Queues_p-inputtext p-component p-element"), queuename): Text 'Test aut' is set on object 'Object Repository/Queue/Edit Queue/input_Queues_p-inputtext p-component p-element'
+
+2022-07-01 15:09:53 - [MESSAGE][PASSED] - Text 'Test aut' is set on object 'Object Repository/Queue/Edit Queue/input_Queues_p-inputtext p-component p-element'
+
+2022-07-01 15:09:53 - [TEST_STEP][PASSED] - click(findTestObject("Queue/Edit Queue/button_Queue_editButton"), STOP_ON_FAILURE): Object: 'Object Repository/Queue/Edit Queue/button_Queue_editButton' is clicked on
+
+2022-07-01 15:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Queue/Edit Queue/button_Queue_editButton' is clicked on
+
+2022-07-01 15:09:54 - [TEST_STEP][PASSED] - setText(findTestObject("Queue/Edit Queue/input_Queue_name"), queuenamemodify): Text 'Test aut modificado' is set on object 'Object Repository/Queue/Edit Queue/input_Queue_name'
+
+2022-07-01 15:09:55 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/Queue/Edit Queue/input_Queue_name'
+
+2022-07-01 15:09:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Queue/Edit Queue/select_YesNo  value true"), "true", false): All options with value 'true' are selected in object 'Object Repository/Queue/Edit Queue/select_YesNo  value true' 
+
+2022-07-01 15:09:55 - [MESSAGE][PASSED] - All options with value 'true' are selected in object 'Object Repository/Queue/Edit Queue/select_YesNo  value true' 
+
+2022-07-01 15:09:55 - [TEST_STEP][PASSED] - click(findTestObject("Queue/Edit Queue/button_Welcome, Julio Uzctegui_saveButton"), STOP_ON_FAILURE): Object: 'Object Repository/Queue/Edit Queue/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-07-01 15:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Queue/Edit Queue/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-07-01 15:09:56 - [TEST_STEP][PASSED] - click(findTestObject("Queue/Edit Queue/button_Accept"), STOP_ON_FAILURE): Object: 'Object Repository/Queue/Edit Queue/button_Accept' is clicked on
+
+2022-07-01 15:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Queue/Edit Queue/button_Accept' is clicked on
+
+2022-07-01 15:09:56 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-07-01 15:09:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-01 15:09:57 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-01 15:09:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-01 15:09:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220701_150925/Queues/20220701_150925/1656702597975.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete Queue" time="19.595" classname="Test Cases/Delete Queue" status="PASSED">
+         <system-out><![CDATA[2022-07-01 15:09:58 - [TEST_CASE][PASSED] - Test Cases/Delete Queue: Test Cases/Delete Queue
+
+2022-07-01 15:09:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-01 15:09:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-01 15:09:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-01 15:09:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-01 15:10:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-01 15:10:00 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-01 15:10:08 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-01 15:10:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-01 15:10:09 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-01 15:10:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-01 15:10:09 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-01 15:10:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-01 15:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-01 15:10:12 - [TEST_STEP][PASSED] - click(findTestObject("Queue/Add Queue/strong_Maintenance Tools")): Object: 'Object Repository/Queue/Add Queue/strong_Maintenance Tools' is clicked on
+
+2022-07-01 15:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Queue/Add Queue/strong_Maintenance Tools' is clicked on
+
+2022-07-01 15:10:13 - [TEST_STEP][PASSED] - click(findTestObject("Queue/Add Queue/span_Queues")): Object: 'Object Repository/Queue/Add Queue/span_Queues' is clicked on
+
+2022-07-01 15:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Queue/Add Queue/span_Queues' is clicked on
+
+2022-07-01 15:10:13 - [TEST_STEP][PASSED] - setText(findTestObject("Queue/Edit Queue/input_Queues_p-inputtext p-component p-element"), queuenamemodify): Text 'Test aut modificado' is set on object 'Object Repository/Queue/Edit Queue/input_Queues_p-inputtext p-component p-element'
+
+2022-07-01 15:10:14 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/Queue/Edit Queue/input_Queues_p-inputtext p-component p-element'
+
+2022-07-01 15:10:14 - [TEST_STEP][PASSED] - click(findTestObject("Queue/Delete Queue/Editbutton"), STOP_ON_FAILURE): Object: 'Object Repository/Queue/Delete Queue/Editbutton' is clicked on
+
+2022-07-01 15:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Queue/Delete Queue/Editbutton' is clicked on
+
+2022-07-01 15:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Queue/Delete Queue/button_Welcome, Julio Uzctegui_deleteButton"), STOP_ON_FAILURE): Object: 'Object Repository/Queue/Delete Queue/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-07-01 15:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Queue/Delete Queue/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-07-01 15:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Queue/Delete Queue/button_Accept"), STOP_ON_FAILURE): Object: 'Object Repository/Queue/Delete Queue/button_Accept' is clicked on
+
+2022-07-01 15:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Queue/Delete Queue/button_Accept' is clicked on
+
+2022-07-01 15:10:16 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-07-01 15:10:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-01 15:10:17 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-01 15:10:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-01 15:10:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220701_150925/Queues/20220701_150925/1656702617706.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-01 15:09:29 - [TEST_SUITE][PASSED] - Queues: Test Cases/Delete Queue]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

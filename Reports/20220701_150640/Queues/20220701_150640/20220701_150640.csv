@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Queues,Chrome 102.0.5005.115,,,2022-07-01 15:06:43,2022-07-01 15:07:17,"34,443s",FAILED
+,,,,,,,
+Test Cases/Edit Queue,Chrome 102.0.5005.115,,,2022-07-01 15:06:44,2022-07-01 15:07:13,"29,825s",PASSED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-01 15:06:44,2022-07-01 15:06:46,"2,063s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-01 15:06:46,2022-07-01 15:07:01,"15,069s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-01 15:07:01,2022-07-01 15:07:02,"0,827s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-01 15:07:02,2022-07-01 15:07:03,"0,764s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-07-01 15:07:03,2022-07-01 15:07:06,"2,711s",PASSED
+"click(findTestObject(""Queue/Add Queue/strong_Maintenance Tools""))",Chrome 102.0.5005.115,,,2022-07-01 15:07:06,2022-07-01 15:07:06,"0,692s",PASSED
+"click(findTestObject(""Queue/Add Queue/span_Queues""))",Chrome 102.0.5005.115,,,2022-07-01 15:07:06,2022-07-01 15:07:07,"0,510s",PASSED
+"setText(findTestObject(""Queue/Edit Queue/input_Queues_p-inputtext p-component p-element""), queuename)",Chrome 102.0.5005.115,,,2022-07-01 15:07:07,2022-07-01 15:07:08,"1,062s",PASSED
+"click(findTestObject(""Queue/Edit Queue/button_Queue_editButton""), STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-07-01 15:07:08,2022-07-01 15:07:09,"0,890s",PASSED
+"setText(findTestObject(""Queue/Edit Queue/input_Queue_name""), queuenamemodify)",Chrome 102.0.5005.115,,,2022-07-01 15:07:09,2022-07-01 15:07:10,"1,017s",PASSED
+"selectOptionByValue(findTestObject(""Queue/Edit Queue/select_YesNo  value true""), ""true"", false)",Chrome 102.0.5005.115,,,2022-07-01 15:07:10,2022-07-01 15:07:10,"0,696s",PASSED
+"click(findTestObject(""Queue/Edit Queue/button_Welcome, Julio Uzctegui_saveButton""), STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-07-01 15:07:10,2022-07-01 15:07:11,"0,432s",PASSED
+"click(findTestObject(""Queue/Edit Queue/button_Accept""), STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-07-01 15:07:11,2022-07-01 15:07:12,"0,723s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-07-01 15:07:12,2022-07-01 15:07:13,"1,036s",PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.115,,,2022-07-01 15:07:13,2022-07-01 15:07:13,"0,755s",PASSED
+,,,,,,,
+Test Cases/Delete Queue,Chrome 102.0.5005.115,,,2022-07-01 15:07:13,2022-07-01 15:07:17,"4,019s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-01 15:07:14,2022-07-01 15:07:15,"0,969s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-01 15:07:15,2022-07-01 15:07:17,"2,447s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-01 15:07:17,2022-07-01 15:07:17,"0,157s",FAILED

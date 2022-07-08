@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Queues,Chrome 102.0.5005.115,,,2022-07-01 14:58:29,2022-07-01 14:59:54,"1m - 24,975s",FAILED
+,,,,,,,
+Test Cases/Add Queue,Chrome 102.0.5005.115,,,2022-07-01 14:58:30,2022-07-01 14:58:55,"24,778s",PASSED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-01 14:58:30,2022-07-01 14:58:33,"2,217s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-01 14:58:33,2022-07-01 14:58:44,"11,142s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-01 14:58:44,2022-07-01 14:58:45,"0,831s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-01 14:58:45,2022-07-01 14:58:45,"0,784s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-07-01 14:58:45,2022-07-01 14:58:48,"2,564s",PASSED
+"click(findTestObject(""Queue/Add Queue/strong_Maintenance Tools""))",Chrome 102.0.5005.115,,,2022-07-01 14:58:48,2022-07-01 14:58:49,"0,783s",PASSED
+"click(findTestObject(""Queue/Add Queue/span_Queues""))",Chrome 102.0.5005.115,,,2022-07-01 14:58:49,2022-07-01 14:58:49,"0,551s",PASSED
+"click(findTestObject(""Queue/Add Queue/button_Welcome, Julio Uzctegui_addButton""))",Chrome 102.0.5005.115,,,2022-07-01 14:58:49,2022-07-01 14:58:50,"0,799s",PASSED
+"setText(findTestObject(""Queue/Add Queue/input_Queue_name""), queuename)",Chrome 102.0.5005.115,,,2022-07-01 14:58:50,2022-07-01 14:58:51,"0,853s",PASSED
+"click(findTestObject(""Queue/Add Queue/div_Select an Office(s)""))",Chrome 102.0.5005.115,,,2022-07-01 14:58:51,2022-07-01 14:58:51,"0,463s",PASSED
+"click(findTestObject(""Queue/Add Queue/div_Select an Office(s)_p-checkbox-box""))",Chrome 102.0.5005.115,,,2022-07-01 14:58:51,2022-07-01 14:58:52,"0,480s",PASSED
+"click(findTestObject(""Queue/Add Queue/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 102.0.5005.115,,,2022-07-01 14:58:52,2022-07-01 14:58:52,"0,514s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-07-01 14:58:52,2022-07-01 14:58:53,"1,030s",PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.115,,,2022-07-01 14:58:53,2022-07-01 14:58:55,"1,181s",PASSED
+,,,,,,,
+Test Cases/Edit Queue,Chrome 102.0.5005.115,,,2022-07-01 14:58:55,2022-07-01 14:59:47,"52,347s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-01 14:58:55,2022-07-01 14:58:56,"0,959s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-01 14:58:56,2022-07-01 14:59:10,"14,393s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-01 14:59:10,2022-07-01 14:59:11,"0,804s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-01 14:59:11,2022-07-01 14:59:12,"0,686s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-07-01 14:59:12,2022-07-01 14:59:14,"2,485s",PASSED
+"click(findTestObject(""Queue/Add Queue/strong_Maintenance Tools""))",Chrome 102.0.5005.115,,,2022-07-01 14:59:14,2022-07-01 14:59:15,"0,828s",PASSED
+"click(findTestObject(""Queue/Add Queue/span_Queues""))",Chrome 102.0.5005.115,,,2022-07-01 14:59:15,2022-07-01 14:59:16,"0,527s",PASSED
+"setText(findTestObject(""Queue/Edit Queue/input_Queues_p-inputtext p-component p-element""), queuename)",Chrome 102.0.5005.115,,,2022-07-01 14:59:16,2022-07-01 14:59:47,"31,364s",FAILED
+,,,,,,,
+Test Cases/Delete Queue,Chrome 102.0.5005.115,,,2022-07-01 14:59:47,2022-07-01 14:59:54,"6,961s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-01 14:59:47,2022-07-01 14:59:49,"1,154s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-01 14:59:49,2022-07-01 14:59:54,"5,322s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-01 14:59:54,2022-07-01 14:59:54,"0,144s",FAILED

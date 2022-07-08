@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Distribution Rules</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>1a22b51f-8761-4e2a-90b7-59ec80ad6092</testSuiteGuid>
+   <testCaseLink>
+      <guid>228e9c09-5ed2-487e-bfd7-93aa5e805328</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Add Distribution Rule</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f9157efc-2512-46a8-b9bd-972357a7882b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cbe585b1-389d-48d0-8643-59eb8a7feced</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>06a89572-4f62-4e3b-8c04-e954414902cb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit Distribution Rule</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f317095f-3ef8-4f2b-bbb9-4da4f0511148</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bbf1b6d7-5147-4fe0-83fe-ea11e84c5cce</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>708b587d-f1d7-4700-8c71-cf9cbd7c140a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Delete Distribution Rule</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>15b750e2-d3d8-41fa-847b-8ea418c5843a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ea2586a2-53d2-42e7-8a5d-1123507cd7af</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="State Exceptions" time="186.304" tests="2" failures="0" errors="0">
+   <testsuite name="State Exceptions" tests="2" failures="0" errors="0" time="186.304" skipped="0" timestamp="2022-07-08 17:31:26" hostname="juzcategui - juzcategui" id="Test Suites/State Exceptions">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220708_173123/State Exceptions/20220708_173123"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220708_173123/State Exceptions/20220708_173123/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220708_173123/State Exceptions/20220708_173123/1657316007855.png, /home/juzcategui/git/DIMS/Reports/20220708_173123/State Exceptions/20220708_173123/1657316072558.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="aa3c3a2f662405d7bccd1363892973c6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Edit State Exception" time="121.203" classname="Test Cases/Edit State Exception" status="PASSED">
+         <system-out><![CDATA[2022-07-08 17:31:27 - [TEST_CASE][PASSED] - Test Cases/Edit State Exception: Test Cases/Edit State Exception
+
+2022-07-08 17:31:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-08 17:31:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-08 17:31:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-08 17:31:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-08 17:31:29 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-08 17:33:07 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-08 17:33:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-08 17:33:08 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-08 17:33:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-08 17:33:09 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-08 17:33:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-08 17:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-08 17:33:11 - [TEST_STEP][PASSED] - click(findTestObject("Queue/Add Queue/strong_Maintenance Tools")): Object: 'Object Repository/Queue/Add Queue/strong_Maintenance Tools' is clicked on
+
+2022-07-08 17:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Queue/Add Queue/strong_Maintenance Tools' is clicked on
+
+2022-07-08 17:33:12 - [TEST_STEP][PASSED] - click(findTestObject("State Exceptions/Add state exception/span_State Exceptions")): Object: 'Object Repository/State Exceptions/Add state exception/span_State Exceptions' is clicked on
+
+2022-07-08 17:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/State Exceptions/Add state exception/span_State Exceptions' is clicked on
+
+2022-07-08 17:33:12 - [TEST_STEP][PASSED] - setText(findTestObject("State Exceptions/Edit state exception/input_State Exceptions_p-inputtext p-component p-element"), "alaska"): Text 'alaska' is set on object 'Object Repository/State Exceptions/Edit state exception/input_State Exceptions_p-inputtext p-component p-element'
+
+2022-07-08 17:33:16 - [MESSAGE][PASSED] - Text 'alaska' is set on object 'Object Repository/State Exceptions/Edit state exception/input_State Exceptions_p-inputtext p-component p-element'
+
+2022-07-08 17:33:16 - [TEST_STEP][PASSED] - click(findTestObject("State Exceptions/Edit state exception/button_Program_editButton")): Object: 'Object Repository/State Exceptions/Edit state exception/button_Program_editButton' is clicked on
+
+2022-07-08 17:33:16 - [MESSAGE][PASSED] - Object: 'Object Repository/State Exceptions/Edit state exception/button_Program_editButton' is clicked on
+
+2022-07-08 17:33:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("State Exceptions/Edit state exception/select_Select oneDebt - ImsConsumer Capital Advocates LLCOliver Law GroupConsumer Credit Card ReliefParagon Financial CorpLigthspeed Settlements LLC"), "2", false): All options with value '2' are selected in object 'Object Repository/State Exceptions/Edit state exception/select_Select oneDebt - ImsConsumer Capital Advocates LLCOliver Law GroupConsumer Credit Card ReliefParagon Financial CorpLigthspeed Settlements LLC' 
+
+2022-07-08 17:33:25 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/State Exceptions/Edit state exception/select_Select oneDebt - ImsConsumer Capital Advocates LLCOliver Law GroupConsumer Credit Card ReliefParagon Financial CorpLigthspeed Settlements LLC' 
+
+2022-07-08 17:33:25 - [TEST_STEP][PASSED] - click(findTestObject("State Exceptions/Edit state exception/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/State Exceptions/Edit state exception/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-07-08 17:33:26 - [MESSAGE][PASSED] - Object: 'Object Repository/State Exceptions/Edit state exception/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-07-08 17:33:26 - [TEST_STEP][PASSED] - click(findTestObject("State Exceptions/Edit state exception/button_Accept")): Object: 'Object Repository/State Exceptions/Edit state exception/button_Accept' is clicked on
+
+2022-07-08 17:33:26 - [MESSAGE][PASSED] - Object: 'Object Repository/State Exceptions/Edit state exception/button_Accept' is clicked on
+
+2022-07-08 17:33:26 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-07-08 17:33:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-08 17:33:27 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-08 17:33:28 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-08 17:33:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220708_173123/State Exceptions/20220708_173123/1657316007855.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete State Exception" time="64.549" classname="Test Cases/Delete State Exception" status="PASSED">
+         <system-out><![CDATA[2022-07-08 17:33:28 - [TEST_CASE][PASSED] - Test Cases/Delete State Exception: Test Cases/Delete State Exception
+
+2022-07-08 17:33:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-08 17:33:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-08 17:33:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-08 17:33:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-08 17:33:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-08 17:33:29 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-08 17:34:23 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-08 17:34:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-08 17:34:24 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-08 17:34:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-08 17:34:25 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-08 17:34:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-08 17:34:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-08 17:34:27 - [TEST_STEP][PASSED] - click(findTestObject("Queue/Add Queue/strong_Maintenance Tools")): Object: 'Object Repository/Queue/Add Queue/strong_Maintenance Tools' is clicked on
+
+2022-07-08 17:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Queue/Add Queue/strong_Maintenance Tools' is clicked on
+
+2022-07-08 17:34:28 - [TEST_STEP][PASSED] - click(findTestObject("State Exceptions/Add state exception/span_State Exceptions")): Object: 'Object Repository/State Exceptions/Add state exception/span_State Exceptions' is clicked on
+
+2022-07-08 17:34:28 - [MESSAGE][PASSED] - Object: 'Object Repository/State Exceptions/Add state exception/span_State Exceptions' is clicked on
+
+2022-07-08 17:34:28 - [TEST_STEP][PASSED] - setText(findTestObject("State Exceptions/Edit state exception/input_State Exceptions_p-inputtext p-component p-element"), "alaska"): Text 'alaska' is set on object 'Object Repository/State Exceptions/Edit state exception/input_State Exceptions_p-inputtext p-component p-element'
+
+2022-07-08 17:34:29 - [MESSAGE][PASSED] - Text 'alaska' is set on object 'Object Repository/State Exceptions/Edit state exception/input_State Exceptions_p-inputtext p-component p-element'
+
+2022-07-08 17:34:29 - [TEST_STEP][PASSED] - click(findTestObject("State Exceptions/Delete state exception/td_Program_tdEditButton")): Object: 'Object Repository/State Exceptions/Delete state exception/td_Program_tdEditButton' is clicked on
+
+2022-07-08 17:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/State Exceptions/Delete state exception/td_Program_tdEditButton' is clicked on
+
+2022-07-08 17:34:30 - [TEST_STEP][PASSED] - click(findTestObject("State Exceptions/Delete state exception/button_Welcome, Julio Uzctegui_deleteButton")): Object: 'Object Repository/State Exceptions/Delete state exception/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-07-08 17:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/State Exceptions/Delete state exception/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-07-08 17:34:30 - [TEST_STEP][PASSED] - click(findTestObject("State Exceptions/Delete state exception/button_Accept")): Object: 'Object Repository/State Exceptions/Delete state exception/button_Accept' is clicked on
+
+2022-07-08 17:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/State Exceptions/Delete state exception/button_Accept' is clicked on
+
+2022-07-08 17:34:31 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-07-08 17:34:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-08 17:34:32 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-08 17:34:33 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-08 17:34:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220708_173123/State Exceptions/20220708_173123/1657316072558.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-08 17:31:26 - [TEST_SUITE][PASSED] - State Exceptions: Test Cases/Delete State Exception]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
