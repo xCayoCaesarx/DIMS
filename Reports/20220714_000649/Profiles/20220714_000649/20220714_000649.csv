@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Profiles,Chrome 102.0.5005.115,,,2022-07-14 00:06:52,2022-07-14 00:07:45,"53,162s",FAILED
+,,,,,,,
+Test Cases/Profile - Systems Permissions,Chrome 102.0.5005.115,,,2022-07-14 00:06:53,2022-07-14 00:07:45,"52,605s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-14 00:06:53,2022-07-14 00:06:56,"2,386s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-14 00:06:56,2022-07-14 00:07:30,"34,503s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-14 00:07:30,2022-07-14 00:07:31,"0,822s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-14 00:07:31,2022-07-14 00:07:32,"0,765s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-07-14 00:07:32,2022-07-14 00:07:34,"2,569s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/strong_Security""))",Chrome 102.0.5005.115,,,2022-07-14 00:07:34,2022-07-14 00:07:41,"6,856s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/span_Profiles""))",Chrome 102.0.5005.115,,,2022-07-14 00:07:41,2022-07-14 00:07:42,"0,599s",PASSED
+"setText(findTestObject(""Profiles/edit - delete profiles/edit - delete profiles/input_Profiles to search""), namemodify)",Chrome 102.0.5005.115,,,2022-07-14 00:07:42,2022-07-14 00:07:43,"1,487s",PASSED
+"click(findTestObject(""Profiles/Permissions assign/button_Assign""))",Chrome 102.0.5005.115,,,2022-07-14 00:07:43,2022-07-14 00:07:44,"0,837s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/Permissions assign/select_leads""), ""yes"", false)",Chrome 102.0.5005.115,,,2022-07-14 00:07:44,2022-07-14 00:07:45,"1,247s",FAILED

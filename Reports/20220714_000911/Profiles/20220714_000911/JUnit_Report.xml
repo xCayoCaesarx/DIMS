@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Profiles" time="90.209" tests="1" failures="1" errors="0">
+   <testsuite name="Profiles" tests="1" failures="1" errors="0" time="90.209" skipped="0" timestamp="2022-07-14 00:09:15" hostname="juzcategui - juzcategui" id="Test Suites/Profiles">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220714_000911/Profiles/20220714_000911"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220714_000911/Profiles/20220714_000911/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220714_000911/Profiles/20220714_000911/1657771845293.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="2ec2444ecf33be71aedc855d486500c5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Profile - Systems Permissions" time="89.677" classname="Test Cases/Profile - Systems Permissions" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Profile - Systems Permissions FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'no' of object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at Profile - Systems Permissions.run(Profile - Systems Permissions:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657771751787.run(TempTestSuite1657771751787.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads' located by '/html[1]/body[1]/app-root[1]/div[@class=&quot;d-flex flex-column ng-star-inserted&quot;]/div[@class=&quot;menuShow&quot;]/div[@class=&quot;w-100 d-flex flex-column&quot;]/div[@class=&quot;w-auto&quot;]/app-profile-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column w-100 h-100&quot;]/p-dialog[@class=&quot;p-element ng-tns-c105-2 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c105-2 p-dialog-mask ng-star-inserted&quot;]/div[@class=&quot;p-element ng-trigger ng-trigger-animation ng-tns-c105-2 p-dialog p-component p-dialog-draggable p-dialog-resizable ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c105-2 p-dialog-content&quot;]/div[@class=&quot;container ng-tns-c105-2&quot;]/form[@class=&quot;container row pb-5 ng-invalid ng-dirty ng-touched ng-submitted&quot;]/div[@class=&quot;form-group col-4&quot;]/div[@class=&quot;input-group&quot;]/select[@class=&quot;form-select shadow-none ng-untouched ng-pristine ng-invalid is-invalid&quot;][count(. | //select[@aria-label = 'Default select example' and @formcontrolname = 'reasignLeads']) = count(//select[@aria-label = 'Default select example' and @formcontrolname = 'reasignLeads'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-07-14 00:09:15 - [TEST_CASE][FAILED] - Test Cases/Profile - Systems Permissions: Test Cases/Profile - Systems Permissions FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'no' of object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at Profile - Systems Permissions.run(Profile - Systems Permissions:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657771751787.run(TempTestSuite1657771751787.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads' located by '/html[1]/body[1]/app-root[1]/div[@class="d-flex flex-column ng-star-inserted"]/div[@class="menuShow"]/div[@class="w-100 d-flex flex-column"]/div[@class="w-auto"]/app-profile-list[@class="ng-star-inserted"]/div[@class="d-flex flex-column w-100 h-100"]/p-dialog[@class="p-element ng-tns-c105-2 ng-star-inserted"]/div[@class="ng-tns-c105-2 p-dialog-mask ng-star-inserted"]/div[@class="p-element ng-trigger ng-trigger-animation ng-tns-c105-2 p-dialog p-component p-dialog-draggable p-dialog-resizable ng-star-inserted"]/div[@class="ng-tns-c105-2 p-dialog-content"]/div[@class="container ng-tns-c105-2"]/form[@class="container row pb-5 ng-invalid ng-dirty ng-touched ng-submitted"]/div[@class="form-group col-4"]/div[@class="input-group"]/select[@class="form-select shadow-none ng-untouched ng-pristine ng-invalid is-invalid"][count(. | //select[@aria-label = 'Default select example' and @formcontrolname = 'reasignLeads']) = count(//select[@aria-label = 'Default select example' and @formcontrolname = 'reasignLeads'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-07-14 00:09:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-14 00:09:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-14 00:09:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-14 00:09:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-14 00:09:18 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-14 00:09:54 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-14 00:09:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-14 00:09:55 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-14 00:09:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-14 00:09:56 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-14 00:09:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Profiles/Page_Debt IMS/button_Login")): Object: 'Object Repository/Profiles/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-14 00:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Profiles/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-14 00:09:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Profiles/Page_Debt IMS/strong_Security")): Object: 'Object Repository/Profiles/Page_Debt IMS/strong_Security' is clicked on
+
+2022-07-14 00:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Profiles/Page_Debt IMS/strong_Security' is clicked on
+
+2022-07-14 00:10:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Profiles/Page_Debt IMS/span_Profiles")): Object: 'Object Repository/Profiles/Page_Debt IMS/span_Profiles' is clicked on
+
+2022-07-14 00:10:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Profiles/Page_Debt IMS/span_Profiles' is clicked on
+
+2022-07-14 00:10:11 - [TEST_STEP][PASSED] - setText(findTestObject("Profiles/edit - delete profiles/edit - delete profiles/input_Profiles to search"), namemodify): Text 'Test aut modificado' is set on object 'Object Repository/Profiles/edit - delete profiles/edit - delete profiles/input_Profiles to search'
+
+2022-07-14 00:10:12 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/Profiles/edit - delete profiles/edit - delete profiles/input_Profiles to search'
+
+2022-07-14 00:10:12 - [TEST_STEP][PASSED] - click(findTestObject("Profiles/Permissions assign/button_Assign")): Object: 'Object Repository/Profiles/Permissions assign/button_Assign' is clicked on
+
+2022-07-14 00:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Profiles/Permissions assign/button_Assign' is clicked on
+
+2022-07-14 00:10:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/Permissions assign/select_leads"), "Yes", false): All options with value 'Yes' are selected in object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_leads' 
+
+2022-07-14 00:10:14 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_leads' 
+
+2022-07-14 00:10:14 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/Permissions assign/select_Reasign Leads"), "no", false): Unable to select option by value 'no' of object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'no' of object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at Profile - Systems Permissions.run(Profile - Systems Permissions:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657771751787.run(TempTestSuite1657771751787.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads' located by '/html[1]/body[1]/app-root[1]/div[@class="d-flex flex-column ng-star-inserted"]/div[@class="menuShow"]/div[@class="w-100 d-flex flex-column"]/div[@class="w-auto"]/app-profile-list[@class="ng-star-inserted"]/div[@class="d-flex flex-column w-100 h-100"]/p-dialog[@class="p-element ng-tns-c105-2 ng-star-inserted"]/div[@class="ng-tns-c105-2 p-dialog-mask ng-star-inserted"]/div[@class="p-element ng-trigger ng-trigger-animation ng-tns-c105-2 p-dialog p-component p-dialog-draggable p-dialog-resizable ng-star-inserted"]/div[@class="ng-tns-c105-2 p-dialog-content"]/div[@class="container ng-tns-c105-2"]/form[@class="container row pb-5 ng-invalid ng-dirty ng-touched ng-submitted"]/div[@class="form-group col-4"]/div[@class="input-group"]/select[@class="form-select shadow-none ng-untouched ng-pristine ng-invalid is-invalid"][count(. | //select[@aria-label = 'Default select example' and @formcontrolname = 'reasignLeads']) = count(//select[@aria-label = 'Default select example' and @formcontrolname = 'reasignLeads'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at Script1657766699638.run(Script1657766699638.groovy:42)
+	... 13 more
+)
+
+2022-07-14 00:10:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[1]/body[1]/app-root[1]/div[@class="d-flex flex-column ng-star-inserted"]/div[@class="menuShow"]/div[@class="w-100 d-flex flex-column"]/div[@class="w-auto"]/app-profile-list[@class="ng-star-inserted"]/div[@class="d-flex flex-column w-100 h-100"]/p-dialog[@class="p-element ng-tns-c105-2 ng-star-inserted"]/div[@class="ng-tns-c105-2 p-dialog-mask ng-star-inserted"]/div[@class="p-element ng-trigger ng-trigger-animation ng-tns-c105-2 p-dialog p-component p-dialog-draggable p-dialog-resizable ng-star-inserted"]/div[@class="ng-tns-c105-2 p-dialog-content"]/div[@class="container ng-tns-c105-2"]/form[@class="container row pb-5 ng-invalid ng-dirty ng-touched ng-submitted"]/div[@class="form-group col-4"]/div[@class="input-group"]/select[@class="form-select shadow-none ng-untouched ng-pristine ng-invalid is-invalid"][count(. | //select[@aria-label = 'Default select example' and @formcontrolname = 'reasignLeads']) = count(//select[@aria-label = 'Default select example' and @formcontrolname = 'reasignLeads'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-14 00:10:45 - [MESSAGE][FAILED] - Unable to select option by value 'no' of object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'no' of object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at Profile - Systems Permissions.run(Profile - Systems Permissions:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657771751787.run(TempTestSuite1657771751787.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads' located by '/html[1]/body[1]/app-root[1]/div[@class="d-flex flex-column ng-star-inserted"]/div[@class="menuShow"]/div[@class="w-100 d-flex flex-column"]/div[@class="w-auto"]/app-profile-list[@class="ng-star-inserted"]/div[@class="d-flex flex-column w-100 h-100"]/p-dialog[@class="p-element ng-tns-c105-2 ng-star-inserted"]/div[@class="ng-tns-c105-2 p-dialog-mask ng-star-inserted"]/div[@class="p-element ng-trigger ng-trigger-animation ng-tns-c105-2 p-dialog p-component p-dialog-draggable p-dialog-resizable ng-star-inserted"]/div[@class="ng-tns-c105-2 p-dialog-content"]/div[@class="container ng-tns-c105-2"]/form[@class="container row pb-5 ng-invalid ng-dirty ng-touched ng-submitted"]/div[@class="form-group col-4"]/div[@class="input-group"]/select[@class="form-select shadow-none ng-untouched ng-pristine ng-invalid is-invalid"][count(. | //select[@aria-label = 'Default select example' and @formcontrolname = 'reasignLeads']) = count(//select[@aria-label = 'Default select example' and @formcontrolname = 'reasignLeads'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at Script1657766699638.run(Script1657766699638.groovy:42)
+	... 13 more
+)
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220714_000911/Profiles/20220714_000911/1657771845293.png]]]]></system-out>
+         <system-err><![CDATA[2022-07-14 00:09:15 - [TEST_CASE][FAILED] - Test Cases/Profile - Systems Permissions: Test Cases/Profile - Systems Permissions FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'no' of object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at Profile - Systems Permissions.run(Profile - Systems Permissions:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657771751787.run(TempTestSuite1657771751787.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads' located by '/html[1]/body[1]/app-root[1]/div[@class="d-flex flex-column ng-star-inserted"]/div[@class="menuShow"]/div[@class="w-100 d-flex flex-column"]/div[@class="w-auto"]/app-profile-list[@class="ng-star-inserted"]/div[@class="d-flex flex-column w-100 h-100"]/p-dialog[@class="p-element ng-tns-c105-2 ng-star-inserted"]/div[@class="ng-tns-c105-2 p-dialog-mask ng-star-inserted"]/div[@class="p-element ng-trigger ng-trigger-animation ng-tns-c105-2 p-dialog p-component p-dialog-draggable p-dialog-resizable ng-star-inserted"]/div[@class="ng-tns-c105-2 p-dialog-content"]/div[@class="container ng-tns-c105-2"]/form[@class="container row pb-5 ng-invalid ng-dirty ng-touched ng-submitted"]/div[@class="form-group col-4"]/div[@class="input-group"]/select[@class="form-select shadow-none ng-untouched ng-pristine ng-invalid is-invalid"][count(. | //select[@aria-label = 'Default select example' and @formcontrolname = 'reasignLeads']) = count(//select[@aria-label = 'Default select example' and @formcontrolname = 'reasignLeads'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-14 00:09:15 - [TEST_SUITE][FAILED] - Profiles: Test Cases/Profile - Systems Permissions FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'no' of object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at Profile - Systems Permissions.run(Profile - Systems Permissions:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657771751787.run(TempTestSuite1657771751787.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads' located by '/html[1]/body[1]/app-root[1]/div[@class="d-flex flex-column ng-star-inserted"]/div[@class="menuShow"]/div[@class="w-100 d-flex flex-column"]/div[@class="w-auto"]/app-profile-list[@class="ng-star-inserted"]/div[@class="d-flex flex-column w-100 h-100"]/p-dialog[@class="p-element ng-tns-c105-2 ng-star-inserted"]/div[@class="ng-tns-c105-2 p-dialog-mask ng-star-inserted"]/div[@class="p-element ng-trigger ng-trigger-animation ng-tns-c105-2 p-dialog p-component p-dialog-draggable p-dialog-resizable ng-star-inserted"]/div[@class="ng-tns-c105-2 p-dialog-content"]/div[@class="container ng-tns-c105-2"]/form[@class="container row pb-5 ng-invalid ng-dirty ng-touched ng-submitted"]/div[@class="form-group col-4"]/div[@class="input-group"]/select[@class="form-select shadow-none ng-untouched ng-pristine ng-invalid is-invalid"][count(. | //select[@aria-label = 'Default select example' and @formcontrolname = 'reasignLeads']) = count(//select[@aria-label = 'Default select example' and @formcontrolname = 'reasignLeads'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-07-14 00:09:15 - [TEST_SUITE][FAILED] - Profiles: Test Cases/Profile - Systems Permissions FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'no' of object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$3.call(Unknown Source)
+	at Profile - Systems Permissions.run(Profile - Systems Permissions:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657771751787.run(TempTestSuite1657771751787.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads' located by '/html[1]/body[1]/app-root[1]/div[@class="d-flex flex-column ng-star-inserted"]/div[@class="menuShow"]/div[@class="w-100 d-flex flex-column"]/div[@class="w-auto"]/app-profile-list[@class="ng-star-inserted"]/div[@class="d-flex flex-column w-100 h-100"]/p-dialog[@class="p-element ng-tns-c105-2 ng-star-inserted"]/div[@class="ng-tns-c105-2 p-dialog-mask ng-star-inserted"]/div[@class="p-element ng-trigger ng-trigger-animation ng-tns-c105-2 p-dialog p-component p-dialog-draggable p-dialog-resizable ng-star-inserted"]/div[@class="ng-tns-c105-2 p-dialog-content"]/div[@class="container ng-tns-c105-2"]/form[@class="container row pb-5 ng-invalid ng-dirty ng-touched ng-submitted"]/div[@class="form-group col-4"]/div[@class="input-group"]/select[@class="form-select shadow-none ng-untouched ng-pristine ng-invalid is-invalid"][count(. | //select[@aria-label = 'Default select example' and @formcontrolname = 'reasignLeads']) = count(//select[@aria-label = 'Default select example' and @formcontrolname = 'reasignLeads'])]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Profiles,Chrome 102.0.5005.115,,,2022-07-12 17:14:10,2022-07-12 17:14:46,"36,504s",ERROR
+,,,,,,,
+Test Cases/Edit Profile,Chrome 102.0.5005.115,,,2022-07-12 17:14:10,2022-07-12 17:14:46,"35,974s",ERROR
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-12 17:14:11,2022-07-12 17:14:12,"1,716s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-12 17:14:12,2022-07-12 17:14:41,"28,248s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-12 17:14:41,2022-07-12 17:14:41,"0,773s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-12 17:14:41,2022-07-12 17:14:42,"0,730s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-07-12 17:14:42,2022-07-12 17:14:45,"2,538s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/strong_Security""))",Chrome 102.0.5005.115,,,2022-07-12 17:14:45,2022-07-12 17:14:46,"0,881s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/span_Profiles""))",Chrome 102.0.5005.115,,,2022-07-12 17:14:46,2022-07-12 17:14:46,"0,553s",PASSED
+"setText(findTestObject(""Profiles/edit - delete profiles/input_Profiles to search""), name)",Chrome 102.0.5005.115,,,2022-07-12 17:14:46,2022-07-12 17:14:46,"0,059s",ERROR

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Profiles" time="47.682" tests="1" failures="0" errors="0">
+   <testsuite name="Profiles" tests="1" failures="0" errors="0" time="47.682" skipped="0" timestamp="2022-07-13 17:07:03" hostname="juzcategui - juzcategui" id="Test Suites/Profiles">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220713_170700/Profiles/20220713_170700"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220713_170700/Profiles/20220713_170700/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220713_170700/Profiles/20220713_170700/1657746470546.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="79f0dda7e73f063cbfe3ff3a0fa5f72f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Edit Profile" time="47.153" classname="Test Cases/Edit Profile" status="PASSED">
+         <system-out><![CDATA[2022-07-13 17:07:04 - [TEST_CASE][PASSED] - Test Cases/Edit Profile: Test Cases/Edit Profile
+
+2022-07-13 17:07:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-13 17:07:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-13 17:07:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-13 17:07:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-13 17:07:06 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-13 17:07:36 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-13 17:07:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-13 17:07:37 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-13 17:07:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-13 17:07:37 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-13 17:07:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Profiles/Page_Debt IMS/button_Login")): Object: 'Object Repository/Profiles/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-13 17:07:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Profiles/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-13 17:07:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Profiles/Page_Debt IMS/strong_Security")): Object: 'Object Repository/Profiles/Page_Debt IMS/strong_Security' is clicked on
+
+2022-07-13 17:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Profiles/Page_Debt IMS/strong_Security' is clicked on
+
+2022-07-13 17:07:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Profiles/Page_Debt IMS/span_Profiles")): Object: 'Object Repository/Profiles/Page_Debt IMS/span_Profiles' is clicked on
+
+2022-07-13 17:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Profiles/Page_Debt IMS/span_Profiles' is clicked on
+
+2022-07-13 17:07:41 - [TEST_STEP][PASSED] - setText(findTestObject("Profiles/edit - delete profiles/edit - delete profiles/input_Profiles to search"), name): Text 'Test aut' is set on object 'Object Repository/Profiles/edit - delete profiles/edit - delete profiles/input_Profiles to search'
+
+2022-07-13 17:07:43 - [MESSAGE][PASSED] - Text 'Test aut' is set on object 'Object Repository/Profiles/edit - delete profiles/edit - delete profiles/input_Profiles to search'
+
+2022-07-13 17:07:43 - [TEST_STEP][PASSED] - click(findTestObject("Profiles/edit - delete profiles/button_Systems Permissions_editButton")): Object: 'Object Repository/Profiles/edit - delete profiles/button_Systems Permissions_editButton' is clicked on
+
+2022-07-13 17:07:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Profiles/edit - delete profiles/button_Systems Permissions_editButton' is clicked on
+
+2022-07-13 17:07:43 - [TEST_STEP][PASSED] - setText(findTestObject("Profiles/edit - delete profiles/edit - delete profiles/Page_Debt IMS/input_Name Profile to edit"), namemodify): Text 'Test aut modificado' is set on object 'Object Repository/Profiles/edit - delete profiles/edit - delete profiles/Page_Debt IMS/input_Name Profile to edit'
+
+2022-07-13 17:07:48 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/Profiles/edit - delete profiles/edit - delete profiles/Page_Debt IMS/input_Name Profile to edit'
+
+2022-07-13 17:07:48 - [TEST_STEP][PASSED] - click(findTestObject("Profiles/edit - delete profiles/edit - delete profiles/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Profiles/edit - delete profiles/edit - delete profiles/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-07-13 17:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Profiles/edit - delete profiles/edit - delete profiles/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-07-13 17:07:48 - [TEST_STEP][PASSED] - click(findTestObject("Profiles/edit - delete profiles/button_Accept")): Object: 'Object Repository/Profiles/edit - delete profiles/button_Accept' is clicked on
+
+2022-07-13 17:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Profiles/edit - delete profiles/button_Accept' is clicked on
+
+2022-07-13 17:07:49 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-07-13 17:07:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-13 17:07:50 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-13 17:07:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-13 17:07:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220713_170700/Profiles/20220713_170700/1657746470546.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-13 17:07:03 - [TEST_SUITE][PASSED] - Profiles: Test Cases/Edit Profile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

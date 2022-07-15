@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Profiles,Chrome 102.0.5005.115,,,2022-07-13 17:00:44,2022-07-13 17:02:32,"1m - 47,646s",FAILED
+,,,,,,,
+Test Cases/Edit Profile,Chrome 102.0.5005.115,,,2022-07-13 17:00:45,2022-07-13 17:02:32,"1m - 47,092s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-13 17:00:45,2022-07-13 17:00:47,"1,751s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-13 17:00:47,2022-07-13 17:01:47,"59,825s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-13 17:01:47,2022-07-13 17:01:47,"0,792s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-13 17:01:47,2022-07-13 17:01:48,"0,704s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-07-13 17:01:48,2022-07-13 17:01:51,"2,618s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/strong_Security""))",Chrome 102.0.5005.115,,,2022-07-13 17:01:51,2022-07-13 17:01:52,"1,266s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/span_Profiles""))",Chrome 102.0.5005.115,,,2022-07-13 17:01:52,2022-07-13 17:01:53,"0,577s",PASSED
+"setText(findTestObject(""Profiles/edit - delete profiles/edit - delete profiles/input_Profiles to search""), name)",Chrome 102.0.5005.115,,,2022-07-13 17:01:53,2022-07-13 17:01:55,"2,264s",PASSED
+"click(findTestObject(""Profiles/edit - delete profiles/button_Systems Permissions_editButton""))",Chrome 102.0.5005.115,,,2022-07-13 17:01:55,2022-07-13 17:01:56,"0,904s",PASSED
+"setText(findTestObject(""Profiles/edit - delete profiles/edit - delete profiles/Page_Debt IMS/input_Name Profile to edit""), namemodify)",Chrome 102.0.5005.115,,,2022-07-13 17:01:56,2022-07-13 17:02:32,"35,943s",FAILED

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Profiles,Chrome 102.0.5005.115,,,2022-07-13 16:59:38,2022-07-13 17:00:21,"43,382s",FAILED
+,,,,,,,
+Test Cases/Edit Profile,Chrome 102.0.5005.115,,,2022-07-13 16:59:38,2022-07-13 17:00:21,"42,823s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-13 16:59:39,2022-07-13 16:59:40,"1,727s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-13 16:59:40,2022-07-13 17:00:10,"29,152s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-13 17:00:10,2022-07-13 17:00:10,"0,798s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-13 17:00:10,2022-07-13 17:00:11,"0,740s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-07-13 17:00:11,2022-07-13 17:00:14,"2,623s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/strong_Security""))",Chrome 102.0.5005.115,,,2022-07-13 17:00:14,2022-07-13 17:00:15,"0,719s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/span_Profiles""))",Chrome 102.0.5005.115,,,2022-07-13 17:00:15,2022-07-13 17:00:15,"0,542s",PASSED
+"setText(findTestObject(""Profiles/edit - delete profiles/edit - delete profiles/input_Profiles to search""), name)",Chrome 102.0.5005.115,,,2022-07-13 17:00:15,2022-07-13 17:00:16,"1,041s",PASSED
+"click(findTestObject(""Profiles/edit - delete profiles/button_Systems Permissions_editButton""))",Chrome 102.0.5005.115,,,2022-07-13 17:00:16,2022-07-13 17:00:17,"0,905s",PASSED
+"setText(findTestObject(""Profiles/edit - delete profiles/edit - delete profiles/Page_Debt IMS/input_Name Profile to edit""), namemodify)",Chrome 102.0.5005.115,,,2022-07-13 17:00:17,2022-07-13 17:00:20,"2,911s",PASSED
+"click(findTestObject(""Profiles/edit - delete profiles/edit - delete profiles/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 102.0.5005.115,,,2022-07-13 17:00:20,2022-07-13 17:00:20,"0,391s",PASSED
+"click(findTestObject(""Profiles/edit - delete profiles/button_Accept""))",Chrome 102.0.5005.115,,,2022-07-13 17:00:20,2022-07-13 17:00:21,"0,811s",FAILED

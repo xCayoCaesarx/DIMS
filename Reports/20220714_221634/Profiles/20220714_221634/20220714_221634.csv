@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Profiles,Chrome 102.0.5005.115,,,2022-07-14 22:16:37,2022-07-14 22:18:07,"1m - 30,528s",PASSED
+,,,,,,,
+Test Cases/Profile - Systems Permissions,Chrome 102.0.5005.115,,,2022-07-14 22:16:37,2022-07-14 22:18:07,"1m - 30,000s",PASSED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-14 22:16:38,2022-07-14 22:16:40,"1,857s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-14 22:16:40,2022-07-14 22:17:43,"1m - 3,039s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-14 22:17:43,2022-07-14 22:17:44,"0,763s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-14 22:17:44,2022-07-14 22:17:44,"0,736s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-07-14 22:17:44,2022-07-14 22:17:47,"2,512s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/strong_Security""))",Chrome 102.0.5005.115,,,2022-07-14 22:17:47,2022-07-14 22:17:48,"0,875s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/span_Profiles""))",Chrome 102.0.5005.115,,,2022-07-14 22:17:48,2022-07-14 22:17:48,"0,604s",PASSED
+"setText(findTestObject(""Profiles/edit - delete profiles/edit - delete profiles/input_Profiles to search""), namemodify)",Chrome 102.0.5005.115,,,2022-07-14 22:17:48,2022-07-14 22:17:50,"1,928s",PASSED
+"click(findTestObject(""Profiles/Permissions assign/button_Assign""))",Chrome 102.0.5005.115,,,2022-07-14 22:17:50,2022-07-14 22:17:51,"0,418s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/Permissions assign/select_leads""), ""Yes"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:17:51,2022-07-14 22:17:52,"1,312s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/Permissions assign/select_Reasign Leads""), ""No"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:17:52,2022-07-14 22:17:53,"0,617s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/Permissions assign/select_Reject Leads""), ""No"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:17:53,2022-07-14 22:17:53,"0,608s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/select_Calculate Payments""), ""No"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:17:53,2022-07-14 22:17:54,"0,658s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/Permissions assign/select_Send Docs""), ""Yes"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:17:54,2022-07-14 22:17:55,"0,671s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/Permissions assign/select_Pull Credit""), ""No"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:17:55,2022-07-14 22:17:55,"0,628s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/select_Change Leads Source""), ""No"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:17:55,2022-07-14 22:17:56,"0,661s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/select_assign mailer""), ""No"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:17:56,2022-07-14 22:17:56,"0,660s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/Permissions assign/select_Delete Documents""), ""No"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:17:56,2022-07-14 22:17:57,"0,628s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/Permissions assign/select_Delete Notes""), ""No"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:17:57,2022-07-14 22:17:58,"0,643s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/select_File Exceptions""), ""No"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:17:58,2022-07-14 22:17:58,"0,667s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/select_Mask Social Security""), ""No"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:17:58,2022-07-14 22:17:59,"0,646s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/select_Community Access""), ""Read"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:17:59,2022-07-14 22:18:00,"0,655s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/select_Email To Me""), ""Enabled"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:18:00,2022-07-14 22:18:00,"0,595s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/select_Email Office""), ""Enabled"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:18:00,2022-07-14 22:18:01,"0,589s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/select_CoApplicant Check""), ""Read"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:18:01,2022-07-14 22:18:01,"0,616s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/select_change notes""), ""Yes"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:18:01,2022-07-14 22:18:02,"0,578s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/select_Edit Client Status""), ""No"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:18:02,2022-07-14 22:18:03,"0,590s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/select_Change Sales Rep""), ""No"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:18:03,2022-07-14 22:18:03,"0,590s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/select_Change Account Manager Rep""), ""No"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:18:03,2022-07-14 22:18:04,"0,601s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/select_Change Negotiator""), ""Yes"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:18:04,2022-07-14 22:18:04,"0,634s",PASSED
+"selectOptionByValue(findTestObject(""Profiles/Permissions assign/select_Export""), ""Yes"", false)",Chrome 102.0.5005.115,,,2022-07-14 22:18:04,2022-07-14 22:18:05,"0,659s",PASSED
+"click(findTestObject(""Profiles/Permissions assign/Permissions assign/button_Save""))",Chrome 102.0.5005.115,,,2022-07-14 22:18:05,2022-07-14 22:18:06,"0,407s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-07-14 22:18:06,2022-07-14 22:18:07,"1,030s",PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.115,,,2022-07-14 22:18:07,2022-07-14 22:18:07,"0,753s",PASSED

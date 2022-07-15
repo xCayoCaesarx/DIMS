@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Profiles" time="90.528" tests="1" failures="0" errors="0">
+   <testsuite name="Profiles" tests="1" failures="0" errors="0" time="90.528" skipped="0" timestamp="2022-07-14 22:16:37" hostname="juzcategui - juzcategui" id="Test Suites/Profiles">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220714_221634/Profiles/20220714_221634"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220714_221634/Profiles/20220714_221634/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220714_221634/Profiles/20220714_221634/1657851487111.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="adfe573799343a424790dd07d6d07cc5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Profile - Systems Permissions" time="90.0" classname="Test Cases/Profile - Systems Permissions" status="PASSED">
+         <system-out><![CDATA[2022-07-14 22:16:37 - [TEST_CASE][PASSED] - Test Cases/Profile - Systems Permissions: Test Cases/Profile - Systems Permissions
+
+2022-07-14 22:16:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-14 22:16:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-14 22:16:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-14 22:16:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-14 22:16:40 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-14 22:17:43 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-14 22:17:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-14 22:17:44 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-14 22:17:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-14 22:17:44 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-14 22:17:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Profiles/Page_Debt IMS/button_Login")): Object: 'Object Repository/Profiles/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-14 22:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Profiles/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-14 22:17:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Profiles/Page_Debt IMS/strong_Security")): Object: 'Object Repository/Profiles/Page_Debt IMS/strong_Security' is clicked on
+
+2022-07-14 22:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Profiles/Page_Debt IMS/strong_Security' is clicked on
+
+2022-07-14 22:17:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Profiles/Page_Debt IMS/span_Profiles")): Object: 'Object Repository/Profiles/Page_Debt IMS/span_Profiles' is clicked on
+
+2022-07-14 22:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Profiles/Page_Debt IMS/span_Profiles' is clicked on
+
+2022-07-14 22:17:48 - [TEST_STEP][PASSED] - setText(findTestObject("Profiles/edit - delete profiles/edit - delete profiles/input_Profiles to search"), namemodify): Text 'Test aut modificado' is set on object 'Object Repository/Profiles/edit - delete profiles/edit - delete profiles/input_Profiles to search'
+
+2022-07-14 22:17:50 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/Profiles/edit - delete profiles/edit - delete profiles/input_Profiles to search'
+
+2022-07-14 22:17:50 - [TEST_STEP][PASSED] - click(findTestObject("Profiles/Permissions assign/button_Assign")): Object: 'Object Repository/Profiles/Permissions assign/button_Assign' is clicked on
+
+2022-07-14 22:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Profiles/Permissions assign/button_Assign' is clicked on
+
+2022-07-14 22:17:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/Permissions assign/select_leads"), "Yes", false): All options with value 'Yes' are selected in object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_leads' 
+
+2022-07-14 22:17:52 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_leads' 
+
+2022-07-14 22:17:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/Permissions assign/select_Reasign Leads"), "No", false): All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads' 
+
+2022-07-14 22:17:53 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reasign Leads' 
+
+2022-07-14 22:17:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/Permissions assign/select_Reject Leads"), "No", false): All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reject Leads' 
+
+2022-07-14 22:17:53 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Reject Leads' 
+
+2022-07-14 22:17:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/select_Calculate Payments"), "No", false): All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/select_Calculate Payments' 
+
+2022-07-14 22:17:54 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/select_Calculate Payments' 
+
+2022-07-14 22:17:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/Permissions assign/select_Send Docs"), "Yes", false): All options with value 'Yes' are selected in object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Send Docs' 
+
+2022-07-14 22:17:55 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Send Docs' 
+
+2022-07-14 22:17:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/Permissions assign/select_Pull Credit"), "No", false): All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Pull Credit' 
+
+2022-07-14 22:17:55 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Pull Credit' 
+
+2022-07-14 22:17:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/select_Change Leads Source"), "No", false): All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/select_Change Leads Source' 
+
+2022-07-14 22:17:56 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/select_Change Leads Source' 
+
+2022-07-14 22:17:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/select_assign mailer"), "No", false): All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/select_assign mailer' 
+
+2022-07-14 22:17:56 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/select_assign mailer' 
+
+2022-07-14 22:17:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/Permissions assign/select_Delete Documents"), "No", false): All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Delete Documents' 
+
+2022-07-14 22:17:57 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Delete Documents' 
+
+2022-07-14 22:17:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/Permissions assign/select_Delete Notes"), "No", false): All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Delete Notes' 
+
+2022-07-14 22:17:58 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/Permissions assign/select_Delete Notes' 
+
+2022-07-14 22:17:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/select_File Exceptions"), "No", false): All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/select_File Exceptions' 
+
+2022-07-14 22:17:58 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/select_File Exceptions' 
+
+2022-07-14 22:17:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/select_Mask Social Security"), "No", false): All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/select_Mask Social Security' 
+
+2022-07-14 22:17:59 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/select_Mask Social Security' 
+
+2022-07-14 22:17:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/select_Community Access"), "Read", false): All options with value 'Read' are selected in object 'Object Repository/Profiles/Permissions assign/select_Community Access' 
+
+2022-07-14 22:18:00 - [MESSAGE][PASSED] - All options with value 'Read' are selected in object 'Object Repository/Profiles/Permissions assign/select_Community Access' 
+
+2022-07-14 22:18:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/select_Email To Me"), "Enabled", false): All options with value 'Enabled' are selected in object 'Object Repository/Profiles/Permissions assign/select_Email To Me' 
+
+2022-07-14 22:18:00 - [MESSAGE][PASSED] - All options with value 'Enabled' are selected in object 'Object Repository/Profiles/Permissions assign/select_Email To Me' 
+
+2022-07-14 22:18:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/select_Email Office"), "Enabled", false): All options with value 'Enabled' are selected in object 'Object Repository/Profiles/Permissions assign/select_Email Office' 
+
+2022-07-14 22:18:01 - [MESSAGE][PASSED] - All options with value 'Enabled' are selected in object 'Object Repository/Profiles/Permissions assign/select_Email Office' 
+
+2022-07-14 22:18:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/select_CoApplicant Check"), "Read", false): All options with value 'Read' are selected in object 'Object Repository/Profiles/Permissions assign/select_CoApplicant Check' 
+
+2022-07-14 22:18:01 - [MESSAGE][PASSED] - All options with value 'Read' are selected in object 'Object Repository/Profiles/Permissions assign/select_CoApplicant Check' 
+
+2022-07-14 22:18:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/select_change notes"), "Yes", false): All options with value 'Yes' are selected in object 'Object Repository/Profiles/Permissions assign/select_change notes' 
+
+2022-07-14 22:18:02 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/Profiles/Permissions assign/select_change notes' 
+
+2022-07-14 22:18:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/select_Edit Client Status"), "No", false): All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/select_Edit Client Status' 
+
+2022-07-14 22:18:03 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/select_Edit Client Status' 
+
+2022-07-14 22:18:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/select_Change Sales Rep"), "No", false): All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/select_Change Sales Rep' 
+
+2022-07-14 22:18:03 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/select_Change Sales Rep' 
+
+2022-07-14 22:18:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/select_Change Account Manager Rep"), "No", false): All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/select_Change Account Manager Rep' 
+
+2022-07-14 22:18:04 - [MESSAGE][PASSED] - All options with value 'No' are selected in object 'Object Repository/Profiles/Permissions assign/select_Change Account Manager Rep' 
+
+2022-07-14 22:18:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/select_Change Negotiator"), "Yes", false): All options with value 'Yes' are selected in object 'Object Repository/Profiles/Permissions assign/select_Change Negotiator' 
+
+2022-07-14 22:18:04 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/Profiles/Permissions assign/select_Change Negotiator' 
+
+2022-07-14 22:18:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Profiles/Permissions assign/select_Export"), "Yes", false): All options with value 'Yes' are selected in object 'Object Repository/Profiles/Permissions assign/select_Export' 
+
+2022-07-14 22:18:05 - [MESSAGE][PASSED] - All options with value 'Yes' are selected in object 'Object Repository/Profiles/Permissions assign/select_Export' 
+
+2022-07-14 22:18:05 - [TEST_STEP][PASSED] - click(findTestObject("Profiles/Permissions assign/Permissions assign/button_Save")): Object: 'Object Repository/Profiles/Permissions assign/Permissions assign/button_Save' is clicked on
+
+2022-07-14 22:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Profiles/Permissions assign/Permissions assign/button_Save' is clicked on
+
+2022-07-14 22:18:06 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-07-14 22:18:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-14 22:18:07 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-14 22:18:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-14 22:18:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220714_221634/Profiles/20220714_221634/1657851487111.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-14 22:16:37 - [TEST_SUITE][PASSED] - Profiles: Test Cases/Profile - Systems Permissions]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Profiles,Chrome 102.0.5005.115,,,2022-07-12 16:26:38,2022-07-12 16:27:50,"1m - 11,381s",FAILED
+,,,,,,,
+Test Cases/Add Profile,Chrome 102.0.5005.115,,,2022-07-12 16:26:39,2022-07-12 16:27:50,"1m - 10,826s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-12 16:26:39,2022-07-12 16:26:41,"1,866s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-12 16:26:41,2022-07-12 16:27:37,"56,317s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-12 16:27:37,2022-07-12 16:27:38,"0,770s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-12 16:27:38,2022-07-12 16:27:39,"0,729s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-07-12 16:27:39,2022-07-12 16:27:41,"2,542s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/strong_Security""))",Chrome 102.0.5005.115,,,2022-07-12 16:27:41,2022-07-12 16:27:42,"0,710s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/span_Profiles""))",Chrome 102.0.5005.115,,,2022-07-12 16:27:42,2022-07-12 16:27:43,"0,538s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/button_Welcome, Julio Uzctegui_addButton""))",Chrome 102.0.5005.115,,,2022-07-12 16:27:43,2022-07-12 16:27:44,"0,838s",PASSED
+"setText(findTestObject(""Profiles/Page_Debt IMS/Page_Debt IMS/input_Name Profile""), name)",Chrome 102.0.5005.115,,,2022-07-12 16:27:44,2022-07-12 16:27:45,"1,159s",PASSED
+"setText(findTestObject(""Profiles/Page_Debt IMS/Page_Debt IMS/input_Description_""), description)",Chrome 102.0.5005.115,,,2022-07-12 16:27:45,2022-07-12 16:27:46,"0,878s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Profiles/Page_Debt IMS/select_Select oneEnableDisable""), ""false"", true)",Chrome 102.0.5005.115,,,2022-07-12 16:27:46,2022-07-12 16:27:47,"1,079s",PASSED
+"click(findTestObject(""Profiles/Page_Debt IMS/Page_Debt IMS/span_Delete_p-button-icon pi pi-angle-right""))",Chrome 102.0.5005.115,,,2022-07-12 16:27:47,2022-07-12 16:27:47,"0,538s",PASSED
+"click(findTestObject(""Profiles/Page_Debt IMS/Page_Debt IMS/input_Breaks_form-check-input""))",Chrome 102.0.5005.115,,,2022-07-12 16:27:47,2022-07-12 16:27:48,"0,552s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 102.0.5005.115,,,2022-07-12 16:27:48,2022-07-12 16:27:48,"0,402s",PASSED
+"click(findTestObject(""Object Repository/Profiles/Page_Debt IMS/button_Accept""))",Chrome 102.0.5005.115,,,2022-07-12 16:27:48,2022-07-12 16:27:50,"1,392s",FAILED
