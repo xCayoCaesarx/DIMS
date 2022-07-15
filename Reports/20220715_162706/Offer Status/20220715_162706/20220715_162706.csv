@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Offer Status,Chrome 102.0.5005.115,,,2022-07-15 16:27:10,2022-07-15 16:28:59,"1m - 49,602s",FAILED
+,,,,,,,
+Test Cases/Add Offer Status,Chrome 102.0.5005.115,,,2022-07-15 16:27:10,2022-07-15 16:28:53,"1m - 42,955s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-15 16:27:11,2022-07-15 16:27:13,"2,261s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-15 16:27:13,2022-07-15 16:28:45,"1m - 32,317s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-15 16:28:45,2022-07-15 16:28:46,"0,824s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-15 16:28:46,2022-07-15 16:28:47,"0,709s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-07-15 16:28:47,2022-07-15 16:28:49,"2,628s",PASSED
+"click(findTestObject(""Offer Status/add offer status/strong_Maintenance Tools""))",Chrome 102.0.5005.115,,,2022-07-15 16:28:49,2022-07-15 16:28:50,"0,761s",PASSED
+"click(findTestObject(""Offer Status/add offer status/span_Offer Status""))",Chrome 102.0.5005.115,,,2022-07-15 16:28:50,2022-07-15 16:28:51,"0,511s",PASSED
+"click(findTestObject(""Offer Status/add offer status/button_Welcome, Julio Uzctegui_addButton""))",Chrome 102.0.5005.115,,,2022-07-15 16:28:51,2022-07-15 16:28:51,"0,848s",PASSED
+"setText(findTestObject(""Offer Status/add offer status/input_Offer""), offername)",Chrome 102.0.5005.115,,,2022-07-15 16:28:51,2022-07-15 16:28:52,"0,813s",PASSED
+"selectOptionByValue(findTestObject(""Offer Status/add offer status/select_ActiveInactive value True""), ""True"", false)",Chrome 102.0.5005.115,,,2022-07-15 16:28:52,2022-07-15 16:28:53,"0,759s",FAILED
+,,,,,,,
+Test Cases/Edit Offer Status,Chrome 102.0.5005.115,,,2022-07-15 16:28:53,2022-07-15 16:28:57,"4,119s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-15 16:28:53,2022-07-15 16:28:54,"1,009s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-15 16:28:54,2022-07-15 16:28:57,"2,675s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-15 16:28:57,2022-07-15 16:28:57,"0,113s",FAILED
+,,,,,,,
+Test Cases/Delete Offer Status,Chrome 102.0.5005.115,,,2022-07-15 16:28:57,2022-07-15 16:28:59,"1,894s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-15 16:28:58,2022-07-15 16:28:59,"1,140s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-15 16:28:59,2022-07-15 16:28:59,"0,457s",FAILED

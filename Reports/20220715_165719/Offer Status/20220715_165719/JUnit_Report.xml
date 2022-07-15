@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Offer Status" time="67.996" tests="1" failures="0" errors="0">
+   <testsuite name="Offer Status" tests="1" failures="0" errors="0" time="67.996" skipped="0" timestamp="2022-07-15 16:57:22" hostname="juzcategui - juzcategui" id="Test Suites/Offer Status">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220715_165719/Offer Status/20220715_165719"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220715_165719/Offer Status/20220715_165719/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220715_165719/Offer Status/20220715_165719/1657918709946.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="99b618c96ca007ed1cae46decd6ddb09"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Delete Offer Status" time="67.476" classname="Test Cases/Delete Offer Status" status="PASSED">
+         <system-out><![CDATA[2022-07-15 16:57:23 - [TEST_CASE][PASSED] - Test Cases/Delete Offer Status: Test Cases/Delete Offer Status
+
+2022-07-15 16:57:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-15 16:57:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-15 16:57:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-15 16:57:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-15 16:57:25 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-15 16:58:20 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-15 16:58:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-15 16:58:21 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-15 16:58:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-15 16:58:21 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-15 16:58:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-15 16:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-15 16:58:24 - [TEST_STEP][PASSED] - click(findTestObject("Offer Status/add offer status/strong_Maintenance Tools")): Object: 'Object Repository/Offer Status/add offer status/strong_Maintenance Tools' is clicked on
+
+2022-07-15 16:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Offer Status/add offer status/strong_Maintenance Tools' is clicked on
+
+2022-07-15 16:58:25 - [TEST_STEP][PASSED] - click(findTestObject("Offer Status/add offer status/span_Offer Status")): Object: 'Object Repository/Offer Status/add offer status/span_Offer Status' is clicked on
+
+2022-07-15 16:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Offer Status/add offer status/span_Offer Status' is clicked on
+
+2022-07-15 16:58:25 - [TEST_STEP][PASSED] - setText(findTestObject("Offer Status/edit offer status/input_Offer to search"), offernamemodify): Text 'Test aut modificado' is set on object 'Object Repository/Offer Status/edit offer status/input_Offer to search'
+
+2022-07-15 16:58:26 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/Offer Status/edit offer status/input_Offer to search'
+
+2022-07-15 16:58:26 - [TEST_STEP][PASSED] - click(findTestObject("Offer Status/Delete offer status/td_Status_tdEditButton"), STOP_ON_FAILURE): Object: 'Object Repository/Offer Status/Delete offer status/td_Status_tdEditButton' is clicked on
+
+2022-07-15 16:58:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Offer Status/Delete offer status/td_Status_tdEditButton' is clicked on
+
+2022-07-15 16:58:27 - [TEST_STEP][PASSED] - click(findTestObject("Offer Status/Delete offer status/button_Welcome, Julio Uzctegui_deleteButton"), STOP_ON_FAILURE): Object: 'Object Repository/Offer Status/Delete offer status/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-07-15 16:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Offer Status/Delete offer status/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-07-15 16:58:28 - [TEST_STEP][PASSED] - click(findTestObject("Offer Status/Delete offer status/button_Accept"), STOP_ON_FAILURE): Object: 'Object Repository/Offer Status/Delete offer status/button_Accept' is clicked on
+
+2022-07-15 16:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Offer Status/Delete offer status/button_Accept' is clicked on
+
+2022-07-15 16:58:28 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-07-15 16:58:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-15 16:58:29 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-15 16:58:30 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-15 16:58:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220715_165719/Offer Status/20220715_165719/1657918709946.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-15 16:57:22 - [TEST_SUITE][PASSED] - Offer Status: Test Cases/Delete Offer Status]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
