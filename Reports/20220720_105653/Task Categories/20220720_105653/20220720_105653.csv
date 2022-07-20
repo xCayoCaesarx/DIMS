@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Task Categories,Chrome 102.0.5005.115,,,2022-07-20 10:56:56,2022-07-20 10:57:46,"49,789s",PASSED
+,,,,,,,
+Test Cases/Delete Task Categorie,Chrome 102.0.5005.115,,,2022-07-20 10:56:57,2022-07-20 10:57:46,"49,258s",PASSED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-20 10:56:57,2022-07-20 10:56:59,"1,823s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-20 10:56:59,2022-07-20 10:57:35,"36,413s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-20 10:57:35,2022-07-20 10:57:36,"0,850s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-20 10:57:36,2022-07-20 10:57:37,"0,789s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-07-20 10:57:37,2022-07-20 10:57:40,"2,583s",PASSED
+"click(findTestObject(""Task Categories/Add task categorie/strong_Maintenance Tools""))",Chrome 102.0.5005.115,,,2022-07-20 10:57:40,2022-07-20 10:57:40,"0,766s",PASSED
+"click(findTestObject(""Task Categories/Add task categorie/span_Task Categories""))",Chrome 102.0.5005.115,,,2022-07-20 10:57:40,2022-07-20 10:57:41,"0,514s",PASSED
+"setText(findTestObject(""Task Categories/edit delete task categorie/input_Task to search""), descriptionmodify)",Chrome 102.0.5005.115,,,2022-07-20 10:57:41,2022-07-20 10:57:42,"1,134s",PASSED
+"click(findTestObject(""Task Categories/edit delete task categorie/td_Nbr of Accounts_tdEditButton""))",Chrome 102.0.5005.115,,,2022-07-20 10:57:42,2022-07-20 10:57:43,"0,814s",PASSED
+"click(findTestObject(""Task Categories/edit delete task categorie/button_Welcome, Julio Uzctegui_deleteButton""))",Chrome 102.0.5005.115,,,2022-07-20 10:57:43,2022-07-20 10:57:43,"0,507s",PASSED
+"click(findTestObject(""Task Categories/edit delete task categorie/button_Accept""))",Chrome 102.0.5005.115,,,2022-07-20 10:57:43,2022-07-20 10:57:44,"0,702s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-07-20 10:57:44,2022-07-20 10:57:45,"1,068s",PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.115,,,2022-07-20 10:57:45,2022-07-20 10:57:46,"0,811s",PASSED

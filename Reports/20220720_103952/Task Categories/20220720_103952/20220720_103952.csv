@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Task Categories,Chrome 102.0.5005.115,,,2022-07-20 10:39:55,2022-07-20 10:41:05,"1m - 9,366s",FAILED
+,,,,,,,
+Test Cases/Edit Task Categorie,Chrome 102.0.5005.115,,,2022-07-20 10:39:56,2022-07-20 10:40:56,"1m - 0,457s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-20 10:39:56,2022-07-20 10:39:58,"2,116s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-20 10:39:58,2022-07-20 10:40:46,"47,386s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-20 10:40:46,2022-07-20 10:40:47,"0,816s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-20 10:40:47,2022-07-20 10:40:47,"0,737s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-07-20 10:40:47,2022-07-20 10:40:50,"2,560s",PASSED
+"click(findTestObject(""Task Categories/Add task categorie/strong_Maintenance Tools""))",Chrome 102.0.5005.115,,,2022-07-20 10:40:50,2022-07-20 10:40:51,"0,759s",PASSED
+"click(findTestObject(""Task Categories/Add task categorie/span_Task Categories""))",Chrome 102.0.5005.115,,,2022-07-20 10:40:51,2022-07-20 10:40:51,"0,512s",PASSED
+"setText(findTestObject(""Task Categories/edit delete task categorie/input_Task to search""), description)",Chrome 102.0.5005.115,,,2022-07-20 10:40:51,2022-07-20 10:40:52,"1,069s",PASSED
+"click(findTestObject(""Task Categories/edit delete task categorie/editButton""))",Chrome 102.0.5005.115,,,2022-07-20 10:40:52,2022-07-20 10:40:53,"0,902s",PASSED
+"setText(findTestObject(""Task Categories/edit delete task categorie/input_Description_to edit""), descriptionmodify)",Chrome 102.0.5005.115,,,2022-07-20 10:40:53,2022-07-20 10:40:54,"1,110s",PASSED
+"selectOptionByValue(findTestObject(""Task Categories/edit delete task categorie/select_acitve""), ""false"", false)",Chrome 102.0.5005.115,,,2022-07-20 10:40:54,2022-07-20 10:40:55,"0,709s",PASSED
+"click(findTestObject(""Task Categories/edit delete task categorie/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 102.0.5005.115,,,2022-07-20 10:40:55,2022-07-20 10:40:55,"0,419s",PASSED
+"click(findTestObject(""Task Categories/edit delete task categorie/button_Accept""))",Chrome 102.0.5005.115,,,2022-07-20 10:40:55,2022-07-20 10:40:56,"0,840s",FAILED
+,,,,,,,
+Test Cases/Delete Task Categorie,Chrome 102.0.5005.115,,,2022-07-20 10:40:56,2022-07-20 10:41:05,"8,225s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-20 10:40:57,2022-07-20 10:40:58,"1,023s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-20 10:40:58,2022-07-20 10:41:04,"6,616s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-20 10:41:04,2022-07-20 10:41:04,"0,144s",FAILED
