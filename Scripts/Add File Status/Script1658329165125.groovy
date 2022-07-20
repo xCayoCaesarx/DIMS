@@ -29,17 +29,23 @@ WebUI.setText(findTestObject('Object Repository/Create Lead/Page_Debt IMS/input_
 
 WebUI.click(findTestObject('Object Repository/Create Lead/Page_Debt IMS/button_Login'))
 
-WebUI.click(findTestObject('Breaks/Page_Debt IMS/strong_Administration'))
+WebUI.click(findTestObject('File status/Add file status/strong_Document Tools'))
 
-WebUI.click(findTestObject('Breaks/Page_Debt IMS/span_Breaks'))
+WebUI.click(findTestObject('File status/Add file status/span_File Status'))
 
-WebUI.click(findTestObject('Breaks/button_Welcome, Julio Uzctegui_addButton'))
+WebUI.click(findTestObject('File status/Add file status/button_Welcome, Julio Uzctegui_addButton'))
 
-WebUI.setText(findTestObject('Breaks/input_Name_form-control shadow-none ng-untouched ng-pristine ng-invalid'), name)
+WebUI.setText(findTestObject('File status/Add file status/input_File Status'), name)
 
-WebUI.setText(findTestObject('Breaks/input_Description_form-control shadow-none ng-untouched ng-pristine ng-invalid'), description)
+WebUI.selectOptionByValue(findTestObject('File status/Add file status/select_true'), 'false', false)
 
-WebUI.click(findTestObject('Breaks/button_Welcome, Julio Uzctegui_saveButton'))
+WebUI.setText(findTestObject('File status/Add file status/input_Order By'), orderby)
+
+WebUI.selectOptionByValue(findTestObject('File status/Add file status/select_true (1)'), 'true', false)
+
+WebUI.selectOptionByValue(findTestObject('File status/Add file status/select_true (2)'), 'true', false)
+
+WebUI.click(findTestObject('File status/Add file status/button_Welcome, Julio Uzctegui_saveButton'))
 
 WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
 

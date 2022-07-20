@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+File Status,Chrome 102.0.5005.115,,,2022-07-20 14:20:22,2022-07-20 14:23:21,"2m - 58,800s",FAILED
+,,,,,,,
+Test Cases/Add File Status,Chrome 102.0.5005.115,,,2022-07-20 14:20:23,2022-07-20 14:21:26,"1m - 3,468s",PASSED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-20 14:20:23,2022-07-20 14:20:25,"1,871s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-20 14:20:25,2022-07-20 14:21:04,"39,211s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-20 14:21:04,2022-07-20 14:21:05,"0,816s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-20 14:21:05,2022-07-20 14:21:06,"0,744s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-07-20 14:21:06,2022-07-20 14:21:08,"2,557s",PASSED
+"click(findTestObject(""File status/Add file status/strong_Document Tools""))",Chrome 102.0.5005.115,,,2022-07-20 14:21:08,2022-07-20 14:21:19,"10,381s",PASSED
+"click(findTestObject(""File status/Add file status/span_File Status""))",Chrome 102.0.5005.115,,,2022-07-20 14:21:19,2022-07-20 14:21:19,"0,618s",PASSED
+"click(findTestObject(""File status/Add file status/button_Welcome, Julio Uzctegui_addButton""))",Chrome 102.0.5005.115,,,2022-07-20 14:21:19,2022-07-20 14:21:20,"0,905s",PASSED
+"setText(findTestObject(""File status/Add file status/input_File Status""), name)",Chrome 102.0.5005.115,,,2022-07-20 14:21:20,2022-07-20 14:21:21,"0,802s",PASSED
+"selectOptionByValue(findTestObject(""File status/Add file status/select_true""), ""false"", false)",Chrome 102.0.5005.115,,,2022-07-20 14:21:21,2022-07-20 14:21:22,"0,710s",PASSED
+"setText(findTestObject(""File status/Add file status/input_Order By""), orderby)",Chrome 102.0.5005.115,,,2022-07-20 14:21:22,2022-07-20 14:21:23,"0,766s",PASSED
+"selectOptionByValue(findTestObject(""File status/Add file status/select_true (1)""), ""true"", false)",Chrome 102.0.5005.115,,,2022-07-20 14:21:23,2022-07-20 14:21:23,"0,657s",PASSED
+"selectOptionByValue(findTestObject(""File status/Add file status/select_true (2)""), ""true"", false)",Chrome 102.0.5005.115,,,2022-07-20 14:21:23,2022-07-20 14:21:24,"0,606s",PASSED
+"click(findTestObject(""File status/Add file status/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 102.0.5005.115,,,2022-07-20 14:21:24,2022-07-20 14:21:24,"0,399s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-07-20 14:21:24,2022-07-20 14:21:25,"1,045s",PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.115,,,2022-07-20 14:21:25,2022-07-20 14:21:26,"0,827s",PASSED
+,,,,,,,
+Test Cases/Edit File Status,Chrome 102.0.5005.115,,,2022-07-20 14:21:26,2022-07-20 14:23:16,"1m - 49,869s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-20 14:21:27,2022-07-20 14:21:28,"0,958s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-20 14:21:28,2022-07-20 14:22:28,"1m - 0,691s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-20 14:22:28,2022-07-20 14:22:29,"0,740s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-20 14:22:29,2022-07-20 14:22:30,"0,767s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/button_Login""))",Chrome 102.0.5005.115,,,2022-07-20 14:22:30,2022-07-20 14:22:30,"0,376s",PASSED
+"click(findTestObject(""File status/Add file status/strong_Document Tools""))",Chrome 102.0.5005.115,,,2022-07-20 14:22:30,2022-07-20 14:22:43,"12,830s",PASSED
+"click(findTestObject(""File status/Add file status/span_File Status""))",Chrome 102.0.5005.115,,,2022-07-20 14:22:43,2022-07-20 14:22:44,"0,562s",PASSED
+"setText(findTestObject(""File status/Edit file status/input_File to search""), name)",Chrome 102.0.5005.115,,,2022-07-20 14:22:44,2022-07-20 14:22:45,"1,122s",PASSED
+"click(findTestObject(""File status/Edit file status/button_Workflow_editButton""))",Chrome 102.0.5005.115,,,2022-07-20 14:22:45,2022-07-20 14:23:16,"31,411s",FAILED
+,,,,,,,
+Test Cases/Delete File Status,Chrome 102.0.5005.115,,,2022-07-20 14:23:16,2022-07-20 14:23:21,"4,780s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-20 14:23:17,2022-07-20 14:23:18,"0,856s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-20 14:23:18,2022-07-20 14:23:21,"3,228s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-20 14:23:21,2022-07-20 14:23:21,"0,185s",FAILED

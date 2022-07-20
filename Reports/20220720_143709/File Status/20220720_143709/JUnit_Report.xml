@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="File Status" time="321.245" tests="3" failures="0" errors="0">
+   <testsuite name="File Status" tests="3" failures="0" errors="0" time="321.245" skipped="0" timestamp="2022-07-20 14:37:13" hostname="juzcategui - juzcategui" id="Test Suites/File Status">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220720_143709/File Status/20220720_143709"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220720_143709/File Status/20220720_143709/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220720_143709/File Status/20220720_143709/1658342335329.png, /home/juzcategui/git/DIMS/Reports/20220720_143709/File Status/20220720_143709/1658342441489.png, /home/juzcategui/git/DIMS/Reports/20220720_143709/File Status/20220720_143709/1658342553463.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="192.168.12.200"/>
+         <property name="sessionId" value="eeb524161c7b925dee065171322a42f0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add File Status" time="102.88" classname="Test Cases/Add File Status" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:37:13 - [TEST_CASE][PASSED] - Test Cases/Add File Status: Test Cases/Add File Status
+
+2022-07-20 14:37:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-20 14:37:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-20 14:37:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-20 14:37:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-20 14:37:15 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-20 14:38:42 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-20 14:38:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-20 14:38:43 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-20 14:38:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-20 14:38:43 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-20 14:38:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-20 14:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-20 14:38:44 - [TEST_STEP][PASSED] - click(findTestObject("File status/Add file status/strong_Document Tools")): Object: 'Object Repository/File status/Add file status/strong_Document Tools' is clicked on
+
+2022-07-20 14:38:48 - [MESSAGE][PASSED] - Object: 'Object Repository/File status/Add file status/strong_Document Tools' is clicked on
+
+2022-07-20 14:38:48 - [TEST_STEP][PASSED] - click(findTestObject("File status/Add file status/span_File Status")): Object: 'Object Repository/File status/Add file status/span_File Status' is clicked on
+
+2022-07-20 14:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/File status/Add file status/span_File Status' is clicked on
+
+2022-07-20 14:38:49 - [TEST_STEP][PASSED] - click(findTestObject("File status/Add file status/button_Welcome, Julio Uzctegui_addButton")): Object: 'Object Repository/File status/Add file status/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-07-20 14:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/File status/Add file status/button_Welcome, Julio Uzctegui_addButton' is clicked on
+
+2022-07-20 14:38:49 - [TEST_STEP][PASSED] - setText(findTestObject("File status/Add file status/input_File Status"), name): Text 'Test aut' is set on object 'Object Repository/File status/Add file status/input_File Status'
+
+2022-07-20 14:38:50 - [MESSAGE][PASSED] - Text 'Test aut' is set on object 'Object Repository/File status/Add file status/input_File Status'
+
+2022-07-20 14:38:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("File status/Add file status/select_true"), "false", false): All options with value 'false' are selected in object 'Object Repository/File status/Add file status/select_true' 
+
+2022-07-20 14:38:51 - [MESSAGE][PASSED] - All options with value 'false' are selected in object 'Object Repository/File status/Add file status/select_true' 
+
+2022-07-20 14:38:51 - [TEST_STEP][PASSED] - setText(findTestObject("File status/Add file status/input_Order By"), orderby): Text '40' is set on object 'Object Repository/File status/Add file status/input_Order By'
+
+2022-07-20 14:38:52 - [MESSAGE][PASSED] - Text '40' is set on object 'Object Repository/File status/Add file status/input_Order By'
+
+2022-07-20 14:38:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("File status/Add file status/select_true (1)"), "true", false): All options with value 'true' are selected in object 'Object Repository/File status/Add file status/select_true (1)' 
+
+2022-07-20 14:38:52 - [MESSAGE][PASSED] - All options with value 'true' are selected in object 'Object Repository/File status/Add file status/select_true (1)' 
+
+2022-07-20 14:38:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("File status/Add file status/select_true (2)"), "true", false): All options with value 'true' are selected in object 'Object Repository/File status/Add file status/select_true (2)' 
+
+2022-07-20 14:38:53 - [MESSAGE][PASSED] - All options with value 'true' are selected in object 'Object Repository/File status/Add file status/select_true (2)' 
+
+2022-07-20 14:38:53 - [TEST_STEP][PASSED] - click(findTestObject("File status/Add file status/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/File status/Add file status/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-07-20 14:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/File status/Add file status/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-07-20 14:38:54 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-07-20 14:38:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-20 14:38:55 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-20 14:38:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 14:38:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220720_143709/File Status/20220720_143709/1658342335329.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit File Status" time="105.774" classname="Test Cases/Edit File Status" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:38:56 - [TEST_CASE][PASSED] - Test Cases/Edit File Status: Test Cases/Edit File Status
+
+2022-07-20 14:38:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-20 14:38:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-20 14:38:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-20 14:38:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-20 14:38:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-20 14:38:57 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-20 14:40:16 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-20 14:40:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-20 14:40:17 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-20 14:40:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-20 14:40:17 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-20 14:40:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-20 14:40:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-20 14:40:18 - [TEST_STEP][PASSED] - click(findTestObject("File status/Add file status/strong_Document Tools")): Object: 'Object Repository/File status/Add file status/strong_Document Tools' is clicked on
+
+2022-07-20 14:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/File status/Add file status/strong_Document Tools' is clicked on
+
+2022-07-20 14:40:35 - [TEST_STEP][PASSED] - click(findTestObject("File status/Add file status/span_File Status")): Object: 'Object Repository/File status/Add file status/span_File Status' is clicked on
+
+2022-07-20 14:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/File status/Add file status/span_File Status' is clicked on
+
+2022-07-20 14:40:35 - [TEST_STEP][PASSED] - setText(findTestObject("File status/Edit file status/input_File to search"), name): Text 'Test aut' is set on object 'Object Repository/File status/Edit file status/input_File to search'
+
+2022-07-20 14:40:36 - [MESSAGE][PASSED] - Text 'Test aut' is set on object 'Object Repository/File status/Edit file status/input_File to search'
+
+2022-07-20 14:40:36 - [TEST_STEP][PASSED] - click(findTestObject("File status/Edit file status/button_Workflow_editButton")): Object: 'Object Repository/File status/Edit file status/button_Workflow_editButton' is clicked on
+
+2022-07-20 14:40:37 - [MESSAGE][PASSED] - Object: 'Object Repository/File status/Edit file status/button_Workflow_editButton' is clicked on
+
+2022-07-20 14:40:37 - [TEST_STEP][PASSED] - setText(findTestObject("File status/Edit file status/input_File Status to edit"), namemodify): Text 'Test aut modificado' is set on object 'Object Repository/File status/Edit file status/input_File Status to edit'
+
+2022-07-20 14:40:38 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/File status/Edit file status/input_File Status to edit'
+
+2022-07-20 14:40:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("File status/Edit file status/select_YesNo"), "true", false): All options with value 'true' are selected in object 'Object Repository/File status/Edit file status/select_YesNo' 
+
+2022-07-20 14:40:39 - [MESSAGE][PASSED] - All options with value 'true' are selected in object 'Object Repository/File status/Edit file status/select_YesNo' 
+
+2022-07-20 14:40:39 - [TEST_STEP][PASSED] - click(findTestObject("File status/Edit file status/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/File status/Edit file status/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-07-20 14:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/File status/Edit file status/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-07-20 14:40:39 - [TEST_STEP][PASSED] - click(findTestObject("File status/Edit file status/button_Accept")): Object: 'Object Repository/File status/Edit file status/button_Accept' is clicked on
+
+2022-07-20 14:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/File status/Edit file status/button_Accept' is clicked on
+
+2022-07-20 14:40:40 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-07-20 14:40:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-20 14:40:41 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-20 14:40:42 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 14:40:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220720_143709/File Status/20220720_143709/1658342441489.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Delete File Status" time="111.916" classname="Test Cases/Delete File Status" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:40:42 - [TEST_CASE][PASSED] - Test Cases/Delete File Status: Test Cases/Delete File Status
+
+2022-07-20 14:40:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-20 14:40:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-20 14:40:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-20 14:40:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-20 14:40:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-20 14:40:43 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-20 14:42:16 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-20 14:42:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-20 14:42:17 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-20 14:42:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-20 14:42:17 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/Page_Debt IMS/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-20 14:42:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/Page_Debt IMS/button_Login")): Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-20 14:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/Page_Debt IMS/button_Login' is clicked on
+
+2022-07-20 14:42:18 - [TEST_STEP][PASSED] - click(findTestObject("File status/Add file status/strong_Document Tools")): Object: 'Object Repository/File status/Add file status/strong_Document Tools' is clicked on
+
+2022-07-20 14:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/File status/Add file status/strong_Document Tools' is clicked on
+
+2022-07-20 14:42:28 - [TEST_STEP][PASSED] - click(findTestObject("File status/Add file status/span_File Status")): Object: 'Object Repository/File status/Add file status/span_File Status' is clicked on
+
+2022-07-20 14:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/File status/Add file status/span_File Status' is clicked on
+
+2022-07-20 14:42:29 - [TEST_STEP][PASSED] - setText(findTestObject("File status/Edit file status/input_File to search"), namemodify): Text 'Test aut modificado' is set on object 'Object Repository/File status/Edit file status/input_File to search'
+
+2022-07-20 14:42:30 - [MESSAGE][PASSED] - Text 'Test aut modificado' is set on object 'Object Repository/File status/Edit file status/input_File to search'
+
+2022-07-20 14:42:30 - [TEST_STEP][PASSED] - click(findTestObject("File status/Delete file status/td_Workflow_tdEditButton"), STOP_ON_FAILURE): Object: 'Object Repository/File status/Delete file status/td_Workflow_tdEditButton' is clicked on
+
+2022-07-20 14:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/File status/Delete file status/td_Workflow_tdEditButton' is clicked on
+
+2022-07-20 14:42:31 - [TEST_STEP][PASSED] - click(findTestObject("File status/Delete file status/button_Welcome, Julio Uzctegui_deleteButton"), STOP_ON_FAILURE): Object: 'Object Repository/File status/Delete file status/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-07-20 14:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/File status/Delete file status/button_Welcome, Julio Uzctegui_deleteButton' is clicked on
+
+2022-07-20 14:42:31 - [TEST_STEP][PASSED] - click(findTestObject("File status/Delete file status/button_Accept"), STOP_ON_FAILURE): Object: 'Object Repository/File status/Delete file status/button_Accept' is clicked on
+
+2022-07-20 14:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/File status/Delete file status/button_Accept' is clicked on
+
+2022-07-20 14:42:32 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-07-20 14:42:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-20 14:42:33 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-20 14:42:33 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 14:42:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220720_143709/File Status/20220720_143709/1658342553463.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-20 14:37:13 - [TEST_SUITE][PASSED] - File Status: Test Cases/Delete File Status]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
