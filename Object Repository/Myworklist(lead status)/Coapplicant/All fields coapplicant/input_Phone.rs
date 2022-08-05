@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type = 'number']</value>
+         <value>//p-inputmask[@class='p-element pSSN ng-valid ng-touched ng-dirty p-inputwrapper-focus']/input[@class='p-inputtext p-component p-element p-inputmask']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[formcontrolname='phone'] > [placeholder='E.g. 555-444-3214']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@formcontrolname = 'phone']</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -10,18 +10,17 @@
          <value>//input[@type = 'text']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@formcontrolname = 'payment']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//input[@formcontrolname = 'payment']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

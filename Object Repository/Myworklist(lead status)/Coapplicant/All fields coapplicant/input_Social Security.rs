@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type = 'text' and @placeholder = 'E.g. 133-44-3214']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @placeholder = 'E.g. 133-44-3214']</value>
+         <value>//p-inputmask[@class='p-element pSSN ng-valid ng-touched ng-dirty p-inputwrapper-focus']/input[@class='p-inputtext p-component p-element p-inputmask']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input.p-inputtext.p-component.p-element.p-inputmask.p-filled</value>
+         <value>.p-inputtext[placeholder='E.g. 123456789']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@formcontrolname = 'socialSecurityNumber']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,18 +35,18 @@
       <value>p-inputtext p-component p-element p-inputmask p-filled</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>E.g. 133-44-3214</value>
+      <value>E.g. 123456789</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,6 +54,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;d-flex flex-column ng-star-inserted&quot;]/div[@class=&quot;menuShow&quot;]/div[@class=&quot;w-100 d-flex flex-column&quot;]/div[@class=&quot;w-auto&quot;]/app-community-leads-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex h-100&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;container-fluid shadow h-auto&quot;]/app-coapliccant[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex flex-column w-100&quot;]/div[2]/div[@class=&quot;container-fluid&quot;]/form[@class=&quot;container row ng-pristine ng-valid ng-touched&quot;]/div[@class=&quot;form-group col-4&quot;]/div[@class=&quot;input-group&quot;]/p-inputmask[@class=&quot;p-element pSSN ng-untouched ng-pristine ng-valid p-inputwrapper-filled p-inputwrapper-focus&quot;]/input[@class=&quot;p-inputtext p-component p-element p-inputmask p-filled&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>socialSecurityNumber</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

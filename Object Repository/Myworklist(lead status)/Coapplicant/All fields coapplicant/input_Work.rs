@@ -10,15 +10,15 @@
          <value>//input[@type = 'number']</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>[formcontrolname='work'] > [placeholder='E.g. 555-444-3214']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@formcontrolname = 'work']</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

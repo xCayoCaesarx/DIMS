@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://35.237.24.127:8081/dims-app/#/home')
 
-WebUI.setText(findTestObject('Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'), 'SUPER_USER7')
+WebUI.setText(findTestObject('Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'), username)
 
-WebUI.setText(findTestObject('Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'), 'Abcd1234**')
+WebUI.setText(findTestObject('Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'), pass)
 
 WebUI.click(findTestObject('Object Repository/Create Lead/button_Login'))
 
@@ -31,73 +31,80 @@ WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/strong_My Tool
 
 WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/span_My Worklist'))
 
-WebUI.setText(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'), '56793')
+WebUI.setText(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'), 'test mailer')
 
 WebUI.click(findTestObject('Myworklist(lead status)/search ojito add note/button_FILE_editButton'))
 
 WebUI.click(findTestObject('Myworklist(lead status)/Coapplicant/a_CoApplicant'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_First Name'), 'nombreeee')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_First Name'), name)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Middle Initial'), 'mediooo')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Middle Initial'), middlename)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Last Name'), 'apellidoooo')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Last Name'), lastname)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Address'), 'direccionnnnnnnnn')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Address'), address)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Address 2'), 'direccion 2222')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Address 2'), address2)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_City'), 'ciudaddddd')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_City'), city)
 
 WebUI.selectOptionByValue(findTestObject('Myworklist(lead status)/Coapplicant/select_State'), '3: 3', false)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address'), 'direccion previaaaa')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_zip'), zip)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address 2'), 'direccion previaaaa 222222')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address'), paddress)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous City'), 'ciudad previaaa')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address 2'), paddress2)
+
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous City'), pcity)
 
 WebUI.selectOptionByValue(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state'), 
     '2: 2', false)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Zip'), '3090')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Zip'), pzip)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Phone'), '151515')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Phone'), phone)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Cell'), '161616')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Cell'), cell)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Work'), '171717')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Work'), work)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Ext'), '161616')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Ext'), ext)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Fax'), '171717')
+WebUI.setText(findTestObject('Create Lead/input_Fax'), fax)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Email'), 'jtegui@ggmail.com')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Email'), email)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input__email2'), 'jtegui@ggmail2222.com')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input__email2'), email2)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Driver License'), 'lencia test 12')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Driver License'), license)
 
 WebUI.selectOptionByValue(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/select_driver state'), 
     '1: 1', false)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Social Security'), '111111111')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Social Security'), socialsecurity)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Mothers Maiden Name'), 'maria test')
+WebUI.click(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/Page_Debt IMS/input_DOB (ex. 06211970)_form-control shadow-none ng-pristine ng-valid flatpickr-input ng-touched active'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/Page_Debt IMS/span_2'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Mothers Maiden Name'), mothername)
 
 WebUI.click(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Self Employed_check'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Occupation'), 'analista')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Occupation'), occupation)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Employer'), 'ca sal')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Employer'), employer)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Length of employment'), 'length of emplyment')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Length of employment'), lengthofemploy)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Gross Annual Income'), '1000000')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Gross Annual Income'), annualincome)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Employer'), 'another company')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Employer'), pemploy)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Payment_'), '10000')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Payment_'), payment)
 
 WebUI.click(findTestObject('Myworklist(lead status)/Coapplicant/button_History_saveButton'))
 

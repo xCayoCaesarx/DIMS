@@ -10,12 +10,12 @@
          <value>//select[(text() = 'Select OneUS Armed Forces EuropeAlaskaAlabamaUS Armed Forces PacificArkansasAmerican SamoaArizonaCaliforniaColoradoConnecticutWashingtonDelawareFloridaFederated States of MicronesiaGeorgiaGuamHawaiiIowaIdahoIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMaineNew YorkPuerto RicoMarshall IslandsMichiganMinnesotaMissouriNorthern Mariana IslandsMississippiMontanaNorth CarolinaNorth DakotaNebraskaNew HampshireNew JerseyNew MexicoNevadaOhioOklahomaOregonPennsylvaniaPalauRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVirgin IslandsVermontWashingtonWisconsinWest VirginiaWyoming' or . = 'Select OneUS Armed Forces EuropeAlaskaAlabamaUS Armed Forces PacificArkansasAmerican SamoaArizonaCaliforniaColoradoConnecticutWashingtonDelawareFloridaFederated States of MicronesiaGeorgiaGuamHawaiiIowaIdahoIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMaineNew YorkPuerto RicoMarshall IslandsMichiganMinnesotaMissouriNorthern Mariana IslandsMississippiMontanaNorth CarolinaNorth DakotaNebraskaNew HampshireNew JerseyNew MexicoNevadaOhioOklahomaOregonPennsylvaniaPalauRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVirgin IslandsVermontWashingtonWisconsinWest VirginiaWyoming')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//select[@formcontrolname = 'previousState' and (text() = 'Select OneUS Armed Forces EuropeAlaskaAlabamaUS Armed Forces PacificArkansasAmerican SamoaArizonaCaliforniaColoradoConnecticutWashingtonDelawareFloridaFederated States of MicronesiaGeorgiaGuamHawaiiIowaIdahoIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMaineNew YorkPuerto RicoMarshall IslandsMichiganMinnesotaMissouriNorthern Mariana IslandsMississippiMontanaNorth CarolinaNorth DakotaNebraskaNew HampshireNew JerseyNew MexicoNevadaOhioOklahomaOregonPennsylvaniaPalauRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVirgin IslandsVermontWashingtonWisconsinWest VirginiaWyoming' or . = 'Select OneUS Armed Forces EuropeAlaskaAlabamaUS Armed Forces PacificArkansasAmerican SamoaArizonaCaliforniaColoradoConnecticutWashingtonDelawareFloridaFederated States of MicronesiaGeorgiaGuamHawaiiIowaIdahoIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMaineNew YorkPuerto RicoMarshall IslandsMichiganMinnesotaMissouriNorthern Mariana IslandsMississippiMontanaNorth CarolinaNorth DakotaNebraskaNew HampshireNew JerseyNew MexicoNevadaOhioOklahomaOregonPennsylvaniaPalauRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVirgin IslandsVermontWashingtonWisconsinWest VirginiaWyoming')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.input-group > select.form-select.shadow-none.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@formcontrolname = 'previousState']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -49,7 +49,7 @@
       <value>form-select shadow-none ng-untouched ng-pristine ng-valid</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

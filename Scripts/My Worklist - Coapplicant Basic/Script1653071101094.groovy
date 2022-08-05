@@ -31,27 +31,27 @@ WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/strong_My Tool
 
 WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/span_My Worklist'))
 
-WebUI.setText(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'), 'test dg')
+WebUI.setText(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'), 'test mailer')
 
 WebUI.click(findTestObject('Myworklist(lead status)/search ojito add note/button_FILE_editButton'))
 
 WebUI.click(findTestObject('Myworklist(lead status)/Coapplicant/a_CoApplicant'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_First Name'), 'aaaa')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_First Name'), name)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Last Name'), 'bbbb')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Last Name'), lastname)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Address'), 'direccionnnnnnnnn')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Address'), address)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_City'), 'ciudaddddd')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_City'), city)
 
 WebUI.selectOptionByValue(findTestObject('Myworklist(lead status)/Coapplicant/select_State'), '2: 2', false)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Email'), 'jtegui@ggmail.com')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Email'), email)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Gross Annual Income'), '1000000')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Gross Annual Income'), annualincome)
 
-WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Payment_'), '10000')
+WebUI.setText(findTestObject('Myworklist(lead status)/Coapplicant/input_Payment_'), payment)
 
 WebUI.click(findTestObject('Myworklist(lead status)/Coapplicant/button_History_saveButton'))
 
