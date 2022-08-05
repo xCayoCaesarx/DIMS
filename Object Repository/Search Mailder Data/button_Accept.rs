@@ -11,13 +11,17 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[19]</value>
+         <value>//div[@id='AssingModal']//button[@class='btn btn-primary']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @class = 'btn btn-primary' and (text() = 'Accept' or . = 'Accept')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +35,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
