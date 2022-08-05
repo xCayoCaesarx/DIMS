@@ -4,11 +4,11 @@
    <name>span_30</name>
    <tag></tag>
    <elementGuidId>a87c7d86-d2cb-4276-80cd-5096808f04bc</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[2]/div[2]/div/div[2]/div/span[(text() = '30' or . = '30')]
-[count(. | //*[@class = 'flatpickr-day']) = count(//*[@class = 'flatpickr-day'])]</value>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -20,7 +20,12 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>body > div:nth-of-type(2) [aria-label='April 30, 2022']</value>
+         <value>body > div:nth-of-type(2) [aria-label='formattedDate2']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/div[2]/div/div[2]/div/span[(text() = '3' or . = '3')]
+[count(. | //*[@class = 'flatpickr-day']) = count(//*[@class = 'flatpickr-day'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -58,14 +63,14 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>30</value>
+      <value>3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[2]/div[2]/div/div[2]/div/span[(text() = '30' or . = '30')]
+      <value>/html/body/div[2]/div[2]/div/div[2]/div/span[(text() = '3' or . = '3')]
 </value>
    </webElementProperties>
    <webElementProperties>

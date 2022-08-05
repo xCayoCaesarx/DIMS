@@ -77,7 +77,7 @@
    <testCaseLink>
       <guid>3df531c6-f6d0-4427-8b0b-49920680cff5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Search Mailer Data</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

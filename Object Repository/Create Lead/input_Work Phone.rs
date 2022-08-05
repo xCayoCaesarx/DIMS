@@ -6,15 +6,19 @@
    <elementGuidId>7454224f-dccd-4f8c-bcc3-56e950c98342</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@type='number'])[2]</value>
+         <key>BASIC</key>
+         <value>//*[@formcontrolname = 'workPhone']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input.form-control.shadow-none.noArrowNumeric.ng-untouched.ng-pristine.ng-valid</value>
+         <value>[formcontrolname='workPhone'] > [placeholder='E.g. 555-444-3214']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='number'])[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,7 +28,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -52,7 +56,7 @@
       <value>javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>formcontrolname</name>
       <type>Main</type>

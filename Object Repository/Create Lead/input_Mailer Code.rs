@@ -6,18 +6,22 @@
    <elementGuidId>aef4f28d-d11d-4ea7-b2e1-a3ba5c78ebc1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@type='text'])[9]</value>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @formcontrolname = 'mailerCode']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>input.form-control.shadow-none.ng-untouched.ng-pristine.ng-valid</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[9]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +35,7 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>formcontrolname</name>
       <type>Main</type>

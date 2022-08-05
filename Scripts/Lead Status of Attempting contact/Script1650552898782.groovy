@@ -37,6 +37,8 @@ WebUI.click(findTestObject('Myworklist(lead status)/button_Color_editButton'))
 
 WebUI.selectOptionByValue(findTestObject('Myworklist(lead status)/select_ lead to queue(main is 2)'), '2', false)
 
+WebUI.setText(findTestObject('Myworklist(lead status)/Page_Debt IMS/Page_Debt IMS/input_Order (12)'), '12', FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Myworklist(lead status)/button_Welcome, Julio Uzctegui_saveButton'))
 
 WebUI.click(findTestObject('Myworklist(lead status)/button_Accept'))

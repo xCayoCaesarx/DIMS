@@ -6,32 +6,36 @@
    <elementGuidId>8bd62cb8-4436-4be4-b2f8-4a444fe8fb12</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='pr_id_1-table']/tbody/tr/td/button</value>
+         <key>BASIC</key>
+         <value>//button[@class = 'editButton']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.editButton</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='pr_id_1-table']/tbody/tr/td/button</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>editButton</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

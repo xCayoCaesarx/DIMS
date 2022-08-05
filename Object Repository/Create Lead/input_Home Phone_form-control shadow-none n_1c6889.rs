@@ -6,15 +6,19 @@
    <elementGuidId>ebe57313-5a2b-4691-82d0-1d95909e5f22</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@formcontrolname = 'homePhone']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value>input.form-control.shadow-none.noArrowNumeric.ng-untouched.ng-dirty.ng-valid</value>
+         <value>[formcontrolname='homePhone'] > [placeholder='E.g. 555-444-3214']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type='number']</value>
+         <value>//p-inputmask[@class='p-element pSSN6 ng-valid ng-dirty ng-touched p-inputwrapper-focus']/input[@class='p-inputtext p-component p-element p-inputmask']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,7 +28,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -52,7 +56,7 @@
       <value>javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>formcontrolname</name>
       <type>Main</type>

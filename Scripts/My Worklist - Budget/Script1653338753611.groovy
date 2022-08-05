@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/strong_My Tool
 
 WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/span_My Worklist'))
 
-WebUI.setText(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'), '56793')
+WebUI.setText(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'), 'test dg')
 
 WebUI.click(findTestObject('Myworklist(lead status)/search ojito add note/button_FILE_editButton'))
 

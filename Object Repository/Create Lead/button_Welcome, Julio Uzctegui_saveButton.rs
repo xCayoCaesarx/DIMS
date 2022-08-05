@@ -6,11 +6,6 @@
    <elementGuidId>56e25d0c-53e3-4b41-8a24-992370f21326</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class='saveButton']
-</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//button[@class = 'saveButton']</value>
       </entry>
@@ -18,8 +13,13 @@
          <key>CSS</key>
          <value>.saveButton</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@class='saveButton']
+</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

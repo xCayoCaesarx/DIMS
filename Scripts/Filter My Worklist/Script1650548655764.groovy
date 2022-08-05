@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.util.Calendar as Calendar
+import java.time.*
 
 WebUI.openBrowser('')
 
@@ -37,14 +39,18 @@ WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_1'))
 
 WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_To_form'))
 
-WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_31'), FailureHandling.OPTIONAL)
+Date todaysDate = new Date()
 
-WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_30'), FailureHandling.OPTIONAL)
+def datetoday = todaysDate.format('d')
 
-WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_29'), FailureHandling.OPTIONAL)
+println(datetoday)
 
-WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_28'), FailureHandling.OPTIONAL)
+//WebUI.click('/html/body/div[2]/div[2]/div/div[2]/div/span[(text() = "4" )]', FailureHandling.CONTINUE_ON_FAILURE)
+//WebUI.click(findTestObject('debt ims R/Page_Debt IMS/Page_Debt IMS/span_today'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('debt ims R/Page_Debt IMS/Page_Debt IMS/span_today', [('datetoday') : datetoday]))
 
+//WebUI.getText(findTestObject(‘Page_/table_object_name’, [(‘Variable’) : index]))
+//WebUI.click(findTestObject('Object Repository/debt ims R/Page_Debt IMS/span_28'), FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter'))
 
 WebUI.click(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset'))

@@ -6,15 +6,19 @@
    <elementGuidId>428070dd-ab41-43f4-950a-4795aeb7a7d8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@type='number'])[4]</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'number']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input.form-control.shadow-none.noArrowNumeric.ng-untouched.ng-pristine.ng-valid</value>
+         <value>[formcontrolname='fax'] > [placeholder='E.g. 555-444-3214']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>[formcontrolname='fax'] > [placeholder='E.g. 555-444-3214']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

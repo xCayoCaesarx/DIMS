@@ -6,13 +6,8 @@
    <elementGuidId>6c14c70a-940f-4a0e-b1c5-1fc694e665f5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[2]/div[2]/div/div[2]/div/span[(text() = '28' or . = '30')]
-[count(. | //*[@class = 'flatpickr-day']) = count(//*[@class = 'flatpickr-day'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/div[2]/div/div[2]/div/span[(text() = '30' or . = '30')]
+         <value>/html/body/div[2]/div[2]/div/div[2]/div/span[(text() = '3' or . = '3')]
 
 
 
@@ -22,8 +17,13 @@
          <key>CSS</key>
          <value>body > div:nth-of-type(2) [aria-label='April 30, 2022']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/div[2]/div/div[2]/div/span[(text() = '28' or . = '28')]
+[count(. | //*[@class = 'flatpickr-day']) = count(//*[@class = 'flatpickr-day'])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,32 +77,4 @@
 
 </value>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//span[(text() = '30' or . = '30')]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>//flatpickr-day</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[2]/following::span[36]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[3]/div[2]/div/div[2]/div/span[35]</value>
-   </webElementXpaths>
 </WebElementEntity>

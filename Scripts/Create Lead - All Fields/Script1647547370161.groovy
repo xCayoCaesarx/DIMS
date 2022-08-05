@@ -56,7 +56,7 @@ WebUI.setText(findTestObject('Create Lead/input_Zip'), zip)
 
 WebUI.selectOptionByValue(findTestObject('debt ims R/Page_Debt IMS/select_Select OneUNITED STATES OF AMERICA'), '62', true)
 
-WebUI.setText(findTestObject('Object Repository/Create Lead/input_Home Phone_form-control shadow-none n_1c6889'), homephone)
+WebUI.setText(findTestObject('Create Lead/Page_Debt IMS/input_Home Phone_new'), homephone)
 
 WebUI.setText(findTestObject('Create Lead/input_Work Phone'), workphone)
 

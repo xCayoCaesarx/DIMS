@@ -6,15 +6,19 @@
    <elementGuidId>b48b8abe-b228-4a28-995c-cadd71c64d55</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
+         <key>BASIC</key>
+         <value>id(&quot;UpdateModal&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;modal-body-buttons&quot;]/div[1]/button[@class=&quot;btn btn-primary&quot;][count(. | //*[@type = 'button' and (text() = 'Accept' or . = 'Accept')]) = count(//*[@type = 'button' and (text() = 'Accept' or . = 'Accept')])]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#UpdateModal > div.modal-dialog.modal-dialog-centered > div.modal-content > div.modal-body > div.modal-body-buttons > div > button.btn.btn-primary</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <value>Accept</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
