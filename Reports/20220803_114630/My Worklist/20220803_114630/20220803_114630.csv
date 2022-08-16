@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My Worklist,Chrome 102.0.5005.115,,,2022-08-03 11:46:33,2022-08-03 11:47:11,"37,804s",ERROR
+,,,,,,,
+Test Cases/Filter My Worklist,Chrome 102.0.5005.115,,,2022-08-03 11:46:34,2022-08-03 11:47:11,"37,215s",ERROR
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-08-03 11:46:34,2022-08-03 11:46:36,"2,217s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-08-03 11:46:36,2022-08-03 11:47:06,"29,088s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-08-03 11:47:06,2022-08-03 11:47:06,"0,869s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-08-03 11:47:06,2022-08-03 11:47:07,"0,754s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 102.0.5005.115,,,2022-08-03 11:47:07,2022-08-03 11:47:08,"0,417s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/strong_My Tools""))",Chrome 102.0.5005.115,,,2022-08-03 11:47:08,2022-08-03 11:47:08,"0,735s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/span_My Worklist""))",Chrome 102.0.5005.115,,,2022-08-03 11:47:08,2022-08-03 11:47:09,"0,588s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_From""))",Chrome 102.0.5005.115,,,2022-08-03 11:47:09,2022-08-03 11:47:10,"0,822s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_1""))",Chrome 102.0.5005.115,,,2022-08-03 11:47:10,2022-08-03 11:47:10,"0,445s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_To_form""))",Chrome 102.0.5005.115,,,2022-08-03 11:47:10,2022-08-03 11:47:11,"0,544s",PASSED
+"click(findTestObject(3), STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-08-03 11:47:11,2022-08-03 11:47:11,"0,072s",ERROR

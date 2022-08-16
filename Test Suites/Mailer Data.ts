@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>56fc8e05-4df0-45b4-ab86-11bf42ffbd29</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Add Mailer Data</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

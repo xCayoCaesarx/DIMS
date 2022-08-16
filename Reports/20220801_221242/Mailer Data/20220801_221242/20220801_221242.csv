@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Mailer Data,Chrome 102.0.5005.115,,,2022-08-01 22:12:46,2022-08-01 22:15:27,"2m - 41,380s",FAILED
+,,,,,,,
+Test Cases/Add Mailer Data,Chrome 102.0.5005.115,,,2022-08-01 22:12:46,2022-08-01 22:14:14,"1m - 27,561s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-08-01 22:12:47,2022-08-01 22:12:49,"1,904s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-08-01 22:12:49,2022-08-01 22:13:38,"49,513s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-08-01 22:13:38,2022-08-01 22:13:39,"0,890s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-08-01 22:13:39,2022-08-01 22:13:40,"0,763s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 102.0.5005.115,,,2022-08-01 22:13:40,2022-08-01 22:13:42,"2,555s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/strong_My Tools""))",Chrome 102.0.5005.115,,,2022-08-01 22:13:42,2022-08-01 22:14:14,"31,364s",FAILED
+,,,,,,,
+Test Cases/Search Mailer Data,Chrome 102.0.5005.115,,,2022-08-01 22:14:14,2022-08-01 22:15:27,"1m - 13,034s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-08-01 22:14:14,2022-08-01 22:14:15,"0,950s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-08-01 22:14:15,2022-08-01 22:14:52,"36,347s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-08-01 22:14:52,2022-08-01 22:14:52,"0,730s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-08-01 22:14:52,2022-08-01 22:14:53,"0,763s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 102.0.5005.115,,,2022-08-01 22:14:53,2022-08-01 22:14:55,"2,461s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/strong_My Tools""))",Chrome 102.0.5005.115,,,2022-08-01 22:14:55,2022-08-01 22:15:27,"31,417s",FAILED

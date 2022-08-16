@@ -6,6 +6,10 @@
    <elementGuidId>0adbff68-8228-406a-af6c-0c5aed8c2685</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @id = '6-1']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@type = 'text' and @id = '6-1']</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>#6-1</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +53,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>6-1</value>
+      <value>17-5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

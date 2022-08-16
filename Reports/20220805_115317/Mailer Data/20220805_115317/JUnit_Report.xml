@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mailer Data" time="108.188" tests="2" failures="1" errors="0">
+   <testsuite name="Mailer Data" tests="2" failures="1" errors="0" time="108.188" skipped="0" timestamp="2022-08-05 11:53:20" hostname="juzcategui - juzcategui" id="Test Suites/Mailer Data">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220805_115317/Mailer Data/20220805_115317"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220805_115317/Mailer Data/20220805_115317/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220805_115317/Mailer Data/20220805_115317/1659714857659.png, /home/juzcategui/git/DIMS/Reports/20220805_115317/Mailer Data/20220805_115317/1659714908564.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="192.168.12.200"/>
+         <property name="sessionId" value="639d82fe125b9dab7d085b67e9b03361"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Add Mailer Data" time="57.097" classname="Test Cases/Add Mailer Data" status="PASSED">
+         <system-out><![CDATA[2022-08-05 11:53:21 - [TEST_CASE][PASSED] - Test Cases/Add Mailer Data: Test Cases/Add Mailer Data
+
+2022-08-05 11:53:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-05 11:53:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-05 11:53:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-05 11:53:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-05 11:53:23 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-08-05 11:53:58 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-08-05 11:53:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-08-05 11:53:59 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-08-05 11:53:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-08-05 11:54:00 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-08-05 11:54:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-08-05 11:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-08-05 11:54:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/strong_My Tools")): Object: 'Object Repository/Create Lead/strong_My Tools' is clicked on
+
+2022-08-05 11:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/strong_My Tools' is clicked on
+
+2022-08-05 11:54:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/span_New Lead")): Object: 'Object Repository/Create Lead/span_New Lead' is clicked on
+
+2022-08-05 11:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/span_New Lead' is clicked on
+
+2022-08-05 11:54:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create Lead/select_Select OneAdvertising-Stop My Payday_d308cb"), "10", true): All options with value '10' are selected in object 'Object Repository/Create Lead/select_Select OneAdvertising-Stop My Payday_d308cb'  using regular expression
+
+2022-08-05 11:54:05 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Create Lead/select_Select OneAdvertising-Stop My Payday_d308cb'  using regular expression
+
+2022-08-05 11:54:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Create Lead/status select"), "12", true): All options with value '12' are selected in object 'Object Repository/Create Lead/status select'  using regular expression
+
+2022-08-05 11:54:06 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/Create Lead/status select'  using regular expression
+
+2022-08-05 11:54:06 - [TEST_STEP][PASSED] - setText(findTestObject("Create Lead/input_First Name"), firstname): Text 'Test Mailer1' is set on object 'Object Repository/Create Lead/input_First Name'
+
+2022-08-05 11:54:07 - [MESSAGE][PASSED] - Text 'Test Mailer1' is set on object 'Object Repository/Create Lead/input_First Name'
+
+2022-08-05 11:54:07 - [TEST_STEP][PASSED] - setText(findTestObject("Create Lead/input_Last Name"), lastname): Text 'Test Data' is set on object 'Object Repository/Create Lead/input_Last Name'
+
+2022-08-05 11:54:08 - [MESSAGE][PASSED] - Text 'Test Data' is set on object 'Object Repository/Create Lead/input_Last Name'
+
+2022-08-05 11:54:08 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Create Lead/select_Select OneUS Armed Forces EuropeAlas_fd93bc"), "Alaska", true): All options with label 'Alaska' are selected in object 'Object Repository/Create Lead/select_Select OneUS Armed Forces EuropeAlas_fd93bc'  using regular expression
+
+2022-08-05 11:54:10 - [MESSAGE][PASSED] - All options with label 'Alaska' are selected in object 'Object Repository/Create Lead/select_Select OneUS Armed Forces EuropeAlas_fd93bc'  using regular expression
+
+2022-08-05 11:54:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0"), "1", true): All options with value '1' are selected in object 'Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0'  using regular expression
+
+2022-08-05 11:54:11 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0'  using regular expression
+
+2022-08-05 11:54:11 - [TEST_STEP][PASSED] - setText(findTestObject("Create Lead/input_Zip"), zip): Text '10100' is set on object 'Object Repository/Create Lead/input_Zip'
+
+2022-08-05 11:54:12 - [MESSAGE][PASSED] - Text '10100' is set on object 'Object Repository/Create Lead/input_Zip'
+
+2022-08-05 11:54:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("debt ims R/Page_Debt IMS/select_Select OneUNITED STATES OF AMERICA"), "62", true): All options with value '62' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneUNITED STATES OF AMERICA'  using regular expression
+
+2022-08-05 11:54:13 - [MESSAGE][PASSED] - All options with value '62' are selected in object 'Object Repository/debt ims R/Page_Debt IMS/select_Select OneUNITED STATES OF AMERICA'  using regular expression
+
+2022-08-05 11:54:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Home Phone_form-control shadow-none n_1c6889"), homephone): Text '2129909090' is set on object 'Object Repository/Create Lead/input_Home Phone_form-control shadow-none n_1c6889'
+
+2022-08-05 11:54:14 - [MESSAGE][PASSED] - Text '2129909090' is set on object 'Object Repository/Create Lead/input_Home Phone_form-control shadow-none n_1c6889'
+
+2022-08-05 11:54:14 - [TEST_STEP][PASSED] - setText(findTestObject("Create Lead/input_Email_form-control shadow-none ng-untouched ng-pristine ng-invalid"), email): Text 'test1@mailer.com' is set on object 'Object Repository/Create Lead/input_Email_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-08-05 11:54:15 - [MESSAGE][PASSED] - Text 'test1@mailer.com' is set on object 'Object Repository/Create Lead/input_Email_form-control shadow-none ng-untouched ng-pristine ng-invalid'
+
+2022-08-05 11:54:15 - [TEST_STEP][PASSED] - setText(findTestObject("Create Lead/input_Mailer Code"), maildercode): Text 'CodeAut100' is set on object 'Object Repository/Create Lead/input_Mailer Code'
+
+2022-08-05 11:54:15 - [MESSAGE][PASSED] - Text 'CodeAut100' is set on object 'Object Repository/Create Lead/input_Mailer Code'
+
+2022-08-05 11:54:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton"), 0): Scroll to object 'Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton' successfully
+
+2022-08-05 11:54:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-05 11:54:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton' successfully
+
+2022-08-05 11:54:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-08-05 11:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-08-05 11:54:16 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-08-05 11:54:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-08-05 11:54:17 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-08-05 11:54:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-08-05 11:54:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220805_115317/Mailer Data/20220805_115317/1659714857659.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search Mailer Data" time="50.374" classname="Test Cases/Search Mailer Data" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Search Mailer Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search Mailder Data/button_Accept'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Search Mailer Data.run(Search Mailer Data:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659714797286.run(TempTestSuite1659714797286.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.200', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-41-generic', java.version: '1.8.0_342'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.K6Am5H}, goog:chromeOptions: {debuggerAddress: localhost:42569}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 639d82fe125b9dab7d085b67e9b03361
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-08-05 11:54:18 - [TEST_CASE][FAILED] - Test Cases/Search Mailer Data: Test Cases/Search Mailer Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search Mailder Data/button_Accept'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Search Mailer Data.run(Search Mailer Data:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659714797286.run(TempTestSuite1659714797286.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.200', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-41-generic', java.version: '1.8.0_342'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.K6Am5H}, goog:chromeOptions: {debuggerAddress: localhost:42569}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 639d82fe125b9dab7d085b67e9b03361
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-08-05 11:54:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-05 11:54:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-08-05 11:54:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-05 11:54:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-05 11:54:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-05 11:54:19 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-08-05 11:54:45 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-08-05 11:54:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-08-05 11:54:45 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-08-05 11:54:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-08-05 11:54:46 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-08-05 11:54:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-08-05 11:54:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-08-05 11:54:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/strong_My Tools")): Object: 'Object Repository/Create Lead/strong_My Tools' is clicked on
+
+2022-08-05 11:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/strong_My Tools' is clicked on
+
+2022-08-05 11:54:47 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/span_Mailer Data")): Object: 'Object Repository/Search Mailder Data/span_Mailer Data' is clicked on
+
+2022-08-05 11:54:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/span_Mailer Data' is clicked on
+
+2022-08-05 11:54:48 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Phone_form-"), homephone): Text '2129909090' is set on object 'Object Repository/Search Mailder Data/input_Phone_form-'
+
+2022-08-05 11:54:49 - [MESSAGE][PASSED] - Text '2129909090' is set on object 'Object Repository/Search Mailder Data/input_Phone_form-'
+
+2022-08-05 11:54:49 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-08-05 11:54:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-08-05 11:54:49 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Reset")): Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-08-05 11:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-08-05 11:54:50 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_First Name_form"), firstname): Text 'Test Mailer1' is set on object 'Object Repository/Search Mailder Data/input_First Name_form'
+
+2022-08-05 11:54:51 - [MESSAGE][PASSED] - Text 'Test Mailer1' is set on object 'Object Repository/Search Mailder Data/input_First Name_form'
+
+2022-08-05 11:54:51 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-08-05 11:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-08-05 11:54:51 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Reset")): Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-08-05 11:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-08-05 11:54:52 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Last Name_form"), lastname): Text 'Test Data' is set on object 'Object Repository/Search Mailder Data/input_Last Name_form'
+
+2022-08-05 11:54:56 - [MESSAGE][PASSED] - Text 'Test Data' is set on object 'Object Repository/Search Mailder Data/input_Last Name_form'
+
+2022-08-05 11:54:56 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-08-05 11:54:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-08-05 11:54:56 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Reset")): Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-08-05 11:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-08-05 11:54:57 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Zip_form"), zip): Text '10100' is set on object 'Object Repository/Search Mailder Data/input_Zip_form'
+
+2022-08-05 11:54:59 - [MESSAGE][PASSED] - Text '10100' is set on object 'Object Repository/Search Mailder Data/input_Zip_form'
+
+2022-08-05 11:54:59 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-08-05 11:54:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-08-05 11:54:59 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Reset")): Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-08-05 11:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-08-05 11:55:00 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Custom Code_form"), maildercode): Text 'CodeAut100' is set on object 'Object Repository/Search Mailder Data/input_Custom Code_form'
+
+2022-08-05 11:55:01 - [MESSAGE][PASSED] - Text 'CodeAut100' is set on object 'Object Repository/Search Mailder Data/input_Custom Code_form'
+
+2022-08-05 11:55:01 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-08-05 11:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-08-05 11:55:01 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Reset")): Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-08-05 11:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Reset' is clicked on
+
+2022-08-05 11:55:02 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Phone_form-"), homephone): Text '2129909090' is set on object 'Object Repository/Search Mailder Data/input_Phone_form-'
+
+2022-08-05 11:55:03 - [MESSAGE][PASSED] - Text '2129909090' is set on object 'Object Repository/Search Mailder Data/input_Phone_form-'
+
+2022-08-05 11:55:03 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_First Name_form"), firstname): Text 'Test Mailer1' is set on object 'Object Repository/Search Mailder Data/input_First Name_form'
+
+2022-08-05 11:55:04 - [MESSAGE][PASSED] - Text 'Test Mailer1' is set on object 'Object Repository/Search Mailder Data/input_First Name_form'
+
+2022-08-05 11:55:04 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Last Name_form"), lastname): Text 'Test Data' is set on object 'Object Repository/Search Mailder Data/input_Last Name_form'
+
+2022-08-05 11:55:05 - [MESSAGE][PASSED] - Text 'Test Data' is set on object 'Object Repository/Search Mailder Data/input_Last Name_form'
+
+2022-08-05 11:55:05 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Zip_form"), zip): Text '10100' is set on object 'Object Repository/Search Mailder Data/input_Zip_form'
+
+2022-08-05 11:55:05 - [MESSAGE][PASSED] - Text '10100' is set on object 'Object Repository/Search Mailder Data/input_Zip_form'
+
+2022-08-05 11:55:05 - [TEST_STEP][PASSED] - setText(findTestObject("Search Mailder Data/input_Custom Code_form"), maildercode): Text 'CodeAut100' is set on object 'Object Repository/Search Mailder Data/input_Custom Code_form'
+
+2022-08-05 11:55:06 - [MESSAGE][PASSED] - Text 'CodeAut100' is set on object 'Object Repository/Search Mailder Data/input_Custom Code_form'
+
+2022-08-05 11:55:06 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Search")): Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-08-05 11:55:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Search' is clicked on
+
+2022-08-05 11:55:06 - [TEST_STEP][PASSED] - click(findTestObject("Search Mailder Data/button_Assign")): Object: 'Object Repository/Search Mailder Data/button_Assign' is clicked on
+
+2022-08-05 11:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Mailder Data/button_Assign' is clicked on
+
+2022-08-05 11:55:07 - [TEST_STEP][FAILED] - click(findTestObject("Search Mailder Data/button_Accept")): Unable to click on object 'Object Repository/Search Mailder Data/button_Accept' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search Mailder Data/button_Accept'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Search Mailer Data.run(Search Mailer Data:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659714797286.run(TempTestSuite1659714797286.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.200', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-41-generic', java.version: '1.8.0_342'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.K6Am5H}, goog:chromeOptions: {debuggerAddress: localhost:42569}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 639d82fe125b9dab7d085b67e9b03361
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1650312198196.run(Script1650312198196.groovy:78)
+	... 13 more
+)
+
+2022-08-05 11:55:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Search Mailder Data/button_Accept' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search Mailder Data/button_Accept'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Search Mailer Data.run(Search Mailer Data:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659714797286.run(TempTestSuite1659714797286.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.200', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-41-generic', java.version: '1.8.0_342'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.K6Am5H}, goog:chromeOptions: {debuggerAddress: localhost:42569}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 639d82fe125b9dab7d085b67e9b03361
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1650312198196.run(Script1650312198196.groovy:78)
+	... 13 more
+)
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220805_115317/Mailer Data/20220805_115317/1659714908564.png]]]]></system-out>
+         <system-err><![CDATA[2022-08-05 11:54:18 - [TEST_CASE][FAILED] - Test Cases/Search Mailer Data: Test Cases/Search Mailer Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search Mailder Data/button_Accept'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Search Mailer Data.run(Search Mailer Data:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659714797286.run(TempTestSuite1659714797286.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.200', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-41-generic', java.version: '1.8.0_342'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.K6Am5H}, goog:chromeOptions: {debuggerAddress: localhost:42569}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 639d82fe125b9dab7d085b67e9b03361
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-05 11:53:20 - [TEST_SUITE][FAILED] - Mailer Data: Test Cases/Search Mailer Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search Mailder Data/button_Accept'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Search Mailer Data.run(Search Mailer Data:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659714797286.run(TempTestSuite1659714797286.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.200', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-41-generic', java.version: '1.8.0_342'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.K6Am5H}, goog:chromeOptions: {debuggerAddress: localhost:42569}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 639d82fe125b9dab7d085b67e9b03361
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-08-05 11:53:20 - [TEST_SUITE][FAILED] - Mailer Data: Test Cases/Search Mailer Data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search Mailder Data/button_Accept'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Search Mailer Data.run(Search Mailer Data:78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659714797286.run(TempTestSuite1659714797286.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.200', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-41-generic', java.version: '1.8.0_342'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.K6Am5H}, goog:chromeOptions: {debuggerAddress: localhost:42569}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 639d82fe125b9dab7d085b67e9b03361
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

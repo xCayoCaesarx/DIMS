@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Lead,Chrome 102.0.5005.115,,,2022-07-29 10:36:13,2022-07-29 10:38:12,"1m - 59,243s",FAILED
+,,,,,,,
+Test Cases/Create Lead - All Fields,Chrome 102.0.5005.115,,,2022-07-29 10:36:13,2022-07-29 10:38:12,"1m - 58,453s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-29 10:36:14,2022-07-29 10:36:16,"2,224s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-29 10:36:16,2022-07-29 10:37:22,"1m - 6,000s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-29 10:37:22,2022-07-29 10:37:23,"0,890s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-29 10:37:23,2022-07-29 10:37:24,"0,733s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 102.0.5005.115,,,2022-07-29 10:37:24,2022-07-29 10:37:27,"2,802s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/strong_My Tools""))",Chrome 102.0.5005.115,,,2022-07-29 10:37:27,2022-07-29 10:37:28,"0,770s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/span_New Lead""))",Chrome 102.0.5005.115,,,2022-07-29 10:37:28,2022-07-29 10:37:28,"0,643s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create Lead/select_Select OneAdvertising-Stop My Payday_d308cb""), ""3"", true)",Chrome 102.0.5005.115,,,2022-07-29 10:37:28,2022-07-29 10:37:30,"1,520s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0""), ""2"", true)",Chrome 102.0.5005.115,,,2022-07-29 10:37:30,2022-07-29 10:37:31,"1,251s",PASSED
+"selectOptionByValue(findTestObject(""Create Lead/status select""), ""12"", true)",Chrome 102.0.5005.115,,,2022-07-29 10:37:31,2022-07-29 10:37:32,"1,187s",PASSED
+"setText(findTestObject(""Create Lead/input_First Name""), firstname)",Chrome 102.0.5005.115,,,2022-07-29 10:37:32,2022-07-29 10:37:33,"0,736s",PASSED
+"setText(findTestObject(""Create Lead/input_Last Name""), lastname)",Chrome 102.0.5005.115,,,2022-07-29 10:37:33,2022-07-29 10:37:34,"0,777s",PASSED
+"setText(findTestObject(""Create Lead/input_Address 1""), address1)",Chrome 102.0.5005.115,,,2022-07-29 10:37:34,2022-07-29 10:37:34,"0,822s",PASSED
+"setText(findTestObject(""Create Lead/input_Address 2""), address2)",Chrome 102.0.5005.115,,,2022-07-29 10:37:34,2022-07-29 10:37:35,"0,820s",PASSED
+"setText(findTestObject(""Create Lead/input_City""), city)",Chrome 102.0.5005.115,,,2022-07-29 10:37:35,2022-07-29 10:37:36,"0,771s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create Lead/select_Select OneUS Armed Forces EuropeAlas_fd93bc""), ""2: 2"", true)",Chrome 102.0.5005.115,,,2022-07-29 10:37:36,2022-07-29 10:37:38,"1,687s",PASSED
+"setText(findTestObject(""Create Lead/input_Zip""), zip)",Chrome 102.0.5005.115,,,2022-07-29 10:37:38,2022-07-29 10:37:38,"0,723s",PASSED
+"selectOptionByValue(findTestObject(""debt ims R/Page_Debt IMS/select_Select OneUNITED STATES OF AMERICA""), ""62"", true)",Chrome 102.0.5005.115,,,2022-07-29 10:37:38,2022-07-29 10:37:39,"1,032s",PASSED
+"setText(findTestObject(""Create Lead/Page_Debt IMS/input_Home Phone_new""), homephone)",Chrome 102.0.5005.115,,,2022-07-29 10:37:39,2022-07-29 10:37:40,"0,860s",PASSED
+"setText(findTestObject(""Create Lead/input_Work Phone""), workphone)",Chrome 102.0.5005.115,,,2022-07-29 10:37:40,2022-07-29 10:38:12,"31,515s",FAILED

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="My Worklist" time="84.582" tests="1" failures="0" errors="0">
+   <testsuite name="My Worklist" tests="1" failures="0" errors="0" time="84.582" skipped="0" timestamp="2022-08-16 13:10:57" hostname="juzcategui - juzcategui" id="Test Suites/My Worklist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220816_131054/My Worklist/20220816_131054"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220816_131054/My Worklist/20220816_131054/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220816_131054/My Worklist/20220816_131054/1660669941075.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 104.0.5112.79"/>
+         <property name="hostAddress" value="192.168.250.10"/>
+         <property name="sessionId" value="19114a998a069b41f060a38366698689"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/My Worklist - Creditors" time="83.992" classname="Test Cases/My Worklist - Creditors" status="PASSED">
+         <system-out><![CDATA[2022-08-16 13:10:57 - [TEST_CASE][PASSED] - Test Cases/My Worklist - Creditors: Test Cases/My Worklist - Creditors
+
+2022-08-16 13:10:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-16 13:10:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-16 13:10:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-16 13:11:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-16 13:11:00 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-08-16 13:11:56 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-08-16 13:11:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-08-16 13:11:57 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-08-16 13:11:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-08-16 13:11:58 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-08-16 13:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-08-16 13:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-08-16 13:12:00 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/strong_My Tools")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-08-16 13:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-08-16 13:12:01 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/span_My Worklist")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-08-16 13:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-08-16 13:12:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/input_Filter"), "test mailer"): Text 'test mailer' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-08-16 13:12:06 - [MESSAGE][PASSED] - Text 'test mailer' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-08-16 13:12:06 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/search ojito add note/button_FILE_editButton")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-08-16 13:12:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-08-16 13:12:07 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Creditors/a_Creditors"), STOP_ON_FAILURE): Object: 'Object Repository/Myworklist(lead status)/Creditors/a_Creditors' is clicked on
+
+2022-08-16 13:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Creditors/a_Creditors' is clicked on
+
+2022-08-16 13:12:10 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Creditors/button_Creditors_addButton"), STOP_ON_FAILURE): Object: 'Object Repository/Myworklist(lead status)/Creditors/button_Creditors_addButton' is clicked on
+
+2022-08-16 13:12:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Creditors/button_Creditors_addButton' is clicked on
+
+2022-08-16 13:12:11 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Creditors/input_Account Number_"), accountnumber): Text '309020209898100' is set on object 'Object Repository/Myworklist(lead status)/Creditors/input_Account Number_'
+
+2022-08-16 13:12:12 - [MESSAGE][PASSED] - Text '309020209898100' is set on object 'Object Repository/Myworklist(lead status)/Creditors/input_Account Number_'
+
+2022-08-16 13:12:12 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Creditors/input_Creditor Name_"), creditorname): Text 'test creditor' is set on object 'Object Repository/Myworklist(lead status)/Creditors/input_Creditor Name_'
+
+2022-08-16 13:12:13 - [MESSAGE][PASSED] - Text 'test creditor' is set on object 'Object Repository/Myworklist(lead status)/Creditors/input_Creditor Name_'
+
+2022-08-16 13:12:13 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Creditors/Page_Debt IMS/input_Address"), address): Text 'california avenue' is set on object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/input_Address'
+
+2022-08-16 13:12:13 - [MESSAGE][PASSED] - Text 'california avenue' is set on object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/input_Address'
+
+2022-08-16 13:12:13 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Creditors/Page_Debt IMS/input_City_form"), city): Text 'california' is set on object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/input_City_form'
+
+2022-08-16 13:12:14 - [MESSAGE][PASSED] - Text 'california' is set on object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/input_City_form'
+
+2022-08-16 13:12:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Myworklist(lead status)/Creditors/Page_Debt IMS/select_Select oneUS"), "2: 2", false): All options with value '2: 2' are selected in object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/select_Select oneUS' 
+
+2022-08-16 13:12:15 - [MESSAGE][PASSED] - All options with value '2: 2' are selected in object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/select_Select oneUS' 
+
+2022-08-16 13:12:15 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Creditors/Page_Debt IMS/input_Zip_form"), zip): Text '12345' is set on object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/input_Zip_form'
+
+2022-08-16 13:12:16 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/input_Zip_form'
+
+2022-08-16 13:12:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Myworklist(lead status)/Creditors/Page_Debt IMS/select_Select oneApplicantCoApplicant"), "Coapplicant", false): All options with value 'Coapplicant' are selected in object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/select_Select oneApplicantCoApplicant' 
+
+2022-08-16 13:12:16 - [MESSAGE][PASSED] - All options with value 'Coapplicant' are selected in object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/select_Select oneApplicantCoApplicant' 
+
+2022-08-16 13:12:16 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Creditors/Page_Debt IMS/input_Balance_"), balance): Text '200' is set on object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/input_Balance_'
+
+2022-08-16 13:12:17 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/input_Balance_'
+
+2022-08-16 13:12:17 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Creditors/Page_Debt IMS/input_Monthly"), monthly): Text '300' is set on object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/input_Monthly'
+
+2022-08-16 13:12:18 - [MESSAGE][PASSED] - Text '300' is set on object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/input_Monthly'
+
+2022-08-16 13:12:18 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Creditors/Page_Debt IMS/input_Credit Limit"), creditlimit): Text '500' is set on object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/input_Credit Limit'
+
+2022-08-16 13:12:18 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/input_Credit Limit'
+
+2022-08-16 13:12:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Myworklist(lead status)/Creditors/Page_Debt IMS/select_Select oneYesNo"), "true", false): All options with value 'true' are selected in object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/select_Select oneYesNo' 
+
+2022-08-16 13:12:19 - [MESSAGE][PASSED] - All options with value 'true' are selected in object 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/select_Select oneYesNo' 
+
+2022-08-16 13:12:19 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Creditors/Page_Debt IMS/button_Save"), STOP_ON_FAILURE): Object: 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/button_Save' is clicked on
+
+2022-08-16 13:12:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Creditors/Page_Debt IMS/button_Save' is clicked on
+
+2022-08-16 13:12:20 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-08-16 13:12:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-08-16 13:12:21 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-08-16 13:12:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-08-16 13:12:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220816_131054/My Worklist/20220816_131054/1660669941075.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-16 13:10:57 - [TEST_SUITE][PASSED] - My Worklist: Test Cases/My Worklist - Creditors]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

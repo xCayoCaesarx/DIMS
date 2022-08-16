@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My Worklist,Chrome 102.0.5005.115,,,2022-07-29 09:45:27,2022-07-29 09:46:31,"1m - 3,819s",FAILED
+,,,,,,,
+Test Cases/Lead Status of Attempting contact,Chrome 102.0.5005.115,,,2022-07-29 09:45:28,2022-07-29 09:46:31,"1m - 3,147s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-29 09:45:29,2022-07-29 09:45:30,"1,970s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-29 09:45:30,2022-07-29 09:46:18,"47,266s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-29 09:46:18,2022-07-29 09:46:19,"1,480s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-29 09:46:19,2022-07-29 09:46:20,"1,202s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 102.0.5005.115,,,2022-07-29 09:46:20,2022-07-29 09:46:23,"2,960s",PASSED
+"click(findTestObject(""Myworklist(lead status)/strong_Maintenance Tools""))",Chrome 102.0.5005.115,,,2022-07-29 09:46:23,2022-07-29 09:46:24,"0,995s",PASSED
+"click(findTestObject(""Myworklist(lead status)/span_Lead status""))",Chrome 102.0.5005.115,,,2022-07-29 09:46:24,2022-07-29 09:46:25,"0,573s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/input_Statuses search status""), ""Attempting contact"")",Chrome 102.0.5005.115,,,2022-07-29 09:46:25,2022-07-29 09:46:27,"1,818s",PASSED
+"click(findTestObject(""Myworklist(lead status)/button_Color_editButton""))",Chrome 102.0.5005.115,,,2022-07-29 09:46:27,2022-07-29 09:46:28,"1,029s",PASSED
+"selectOptionByValue(findTestObject(""Myworklist(lead status)/select_ lead to queue(main is 2)""), ""2"", false)",Chrome 102.0.5005.115,,,2022-07-29 09:46:28,2022-07-29 09:46:29,"1,011s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Page_Debt IMS/Page_Debt IMS/input_Order (12)""), ""12"", STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-07-29 09:46:29,2022-07-29 09:46:30,"0,944s",PASSED
+"click(findTestObject(""Myworklist(lead status)/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 102.0.5005.115,,,2022-07-29 09:46:30,2022-07-29 09:46:30,"0,535s",PASSED
+"click(findTestObject(""Myworklist(lead status)/button_Accept""))",Chrome 102.0.5005.115,,,2022-07-29 09:46:30,2022-07-29 09:46:31,"0,869s",FAILED

@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://35.237.24.127:8081/dims-app/#/home')
 
-WebUI.setText(findTestObject('Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'), 'SUPER_USER7')
+WebUI.setText(findTestObject('Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'), username)
 
-WebUI.setText(findTestObject('Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'), 'Abcd1234**')
+WebUI.setText(findTestObject('Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'), pass)
 
 WebUI.click(findTestObject('Object Repository/Create Lead/button_Login'))
 
@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/strong_My Tool
 
 WebUI.click(findTestObject('Myworklist(lead status)/Page_Debt IMS/span_My Worklist'))
 
-WebUI.setText(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'), 'test dg')
+WebUI.setText(findTestObject('Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'), 'test mailer')
 
 WebUI.click(findTestObject('Myworklist(lead status)/search ojito add note/button_FILE_editButton'))
 

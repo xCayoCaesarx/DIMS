@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My Worklist,Chrome 102.0.5005.115,,,2022-08-03 13:56:55,2022-08-03 13:59:39,"2m - 44,455s",FAILED
+,,,,,,,
+Test Cases/Filter My Worklist,Chrome 102.0.5005.115,,,2022-08-03 13:56:55,2022-08-03 13:59:39,"2m - 43,764s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-08-03 13:56:56,2022-08-03 13:56:58,"2,027s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-08-03 13:56:58,2022-08-03 13:57:24,"25,837s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-08-03 13:57:24,2022-08-03 13:57:25,"0,870s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-08-03 13:57:25,2022-08-03 13:57:26,"0,768s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 102.0.5005.115,,,2022-08-03 13:57:26,2022-08-03 13:57:28,"2,552s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/strong_My Tools""))",Chrome 102.0.5005.115,,,2022-08-03 13:57:28,2022-08-03 13:57:29,"0,762s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/span_My Worklist""))",Chrome 102.0.5005.115,,,2022-08-03 13:57:29,2022-08-03 13:57:30,"0,585s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_From""))",Chrome 102.0.5005.115,,,2022-08-03 13:57:30,2022-08-03 13:57:30,"0,731s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_1""))",Chrome 102.0.5005.115,,,2022-08-03 13:57:30,2022-08-03 13:57:31,"0,432s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_To_form""))",Chrome 102.0.5005.115,,,2022-08-03 13:57:31,2022-08-03 13:57:31,"0,555s",PASSED
+date = new java.util.Date(),Chrome 102.0.5005.115,,,2022-08-03 13:57:31,2022-08-03 13:57:31,"0,019s",PASSED
+"formattedDate = date.format(""d"")",Chrome 102.0.5005.115,,,2022-08-03 13:57:31,2022-08-03 13:57:31,"0,009s",PASSED
+"formattedDate2 = date.format(""MMMM dd, yyyy"")",Chrome 102.0.5005.115,,,2022-08-03 13:57:31,2022-08-03 13:57:31,"0,002s",PASSED
+println(formattedDate),Chrome 102.0.5005.115,,,2022-08-03 13:57:31,2022-08-03 13:57:31,"0,016s",PASSED
+println(formattedDate2),Chrome 102.0.5005.115,,,2022-08-03 13:57:31,2022-08-03 13:57:31,"0,006s",PASSED
+"click(findTestObject(""formattedDate""), OPTIONAL)",Chrome 102.0.5005.115,,,2022-08-03 13:57:31,2022-08-03 13:57:32,"0,223s",PASSED
+"click(findTestObject(""formattedDate2""), OPTIONAL)",Chrome 102.0.5005.115,,,2022-08-03 13:57:32,2022-08-03 13:57:32,"0,142s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_31""), OPTIONAL)",Chrome 102.0.5005.115,,,2022-08-03 13:57:32,2022-08-03 13:57:32,"0,462s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_30""), OPTIONAL)",Chrome 102.0.5005.115,,,2022-08-03 13:57:32,2022-08-03 13:58:03,"31,325s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_29""), OPTIONAL)",Chrome 102.0.5005.115,,,2022-08-03 13:58:03,2022-08-03 13:58:35,"31,224s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_28""), OPTIONAL)",Chrome 102.0.5005.115,,,2022-08-03 13:58:35,2022-08-03 13:59:06,"31,270s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Filter""))",Chrome 102.0.5005.115,,,2022-08-03 13:59:06,2022-08-03 13:59:06,"0,448s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/button_Reset""))",Chrome 102.0.5005.115,,,2022-08-03 13:59:06,2022-08-03 13:59:07,"0,849s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/div_Select a Status(es)""))",Chrome 102.0.5005.115,,,2022-08-03 13:59:07,2022-08-03 13:59:08,"0,691s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/lead status select span_Attempting contact""))",Chrome 102.0.5005.115,,,2022-08-03 13:59:08,2022-08-03 13:59:39,"31,204s",FAILED

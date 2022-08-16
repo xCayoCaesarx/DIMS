@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My Worklist,Chrome 102.0.5005.115,,,2022-08-03 10:45:18,2022-08-03 10:45:39,"20,804s",FAILED
+,,,,,,,
+Test Cases/Filter My Worklist,Chrome 102.0.5005.115,,,2022-08-03 10:45:19,2022-08-03 10:45:39,"20,194s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-08-03 10:45:19,2022-08-03 10:45:22,"2,395s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-08-03 10:45:22,2022-08-03 10:45:31,"9,444s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-08-03 10:45:31,2022-08-03 10:45:32,"0,836s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-08-03 10:45:32,2022-08-03 10:45:33,"0,736s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 102.0.5005.115,,,2022-08-03 10:45:33,2022-08-03 10:45:35,"2,591s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/strong_My Tools""))",Chrome 102.0.5005.115,,,2022-08-03 10:45:35,2022-08-03 10:45:36,"0,821s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/span_My Worklist""))",Chrome 102.0.5005.115,,,2022-08-03 10:45:36,2022-08-03 10:45:37,"0,610s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_From""))",Chrome 102.0.5005.115,,,2022-08-03 10:45:37,2022-08-03 10:45:37,"0,775s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_1""))",Chrome 102.0.5005.115,,,2022-08-03 10:45:37,2022-08-03 10:45:38,"0,476s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_To_form""))",Chrome 102.0.5005.115,,,2022-08-03 10:45:38,2022-08-03 10:45:38,"0,524s",PASSED
+todaysDate = new java.util.Date(),Chrome 102.0.5005.115,,,2022-08-03 10:45:38,2022-08-03 10:45:38,"0,010s",PASSED
+"futureDate = todaysDate.format(""MM/dd/yyyy"")",Chrome 102.0.5005.115,,,2022-08-03 10:45:38,2022-08-03 10:45:39,"0,009s",PASSED
+"click(findTestObject(""yourTo""), STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-08-03 10:45:39,2022-08-03 10:45:39,"0,238s",FAILED

@@ -6,6 +6,10 @@
    <elementGuidId>79ffef3b-c5e4-4f1f-9ab1-717d552189ee</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @id = '20-1']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@type = 'text' and @id = '20-1']</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>#20-1</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +53,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>20-1</value>
+      <value>31-5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

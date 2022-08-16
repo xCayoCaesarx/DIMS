@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="My Worklist" time="182.953" tests="2" failures="2" errors="0">
+   <testsuite name="My Worklist" tests="2" failures="2" errors="0" time="182.953" skipped="0" timestamp="2022-08-05 15:11:29" hostname="juzcategui - juzcategui" id="Test Suites/My Worklist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220805_151126/My Worklist/20220805_151126"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220805_151126/My Worklist/20220805_151126/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220805_151126/My Worklist/20220805_151126/1659726776928.png, /home/juzcategui/git/DIMS/Reports/20220805_151126/My Worklist/20220805_151126/1659726872594.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="192.168.12.200"/>
+         <property name="sessionId" value="a3660daa2b90bd631bfabfc444250f39"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/My Worklist - Coapplicant Basic" time="86.7" classname="Test Cases/My Worklist - Coapplicant Basic" status="FAILED">
+         <failure type="FAILED" message="Test Cases/My Worklist - Coapplicant Basic FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'testt@gmail.com' of object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at My Worklist - Coapplicant Basic.run(My Worklist - Coapplicant Basic:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659726686401.run(TempTestSuite1659726686401.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email' located by '//input[@type = 'email']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-08-05 15:11:30 - [TEST_CASE][FAILED] - Test Cases/My Worklist - Coapplicant Basic: Test Cases/My Worklist - Coapplicant Basic FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'testt@gmail.com' of object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at My Worklist - Coapplicant Basic.run(My Worklist - Coapplicant Basic:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659726686401.run(TempTestSuite1659726686401.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email' located by '//input[@type = 'email']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-08-05 15:11:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-05 15:11:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-05 15:11:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-05 15:11:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-05 15:11:32 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-08-05 15:12:15 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-08-05 15:12:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-08-05 15:12:16 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-08-05 15:12:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-08-05 15:12:17 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-08-05 15:12:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-08-05 15:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-08-05 15:12:17 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/strong_My Tools")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-08-05 15:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-08-05 15:12:18 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/span_My Worklist")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-08-05 15:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-08-05 15:12:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/input_Filter"), "test mailer"): Text 'test mailer' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-08-05 15:12:19 - [MESSAGE][PASSED] - Text 'test mailer' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-08-05 15:12:19 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/search ojito add note/button_FILE_editButton")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-08-05 15:12:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-08-05 15:12:20 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Coapplicant/a_CoApplicant"), STOP_ON_FAILURE): Object: 'Object Repository/Myworklist(lead status)/Coapplicant/a_CoApplicant' is clicked on
+
+2022-08-05 15:12:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Coapplicant/a_CoApplicant' is clicked on
+
+2022-08-05 15:12:21 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_First Name"), name): Text 'test name' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_First Name'
+
+2022-08-05 15:12:22 - [MESSAGE][PASSED] - Text 'test name' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_First Name'
+
+2022-08-05 15:12:22 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Last Name"), lastname): Text 'test lastname' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Last Name'
+
+2022-08-05 15:12:23 - [MESSAGE][PASSED] - Text 'test lastname' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Last Name'
+
+2022-08-05 15:12:23 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Address"), address): Text 'direcionn' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Address'
+
+2022-08-05 15:12:24 - [MESSAGE][PASSED] - Text 'direcionn' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Address'
+
+2022-08-05 15:12:24 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_City"), city): Text 'ciudad' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_City'
+
+2022-08-05 15:12:25 - [MESSAGE][PASSED] - Text 'ciudad' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_City'
+
+2022-08-05 15:12:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Myworklist(lead status)/Coapplicant/select_State"), "2: 2", false): All options with value '2: 2' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/select_State' 
+
+2022-08-05 15:12:25 - [MESSAGE][PASSED] - All options with value '2: 2' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/select_State' 
+
+2022-08-05 15:12:25 - [TEST_STEP][FAILED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Email"), email): Unable to set text 'testt@gmail.com' of object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'testt@gmail.com' of object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at My Worklist - Coapplicant Basic.run(My Worklist - Coapplicant Basic:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659726686401.run(TempTestSuite1659726686401.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email' located by '//input[@type = 'email']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1653071101094.run(Script1653071101094.groovy:50)
+	... 13 more
+)
+
+2022-08-05 15:12:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@type = 'email']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-08-05 15:12:57 - [MESSAGE][FAILED] - Unable to set text 'testt@gmail.com' of object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'testt@gmail.com' of object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at My Worklist - Coapplicant Basic.run(My Worklist - Coapplicant Basic:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659726686401.run(TempTestSuite1659726686401.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email' located by '//input[@type = 'email']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1653071101094.run(Script1653071101094.groovy:50)
+	... 13 more
+)
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220805_151126/My Worklist/20220805_151126/1659726776928.png]]]]></system-out>
+         <system-err><![CDATA[2022-08-05 15:11:30 - [TEST_CASE][FAILED] - Test Cases/My Worklist - Coapplicant Basic: Test Cases/My Worklist - Coapplicant Basic FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'testt@gmail.com' of object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at My Worklist - Coapplicant Basic.run(My Worklist - Coapplicant Basic:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659726686401.run(TempTestSuite1659726686401.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email' located by '//input[@type = 'email']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Worklist - Coapplicant all fields" time="95.056" classname="Test Cases/My Worklist - Coapplicant all fields" status="FAILED">
+         <failure type="FAILED" message="Test Cases/My Worklist - Coapplicant all fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '2: 2' of object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at My Worklist - Coapplicant all fields.run(My Worklist - Coapplicant all fields:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659726686401.run(TempTestSuite1659726686401.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state' located by '//select[@formcontrolname = 'previousState' and (text() = 'Select OneUS Armed Forces EuropeAlaskaAlabamaUS Armed Forces PacificArkansasAmerican SamoaArizonaCaliforniaColoradoConnecticutWashingtonDelawareFloridaFederated States of MicronesiaGeorgiaGuamHawaiiIowaIdahoIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMaineNew YorkPuerto RicoMarshall IslandsMichiganMinnesotaMissouriNorthern Mariana IslandsMississippiMontanaNorth CarolinaNorth DakotaNebraskaNew HampshireNew JerseyNew MexicoNevadaOhioOklahomaOregonPennsylvaniaPalauRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVirgin IslandsVermontWashingtonWisconsinWest VirginiaWyoming' or . = 'Select OneUS Armed Forces EuropeAlaskaAlabamaUS Armed Forces PacificArkansasAmerican SamoaArizonaCaliforniaColoradoConnecticutWashingtonDelawareFloridaFederated States of MicronesiaGeorgiaGuamHawaiiIowaIdahoIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMaineNew YorkPuerto RicoMarshall IslandsMichiganMinnesotaMissouriNorthern Mariana IslandsMississippiMontanaNorth CarolinaNorth DakotaNebraskaNew HampshireNew JerseyNew MexicoNevadaOhioOklahomaOregonPennsylvaniaPalauRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVirgin IslandsVermontWashingtonWisconsinWest VirginiaWyoming')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-08-05 15:12:57 - [TEST_CASE][FAILED] - Test Cases/My Worklist - Coapplicant all fields: Test Cases/My Worklist - Coapplicant all fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '2: 2' of object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at My Worklist - Coapplicant all fields.run(My Worklist - Coapplicant all fields:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659726686401.run(TempTestSuite1659726686401.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state' located by '//select[@formcontrolname = 'previousState' and (text() = 'Select OneUS Armed Forces EuropeAlaskaAlabamaUS Armed Forces PacificArkansasAmerican SamoaArizonaCaliforniaColoradoConnecticutWashingtonDelawareFloridaFederated States of MicronesiaGeorgiaGuamHawaiiIowaIdahoIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMaineNew YorkPuerto RicoMarshall IslandsMichiganMinnesotaMissouriNorthern Mariana IslandsMississippiMontanaNorth CarolinaNorth DakotaNebraskaNew HampshireNew JerseyNew MexicoNevadaOhioOklahomaOregonPennsylvaniaPalauRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVirgin IslandsVermontWashingtonWisconsinWest VirginiaWyoming' or . = 'Select OneUS Armed Forces EuropeAlaskaAlabamaUS Armed Forces PacificArkansasAmerican SamoaArizonaCaliforniaColoradoConnecticutWashingtonDelawareFloridaFederated States of MicronesiaGeorgiaGuamHawaiiIowaIdahoIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMaineNew YorkPuerto RicoMarshall IslandsMichiganMinnesotaMissouriNorthern Mariana IslandsMississippiMontanaNorth CarolinaNorth DakotaNebraskaNew HampshireNew JerseyNew MexicoNevadaOhioOklahomaOregonPennsylvaniaPalauRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVirgin IslandsVermontWashingtonWisconsinWest VirginiaWyoming')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-08-05 15:12:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-05 15:12:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-08-05 15:12:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-05 15:12:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-05 15:12:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-05 15:12:59 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-08-05 15:13:47 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-08-05 15:13:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-08-05 15:13:48 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-08-05 15:13:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-08-05 15:13:49 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-08-05 15:13:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-08-05 15:13:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-08-05 15:13:49 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/strong_My Tools")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-08-05 15:13:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-08-05 15:13:50 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/span_My Worklist")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-08-05 15:13:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-08-05 15:13:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/input_Filter"), "test mailer"): Text 'test mailer' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-08-05 15:13:51 - [MESSAGE][PASSED] - Text 'test mailer' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-08-05 15:13:51 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/search ojito add note/button_FILE_editButton")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-08-05 15:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-08-05 15:13:52 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Coapplicant/a_CoApplicant"), STOP_ON_FAILURE): Object: 'Object Repository/Myworklist(lead status)/Coapplicant/a_CoApplicant' is clicked on
+
+2022-08-05 15:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Coapplicant/a_CoApplicant' is clicked on
+
+2022-08-05 15:13:53 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_First Name"), name): Text 'test name' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_First Name'
+
+2022-08-05 15:13:54 - [MESSAGE][PASSED] - Text 'test name' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_First Name'
+
+2022-08-05 15:13:54 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Middle Initial"), middlename): Text 'test middlename' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Middle Initial'
+
+2022-08-05 15:13:55 - [MESSAGE][PASSED] - Text 'test middlename' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Middle Initial'
+
+2022-08-05 15:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Last Name"), lastname): Text 'test lastname' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Last Name'
+
+2022-08-05 15:13:56 - [MESSAGE][PASSED] - Text 'test lastname' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Last Name'
+
+2022-08-05 15:13:56 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Address"), address): Text 'direcionn' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Address'
+
+2022-08-05 15:13:56 - [MESSAGE][PASSED] - Text 'direcionn' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Address'
+
+2022-08-05 15:13:56 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Address 2"), address2): Text 'Direccion 2' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Address 2'
+
+2022-08-05 15:13:57 - [MESSAGE][PASSED] - Text 'Direccion 2' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Address 2'
+
+2022-08-05 15:13:57 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_City"), city): Text 'ciudad' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_City'
+
+2022-08-05 15:13:58 - [MESSAGE][PASSED] - Text 'ciudad' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_City'
+
+2022-08-05 15:13:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Myworklist(lead status)/Coapplicant/select_State"), "3: 3", false): All options with value '3: 3' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/select_State' 
+
+2022-08-05 15:13:59 - [MESSAGE][PASSED] - All options with value '3: 3' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/select_State' 
+
+2022-08-05 15:13:59 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address"), paddress): Text 'direccion previa' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address'
+
+2022-08-05 15:13:59 - [MESSAGE][PASSED] - Text 'direccion previa' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address'
+
+2022-08-05 15:13:59 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address 2"), paddress2): Text 'direccion previa 2' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address 2'
+
+2022-08-05 15:14:00 - [MESSAGE][PASSED] - Text 'direccion previa 2' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address 2'
+
+2022-08-05 15:14:00 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous City"), pcity): Text 'ciudad previa' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous City'
+
+2022-08-05 15:14:01 - [MESSAGE][PASSED] - Text 'ciudad previa' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous City'
+
+2022-08-05 15:14:01 - [TEST_STEP][FAILED] - selectOptionByValue(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state"), "2: 2", false): Unable to select option by value '2: 2' of object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '2: 2' of object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at My Worklist - Coapplicant all fields.run(My Worklist - Coapplicant all fields:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659726686401.run(TempTestSuite1659726686401.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state' located by '//select[@formcontrolname = 'previousState' and (text() = 'Select OneUS Armed Forces EuropeAlaskaAlabamaUS Armed Forces PacificArkansasAmerican SamoaArizonaCaliforniaColoradoConnecticutWashingtonDelawareFloridaFederated States of MicronesiaGeorgiaGuamHawaiiIowaIdahoIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMaineNew YorkPuerto RicoMarshall IslandsMichiganMinnesotaMissouriNorthern Mariana IslandsMississippiMontanaNorth CarolinaNorth DakotaNebraskaNew HampshireNew JerseyNew MexicoNevadaOhioOklahomaOregonPennsylvaniaPalauRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVirgin IslandsVermontWashingtonWisconsinWest VirginiaWyoming' or . = 'Select OneUS Armed Forces EuropeAlaskaAlabamaUS Armed Forces PacificArkansasAmerican SamoaArizonaCaliforniaColoradoConnecticutWashingtonDelawareFloridaFederated States of MicronesiaGeorgiaGuamHawaiiIowaIdahoIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMaineNew YorkPuerto RicoMarshall IslandsMichiganMinnesotaMissouriNorthern Mariana IslandsMississippiMontanaNorth CarolinaNorth DakotaNebraskaNew HampshireNew JerseyNew MexicoNevadaOhioOklahomaOregonPennsylvaniaPalauRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVirgin IslandsVermontWashingtonWisconsinWest VirginiaWyoming')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Script1653071120341.run(Script1653071120341.groovy:60)
+	... 13 more
+)
+
+2022-08-05 15:14:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@formcontrolname = 'previousState' and (text() = 'Select OneUS Armed Forces EuropeAlaskaAlabamaUS Armed Forces PacificArkansasAmerican SamoaArizonaCaliforniaColoradoConnecticutWashingtonDelawareFloridaFederated States of MicronesiaGeorgiaGuamHawaiiIowaIdahoIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMaineNew YorkPuerto RicoMarshall IslandsMichiganMinnesotaMissouriNorthern Mariana IslandsMississippiMontanaNorth CarolinaNorth DakotaNebraskaNew HampshireNew JerseyNew MexicoNevadaOhioOklahomaOregonPennsylvaniaPalauRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVirgin IslandsVermontWashingtonWisconsinWest VirginiaWyoming' or . = 'Select OneUS Armed Forces EuropeAlaskaAlabamaUS Armed Forces PacificArkansasAmerican SamoaArizonaCaliforniaColoradoConnecticutWashingtonDelawareFloridaFederated States of MicronesiaGeorgiaGuamHawaiiIowaIdahoIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMaineNew YorkPuerto RicoMarshall IslandsMichiganMinnesotaMissouriNorthern Mariana IslandsMississippiMontanaNorth CarolinaNorth DakotaNebraskaNew HampshireNew JerseyNew MexicoNevadaOhioOklahomaOregonPennsylvaniaPalauRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVirgin IslandsVermontWashingtonWisconsinWest VirginiaWyoming')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-08-05 15:14:32 - [MESSAGE][FAILED] - Unable to select option by value '2: 2' of object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '2: 2' of object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at My Worklist - Coapplicant all fields.run(My Worklist - Coapplicant all fields:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659726686401.run(TempTestSuite1659726686401.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state' located by '//select[@formcontrolname = 'previousState' and (text() = 'Select OneUS Armed Forces EuropeAlaskaAlabamaUS Armed Forces PacificArkansasAmerican SamoaArizonaCaliforniaColoradoConnecticutWashingtonDelawareFloridaFederated States of MicronesiaGeorgiaGuamHawaiiIowaIdahoIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMaineNew YorkPuerto RicoMarshall IslandsMichiganMinnesotaMissouriNorthern Mariana IslandsMississippiMontanaNorth CarolinaNorth DakotaNebraskaNew HampshireNew JerseyNew MexicoNevadaOhioOklahomaOregonPennsylvaniaPalauRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVirgin IslandsVermontWashingtonWisconsinWest VirginiaWyoming' or . = 'Select OneUS Armed Forces EuropeAlaskaAlabamaUS Armed Forces PacificArkansasAmerican SamoaArizonaCaliforniaColoradoConnecticutWashingtonDelawareFloridaFederated States of MicronesiaGeorgiaGuamHawaiiIowaIdahoIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMaineNew YorkPuerto RicoMarshall IslandsMichiganMinnesotaMissouriNorthern Mariana IslandsMississippiMontanaNorth CarolinaNorth DakotaNebraskaNew HampshireNew JerseyNew MexicoNevadaOhioOklahomaOregonPennsylvaniaPalauRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVirgin IslandsVermontWashingtonWisconsinWest VirginiaWyoming')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at Script1653071120341.run(Script1653071120341.groovy:60)
+	... 13 more
+)
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220805_151126/My Worklist/20220805_151126/1659726872594.png]]]]></system-out>
+         <system-err><![CDATA[2022-08-05 15:12:57 - [TEST_CASE][FAILED] - Test Cases/My Worklist - Coapplicant all fields: Test Cases/My Worklist - Coapplicant all fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value '2: 2' of object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1168)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$4.call(Unknown Source)
+	at My Worklist - Coapplicant all fields.run(My Worklist - Coapplicant all fields:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659726686401.run(TempTestSuite1659726686401.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state' located by '//select[@formcontrolname = 'previousState' and (text() = 'Select OneUS Armed Forces EuropeAlaskaAlabamaUS Armed Forces PacificArkansasAmerican SamoaArizonaCaliforniaColoradoConnecticutWashingtonDelawareFloridaFederated States of MicronesiaGeorgiaGuamHawaiiIowaIdahoIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMaineNew YorkPuerto RicoMarshall IslandsMichiganMinnesotaMissouriNorthern Mariana IslandsMississippiMontanaNorth CarolinaNorth DakotaNebraskaNew HampshireNew JerseyNew MexicoNevadaOhioOklahomaOregonPennsylvaniaPalauRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVirgin IslandsVermontWashingtonWisconsinWest VirginiaWyoming' or . = 'Select OneUS Armed Forces EuropeAlaskaAlabamaUS Armed Forces PacificArkansasAmerican SamoaArizonaCaliforniaColoradoConnecticutWashingtonDelawareFloridaFederated States of MicronesiaGeorgiaGuamHawaiiIowaIdahoIllinoisIndianaKansasKentuckyLouisianaMassachusettsMarylandMaineNew YorkPuerto RicoMarshall IslandsMichiganMinnesotaMissouriNorthern Mariana IslandsMississippiMontanaNorth CarolinaNorth DakotaNebraskaNew HampshireNew JerseyNew MexicoNevadaOhioOklahomaOregonPennsylvaniaPalauRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVirginiaVirgin IslandsVermontWashingtonWisconsinWest VirginiaWyoming')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-05 15:11:29 - [TEST_SUITE][FAILED] - My Worklist: Test Cases/My Worklist - Coapplicant Basic FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'testt@gmail.com' of object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at My Worklist - Coapplicant Basic.run(My Worklist - Coapplicant Basic:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659726686401.run(TempTestSuite1659726686401.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email' located by '//input[@type = 'email']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-08-05 15:11:29 - [TEST_SUITE][FAILED] - My Worklist: Test Cases/My Worklist - Coapplicant Basic FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'testt@gmail.com' of object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at My Worklist - Coapplicant Basic.run(My Worklist - Coapplicant Basic:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659726686401.run(TempTestSuite1659726686401.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email' located by '//input[@type = 'email']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

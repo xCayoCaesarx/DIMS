@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Mailer Data,Chrome 102.0.5005.115,,,2022-08-05 11:53:20,2022-08-05 11:55:09,"1m - 48,188s",FAILED
+,,,,,,,
+Test Cases/Add Mailer Data,Chrome 102.0.5005.115,,,2022-08-05 11:53:21,2022-08-05 11:54:18,"57,097s",PASSED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-08-05 11:53:21,2022-08-05 11:53:23,"1,807s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-08-05 11:53:23,2022-08-05 11:53:58,"34,610s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-08-05 11:53:58,2022-08-05 11:53:59,"0,918s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-08-05 11:53:59,2022-08-05 11:54:00,"0,730s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 102.0.5005.115,,,2022-08-05 11:54:00,2022-08-05 11:54:02,"2,633s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/strong_My Tools""))",Chrome 102.0.5005.115,,,2022-08-05 11:54:02,2022-08-05 11:54:03,"0,727s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/span_New Lead""))",Chrome 102.0.5005.115,,,2022-08-05 11:54:03,2022-08-05 11:54:03,"0,558s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create Lead/select_Select OneAdvertising-Stop My Payday_d308cb""), ""10"", true)",Chrome 102.0.5005.115,,,2022-08-05 11:54:03,2022-08-05 11:54:05,"1,482s",PASSED
+"selectOptionByValue(findTestObject(""Create Lead/status select""), ""12"", true)",Chrome 102.0.5005.115,,,2022-08-05 11:54:05,2022-08-05 11:54:06,"1,274s",PASSED
+"setText(findTestObject(""Create Lead/input_First Name""), firstname)",Chrome 102.0.5005.115,,,2022-08-05 11:54:06,2022-08-05 11:54:07,"0,781s",PASSED
+"setText(findTestObject(""Create Lead/input_Last Name""), lastname)",Chrome 102.0.5005.115,,,2022-08-05 11:54:07,2022-08-05 11:54:08,"0,824s",PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Create Lead/select_Select OneUS Armed Forces EuropeAlas_fd93bc""), ""Alaska"", true)",Chrome 102.0.5005.115,,,2022-08-05 11:54:08,2022-08-05 11:54:10,"2,325s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0""), ""1"", true)",Chrome 102.0.5005.115,,,2022-08-05 11:54:10,2022-08-05 11:54:11,"1,184s",PASSED
+"setText(findTestObject(""Create Lead/input_Zip""), zip)",Chrome 102.0.5005.115,,,2022-08-05 11:54:11,2022-08-05 11:54:12,"0,723s",PASSED
+"selectOptionByValue(findTestObject(""debt ims R/Page_Debt IMS/select_Select OneUNITED STATES OF AMERICA""), ""62"", true)",Chrome 102.0.5005.115,,,2022-08-05 11:54:12,2022-08-05 11:54:13,"0,956s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Home Phone_form-control shadow-none n_1c6889""), homephone)",Chrome 102.0.5005.115,,,2022-08-05 11:54:13,2022-08-05 11:54:14,"0,784s",PASSED
+"setText(findTestObject(""Create Lead/input_Email_form-control shadow-none ng-untouched ng-pristine ng-invalid""), email)",Chrome 102.0.5005.115,,,2022-08-05 11:54:14,2022-08-05 11:54:15,"0,811s",PASSED
+"setText(findTestObject(""Create Lead/input_Mailer Code""), maildercode)",Chrome 102.0.5005.115,,,2022-08-05 11:54:15,2022-08-05 11:54:15,"0,775s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton""), 0)",Chrome 102.0.5005.115,,,2022-08-05 11:54:15,2022-08-05 11:54:16,"0,321s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Welcome, Julio Uzctegui_saveButton""))",Chrome 102.0.5005.115,,,2022-08-05 11:54:16,2022-08-05 11:54:16,"0,389s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-08-05 11:54:16,2022-08-05 11:54:17,"1,034s",PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.115,,,2022-08-05 11:54:17,2022-08-05 11:54:18,"0,893s",PASSED
+,,,,,,,
+Test Cases/Search Mailer Data,Chrome 102.0.5005.115,,,2022-08-05 11:54:18,2022-08-05 11:55:09,"50,374s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-08-05 11:54:18,2022-08-05 11:54:19,"0,958s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-08-05 11:54:19,2022-08-05 11:54:45,"25,115s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-08-05 11:54:45,2022-08-05 11:54:45,"0,762s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-08-05 11:54:45,2022-08-05 11:54:46,"0,703s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 102.0.5005.115,,,2022-08-05 11:54:46,2022-08-05 11:54:46,"0,376s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/strong_My Tools""))",Chrome 102.0.5005.115,,,2022-08-05 11:54:46,2022-08-05 11:54:47,"0,676s",PASSED
+"click(findTestObject(""Search Mailder Data/span_Mailer Data""))",Chrome 102.0.5005.115,,,2022-08-05 11:54:47,2022-08-05 11:54:48,"0,540s",PASSED
+"setText(findTestObject(""Search Mailder Data/input_Phone_form-""), homephone)",Chrome 102.0.5005.115,,,2022-08-05 11:54:48,2022-08-05 11:54:49,"1,074s",PASSED
+"click(findTestObject(""Search Mailder Data/button_Search""))",Chrome 102.0.5005.115,,,2022-08-05 11:54:49,2022-08-05 11:54:49,"0,459s",PASSED
+"click(findTestObject(""Search Mailder Data/button_Reset""))",Chrome 102.0.5005.115,,,2022-08-05 11:54:49,2022-08-05 11:54:50,"0,722s",PASSED
+"setText(findTestObject(""Search Mailder Data/input_First Name_form""), firstname)",Chrome 102.0.5005.115,,,2022-08-05 11:54:50,2022-08-05 11:54:51,"1,116s",PASSED
+"click(findTestObject(""Search Mailder Data/button_Search""))",Chrome 102.0.5005.115,,,2022-08-05 11:54:51,2022-08-05 11:54:51,"0,396s",PASSED
+"click(findTestObject(""Search Mailder Data/button_Reset""))",Chrome 102.0.5005.115,,,2022-08-05 11:54:51,2022-08-05 11:54:52,"0,671s",PASSED
+"setText(findTestObject(""Search Mailder Data/input_Last Name_form""), lastname)",Chrome 102.0.5005.115,,,2022-08-05 11:54:52,2022-08-05 11:54:56,"3,616s",PASSED
+"click(findTestObject(""Search Mailder Data/button_Search""))",Chrome 102.0.5005.115,,,2022-08-05 11:54:56,2022-08-05 11:54:56,"0,362s",PASSED
+"click(findTestObject(""Search Mailder Data/button_Reset""))",Chrome 102.0.5005.115,,,2022-08-05 11:54:56,2022-08-05 11:54:57,"1,082s",PASSED
+"setText(findTestObject(""Search Mailder Data/input_Zip_form""), zip)",Chrome 102.0.5005.115,,,2022-08-05 11:54:57,2022-08-05 11:54:59,"1,470s",PASSED
+"click(findTestObject(""Search Mailder Data/button_Search""))",Chrome 102.0.5005.115,,,2022-08-05 11:54:59,2022-08-05 11:54:59,"0,458s",PASSED
+"click(findTestObject(""Search Mailder Data/button_Reset""))",Chrome 102.0.5005.115,,,2022-08-05 11:54:59,2022-08-05 11:55:00,"0,705s",PASSED
+"setText(findTestObject(""Search Mailder Data/input_Custom Code_form""), maildercode)",Chrome 102.0.5005.115,,,2022-08-05 11:55:00,2022-08-05 11:55:01,"1,134s",PASSED
+"click(findTestObject(""Search Mailder Data/button_Search""))",Chrome 102.0.5005.115,,,2022-08-05 11:55:01,2022-08-05 11:55:01,"0,369s",PASSED
+"click(findTestObject(""Search Mailder Data/button_Reset""))",Chrome 102.0.5005.115,,,2022-08-05 11:55:01,2022-08-05 11:55:02,"0,722s",PASSED
+"setText(findTestObject(""Search Mailder Data/input_Phone_form-""), homephone)",Chrome 102.0.5005.115,,,2022-08-05 11:55:02,2022-08-05 11:55:03,"1,076s",PASSED
+"setText(findTestObject(""Search Mailder Data/input_First Name_form""), firstname)",Chrome 102.0.5005.115,,,2022-08-05 11:55:03,2022-08-05 11:55:04,"0,842s",PASSED
+"setText(findTestObject(""Search Mailder Data/input_Last Name_form""), lastname)",Chrome 102.0.5005.115,,,2022-08-05 11:55:04,2022-08-05 11:55:05,"0,703s",PASSED
+"setText(findTestObject(""Search Mailder Data/input_Zip_form""), zip)",Chrome 102.0.5005.115,,,2022-08-05 11:55:05,2022-08-05 11:55:05,"0,665s",PASSED
+"setText(findTestObject(""Search Mailder Data/input_Custom Code_form""), maildercode)",Chrome 102.0.5005.115,,,2022-08-05 11:55:05,2022-08-05 11:55:06,"0,775s",PASSED
+"click(findTestObject(""Search Mailder Data/button_Search""))",Chrome 102.0.5005.115,,,2022-08-05 11:55:06,2022-08-05 11:55:06,"0,370s",PASSED
+"click(findTestObject(""Search Mailder Data/button_Assign""))",Chrome 102.0.5005.115,,,2022-08-05 11:55:06,2022-08-05 11:55:07,"0,729s",PASSED
+"click(findTestObject(""Search Mailder Data/button_Accept""))",Chrome 102.0.5005.115,,,2022-08-05 11:55:07,2022-08-05 11:55:09,"1,419s",FAILED

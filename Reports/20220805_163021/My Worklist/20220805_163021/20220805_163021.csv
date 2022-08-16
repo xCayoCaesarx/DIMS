@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My Worklist,Chrome 102.0.5005.115,,,2022-08-05 16:30:25,2022-08-05 16:31:36,"1m - 10,865s",PASSED
+,,,,,,,
+Test Cases/My Worklist - Coapplicant all fields,Chrome 102.0.5005.115,,,2022-08-05 16:30:26,2022-08-05 16:31:36,"1m - 9,900s",PASSED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-08-05 16:30:27,2022-08-05 16:30:29,"2,026s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-08-05 16:30:29,2022-08-05 16:31:01,"32,056s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-08-05 16:31:01,2022-08-05 16:31:02,"0,836s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-08-05 16:31:02,2022-08-05 16:31:03,"0,781s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 102.0.5005.115,,,2022-08-05 16:31:03,2022-08-05 16:31:05,"2,544s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/strong_My Tools""))",Chrome 102.0.5005.115,,,2022-08-05 16:31:05,2022-08-05 16:31:06,"0,769s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/span_My Worklist""))",Chrome 102.0.5005.115,,,2022-08-05 16:31:06,2022-08-05 16:31:06,"0,591s",PASSED
+"setText(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/input_Filter""), ""test mailer"")",Chrome 102.0.5005.115,,,2022-08-05 16:31:06,2022-08-05 16:31:08,"1,609s",PASSED
+"click(findTestObject(""Myworklist(lead status)/search ojito add note/button_FILE_editButton""))",Chrome 102.0.5005.115,,,2022-08-05 16:31:08,2022-08-05 16:31:09,"0,753s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Coapplicant/a_CoApplicant""), STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-08-05 16:31:09,2022-08-05 16:31:10,"1,133s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/input_First Name""), name)",Chrome 102.0.5005.115,,,2022-08-05 16:31:10,2022-08-05 16:31:11,"1,136s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Middle Initial""), middlename)",Chrome 102.0.5005.115,,,2022-08-05 16:31:11,2022-08-05 16:31:12,"0,753s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/input_Last Name""), lastname)",Chrome 102.0.5005.115,,,2022-08-05 16:31:12,2022-08-05 16:31:13,"0,815s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/input_Address""), address)",Chrome 102.0.5005.115,,,2022-08-05 16:31:13,2022-08-05 16:31:13,"0,795s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Address 2""), address2)",Chrome 102.0.5005.115,,,2022-08-05 16:31:13,2022-08-05 16:31:14,"0,757s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/input_City""), city)",Chrome 102.0.5005.115,,,2022-08-05 16:31:14,2022-08-05 16:31:15,"0,769s",PASSED
+"selectOptionByValue(findTestObject(""Myworklist(lead status)/Coapplicant/select_State""), ""3: 3"", false)",Chrome 102.0.5005.115,,,2022-08-05 16:31:15,2022-08-05 16:31:16,"0,747s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_zip""), zip)",Chrome 102.0.5005.115,,,2022-08-05 16:31:16,2022-08-05 16:31:16,"0,772s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address""), paddress)",Chrome 102.0.5005.115,,,2022-08-05 16:31:16,2022-08-05 16:31:17,"0,789s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address 2""), paddress2)",Chrome 102.0.5005.115,,,2022-08-05 16:31:17,2022-08-05 16:31:18,"0,833s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous City""), pcity)",Chrome 102.0.5005.115,,,2022-08-05 16:31:18,2022-08-05 16:31:19,"0,763s",PASSED
+"selectOptionByValue(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state""), ""2: 2"", false)",Chrome 102.0.5005.115,,,2022-08-05 16:31:19,2022-08-05 16:31:19,"0,643s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Zip""), pzip)",Chrome 102.0.5005.115,,,2022-08-05 16:31:19,2022-08-05 16:31:20,"0,738s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Phone""), phone)",Chrome 102.0.5005.115,,,2022-08-05 16:31:20,2022-08-05 16:31:21,"0,800s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Cell""), cell)",Chrome 102.0.5005.115,,,2022-08-05 16:31:21,2022-08-05 16:31:22,"0,805s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Work""), work)",Chrome 102.0.5005.115,,,2022-08-05 16:31:22,2022-08-05 16:31:23,"0,773s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Ext""), ext)",Chrome 102.0.5005.115,,,2022-08-05 16:31:23,2022-08-05 16:31:23,"0,771s",PASSED
+"setText(findTestObject(""Create Lead/input_Fax""), fax)",Chrome 102.0.5005.115,,,2022-08-05 16:31:23,2022-08-05 16:31:24,"0,762s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/input_Email""), email)",Chrome 102.0.5005.115,,,2022-08-05 16:31:24,2022-08-05 16:31:25,"0,835s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input__email2""), email2)",Chrome 102.0.5005.115,,,2022-08-05 16:31:25,2022-08-05 16:31:26,"0,785s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Driver License""), license)",Chrome 102.0.5005.115,,,2022-08-05 16:31:26,2022-08-05 16:31:27,"0,755s",PASSED
+"selectOptionByValue(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/select_driver state""), ""1: 1"", false)",Chrome 102.0.5005.115,,,2022-08-05 16:31:27,2022-08-05 16:31:27,"0,674s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Social Security""), socialsecurity)",Chrome 102.0.5005.115,,,2022-08-05 16:31:27,2022-08-05 16:31:28,"0,767s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Mothers Maiden Name""), mothername)",Chrome 102.0.5005.115,,,2022-08-05 16:31:28,2022-08-05 16:31:29,"0,748s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Self Employed_check""), STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-08-05 16:31:29,2022-08-05 16:31:29,"0,433s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Occupation""), occupation)",Chrome 102.0.5005.115,,,2022-08-05 16:31:29,2022-08-05 16:31:30,"0,737s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Employer""), employer)",Chrome 102.0.5005.115,,,2022-08-05 16:31:30,2022-08-05 16:31:31,"0,729s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Length of employment""), lengthofemploy)",Chrome 102.0.5005.115,,,2022-08-05 16:31:31,2022-08-05 16:31:31,"0,754s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/input_Gross Annual Income""), annualincome)",Chrome 102.0.5005.115,,,2022-08-05 16:31:31,2022-08-05 16:31:32,"0,759s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Employer""), pemploy)",Chrome 102.0.5005.115,,,2022-08-05 16:31:32,2022-08-05 16:31:33,"0,819s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Coapplicant/input_Payment_""), payment)",Chrome 102.0.5005.115,,,2022-08-05 16:31:33,2022-08-05 16:31:34,"0,737s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Coapplicant/button_History_saveButton""))",Chrome 102.0.5005.115,,,2022-08-05 16:31:34,2022-08-05 16:31:34,"0,390s",PASSED
+"delay(1, STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-08-05 16:31:34,2022-08-05 16:31:35,"1,032s",PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.115,,,2022-08-05 16:31:35,2022-08-05 16:31:36,"0,837s",PASSED

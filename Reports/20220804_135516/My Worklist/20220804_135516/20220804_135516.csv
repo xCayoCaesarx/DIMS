@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My Worklist,Chrome 102.0.5005.115,,,2022-08-04 13:55:19,2022-08-04 13:56:19,"59,506s",ERROR
+,,,,,,,
+Test Cases/Filter My Worklist,Chrome 102.0.5005.115,,,2022-08-04 13:55:20,2022-08-04 13:56:19,"58,811s",ERROR
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-08-04 13:55:21,2022-08-04 13:55:23,"2,501s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-08-04 13:55:23,2022-08-04 13:56:06,"42,591s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-08-04 13:56:06,2022-08-04 13:56:07,"0,880s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-08-04 13:56:07,2022-08-04 13:56:07,"0,774s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 102.0.5005.115,,,2022-08-04 13:56:07,2022-08-04 13:56:10,"2,619s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/strong_My Tools""))",Chrome 102.0.5005.115,,,2022-08-04 13:56:10,2022-08-04 13:56:16,"6,113s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/span_My Worklist""))",Chrome 102.0.5005.115,,,2022-08-04 13:56:16,2022-08-04 13:56:17,"0,628s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_From""))",Chrome 102.0.5005.115,,,2022-08-04 13:56:17,2022-08-04 13:56:18,"0,737s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_1""))",Chrome 102.0.5005.115,,,2022-08-04 13:56:18,2022-08-04 13:56:18,"0,448s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_To_form""))",Chrome 102.0.5005.115,,,2022-08-04 13:56:18,2022-08-04 13:56:19,"0,615s",PASSED
+"click(getTestObjectWithXpath(""Object Repository/debt ims R/Page_Debt IMS/span_31""))",Chrome 102.0.5005.115,,,2022-08-04 13:56:19,2022-08-04 13:56:19,"0,084s",ERROR

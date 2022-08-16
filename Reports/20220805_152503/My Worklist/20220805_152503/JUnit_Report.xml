@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="My Worklist" time="131.274" tests="2" failures="1" errors="0">
+   <testsuite name="My Worklist" tests="2" failures="1" errors="0" time="131.274" skipped="0" timestamp="2022-08-05 15:25:08" hostname="juzcategui - juzcategui" id="Test Suites/My Worklist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220805_152503/My Worklist/20220805_152503"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220805_152503/My Worklist/20220805_152503/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220805_152503/My Worklist/20220805_152503/1659727568798.png, /home/juzcategui/git/DIMS/Reports/20220805_152503/My Worklist/20220805_152503/1659727639755.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="192.168.12.200"/>
+         <property name="sessionId" value="2853ea5d44ed2d09374687c8dd697ed0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/My Worklist - Coapplicant Basic" time="59.78" classname="Test Cases/My Worklist - Coapplicant Basic" status="PASSED">
+         <system-out><![CDATA[2022-08-05 15:25:09 - [TEST_CASE][PASSED] - Test Cases/My Worklist - Coapplicant Basic: Test Cases/My Worklist - Coapplicant Basic
+
+2022-08-05 15:25:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-05 15:25:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-05 15:25:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-05 15:25:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-05 15:25:13 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-08-05 15:25:52 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-08-05 15:25:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-08-05 15:25:53 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-08-05 15:25:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-08-05 15:25:53 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-08-05 15:25:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-08-05 15:25:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-08-05 15:25:56 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/strong_My Tools")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-08-05 15:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-08-05 15:25:57 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/span_My Worklist")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-08-05 15:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-08-05 15:25:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/input_Filter"), "test mailer"): Text 'test mailer' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-08-05 15:25:58 - [MESSAGE][PASSED] - Text 'test mailer' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-08-05 15:25:58 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/search ojito add note/button_FILE_editButton")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-08-05 15:25:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-08-05 15:25:59 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Coapplicant/a_CoApplicant"), STOP_ON_FAILURE): Object: 'Object Repository/Myworklist(lead status)/Coapplicant/a_CoApplicant' is clicked on
+
+2022-08-05 15:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Coapplicant/a_CoApplicant' is clicked on
+
+2022-08-05 15:26:00 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_First Name"), name): Text 'test name' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_First Name'
+
+2022-08-05 15:26:01 - [MESSAGE][PASSED] - Text 'test name' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_First Name'
+
+2022-08-05 15:26:01 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Last Name"), lastname): Text 'test lastname' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Last Name'
+
+2022-08-05 15:26:02 - [MESSAGE][PASSED] - Text 'test lastname' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Last Name'
+
+2022-08-05 15:26:02 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Address"), address): Text 'direcionn' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Address'
+
+2022-08-05 15:26:03 - [MESSAGE][PASSED] - Text 'direcionn' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Address'
+
+2022-08-05 15:26:03 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_City"), city): Text 'ciudad' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_City'
+
+2022-08-05 15:26:04 - [MESSAGE][PASSED] - Text 'ciudad' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_City'
+
+2022-08-05 15:26:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Myworklist(lead status)/Coapplicant/select_State"), "2: 2", false): All options with value '2: 2' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/select_State' 
+
+2022-08-05 15:26:04 - [MESSAGE][PASSED] - All options with value '2: 2' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/select_State' 
+
+2022-08-05 15:26:04 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Email"), email): Text 'testt@gmail.com' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email'
+
+2022-08-05 15:26:05 - [MESSAGE][PASSED] - Text 'testt@gmail.com' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Email'
+
+2022-08-05 15:26:05 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Gross Annual Income"), annualincome): Text '100000' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Gross Annual Income'
+
+2022-08-05 15:26:06 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Gross Annual Income'
+
+2022-08-05 15:26:06 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Payment_"), payment): Text '5000' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Payment_'
+
+2022-08-05 15:26:07 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Payment_'
+
+2022-08-05 15:26:07 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Coapplicant/button_History_saveButton")): Object: 'Object Repository/Myworklist(lead status)/Coapplicant/button_History_saveButton' is clicked on
+
+2022-08-05 15:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Coapplicant/button_History_saveButton' is clicked on
+
+2022-08-05 15:26:07 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-08-05 15:26:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-08-05 15:26:08 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-08-05 15:26:09 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-08-05 15:26:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220805_152503/My Worklist/20220805_152503/1659727568798.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Worklist - Coapplicant all fields" time="69.769" classname="Test Cases/My Worklist - Coapplicant all fields" status="FAILED">
+         <failure type="FAILED" message="Test Cases/My Worklist - Coapplicant all fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1234567890' of object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Phone'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at My Worklist - Coapplicant all fields.run(My Worklist - Coapplicant all fields:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659727503344.run(TempTestSuite1659727503344.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.200', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-41-generic', java.version: '1.8.0_342'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.5fuIij}, goog:chromeOptions: {debuggerAddress: localhost:45213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2853ea5d44ed2d09374687c8dd697ed0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-08-05 15:26:10 - [TEST_CASE][FAILED] - Test Cases/My Worklist - Coapplicant all fields: Test Cases/My Worklist - Coapplicant all fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1234567890' of object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Phone'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at My Worklist - Coapplicant all fields.run(My Worklist - Coapplicant all fields:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659727503344.run(TempTestSuite1659727503344.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.200', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-41-generic', java.version: '1.8.0_342'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.5fuIij}, goog:chromeOptions: {debuggerAddress: localhost:45213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2853ea5d44ed2d09374687c8dd697ed0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-08-05 15:26:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-05 15:26:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-08-05 15:26:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-05 15:26:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-05 15:26:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-05 15:26:11 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-08-05 15:27:03 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-08-05 15:27:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-08-05 15:27:04 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-08-05 15:27:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-08-05 15:27:05 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-08-05 15:27:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-08-05 15:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-08-05 15:27:05 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/strong_My Tools")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-08-05 15:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/strong_My Tools' is clicked on
+
+2022-08-05 15:27:06 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Page_Debt IMS/span_My Worklist")): Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-08-05 15:27:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Page_Debt IMS/span_My Worklist' is clicked on
+
+2022-08-05 15:27:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Myworklist(lead status)/search ojito add note/input_Filter"), "test mailer"): Text 'test mailer' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-08-05 15:27:08 - [MESSAGE][PASSED] - Text 'test mailer' is set on object 'Object Repository/Myworklist(lead status)/search ojito add note/input_Filter'
+
+2022-08-05 15:27:08 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/search ojito add note/button_FILE_editButton")): Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-08-05 15:27:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/search ojito add note/button_FILE_editButton' is clicked on
+
+2022-08-05 15:27:08 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/Coapplicant/a_CoApplicant"), STOP_ON_FAILURE): Object: 'Object Repository/Myworklist(lead status)/Coapplicant/a_CoApplicant' is clicked on
+
+2022-08-05 15:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/Coapplicant/a_CoApplicant' is clicked on
+
+2022-08-05 15:27:10 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_First Name"), name): Text 'test name' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_First Name'
+
+2022-08-05 15:27:11 - [MESSAGE][PASSED] - Text 'test name' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_First Name'
+
+2022-08-05 15:27:11 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Middle Initial"), middlename): Text 'test middlename' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Middle Initial'
+
+2022-08-05 15:27:12 - [MESSAGE][PASSED] - Text 'test middlename' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Middle Initial'
+
+2022-08-05 15:27:12 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Last Name"), lastname): Text 'test lastname' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Last Name'
+
+2022-08-05 15:27:12 - [MESSAGE][PASSED] - Text 'test lastname' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Last Name'
+
+2022-08-05 15:27:12 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_Address"), address): Text 'direcionn' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Address'
+
+2022-08-05 15:27:13 - [MESSAGE][PASSED] - Text 'direcionn' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_Address'
+
+2022-08-05 15:27:13 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Address 2"), address2): Text 'Direccion 2' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Address 2'
+
+2022-08-05 15:27:14 - [MESSAGE][PASSED] - Text 'Direccion 2' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Address 2'
+
+2022-08-05 15:27:14 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/input_City"), city): Text 'ciudad' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_City'
+
+2022-08-05 15:27:15 - [MESSAGE][PASSED] - Text 'ciudad' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/input_City'
+
+2022-08-05 15:27:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Myworklist(lead status)/Coapplicant/select_State"), "3: 3", false): All options with value '3: 3' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/select_State' 
+
+2022-08-05 15:27:15 - [MESSAGE][PASSED] - All options with value '3: 3' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/select_State' 
+
+2022-08-05 15:27:15 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address"), paddress): Text 'direccion previa' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address'
+
+2022-08-05 15:27:16 - [MESSAGE][PASSED] - Text 'direccion previa' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address'
+
+2022-08-05 15:27:16 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address 2"), paddress2): Text 'direccion previa 2' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address 2'
+
+2022-08-05 15:27:17 - [MESSAGE][PASSED] - Text 'direccion previa 2' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Address 2'
+
+2022-08-05 15:27:17 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous City"), pcity): Text 'ciudad previa' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous City'
+
+2022-08-05 15:27:18 - [MESSAGE][PASSED] - Text 'ciudad previa' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous City'
+
+2022-08-05 15:27:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state"), "2: 2", false): All options with value '2: 2' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state' 
+
+2022-08-05 15:27:18 - [MESSAGE][PASSED] - All options with value '2: 2' are selected in object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/select_previous state' 
+
+2022-08-05 15:27:18 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Zip"), pzip): Text '30900' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Zip'
+
+2022-08-05 15:27:19 - [MESSAGE][PASSED] - Text '30900' is set on object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Previous Zip'
+
+2022-08-05 15:27:19 - [TEST_STEP][FAILED] - setText(findTestObject("Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Phone"), phone): Unable to set text '1234567890' of object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Phone' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1234567890' of object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Phone'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at My Worklist - Coapplicant all fields.run(My Worklist - Coapplicant all fields:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659727503344.run(TempTestSuite1659727503344.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.200', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-41-generic', java.version: '1.8.0_342'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.5fuIij}, goog:chromeOptions: {debuggerAddress: localhost:45213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2853ea5d44ed2d09374687c8dd697ed0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1653071120341.run(Script1653071120341.groovy:65)
+	... 13 more
+)
+
+2022-08-05 15:27:19 - [MESSAGE][FAILED] - Unable to set text '1234567890' of object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Phone' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1234567890' of object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Phone'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at My Worklist - Coapplicant all fields.run(My Worklist - Coapplicant all fields:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659727503344.run(TempTestSuite1659727503344.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.200', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-41-generic', java.version: '1.8.0_342'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.5fuIij}, goog:chromeOptions: {debuggerAddress: localhost:45213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2853ea5d44ed2d09374687c8dd697ed0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1653071120341.run(Script1653071120341.groovy:65)
+	... 13 more
+)
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220805_152503/My Worklist/20220805_152503/1659727639755.png]]]]></system-out>
+         <system-err><![CDATA[2022-08-05 15:26:10 - [TEST_CASE][FAILED] - Test Cases/My Worklist - Coapplicant all fields: Test Cases/My Worklist - Coapplicant all fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1234567890' of object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Phone'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at My Worklist - Coapplicant all fields.run(My Worklist - Coapplicant all fields:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659727503344.run(TempTestSuite1659727503344.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.200', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-41-generic', java.version: '1.8.0_342'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.5fuIij}, goog:chromeOptions: {debuggerAddress: localhost:45213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2853ea5d44ed2d09374687c8dd697ed0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-05 15:25:08 - [TEST_SUITE][FAILED] - My Worklist: Test Cases/My Worklist - Coapplicant all fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1234567890' of object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Phone'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at My Worklist - Coapplicant all fields.run(My Worklist - Coapplicant all fields:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659727503344.run(TempTestSuite1659727503344.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.200', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-41-generic', java.version: '1.8.0_342'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.5fuIij}, goog:chromeOptions: {debuggerAddress: localhost:45213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2853ea5d44ed2d09374687c8dd697ed0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-08-05 15:25:08 - [TEST_SUITE][FAILED] - My Worklist: Test Cases/My Worklist - Coapplicant all fields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1234567890' of object 'Object Repository/Myworklist(lead status)/Coapplicant/All fields coapplicant/input_Phone'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at My Worklist - Coapplicant all fields.run(My Worklist - Coapplicant all fields:65)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1659727503344.run(TempTestSuite1659727503344.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'juzcategui', ip: '192.168.12.200', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-41-generic', java.version: '1.8.0_342'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /tmp/.com.google.Chrome.5fuIij}, goog:chromeOptions: {debuggerAddress: localhost:45213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2853ea5d44ed2d09374687c8dd697ed0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -185,7 +185,7 @@
    <testCaseLink>
       <guid>f118f24c-8a93-45a4-b11b-8c41bbb71eb2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/My Worklist - Coapplicant all fields</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -398,46 +398,121 @@
          <combinationType>ONE</combinationType>
          <id>9819f6cb-975f-4898-a855-20d1e7427c34</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/My Worklist Data</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>9819f6cb-975f-4898-a855-20d1e7427c34</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
          <variableId>27d02839-5234-4750-854c-9f9af1f82eab</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>9819f6cb-975f-4898-a855-20d1e7427c34</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
          <variableId>15a7d2cc-f535-4822-87df-7527e77facf9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>9819f6cb-975f-4898-a855-20d1e7427c34</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>statuses</value>
          <variableId>cb93fe03-3b2b-46e3-8e95-30bc14b0589b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>9819f6cb-975f-4898-a855-20d1e7427c34</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>zip</value>
          <variableId>1012988b-ab28-456a-b2bc-7c482b3f1a2d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>9819f6cb-975f-4898-a855-20d1e7427c34</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>source</value>
          <variableId>d538aa94-06ab-4157-9272-6ab3a491449b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>9819f6cb-975f-4898-a855-20d1e7427c34</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>state</value>
          <variableId>b038e3df-fec9-4615-b332-019f4f4f5b14</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>89f66c2d-c19a-4734-8bf2-853582eb2aa7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/My Worklist - Creditors</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fd3e2bfa-8526-4268-b1a2-2678bea3fcf1</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Myworklist - Creditor</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fd3e2bfa-8526-4268-b1a2-2678bea3fcf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>a9fd7516-f271-497b-b91f-a6363173aa19</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fd3e2bfa-8526-4268-b1a2-2678bea3fcf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>c93f563c-ac62-444d-8dd4-4435e3a93a21</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fd3e2bfa-8526-4268-b1a2-2678bea3fcf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>accountnumber</value>
+         <variableId>ab353962-cd58-43b2-8409-c8c76815fc52</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fd3e2bfa-8526-4268-b1a2-2678bea3fcf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>creditorname</value>
+         <variableId>462a04f5-51dd-4e5c-9e20-ba7b0e130b2a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fd3e2bfa-8526-4268-b1a2-2678bea3fcf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>address</value>
+         <variableId>2474a54a-f675-4817-8704-eca275d36cc3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fd3e2bfa-8526-4268-b1a2-2678bea3fcf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>city</value>
+         <variableId>191e5947-e83f-41d0-b77b-e42e07d08831</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fd3e2bfa-8526-4268-b1a2-2678bea3fcf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>zip</value>
+         <variableId>c4c16343-b0c1-4e8f-8285-aec5f9c24551</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fd3e2bfa-8526-4268-b1a2-2678bea3fcf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>monthly</value>
+         <variableId>2e7f99e6-f7f7-4c2e-861a-83ab0ddaf296</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fd3e2bfa-8526-4268-b1a2-2678bea3fcf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>balance</value>
+         <variableId>b8afe244-2724-4974-8051-82d499d931a6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fd3e2bfa-8526-4268-b1a2-2678bea3fcf1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>creditlimit</value>
+         <variableId>98f8626e-0445-4d65-a2d5-227442d93f5a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

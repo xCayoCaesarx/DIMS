@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="My Worklist" time="71.791" tests="1" failures="0" errors="0">
+   <testsuite name="My Worklist" tests="1" failures="0" errors="0" time="71.791" skipped="0" timestamp="2022-07-29 09:48:14" hostname="juzcategui - juzcategui" id="Test Suites/My Worklist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/juzcategui/git/DIMS/Reports/20220729_094810/My Worklist/20220729_094810"/>
+         <property name="logFiles" value="/home/juzcategui/git/DIMS/Reports/20220729_094810/My Worklist/20220729_094810/execution0.log"/>
+         <property name="attachments" value="/home/juzcategui/git/DIMS/Reports/20220729_094810/My Worklist/20220729_094810/1659102565022.png"/>
+         <property name="hostName" value="juzcategui - juzcategui"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="192.168.12.200"/>
+         <property name="sessionId" value="1308ee92c888b9b9a7c5d36d775f4d7e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Lead Status of Attempting contact" time="71.23" classname="Test Cases/Lead Status of Attempting contact" status="PASSED">
+         <system-out><![CDATA[2022-07-29 09:48:14 - [TEST_CASE][PASSED] - Test Cases/Lead Status of Attempting contact: Test Cases/Lead Status of Attempting contact
+
+2022-07-29 09:48:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-29 09:48:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-29 09:48:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-29 09:48:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-29 09:48:17 - [TEST_STEP][PASSED] - navigateToUrl("http://35.237.24.127:8081/dims-app/#/home"): Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-29 09:49:13 - [MESSAGE][PASSED] - Navigate to 'http://35.237.24.127:8081/dims-app/#/home' successfully
+
+2022-07-29 09:49:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e"), username): Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-29 09:49:14 - [MESSAGE][PASSED] - Text 'SUPER_USER7' is set on object 'Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e'
+
+2022-07-29 09:49:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b"), pass): Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-29 09:49:14 - [MESSAGE][PASSED] - Text 'Abcd1234**' is set on object 'Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b'
+
+2022-07-29 09:49:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create Lead/button_Login")): Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-07-29 09:49:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Lead/button_Login' is clicked on
+
+2022-07-29 09:49:17 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/strong_Maintenance Tools")): Object: 'Object Repository/Myworklist(lead status)/strong_Maintenance Tools' is clicked on
+
+2022-07-29 09:49:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/strong_Maintenance Tools' is clicked on
+
+2022-07-29 09:49:18 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/span_Lead status")): Object: 'Object Repository/Myworklist(lead status)/span_Lead status' is clicked on
+
+2022-07-29 09:49:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/span_Lead status' is clicked on
+
+2022-07-29 09:49:18 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/input_Statuses search status"), "Attempting contact"): Text 'Attempting contact' is set on object 'Object Repository/Myworklist(lead status)/input_Statuses search status'
+
+2022-07-29 09:49:20 - [MESSAGE][PASSED] - Text 'Attempting contact' is set on object 'Object Repository/Myworklist(lead status)/input_Statuses search status'
+
+2022-07-29 09:49:20 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/button_Color_editButton")): Object: 'Object Repository/Myworklist(lead status)/button_Color_editButton' is clicked on
+
+2022-07-29 09:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/button_Color_editButton' is clicked on
+
+2022-07-29 09:49:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Myworklist(lead status)/select_ lead to queue(main is 2)"), "2", false): All options with value '2' are selected in object 'Object Repository/Myworklist(lead status)/select_ lead to queue(main is 2)' 
+
+2022-07-29 09:49:22 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Myworklist(lead status)/select_ lead to queue(main is 2)' 
+
+2022-07-29 09:49:22 - [TEST_STEP][PASSED] - setText(findTestObject("Myworklist(lead status)/Page_Debt IMS/Page_Debt IMS/input_Order (12)"), "12", STOP_ON_FAILURE): Text '12' is set on object 'Object Repository/Myworklist(lead status)/Page_Debt IMS/Page_Debt IMS/input_Order (12)'
+
+2022-07-29 09:49:22 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Myworklist(lead status)/Page_Debt IMS/Page_Debt IMS/input_Order (12)'
+
+2022-07-29 09:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/button_Welcome, Julio Uzctegui_saveButton")): Object: 'Object Repository/Myworklist(lead status)/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-07-29 09:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/button_Welcome, Julio Uzctegui_saveButton' is clicked on
+
+2022-07-29 09:49:23 - [TEST_STEP][PASSED] - click(findTestObject("Myworklist(lead status)/button_Accept")): Object: 'Object Repository/Myworklist(lead status)/button_Accept' is clicked on
+
+2022-07-29 09:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Myworklist(lead status)/button_Accept' is clicked on
+
+2022-07-29 09:49:23 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2022-07-29 09:49:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-29 09:49:25 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-07-29 09:49:25 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-29 09:49:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/juzcategui/git/DIMS/Reports/20220729_094810/My Worklist/20220729_094810/1659102565022.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-29 09:48:14 - [TEST_SUITE][PASSED] - My Worklist: Test Cases/Lead Status of Attempting contact]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

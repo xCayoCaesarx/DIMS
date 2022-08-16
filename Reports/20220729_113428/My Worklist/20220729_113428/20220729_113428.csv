@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My Worklist,Chrome 102.0.5005.115,,,2022-07-29 11:34:31,2022-07-29 11:35:47,"1m - 16,148s",FAILED
+,,,,,,,
+Test Cases/My Worklist - Budget,Chrome 102.0.5005.115,,,2022-07-29 11:34:31,2022-07-29 11:35:47,"1m - 15,684s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-29 11:34:32,2022-07-29 11:34:34,"1,998s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-29 11:34:34,2022-07-29 11:35:04,"30,209s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), ""SUPER_USER7"")",Chrome 102.0.5005.115,,,2022-07-29 11:35:04,2022-07-29 11:35:05,"0,890s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), ""Abcd1234**"")",Chrome 102.0.5005.115,,,2022-07-29 11:35:05,2022-07-29 11:35:06,"0,826s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 102.0.5005.115,,,2022-07-29 11:35:06,2022-07-29 11:35:09,"2,566s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/strong_My Tools""))",Chrome 102.0.5005.115,,,2022-07-29 11:35:09,2022-07-29 11:35:10,"1,182s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/span_My Worklist""))",Chrome 102.0.5005.115,,,2022-07-29 11:35:10,2022-07-29 11:35:11,"0,606s",PASSED
+"setText(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/input_Filter""), ""test dg"")",Chrome 102.0.5005.115,,,2022-07-29 11:35:11,2022-07-29 11:35:13,"2,074s",PASSED
+"click(findTestObject(""Myworklist(lead status)/search ojito add note/button_FILE_editButton""))",Chrome 102.0.5005.115,,,2022-07-29 11:35:13,2022-07-29 11:35:13,"0,774s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Budget/a_Budget""), STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-07-29 11:35:13,2022-07-29 11:35:16,"2,333s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Budget/input_Housing Payment_2-1""), ""1000"")",Chrome 102.0.5005.115,,,2022-07-29 11:35:16,2022-07-29 11:35:47,"31,441s",FAILED

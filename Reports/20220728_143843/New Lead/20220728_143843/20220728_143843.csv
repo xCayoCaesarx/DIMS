@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Lead,Chrome 102.0.5005.115,,,2022-07-28 14:38:46,2022-07-28 14:40:19,"1m - 33,360s",FAILED
+,,,,,,,
+Test Cases/Create Lead - Required Fields,Chrome 102.0.5005.115,,,2022-07-28 14:38:46,2022-07-28 14:40:19,"1m - 32,806s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-07-28 14:38:47,2022-07-28 14:38:49,"1,877s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-07-28 14:38:49,2022-07-28 14:40:00,"1m - 11,543s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-07-28 14:40:00,2022-07-28 14:40:01,"0,830s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-07-28 14:40:01,2022-07-28 14:40:02,"0,709s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 102.0.5005.115,,,2022-07-28 14:40:02,2022-07-28 14:40:07,"4,682s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/strong_My Tools""))",Chrome 102.0.5005.115,,,2022-07-28 14:40:07,2022-07-28 14:40:07,"0,749s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/span_New Lead""))",Chrome 102.0.5005.115,,,2022-07-28 14:40:07,2022-07-28 14:40:08,"0,588s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create Lead/select_Select OneAdvertising-Stop My Payday_d308cb""), ""3"", true)",Chrome 102.0.5005.115,,,2022-07-28 14:40:08,2022-07-28 14:40:10,"1,957s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create Lead/select_Select OneHFG 2020HFG NONEHFG PAYDAY_f27ab0""), ""2"", true)",Chrome 102.0.5005.115,,,2022-07-28 14:40:10,2022-07-28 14:40:11,"1,200s",PASSED
+"setText(findTestObject(""Create Lead/input_First Name""), firstname)",Chrome 102.0.5005.115,,,2022-07-28 14:40:11,2022-07-28 14:40:12,"0,730s",PASSED
+"setText(findTestObject(""Create Lead/input_Last Name""), lastname)",Chrome 102.0.5005.115,,,2022-07-28 14:40:12,2022-07-28 14:40:13,"0,717s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create Lead/select_Select OneUS Armed Forces EuropeAlas_fd93bc""), ""2: 2"", true)",Chrome 102.0.5005.115,,,2022-07-28 14:40:13,2022-07-28 14:40:14,"1,739s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Home Phone_form-control shadow-none n_1c6889""), homephone)",Chrome 102.0.5005.115,,,2022-07-28 14:40:14,2022-07-28 14:40:19,"4,954s",FAILED

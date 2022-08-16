@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My Worklist,Chrome 102.0.5005.115,,,2022-08-05 10:47:20,2022-08-05 10:48:35,"1m - 14,983s",FAILED
+,,,,,,,
+Test Cases/Filter My Worklist,Chrome 102.0.5005.115,,,2022-08-05 10:47:21,2022-08-05 10:48:35,"1m - 14,254s",FAILED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-08-05 10:47:22,2022-08-05 10:47:24,"2,533s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-08-05 10:47:24,2022-08-05 10:47:56,"31,330s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-08-05 10:47:56,2022-08-05 10:47:57,"1,158s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-08-05 10:47:57,2022-08-05 10:47:58,"0,853s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 102.0.5005.115,,,2022-08-05 10:47:58,2022-08-05 10:48:01,"2,705s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/strong_My Tools""))",Chrome 102.0.5005.115,,,2022-08-05 10:48:01,2022-08-05 10:48:01,"0,806s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/span_My Worklist""))",Chrome 102.0.5005.115,,,2022-08-05 10:48:01,2022-08-05 10:48:02,"0,631s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_From""))",Chrome 102.0.5005.115,,,2022-08-05 10:48:02,2022-08-05 10:48:03,"0,697s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_1""))",Chrome 102.0.5005.115,,,2022-08-05 10:48:03,2022-08-05 10:48:03,"0,436s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_To_form""))",Chrome 102.0.5005.115,,,2022-08-05 10:48:03,2022-08-05 10:48:04,"0,501s",PASSED
+todaysDate = new java.util.Date(),Chrome 102.0.5005.115,,,2022-08-05 10:48:04,2022-08-05 10:48:04,"0,009s",PASSED
+"datetoday = todaysDate.format(""d"")",Chrome 102.0.5005.115,,,2022-08-05 10:48:04,2022-08-05 10:48:04,"0,007s",PASSED
+println(datetoday),Chrome 102.0.5005.115,,,2022-08-05 10:48:04,2022-08-05 10:48:04,"0,005s",PASSED
+"click(findTestObject(""debt ims R/Page_Debt IMS/Page_Debt IMS/span_today"", [datetoday:datetoday]))",Chrome 102.0.5005.115,,,2022-08-05 10:48:04,2022-08-05 10:48:35,"31,636s",FAILED

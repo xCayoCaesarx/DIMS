@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My Worklist,Chrome 102.0.5005.115,,,2022-08-04 12:11:20,2022-08-04 12:12:26,"1m - 6,408s",ERROR
+,,,,,,,
+Test Cases/Filter My Worklist,Chrome 102.0.5005.115,,,2022-08-04 12:11:20,2022-08-04 12:12:26,"1m - 5,804s",ERROR
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-08-04 12:11:21,2022-08-04 12:11:23,"1,977s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 102.0.5005.115,,,2022-08-04 12:11:23,2022-08-04 12:12:17,"53,814s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 102.0.5005.115,,,2022-08-04 12:12:17,2022-08-04 12:12:18,"0,878s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 102.0.5005.115,,,2022-08-04 12:12:18,2022-08-04 12:12:19,"0,761s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 102.0.5005.115,,,2022-08-04 12:12:19,2022-08-04 12:12:21,"2,602s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/strong_My Tools""))",Chrome 102.0.5005.115,,,2022-08-04 12:12:21,2022-08-04 12:12:24,"2,488s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/span_My Worklist""))",Chrome 102.0.5005.115,,,2022-08-04 12:12:24,2022-08-04 12:12:24,"0,621s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_From""))",Chrome 102.0.5005.115,,,2022-08-04 12:12:24,2022-08-04 12:12:25,"0,953s",PASSED
+"click(findTestObject(""Object Repository/debt ims R/Page_Debt IMS/span_1""))",Chrome 102.0.5005.115,,,2022-08-04 12:12:25,2022-08-04 12:12:26,"0,436s",PASSED
+"click(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/Page_Debt IMS/input_To_form""))",Chrome 102.0.5005.115,,,2022-08-04 12:12:26,2022-08-04 12:12:26,"0,565s",PASSED
+date = new java.util.Date(),Chrome 102.0.5005.115,,,2022-08-04 12:12:26,2022-08-04 12:12:26,"0,007s",PASSED
+"formattedDate = date.format(""d"")",Chrome 102.0.5005.115,,,2022-08-04 12:12:26,2022-08-04 12:12:26,"0,004s",PASSED
+println(formattedDate),Chrome 102.0.5005.115,,,2022-08-04 12:12:26,2022-08-04 12:12:26,"0,009s",PASSED
+"click(findTestObject.getTestObjectWithXpath(""//html/body/div[2]/div[2]/div/div[2]/div/span[(text() = 3 or . = 3)]""))",Chrome 102.0.5005.115,,,2022-08-04 12:12:26,2022-08-04 12:12:26,"0,030s",ERROR

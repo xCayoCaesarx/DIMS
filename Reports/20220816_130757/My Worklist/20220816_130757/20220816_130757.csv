@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My Worklist,Chrome 104.0.5112.79,,,2022-08-16 13:08:00,2022-08-16 13:09:10,"1m - 10,234s",FAILED
+,,,,,,,
+Test Cases/My Worklist - Creditors,Chrome 104.0.5112.79,,,2022-08-16 13:08:00,2022-08-16 13:09:10,"1m - 9,659s",FAILED
+"openBrowser("""")",Chrome 104.0.5112.79,,,2022-08-16 13:08:01,2022-08-16 13:08:03,"1,747s",PASSED
+"navigateToUrl(""http://35.237.24.127:8081/dims-app/#/home"")",Chrome 104.0.5112.79,,,2022-08-16 13:08:03,2022-08-16 13:08:52,"48,964s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Username_form-control w-75 ng-untouch_2a886e""), username)",Chrome 104.0.5112.79,,,2022-08-16 13:08:52,2022-08-16 13:08:52,"0,828s",PASSED
+"setText(findTestObject(""Object Repository/Create Lead/input_Password_form-control w-75 ng-untouch_173c6b""), pass)",Chrome 104.0.5112.79,,,2022-08-16 13:08:52,2022-08-16 13:08:53,"0,672s",PASSED
+"click(findTestObject(""Object Repository/Create Lead/button_Login""))",Chrome 104.0.5112.79,,,2022-08-16 13:08:53,2022-08-16 13:08:56,"2,565s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/strong_My Tools""))",Chrome 104.0.5112.79,,,2022-08-16 13:08:56,2022-08-16 13:08:56,"0,754s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Page_Debt IMS/span_My Worklist""))",Chrome 104.0.5112.79,,,2022-08-16 13:08:56,2022-08-16 13:08:57,"0,559s",PASSED
+"setText(findTestObject(""Object Repository/Myworklist(lead status)/search ojito add note/input_Filter""), ""test mailer"")",Chrome 104.0.5112.79,,,2022-08-16 13:08:57,2022-08-16 13:08:59,"1,727s",PASSED
+"click(findTestObject(""Myworklist(lead status)/search ojito add note/button_FILE_editButton""))",Chrome 104.0.5112.79,,,2022-08-16 13:08:59,2022-08-16 13:09:00,"1,097s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Creditors/a_Creditors""), STOP_ON_FAILURE)",Chrome 104.0.5112.79,,,2022-08-16 13:09:00,2022-08-16 13:09:01,"1,013s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Creditors/button_Creditors_addButton""), STOP_ON_FAILURE)",Chrome 104.0.5112.79,,,2022-08-16 13:09:01,2022-08-16 13:09:01,"0,596s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Creditors/input_Account Number_""), accountnumber)",Chrome 104.0.5112.79,,,2022-08-16 13:09:01,2022-08-16 13:09:02,"0,855s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Creditors/input_Creditor Name_""), creditorname)",Chrome 104.0.5112.79,,,2022-08-16 13:09:02,2022-08-16 13:09:03,"0,715s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Creditors/Page_Debt IMS/input_Address""), address)",Chrome 104.0.5112.79,,,2022-08-16 13:09:03,2022-08-16 13:09:04,"0,728s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Creditors/Page_Debt IMS/input_City_form""), city)",Chrome 104.0.5112.79,,,2022-08-16 13:09:04,2022-08-16 13:09:04,"0,727s",PASSED
+"selectOptionByValue(findTestObject(""Myworklist(lead status)/Creditors/Page_Debt IMS/select_Select oneUS""), ""2: 2"", false)",Chrome 104.0.5112.79,,,2022-08-16 13:09:04,2022-08-16 13:09:05,"0,665s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Creditors/Page_Debt IMS/input_Zip_form""), zip)",Chrome 104.0.5112.79,,,2022-08-16 13:09:05,2022-08-16 13:09:06,"0,742s",PASSED
+"selectOptionByValue(findTestObject(""Myworklist(lead status)/Creditors/Page_Debt IMS/select_Select oneApplicantCoApplicant""), ""Coapplicant"", false)",Chrome 104.0.5112.79,,,2022-08-16 13:09:06,2022-08-16 13:09:06,"0,683s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Creditors/Page_Debt IMS/input_Balance_""), balance)",Chrome 104.0.5112.79,,,2022-08-16 13:09:06,2022-08-16 13:09:07,"0,673s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Creditors/Page_Debt IMS/input_Monthly""), monthly)",Chrome 104.0.5112.79,,,2022-08-16 13:09:07,2022-08-16 13:09:08,"0,665s",PASSED
+"setText(findTestObject(""Myworklist(lead status)/Creditors/Page_Debt IMS/input_Credit Limit""), creditlimit)",Chrome 104.0.5112.79,,,2022-08-16 13:09:08,2022-08-16 13:09:08,"0,634s",PASSED
+"selectOptionByValue(findTestObject(""Myworklist(lead status)/Creditors/Page_Debt IMS/select_Select oneYesNo""), ""true"", false)",Chrome 104.0.5112.79,,,2022-08-16 13:09:08,2022-08-16 13:09:09,"0,680s",PASSED
+"click(findTestObject(""Myworklist(lead status)/Creditors/Page_Debt IMS/button_Save""), STOP_ON_FAILURE)",Chrome 104.0.5112.79,,,2022-08-16 13:09:09,2022-08-16 13:09:10,"0,822s",FAILED
